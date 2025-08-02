@@ -1,0 +1,32 @@
+{
+  "date_of_visit": "string (YYYY-MM-DD)",
+  "diagnosis": [
+    {"code": "string", "desc": "string"}
+  ],
+  "medicaments": [
+    {"name": "string", "dosage": "string"}
+  ],
+  "adaptation": [
+    {"method": {
+        "name": "string",
+        "usage": "string"},
+      "result": "string"}
+  ],
+  "parametrs": {
+    "weight": "float (kg)",
+    "height": "float (cm)",
+    "BMI": "float",
+    "BSA": "float"
+  },
+  "laboratory": [
+    {"blood_count": [
+      {"parametr": "string", "value": "float"}]
+    },
+    {"biochemistry": [
+      {"parametr": "string", "value": "float"}]
+    }
+  ],
+  "sugestion": [
+    {"desc": "string"}
+  ]
+}

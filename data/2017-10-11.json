@@ -1,0 +1,31 @@
+{
+  "datum_návštěvy": "2017-10-11",
+  "diagnózy": [
+    {"kód": "K501", "popis": "Crohnova nemoc tlustého střeva"},
+    {"kód": "D509", "popis": "Sideropenická anémie"},
+    {"kód": "K900", "popis": "Céliakie"}
+  ],
+  "léky": [
+    {"název": "Salofalk sachet", "dávkování": "1x3 g"}
+  ],
+  "enterální_výživa": {
+    "typ": "Fresubin energy",
+    "dávka": "8-9 lahviček denně",
+    "kalorie": "2600 kcal/den"
+  },
+  "adaptace": [
+    {"prostředek": {"typ": "Fresubin energy","dávka": "denně 8 lahviček"}, 
+    "výsledek": "snáší dobře, chut k jídlu"}
+  ],
+  "parametry": {
+    "hmotnost": "68 kg",
+    "výška": "170 cm",
+    "BMI": "23.5",
+    "BSA": "1.788 m2"
+  },
+  "laboratoř": {
+    "CRP": "1 mg/l",
+    "Albumin": "43.3 g/l"
+
+  }
+}

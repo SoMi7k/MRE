@@ -1,0 +1,10 @@
+# API keys
+## General
+**ChatGPT 4.o** - `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`
+**Claude Sonnet 3.7** - `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`
+**Mistral 7B** - `6lgLLZQkIKLhjoFCpvT75vGZGYrtCnnX`
+**Gemini** - `AIzaSyB67xRc01mWs1B2EuXvJtikrVAKZsMcvo4`
+
+## Medical & Czech
+**MedPaLM => Google cloud** - `AIzaSyAm9IjfV_-RZayQD3VNUhOg0d4OQyZtcVc`
+**BioGPT & ClinicalBERT & Czert-B => HF** - `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`
