@@ -1,2 +1,4 @@
 .mypy_cache/
 bachelor_venv/
+src/__pycache__/
+features/__pycache__/

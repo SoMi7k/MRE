@@ -11,7 +11,7 @@ API_key = ft.API_keys(None)
 
 # Sidebar
 with st.sidebar:
-    LLM_list = ["Claude-Sonnet-3.7", "gpt-4.1", "Mistral-7B", "Gemini", "BioGPT", "ClinicalBERT", "Czert-B"]
+    LLM_list = ["Claude-Sonnet-3.7", "GPT-4.1", "Mistral-7B", "Gemini", "BioGPT", "ClinicalBERT", "Czert-B"]
     selected_LLM = st.selectbox("Choose a LLM model:", LLM_list)
 
 if selected_LLM:
@@ -49,14 +49,13 @@ prompt = """
         Výstup vrať přesně jako validní JSON, bez komentářů nebo vysvětlení.
         """
 
-json_root = "data/structure.json"
+json_root = "data/json/structure.json"
 with open(json_root, "r", encoding="utf-8") as f:
     json_file = json.load(f)
 
 with open(text, mode="r", encoding="utf-8") as fr:
     text = fr.read()
         
-
 Idata = dt.InputData(text, prompt, json_file)
 
 st.markdown("---")
@@ -64,7 +63,7 @@ st.markdown("---")
 if st.button("Call LLM", type="primary"):
     gen = API.Generator(None)
     match selected_LLM:
-        case "gpt-4.1":
+        case "GPT-4.1":
             gen.set_new_model(API.openAI(Idata, API_key))
         case "Claude-Sonnet-3.7":
             gen.set_new_model(API.Claude(Idata, API_key))
@@ -73,9 +72,9 @@ if st.button("Call LLM", type="primary"):
         case "Gemini":
             gen.set_new_model(API.Gemini(Idata, API_key))
         case "ClinicalBERT":
-            gen.set_new_model(API.ClinicalBERT(Idata, API_key))
+            gen.set_new_model(API.ClinicalBERT(Idata))
         case "BioGPT":
-            gen.set_new_model(API.BioGPT(Idata, API_key))
+            gen.set_new_model(API.BioGPT(Idata))
             
     gen.get_model().generate()
     st.markdown("**:green-background[All done]**")

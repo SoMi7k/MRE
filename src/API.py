@@ -30,8 +30,12 @@ class Extractor(ABC):
 
     @abstractmethod
     def printer(self):
-        """Return result if isn't empty, otherwise returns error message."""
-        pass
+        if self.result:
+            return st.markdown("*" + self.result + "*")
+        else:
+            return st.markdown("Result is empty.\n" \
+            "- Check if function generate was launched.\n" \
+            "- Check class attributes if they're not damaged/empty.")
 
 class openAI(Extractor):
     """
@@ -251,14 +255,10 @@ class ClinicalBERT(Extractor):
             return None
         
         entities = self.pipeline(self.data.text)
-        print(entities)
-        return entities
+        self.result = entities
 
     def printer(self):
-        if self.result:
-            return st.markdown(f"```json\n{self.result}\n```")
-        else:
-            return st.markdown("Result is empty.")
+        return super().printer()
 
 class BioGPT(Extractor):
     """
@@ -277,15 +277,20 @@ class BioGPT(Extractor):
         input_ids = self.tokenizer.encode(self.data.text, return_tensors="pt").to(self.device)
         output = self.model.generate(input_ids, max_length=256)
         decoded = self.tokenizer.decode(output[0], skip_special_tokens=True)
-        print(decoded)
-        return decoded
+        self.result = decoded
+    
+    def printer(self):
+        return super().printer()
+
     
 class Generator():
-    def __init__(self, model: Extractor):
+    def __init__(self, model: Extractor|None):
         self.__model = model
 
     def set_new_model(self, model: Extractor):
         self.__model = model
     
     def get_model(self) -> Extractor:
+        if self.__model is None:
+            raise ValueError("Model is not set. Please set a model before calling get_model().")
         return self.__model
