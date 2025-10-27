@@ -1,0 +1,61 @@
+{
+  "vysetreni": {
+    "typ": "CT mozku bez kontrastní látky i.v.",
+    "nalezy": {
+      "mozek": {
+        "hypodenzni_pruh": "vlevo frontálně precentrálně, 10x4 mm, ischemické změny starého data",
+        "casne_znaky_ischemie": "bez",
+        "krvaceni": "bez intracerebrálního krvácení",
+        "expanze": "bez expanze",
+        "stredocare_struktury": "bez posunu",
+        "komorovy_system": "nerozšířen",
+        "subarachnoidalni_prostory": "normální šíře"
+      },
+      "paranazalni_dutiny": {
+        "ethmoidalni": "mírná nástěnná hyperplázie sliznice",
+        "maxilarni": "mírná nástěnná hyperplázie sliznice",
+        "frontalni": "mírná nástěnná hyperplázie sliznice",
+        "ostatni_VDN_a_mastoidey": "volné"
+      },
+      "skelet": "bez patologických změn"
+    }
+  },
+  "CT_perfuse": {
+    "provedeni": "po podání kontrastní látky i.v.",
+    "poznamka": "pro výrazné pohybové artefakty nelze zrekonstruovat perfúzní mapy; vyšetření nebylo opakováno"
+  },
+  "CTA_krcnich_a_mozkovych_tepen": {
+    "provedeni": "po podání kontrastní látky i.v.",
+    "nalezy": {
+      "hrudni_aorta": "normální šíře",
+      "odstupy_aortalni_oblouk": "volné",
+      "ACC_bilat": "bez stenóz",
+      "ACI_dx": {
+        "bulbus": "aterosklerotické změny bez stenózy"
+      },
+      "ACI_sin": {
+        "bulbus": "měkký plát způsobující 60% stenózu",
+        "další_průběh": "menší měkký plát s kalcifikací, stenóza do 40%"
+      },
+      "vertebralni_tepy": "volné, AV dx. dominantní",
+      "AB": "volná",
+      "intrakraniálně": {
+        "M2_ACM_sin": "uzávěr za odstupem",
+        "ostatni_tepny_Willisuv_okruh": "bez uzávěru či jiné patologie"
+      }
+    }
+  },
+  "plicni_parenchym": {
+    "nalezy": "bez ložisek",
+    "dalsi_nalez": "paraseptální emfyzém"
+  },
+  "zaver": {
+    "intrakranialne": "bez čerstvých ischemických změn",
+    "stare_ischemie": "vlevo frontálně",
+    "uzaver": "M2 ACM sin.",
+    "platy": {
+      "ACI_sin": "nestabilní měkký plát v bulbu způsobující 60% stenózu",
+      "ACI_dx": "aterosklerotické změny bez stenózy"
+    }
+  }
+}

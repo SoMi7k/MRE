@@ -8,6 +8,31 @@ import requests
 from transformers import AutoTokenizer, AutoModelForTokenClassification, AutoModelForCausalLM
 from transformers import pipeline
 
+
+"""
+How to setup in main.py
+
+if st.button("Call LLM", type="primary"):
+    gen = API.Generator(None)
+    match selected_LLM:
+        case "GPT-4.1":
+            gen.set_new_model(API.openAI(Idata, API_key))
+        case "Claude-Sonnet-3.7":
+            gen.set_new_model(API.Claude(Idata, API_key))
+        case "Mistral-7B":
+            gen.set_new_model(API.Mistral(Idata, API_key))
+        #case "Gemini":
+        #    gen.set_new_model(API.Gemini(Idata, API_key))
+        case "ClinicalBERT":
+            gen.set_new_model(API.ClinicalBERT(Idata))
+        case "BioGPT":
+            gen.set_new_model(API.BioGPT(Idata))
+            
+    gen.get_model().generate()
+    st.markdown("**:green-background[All done]**")
+    #gen.get_model().printer()
+"""
+
 class Extractor(ABC):
     """
     Abstract class for every LLM extractor in this program.

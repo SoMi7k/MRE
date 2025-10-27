@@ -1,0 +1,3 @@
+Pod tímto textem se nachází anonymizovaná lékařská zpráva. Tvůj úkol je extrahovat daný text a v libovolné struktuře ho navrátit
+zpět. Snaž se zachovat co nejvíce informací z daného textu. Nesnaž si domýšlet, přidávat písmena, nebo slova. Pokud si nejsi jist 
+co dané slovo znamená vynech ho.

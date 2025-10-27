@@ -1,0 +1,112 @@
+{
+  "datum_poslední_kontroly": "10.3.2015",
+  "věk": "18 a 1/4 roku",
+  "diagnóza": {
+    "hlavní": "K508 Jiná Crohnova nemoc - terminální ileum, kolon",
+    "stanovena": "9/2014",
+    "TNF-a": "neg. (G/G)",
+    "TPMT": "heterozygot",
+    "další": "I450 Blokáda pravého raménka"
+  },
+  "subjektivně": {
+    "potíže": "zcela bez potíží",
+    "břicho": "nebolí",
+    "stolice": "1–2x denně, formovaná či kašovitá, bez patologické příměsi",
+    "strava": "toleruje",
+    "nemocný": "nebyl",
+    "škola": "chodí"
+  },
+  "léky": [
+    {
+      "název": "Imuran",
+      "dávkování": "2-0-0",
+      "forma": "tbl á 50 mg",
+      "od": "30.9.2014",
+      "dávka_mg_na_kg": "1,4",
+      "poznámka": "redukovaná dávka - heterozygot TPMT"
+    }
+  ],
+  "strava": "bezezbytková",
+  "objektivně": {
+    "hmotnost": "66 kg (-0,5 kg)",
+    "výška": "178,5 cm (+0 cm)",
+    "stav": "eutrofický",
+    "břicho": "v úrovni, měkké, nebolestivé, rezistenci nehmatám, v pravé jámě mírná palpační citlivost",
+    "J+S": "nezvětšeny",
+    "exantém": "0",
+    "otoky": "0"
+  },
+  "laboratoř": {
+    "datum_čas": "10.6.2015 09:56–14:59",
+    "FW": "13",
+    "KO+dif": {
+      "Le": "6,60",
+      "Ery": "4,62",
+      "Trombo": "259",
+      "Hb": "137",
+      "HTK": "0,413",
+      "Obj_ery": "90",
+      "Hb_ery": "29,8",
+      "Hb_konc": "333",
+      "Seg": "0,742",
+      "Ly": "0,160",
+      "Eo": "0,020",
+      "Ba": "0,009",
+      "Mo": "0,069",
+      "Seg_abs": "4,90",
+      "Ly_abs": "1,10",
+      "Eo_abs": "0,10",
+      "Ba_abs": "0,10",
+      "Mo_abs": "0,50",
+      "Erytr_křivka": "16,9"
+    },
+    "biochemie": {
+      "S-CRP": "2",
+      "S-Albumin": "51,3"
+    },
+    "stolice": {
+      "K-Kalprotektin": "497"
+    }
+  },
+  "závěr": {
+    "stav": "klinicky remise",
+    "hmotnost": "mírně ubyl",
+    "laboratorně": "nízké zánětlivé parametry",
+    "kalprotektin": "středně zvýšený",
+    "PCDAI": "0 b",
+    "USG_3_2015": "přetrvávají zánětlivé změny terminálního ilea"
+  },
+  "doporučení": {
+    "strava": "bezezbytková",
+    "léky": {
+      "Imuran": {
+        "dávkování": "2,5-0-0 tbl á 50 mg",
+        "dávka_mg_na_kg": "1,9",
+        "od": "30.9.2014"
+      }
+    },
+    "kontrola": {
+      "datum": "21.9.2015",
+      "čas_gastro": "11:00",
+      "čas_usg": "10:45",
+      "místo": "vchod F, 6. patro",
+      "tel": "37 710 4679 (Po, St)",
+      "poznámka": "s sebou vzorek stolice na kalprotektin"
+    },
+    "při_zhoršení": "kontrola dříve",
+    "další_postup": "domluva o předání gastroenterologovi pro dospělé"
+  },
+  "recepty": [
+    {
+      "název": "IMURAN 50 MG por tbl flm",
+      "množství": "100x50mg",
+      "počet_balení": "2"
+    }
+  ],
+  "poznámky": [
+    "Kopii zprávy odevzdat dětskému lékaři.",
+    "Informace o zdravotním stavu a provedených vyšetřeních byly pacientovi poskytnuty.",
+    "Bylo umožněno klást dotazy.",
+    "Údaje ve formuláři Souhlas s poskytováním informací o zdravotním stavu zůstávají beze změny."
+  ]
+}

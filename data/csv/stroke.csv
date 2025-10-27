@@ -1,5 +1,5 @@
-﻿title,reportText
-"2025-02-23 12:00: 032/002 - CT mozku: s k.l. iv.","CT mozku bez k.l. i.v.
+datetime,title,text
+2025-02-23 12:00:, 032/002 - CT mozku: s k.l. iv.,"CT mozku bez k.l. i.v.
 Rozsáhlá hypondenze vpravo frontálně vel. 51x30x48 mm, zasahuje do mozkové kůry - akutní ischémie.  Bez IC krvácení, bez expanze. Středočárové struktury bez posunu. Komorový systém nerozšířen. Šíře SA prostorů norm. Diskrétní hyperplázie sliznice v maxil. sinech. Ostatní VDN a mastoideální sklípky jsou volné. Skelet bez patologických změn.
 
 
@@ -24,13 +24,13 @@ Zachycený plicní parenchym bez ložisek. Spondylodegenerativní změny.
 
 
 Závěr: Ischemické změny vpravo frontálně, v perfuzních mapách je patrná ischémie s core. Mozkové tepny bez uzávěru. Krátká stenóza P1 ACP dx. Aterosklerotické změny v bifurkaci ACC sin. a bulbu ACI sin. se stenózou do 40%."
-"2025-02-23 07:54: 032/001 - CT mozku: bez k.l.","CT mozku:
+2025-02-23 07:54:, 032/001 - CT mozku: bez k.l.,"CT mozku:
 Provedeno nativně.
 
 Nález ve shodě s CT vyš. z 22.2.2025. Bez IC krvácení, bez expanze. Cévní lakuna v nc. caudatus vlevo a v putamen vlevo. Středočárové struktury bez posunu. Komorový systém nerozšířen. Šíře SA prostorů norm. Diskrétní hyperplázie sliznice v pravém maxiláním sinu. Ostatní VDN a mastoideální sklípky jsou volné. Skelet bez patologických změn.
 
 Závěr: Nález ve shodě s CT vyš. z 22.2.2025. Cévní lakuna v nc. caudatus vlevo a v putamen vlevo."
-"2025-02-22 21:00: 032/002 - CT mozku: s k.l. iv.","CT vyš. mozku: nativně
+2025-02-22 21:00:, 032/002 - CT mozku: s k.l. iv.,"CT vyš. mozku: nativně
 vpravo PO postischemické změny starého data. Bez IC krvácení. Lokálně rozšířený SA prostor či drobná lakuna v periferii levé mozečkové hemisféry. Středové struktury jsou bez lateralizace, komorový systém vzhledem k věku lehce prostornější. kalcifikace v epifýze a v choroid. plexech postranních komor. Téměř obliterace pravého maxil. sinu, ostatní VDN volné.
 
 CT perfuze: s KL i.v.
@@ -45,7 +45,7 @@ Intrakraniálně: Willisův okruh včetně odstupujících větví norm. konfigu
 
 Závěr:
 staré postischemické změny vpravo PO. Podezření na čerstvou ischemii v okolí centrálního sulcu vpravo."
-"2025-02-22 14:10: 032/001 - CT mozku: bez k.l.","CT mozku
+2025-02-22 14:10:, 032/001 - CT mozku: bez k.l.,"CT mozku
 nativně 
 
 Lakunární infarkt velikosti 5 mm v nc. caudatus vlevo a podobný v putaminu vlevo. Intrakraniálně bez známek krvácení, expanzivního procesu, komorová soustava štíhlá ve střední čáře. Zachycené paranasální dutiny volné, volné středoušní dutiny a mastoidální systém. Normální nález v obou orbitách. Skelet bez zřetelných patol. změn.
@@ -59,11 +59,11 @@ perfuzní CT mozku
 Bez zřetelného perfzního deficitu. 
 
 Závěr: Bez známek akutní okluze tepny či perfuzního deficitu, st. lacunaris bg. vlevo."
-"2025-02-19 18:40: 032/001 - CT mozku: bez k.l.","CT mozku 
+2025-02-19 18:40:, 032/001 - CT mozku: bez k.l.,"CT mozku 
 nativně
 
 Susp. kombinace minimálního stainingu k.l. a jemných hyperdezních proužků při minimální hemorhagii (ve virtuálním nativním CT obraze) v terénu dnes dříve popisovaných čerstvých ischem. změn vpravo v okolí staré postischemické léze nad Sylviovou rýhou. Ostatní se význ. nemění."
-"2025-02-19 15:47: 032/002 - CT mozku: s k.l. iv.","CT mozku bez k.l. i.v.
+2025-02-19 15:47:, 032/002 - CT mozku: s k.l. iv.,"CT mozku bez k.l. i.v.
 Krvácení  intrakraniálně neprokázáno. Vpravo v okolí staré postischemické hypodenzní léze v obl. nad Sylviovou rýhou  je neostře ohraničená hypodenze vel. cca 36 x 30 mm v.s. čerstvé ischemické změny. Ostatní  postischemické léze bilat. bez podstatných změn. Vyjádřená atrofie mozku a mozečku, středočárové struktury bez posunu.
 
 
@@ -89,7 +89,7 @@ Hypoperfúze celkem 41,68 ml
 Jádro 9,19 ml
 Penumbra 32,49 ml
 Mismatch poměr 4,54"
-"2025-02-16 20:35: 032/000 - CT vyšetření","CT mozku bez k.l. i.v.
+2025-02-16 20:35:, 032/000 - CT vyšetření,"CT mozku bez k.l. i.v.
 Krvácení intrakraniálně neprokázáno, lehce lobulární, mírně nepravidelná rozsáhlá hypodenze v obl. levé mozečkové hemisféry pod tentoriem, vel. cca 42x40x18 mm, s diskrétním přesahem doprava, hypodenzní i navazující oblast pontu až mesencephala. Lehce snížená denzita bílé hmoty v obl. pravé mozečkové hemisféry. Vyjádřená atrofie mozku a mozečku, leukoaraiosa, vpravo PO i staré postischem. hypodenzní změny za trigonem, středočárové struktury bez posunu.
 
 CT perfúze:
@@ -113,7 +113,7 @@ Plicní embolizace vlevo v segment. větvi pro dol. lalok, kde je krátký defek
 Objemně naplněný žaludek s fluidním obsahem. Cysty ledvin, největší vpravo v dol. polu vel. 41 mm, bez městnání, lipodystrofie pankreatu, játra s ojedin. cystou v L laloku, slezina, nadledviny, žl. systémnorm. Moč. měchýř prázdný, cévkován. Hypertrofie prostaty, bez volné tekutiny v dutině břišní. Skelet bez známek osteolýzy, spondylodegenerativní změny, sinistrokonv. skolioza L páteře. Stp. TEP pr. kyčel. kloubu, vlevo coxartroza III. st.
 
 Závěr: lehce lobulární hypodenze v obl. levé mozečkové hemisféry pod tentoriem má spíše vzhled ložiska s lehce expanzivním chováním, přesah do obl. pontu/mesencephala, na perfúzním vyš. vajádřené zmeny char. čerstvé ischemie v obl. pravé mozečkové hemisféry a pontu, při uzávěru AB, vpravo PO i staré postischem. hypodenzní změny za trigonem. Plicní embolizace vlevo v segment. větvi pro dol. lalok. Výraznější nevzdušnosti v pravém dolním plic. laloku, zúžené bronchy s výrazně zesílenou stěnou zejm. v pr. dol. laloku. Drobný chondrohamartom pravé plíce. Dilatace ascendentní hrudní aorty. Lehce zesílená stěna jícnu. Cysty ledvin."
-"2025-02-16 07:44: 032/000 - CT vyšetření","CT mozku bez k.l. i.v.
+2025-02-16 07:44:, 032/000 - CT vyšetření,"CT mozku bez k.l. i.v.
 Kombinace contrast stainig a IC hemorhagie vlevo hemisferálně a krev i podél falxu a tentoria. Rozsáhlý edém levé mozk. hemisféry s výrazným expanz. chováním, vyhlazenými přilehlými SA prostory, komprese komor. systému a zúžené jsou i bazální cisterny (více vlevo), přesun středových struktur doprava až 16 mm, herniace. Kalcifikace tepen. Empty sella. Skelet kalvy bez traum. změn, hladinka tek. ve sfenoid. sinu vpravo. 
 
 
@@ -132,7 +132,7 @@ Plic. hroty s objemným fluidothoraxem bilat., kompres. atelektázou a rozsáhl�
 
 
 Závěr: Rozvoj rozsáhlého edému L mozk. hemisféry s expanz. chováním, již zn. herniace. IC kombinace contrast staining a hemorhagie."
-"2025-02-15 12:58: 032/002 - CT mozku: s k.l. iv.","Mozek nativ:
+2025-02-15 12:58:, 032/002 - CT mozku: s k.l. iv.,"Mozek nativ:
 Bez zn. krvácení . Hypodenzní ložisko vel. 12mm v bílé hmotě subkortikálně vlevo v zadní části front. laloku. Jiná ložiska nevidím změny v  bílé hmotě chrakteru leukoaraiozy. Středoč. struktury jsou bez lateralizace. Mírně prostornější komor. systém i liquor. prostory. Skelet bez struktur. změn. Paranas. dutiny jsou volné. Cerumen v pravé zev. zvukovodu naléhající na bubínek. Hypoplazie mastoid. sklípků vpravo, vlevo volné. 
 
 CT AG tepen hlavy a mozku:
@@ -144,7 +144,7 @@ CT perfúze.
 Vpravo parasagitálně v povodí ACA je patrno prodloužení TTP a snížení CBF  s převážně zachovaným CBV.
 
 Závěr: Uzávěr hlavní větve A3 vpravo s vytvořenou penumbrou."
-"2025-02-15 00:43: 032/002 - CT mozku: s k.l. iv.","CT mozku bez KL:
+2025-02-15 00:43:, 032/002 - CT mozku: s k.l. iv.,"CT mozku bez KL:
 Intrakraniálně bez krvácení, bez expanzí. Oboustranně symetricky drobné kalcifikace v bazálních gangliích. Širší SA prostory při atrofii mozku. Středočarové struktury jsou bez přesunu. VDN a mastoidální sklípky jsou volné. Skelet je bez ložisek. 
 
 CTA krčních a mozkových tepen:
@@ -156,7 +156,7 @@ Bez alterace perfuzních parametrů.
 
 
 Závěr: Intrakraniálně bez krvácení, bez průkazu ischemických změn (včetně perfuzních map). Krční a mozkové tepny jsou bez uzávěrů či jiných patologických změn."
-"2025-02-14 10:23: 032/021 - CT AG","CT mozku: nativně
+2025-02-14 10:23:, 032/021 - CT AG,"CT mozku: nativně
 Bez IC krvácení, bez expanzivních projevů, bez posunu struktur střední čáry, bez zn. mozkových konů. Bez patrných časných zn. ischémie. Drobná lakuna vlevo periventrikulárně. Leukoaraioza. Komorový syst. pravidelný, širší - biventrikulární rozměr postranních komor 50mm, III. komora 13mm. Širší i SA prostroy při atrofii mozku. Skelet neurokrania norm.. Paranazální siny a mastoideální sklípky jsou volné. 
 
 
@@ -168,7 +168,7 @@ Willisův okruh včetně odstupujících větví norm. konfigurace, bez stenoz, 
 
 Závěr:
 bez uzávěru větších tepen, výrazně vinuté ACI bilat. více vlevo, kde je až naznačené zalomení. Bez zřetelných zn. čerstvé ischemie."
-"2025-02-13 22:16: 032/002 - CT mozku: s k.l. iv.","CT mozku
+2025-02-13 22:16:, 032/002 - CT mozku: s k.l. iv.,"CT mozku
 vyšetření provedeno nativně
 
 Vpravo v centrum semiovale lakuna velikosti 13 x 6 mm, vlevo v obdobném místě o velikosti 5 mm. Vpravo v bazálních gangliích lakuna o velikosti 7 mm. Bez průkazu krvácení. Komorový systém přiměřené šíře a symetrický. Známky atrofie mozku. Středočárové struktury bez lateralizace. Retrobulbární prostory volné. VDN a mastoideální sklípky jsou volné. Skelet je normální.
@@ -186,7 +186,7 @@ Odstupy z aortálního oblouku volné, ACC, ACI i ACE bez významnějších sten
 Pokročilá omartróza vpravo. Lipom kaudáně od gl. parotis vpravo vel. 35 x 20 mm. 
 
 Závěr: Nadále bez známek akutní ischémie či krvácení. Stacionární lakuny supratentoriálně bilat. ve shodě s dnešním CT. Aterosklerotické změny vinutých karotid, bez významných stenóz či okluzí."
-"2025-02-13 13:51: 032/002 - CT mozku: s k.l. iv.","CT mozku
+2025-02-13 13:51:, 032/002 - CT mozku: s k.l. iv.,"CT mozku
 vyšetření provedeno nativně
 
 Vpravo v centrum semiovale lakuna velikosti 13 x 6 mm, vlevo v obdobném místě o velikosti 5 mm. Vpravo v bazálních gangliích lakuna o velikosti 7 mm.   bez známek expanze, ložisek nebo krvácení. Komorový systém štíhlý a symetrický. Středočárové struktury bez lateralizace. Retrobulbární prostory volné. VDN a mastoideální sklípky jsou volné. Skelet je normální.
@@ -202,13 +202,13 @@ vyšetření provedeno po podání jodové KL i.v.
 Odstupy z aortálního oblouku volné, ACC, ACI i ACE bez významnějších stenóz či uzávěru. Sklerotické pláty v bifurkacích ACC, vpravo výraznější smíšený plát, sklerotické v karotických sifonech.  Volně odstupují i obě vertebrální tepny, dominantní pravá vertebrální tepna volná, levá tepna gracilní, v úrovni foramen magnum nevysledovatelná. Intrakraniálně magistrální tepny bez uzávěru nebo jiných patol. změn. Postkontrastně mozek bez ložisek. Kyfóza krční páteře. Lipom v glandula parotis vpravo velikosti 31 mm. 
 
 Závěr: Bez známek akutní ischemie. Lakuny v centrum semiovale oboustranně a v bazálních gangliích vpravo."
-"2025-02-09 19:59: 032/001 - CT mozku: bez k.l.","CT mozku:
+2025-02-09 19:59:, 032/001 - CT mozku: bez k.l.,"CT mozku:
 Nativně.
 
 Bez zn. nitrolebního krvácení. Diskrétní ložisko imbibice kontrastní látky vlevo frontálně v bílé hmotě mozkové capsula externa rostrálně, v těsné blízkosti patrna i probíhající céva. V komparaci s předchozím dnešním CT nová ložiska ischemického charakteru nediferencuji. Stacionární je drobná protáhlá hypodenze v subkortiální bílé hmotě mozkové frontálně vlevo a drobná lakuna rostrálně od ní, obě jsou nad okrskem imbibice kontrastní látky. Středočárové struktury bez lateralizace, komorový systém štíhlý.
 
 Závěr: Bez zn. ICH. Menší okrsek imbibice kontrastní látky vlevo frontálně v capsula externa rostrálně. V komparaci s předchozím dnešním CT bez přesvědčivého rozvoje ischemického ložiska."
-"2025-02-09 17:52: 032/000 - CT vyšetření","CT mozku bez k.l. i.v.
+2025-02-09 17:52:, 032/000 - CT vyšetření,"CT mozku bez k.l. i.v.
 
 Vlevo frontálně precentrálně je hypodenzní pruh vel. 10x4 mm - ischemické změny starého data. Bez časných zn. ischémie. Bez IC krvácení, bez expanze. Středočárové struktury bez posunu. Komorový systém nerozšířen. Šíře SA prostorů norm. Mírná nástěnná hyperplázie sliznice v ethmoid., maxil. a front. sinech. Ostatní VDN a mastoideální sklípky jsou volné. Skelet bez patologických změn.
 
@@ -227,7 +227,7 @@ Zachycený plicní parenchym bez ložisek. Paraseptální emfyzém.
 
 
 Závěr: Intrakraniálně bez čerstvých ischemických změn. Ischemické změny staršího data vlevo frontálně. Uzávěr M2 ACM sin. Nestabilní měkký plát v bulbu ACI sin. způsobující 60% stenózu tepny. Aterosklerotické změny v bulbu ACI dx. bez stenózy."
-"2025-02-08 17:12: 032/002 - CT mozku: s k.l. iv.","CT mozku
+2025-02-08 17:12:, 032/002 - CT mozku: s k.l. iv.,"CT mozku
 vyšetření provedeno nativně
 
 Intrakraniálně bez známek expanze nebo krvácení. Nově naznačené drobné hypodenze v bílé hmotě paraventrikulárně temporookcipitálně v rozsahu 12 x 12 x 9 mm. Komorový systém štíhlý a symetrický. Středočárové struktury bez lateralizace. Retrobulbární prostory volné. VDN a mastoideální sklípky jsou volné. Skelet je normální.
@@ -238,7 +238,7 @@ vyšetření provedeno po podání jodové KL i.v.
 Oproti včerejšímu CTA došlo k rekanalizaci M2 sin. až do periferie. Ostatní nález je beze změny. 
 
 Závěr: Oproti včerejšímu CTA došlo k rekanalizaci M2 sin. až do periferie. Nově ischemické změny v bílé hmotě paraventrikulárně temporookcipitálně vlevo."
-"2025-02-08 15:30: 032/021 - CT AG","CT mozku bez k.l. i.v.
+2025-02-08 15:30:, 032/021 - CT AG,"CT mozku bez k.l. i.v.
 Krvácení intrakraniálně neprokázáno. Nově oproti CT z 26.1.2025 patrné v.s. ischemické změny v dolní části levé hemisféry mozečku v rozsahu 24 x 14 x 10 mm. Leukoaraióza a drobná lakuna v BG vpravo, kalcifikace v BG vlevo. Vyjádřená atrofie mozku a mozečku, středočárové struktury bez posunu. Orbity, hypofýza i MM kouty bez expanze. Skelet lebky bez patologie, drobný polyp v levém antru, jinak VDN i mastoideální sklípky volné.
 
 CTA krčních tepen a mozku:
@@ -247,7 +247,7 @@ Aortální oblouk norm. šíře s drobnými kalcifikovanými pláty, odstupy z a
 Intrakraniálně fetální odstup levé ACP, jinak bez významnější patologie magistrálních tepen. Osteochondróza C páteře.
 
 Závěr: Progrese nálezu oproti CT z 26.1.2025, kdy se levá vertebrální tepna nejdříve méně a poté zcela vůbec neplní kontrastem od úrovně C2 při subtotálním uzávěru, PICA vlevo se neplní, vertebrální tepna vlevo se plní gracilnější až v terminální části cca 12 mm od soutoku do a. bazilaris. Nově patrné drobné ložisko ischemie v dolní části levé mozečkové hemisféry."
-"2025-02-08 13:25: 032/021 - CT AG","CT mozku nativně
+2025-02-08 13:25:, 032/021 - CT AG,"CT mozku nativně
 Již vyjádřená ischemie v temporálním operculu vpravo vel. 60x29x28 mm, je zde denzní tepna. Bez zn. krvácení . Leukoaraioza. Komor. sy bez lateralizace.
 
 CTA karotid a intrakraniálníhho řečiště
@@ -255,7 +255,7 @@ podána KL iv
 Kalcifikace  obl. Ao, odstupy volné. Drobné kalcifikace v bifurkaci ACC bilat, ACE a AXI bez stenoz. AV bilat volné. Intrakraniálně magistr. tepny volné, bez korelátu s dezním defektem na nativu.
 
 Závěr: vyjádřená ichemie T vpravo, bez zřet. okluze tepny."
-"2025-02-08 12:47: 032/002 - CT mozku: s k.l. iv.","CT mozku
+2025-02-08 12:47:, 032/002 - CT mozku: s k.l. iv.,"CT mozku
 vyšetření provedeno nativně
 
 Intrakraniálně bez známek expanze, ložisek nebo krvácení. Komorový systém štíhlý a symetrický. Středočárové struktury bez lateralizace. Retrobulbární prostory volné. Polyp v maxilárním  sinu vpravo, jinak VDN a mastoideální sklípky jsou volné. Skelet je normální.
@@ -277,7 +277,7 @@ Penumbra 125,12 ml
 Mismatch poměr 9,98
 
 Závěr: Uzávěr M1 dx., patrně diskrétně obtékaný vzhledem k ojedinělému plnění distálních větví. Penumbra v povodí ACM dx. s drobným podílem jádra ischemie. V nativním CT obraze bez známek rozvinuté ischemie."
-"2025-02-07 18:02: 032/002 - CT mozku: s k.l. iv.","CT mozku
+2025-02-07 18:02:, 032/002 - CT mozku: s k.l. iv.,"CT mozku
 vyšetření provedeno nativně
 
 Intrakraniálně bez známek expanze, ložisek nebo krvácení. Komorový systém štíhlý a symetrický. Středočárové struktury bez lateralizace. Retrobulbární prostory volné. VDN a mastoideální sklípky jsou volné. Skelet je normální.

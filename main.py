@@ -5,6 +5,7 @@ import src.API as API
 import json
 import features.env as ft
 import src.data as dt
+from scripts import config
 
 selected_LLM = None
 API_key = ft.API_keys(None)
@@ -20,72 +21,164 @@ if selected_LLM:
 # Mainpage
 st.title("Welcome to MRE Project")
 
-data_dir = "data/"
-files = os.listdir(data_dir)
+csv_dir = config.CSV_DATA_ROOT
+json_dir = config.JSON_DATA_ROOT
+prompt_dir = config.PROMPT_ROOT
+text_dir = config.TEXTS_ROOT
+input_files_dir = config.TEST_INPUTS_ROOT
 
-if files:
-    selected_file = st.selectbox("Choose a file to view:", files)
+dirs = [csv_dir, json_dir, prompt_dir, text_dir, input_files_dir]
 
-if st.button("View data", type="primary"):
-    if selected_file:
-        path = os.path.join(data_dir, selected_file)
-        if ".json" in selected_file:
-            with open("data/structure.json", "r", encoding="utf-8") as f:
-                df = json.load(f)
-        else:
-            df = pd.read_csv(path)
-        st.write(f"### Showing: `{selected_file}`")
-        st.dataframe(df)
-    else:
-        st.warning("No files found in the data folder.")
+st.title("📂 Data Viewer")
 
-#prompt = st.text_input("")
-#st.write("Prompt: ", prompt)
+# Vyber složku
+selected_dir = st.selectbox("Vyber složku:", dirs)
 
-text = "data/text.txt"
-prompt = """
-        Jsi asistent, který extrahuje informace ze vstupního textu a převádí je do přesného JSON formátu. 
-        Použij pouze informace uvedené ve vstupu. Pokud něco chybí, použij hodnotu null.
-        Výstup vrať přesně jako validní JSON, bez komentářů nebo vysvětlení.
-        """
+# Získej seznam souborů v dané složce
+if os.path.exists(selected_dir):
+    files = [
+        f for f in os.listdir(selected_dir)
+        if os.path.isfile(os.path.join(selected_dir, f))
+    ]
+else:
+    files = []
 
-json_root = "data/json/structure.json"
-with open(json_root, "r", encoding="utf-8") as f:
-    json_file = json.load(f)
+if not files:
+    st.warning(f"Ve složce `{selected_dir}` nebyly nalezeny žádné soubory.")
+else:
+    # Vyber konkrétní soubor
+    selected_file = st.selectbox("Vyber soubor k prohlédnutí:", files)
 
-with open(text, mode="r", encoding="utf-8") as fr:
-    text = fr.read()
-        
-Idata = dt.InputData(text, prompt, json_file)
+    if st.button("Show data", type="primary"):
+        path = os.path.join(selected_dir, selected_file)
+        try:
+            # CSV
+            if selected_file.endswith(".csv"):
+                df = pd.read_csv(path)
+                st.write(f"### 🧾 Náhled souboru `{selected_file}`")
+                st.dataframe(df)
+
+            # JSON
+            elif selected_file.endswith(".json"):
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                if isinstance(data, list) and all(isinstance(x, dict) for x in data):
+                    df = pd.DataFrame(data)
+                    st.write(f"### 🧾 Náhled souboru `{selected_file}`")
+                    st.dataframe(df)
+                else:
+                    st.json(data)
+
+            # TXT
+            elif selected_file.endswith(".txt"):
+                with open(path, "r", encoding="utf-8") as f:
+                    text = f.read()
+                st.write(f"### 📄 Obsah souboru `{selected_file}`")
+                st.text(text)
+
+            # Jiný formát
+            else:
+                st.warning(f"Soubor `{selected_file}` má nepodporovaný formát.")
+
+        except Exception as e:
+            st.error(f"Chyba při čtení souboru: {e}")
+
+Idata = dt.InputData("","","")
 
 st.markdown("---")
 
-if st.button("Call LLM", type="primary"):
-    gen = API.Generator(None)
-    match selected_LLM:
-        case "GPT-4.1":
-            gen.set_new_model(API.openAI(Idata, API_key))
-        case "Claude-Sonnet-3.7":
-            gen.set_new_model(API.Claude(Idata, API_key))
-        case "Mistral-7B":
-            gen.set_new_model(API.Mistral(Idata, API_key))
-        case "Gemini":
-            gen.set_new_model(API.Gemini(Idata, API_key))
-        case "ClinicalBERT":
-            gen.set_new_model(API.ClinicalBERT(Idata))
-        case "BioGPT":
-            gen.set_new_model(API.BioGPT(Idata))
-            
-    gen.get_model().generate()
-    st.markdown("**:green-background[All done]**")
-    #gen.get_model().printer()
+st.title("📝 Test Input Maker")
 
+st.markdown("Prompt")
+prompt = st.text_area(
+    "Zadej prompt:",
+    placeholder="Sem napiš prompt...",
+    height=150
+)
+
+st.markdown("Text")
+
+text_header = st.text_area(
+    "Zadej text:",
+    placeholder="# csv_filename | id_of_text (eg. id of mre, datetime)",
+    height=30
+)
+text = st.text_area(
+    "Zadej text:",
+    placeholder="Sem vlož text...",
+    height=250
+)
+"""
+Nejlépe přidat do samostatných btns
+
+# Ulož prompt a text do .txt souborů
+with open(os.path.join(prompt_dir, "0x_prompt.txt"), "w", encoding="utf-8") as f:
+    f.write(prompt.strip() + "\n")
+
+with open(os.path.join(text_dir, "0x_text.txt"), "w", encoding="utf-8") as f:
+    f.write(text_header.strip() + "\n")
+    f.write(text.strip() + "\n")
+"""
+if st.button("Create prompt", type="primary"):
+    try:
+
+        # Vytvoř JSON se strukturou
+        data = {
+            # "_comment": "doplníš si sám",
+            "prompt": prompt.strip(),
+            "text": text.strip()
+        }
+
+        with open(os.path.join(input_files_dir, "0x_test_input.json"), "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+        st.success("✅ Soubory úspěšně vytvořeny!")
+    except Exception as e:
+        st.error(f"Chyba při ukládání: {e}")
+    
 st.markdown("---")
 
-if st.button("Show results", type="primary"):
-    full_prompt = f"{prompt}\n\n{json_file}"
-    st.write(full_prompt)
+result_path = config.RESULT_ROOT
 
+res_dirs = os.listdir(result_path)
+dir_paths = [os.path.join(result_path, name) for name in res_dirs]
+
+st.title("LLM outputs")
+
+# Vyber složku
+selected_dir = st.selectbox("Vyber složku:", dir_paths)
+
+# Získej seznam souborů v dané složce
+if os.path.exists(selected_dir):
+    files = [
+        f for f in os.listdir(selected_dir)
+        if os.path.isfile(os.path.join(selected_dir, f))
+    ]
+else:
+    files = []
+
+if not files:
+    st.warning(f"Ve složce `{selected_dir}` nebyly nalezeny žádné soubory.")
+else:
+    # Vyber konkrétní soubor
+    selected_file = st.selectbox("Vyber soubor k prohlédnutí:", files)
+
+    if st.button("Show result", type="primary"):
+        path = os.path.join(selected_dir, selected_file)
+        try:
+            # TXT
+            if selected_file.endswith(".txt"):
+                with open(path, "r", encoding="utf-8") as f:
+                    text = f.read()
+                st.write(f"### 📄 Obsah souboru `{selected_file}`")
+                st.text(text)
+
+            # Jiný formát
+            else:
+                st.warning(f"Soubor `{selected_file}` má nepodporovaný formát.")
+
+        except Exception as e:
+            st.error(f"Chyba při čtení souboru: {e}")
 
 
 
