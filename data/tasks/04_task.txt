@@ -1,0 +1,2 @@
+Pod tímto textem se nachází anonymizovaná lékařská zpráva. Tvůj úkol je extrahovat daný text a navrátit ho zpět ve 
+formátu json.

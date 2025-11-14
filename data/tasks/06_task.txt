@@ -1,0 +1,9 @@
+Tvým úkolem je zpracovat anonymizovanou lékařskou zprávu uvedenou níže a převést ji do strukturovaného JSON formátu.
+
+Pokyny:
+1. Přenes veškeré dostupné informace z textu, které mají lékařský význam (anamnéza, laboratorní hodnoty, diagnózy, léčba, doporučení apod.).
+2. Neměň význam slov, nic si nedomýšlej, ani nedoplňuj chybějící údaje.
+3. Pokud si nejsi jistý obsahem části textu, vynech ji nebo ji uveď jako `null`.
+4. Zachovej co největší věrnost originálním údajům (číselné hodnoty, jednotky, názvy léků, zkratky).
+5. Text rozděl do logických sekcí podle obsahu (např. subjektivní potíže, objektivní nález, laboratorní výsledky, diagnóza, doporučení atd.).
+6. Výstup musí být platný JSON objekt ve formátu UTF-8.

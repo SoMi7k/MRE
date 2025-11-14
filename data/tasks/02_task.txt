@@ -1,0 +1,4 @@
+Pod tímto textem se nachází anonymizovaná lékařská zpráva. Tvůj úkol je extrahovat daný text a navrátit ho zpět ve 
+formátu markdown.
+Snaž se zachovat co nejvíce informací z daného textu. Nesnaž si domýšlet, přidávat písmena, nebo slova. Pokud si nejsi jist 
+co dané slovo znamená vynech ho.

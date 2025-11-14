@@ -1,12 +1,16 @@
-DATA_ROOT = "C:\\Users\\Lenka Jelinková\\Desktop\\MRE\\data"
-CSV_DATA_ROOT = "C:\\Users\\Lenka Jelinková\\Desktop\\MRE\\data\\csv"
-JSON_DATA_ROOT = "C:\\Users\\Lenka Jelinková\\Desktop\\MRE\\data\\json"
+DATA_ROOT = "data"
+CSV_DATA_ROOT = "data\\csv"
+JSON_DATA_ROOT = "data\\json"
 
-PROMPT_ROOT = "C:\\Users\\Lenka Jelinková\\Desktop\\MRE\\data\\prompts"
-REPORTS_ROOT = "C:\\Users\\Lenka Jelinková\\Desktop\\MRE\\data\\prompts\\medical_reports"
-TASKS_ROOT = "C:\\Users\\Lenka Jelinková\\Desktop\\MRE\\data\\prompts\\tasks"
+PROMPT_ROOT = "data\\prompts"
+REPORTS_ROOT = "data\\medical_reports"
+TASKS_ROOT = "data\\tasks"
 
-RESULT_ROOT = "C:\\Users\\Lenka Jelinková\\Desktop\\MRE\\results"
+RESULT_ROOT = "results"
+RESULT_JSON_ROOT = "results\\json"
+RESULT_MD_ROOT = "results\\md"
+
+REGEX = "\w|[ěščřžýáíéúůó]|[+-]"
 
 TITLES_CROHN = [
     "Sono GIT",
@@ -31,3 +35,4 @@ TITLES_STROKE = [
     'CT vyšetření', 
     'CT AG'
 ]
+

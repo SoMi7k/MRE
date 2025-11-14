@@ -1,0 +1,142 @@
+{
+  "visit_info": {
+    "type": "Kontrola",
+    "last_visit": "10.3.2015",
+    "current_age": "18 a 1/4 roku",
+    "condition": "trvaly zánětlivé změny terminálního ilea"
+  },
+  "subjective": {
+    "complaints": "zcela bez potíží",
+    "abdomen": "nebolí",
+    "stool": {
+      "frequency": "1-2x denně",
+      "consistency": "formovaná či kašovitá",
+      "pathology": "bez patologické příměsi"
+    },
+    "diet_tolerance": "toleruje",
+    "illness": "Nemocný nebyl",
+    "school_attendance": "Chodí do školy"
+  },
+  "medications": {
+    "current": [
+      {
+        "name": "Imuran",
+        "dosage": "2-0-0 tbl á 50 mg",
+        "start_date": "30.9.2014",
+        "dose_per_kg": "1,4 mg/kg",
+        "note": "redukovaná dávka - heterozygot TPMT"
+      }
+    ]
+  },
+  "diet": "bezezbytková",
+  "objective_examination": {
+    "weight": {
+      "value": "66 kg",
+      "change": "-0,5"
+    },
+    "height": {
+      "value": "178,5 cm",
+      "change": "+0"
+    },
+    "general": "eutrofický",
+    "abdomen": {
+      "level": "v úrovni",
+      "consistency": "měkké",
+      "pain": "nebolestivé",
+      "resistance": "rezistenci spolehlivě nehmatám",
+      "right_fossa": "hmatná trvá mírná palpační citlivost"
+    },
+    "lymph_nodes": "J+S nezvětšeny",
+    "rash": "exantém 0",
+    "edema": "otoky 0"
+  },
+  "laboratory_tests": {
+    "date": "10.6.2015 09:56 - 14:59",
+    "tests_ordered": "FW, KO+dif, CRP, alb, kalprotectin",
+    "results": {
+      "sedimentation": {
+        "B-FW1": "13"
+      },
+      "blood_count": {
+        "B-Le": "6,60",
+        "B-Ery": "4,62",
+        "B-Trombo": "259",
+        "B-Hb": "137",
+        "B-HTK": "0,413",
+        "B-Obj ery.": "90",
+        "B-Hb ery": "29,8",
+        "B-Hb konc": "333",
+        "B-Seg": "0,742",
+        "B-Ly": "0,160",
+        "B-Eo": "0,020",
+        "B-Ba": "0,009",
+        "B-Mo": "0,069",
+        "B-Seg - abs": "4,90",
+        "B-Ly - abs": "1,10",
+        "B-Eo - abs": "0,10",
+        "B-Ba - abs": "0,10",
+        "B-Mo - abs.": "0,50",
+        "B-Erytr.křivka": "16,9"
+      },
+      "biochemistry": {
+        "S-CRP": "2",
+        "S-Albumin": "51,3"
+      },
+      "stool": {
+        "K-Kalprotektin": "497"
+      }
+    }
+  },
+  "diagnoses": [
+    {
+      "code": "K508",
+      "description": "Jiná Crohnova nemoc - terminální ileum, kolon",
+      "date": "dg 9/2014",
+      "markers": "TNF-a neg. (G/G), TPMT heterozygot"
+    },
+    {
+      "code": "I450",
+      "description": "Blokáda pravého raménka"
+    }
+  ],
+  "assessment": {
+    "clinical_status": "klinicky remise",
+    "weight_change": "hmotnostně mírně ubyl",
+    "laboratory_inflammation": "nízké zánětlivé parametry",
+    "calprotectin": "středně zvýšený",
+    "PCDAI": "0b",
+    "ultrasound": "dle USG (3/2015) přetrvávají zánětlivé změny terminálního ilea"
+  },
+  "recommendations": {
+    "diet": "strava bezezbytková",
+    "medications": [
+      {
+        "name": "Imuran",
+        "new_dosage": "navýšit 2,5-0-0 tbl á 50 mg",
+        "dose_per_kg": "1,9 mg/kg",
+        "start_date": "od 30.9.2014"
+      }
+    ],
+    "follow_up": {
+      "clinic": "gastroenterologické poradně DK",
+      "date": "21.9.2015 v 11 hod",
+      "ultrasound": "USG GIT 21.9.2015 v 10:45 hod.",
+      "location": "vchod F, 6. patro",
+      "phone": "tel. 37 710 4679 - Po, St",
+      "bring": "s sebou vzorek stolice na kalprotektin"
+    },
+    "emergency": "při zhoršení stavu kontrola dříve",
+    "transition": "domluva o předání gastroenterologovi pro dospělé"
+  },
+  "prescriptions": [
+    {
+      "name": "IMURAN 50 MG por tbl flm 100x50mg",
+      "quantity": "počet balení: 2"
+    }
+  ],
+  "additional_notes": [
+    "Kopii této zprávy odevzdejte svému dětskému lékaři.",
+    "Informace o zdravotním stavu a provedených vyšetřeních byly pacientovi poskytnuty a bylo umožněno klást dotazy.",
+    "Údaje uvedené ve formuláři Souhlass poskytováním informací o zdravotním stavu zůstávají beze změny."
+  ]
+}

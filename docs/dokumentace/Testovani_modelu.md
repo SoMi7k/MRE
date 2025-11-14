@@ -17,6 +17,9 @@
 - Používejte konzistentní formát data napříč všemi soubory
 - Čísla reportů a tasků s vedoucími nulami pro správné řazení
 
+### Poznámky k testování
+Při anglické verzi zadání jsou výsledky v angličtině pouze u 2 LLM - Claude, Mistral
+
 
 ### Table of LLM
 | Modely   | Počet slov | Přesnost | Smysluplnost entit |  |
@@ -26,12 +29,3 @@
 | Gemini   |   |   |   |   |
 | Mistral  |   |   |   |   |
 | Llama    |   |   |   |   | 
-
-### Chat GPT
-
-### Gemini
-
-### Mistral
-
-### Claude
-```

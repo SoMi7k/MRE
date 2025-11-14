@@ -1,0 +1,17 @@
+{
+  "id": "unikátní_identifikátor_nebo_název_souboru",
+  "datum_kontroly": "",
+  "vek_pacienta": "",
+  "subjektivni_stav": "",
+  "objektivni_nalez": "",
+  "laboratorni_vysledky": {
+      "hematologie": {},
+      "biochemie": {},
+      "stolice": {}
+  },
+  "diagnozy": [],
+  "lecba": [],
+  "doporuceni": [],
+  "recepty": [],
+  "poznamky": ""
+}

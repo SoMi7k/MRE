@@ -1,0 +1,5 @@
+Below this text is an anonymized medical report. Your task is to extract the text and return it in json format. 
+Try to keep as much information from the text as possible. Do not create new words, add letters or words. If you are not certain what
+the word means let it.
+Try to retain as much information from the text as possible. Don't try to guess, add letters, or words. If you're not sure 
+what a word means, leave it out.

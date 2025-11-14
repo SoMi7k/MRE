@@ -61,7 +61,7 @@ Informace o zdravotním stavu a provedených vyšetřeních byly pacientovi posk
 # === Spojený prompt ===
 full_prompt = f"{prompt}{text}\n\nOdpověď ve formátu markdown:\n"
 
-result = pipe(full_prompt, max_new_tokens=800, temperature=0.2)
+result = pipe(full_prompt, max_new_tokens=1200, temperature=0.2)
 
 # === Výsledek ===
 with open("llama.md", 'w', encoding='utf-8') as wr:
