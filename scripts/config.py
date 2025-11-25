@@ -1,3 +1,5 @@
+import re
+
 DATA_ROOT = "data"
 CSV_DATA_ROOT = "data\\csv"
 JSON_DATA_ROOT = "data\\json"
@@ -10,7 +12,7 @@ RESULT_ROOT = "results"
 RESULT_JSON_ROOT = "results\\json"
 RESULT_MD_ROOT = "results\\md"
 
-REGEX = "\w|[ěščřžýáíéúůó]|[+-]"
+REGEX = re.compile(r'\w|[ěščřžýáíéúůó]|[+-]')
 
 TITLES_CROHN = [
     "Sono GIT",

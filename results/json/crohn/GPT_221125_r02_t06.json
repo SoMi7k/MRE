@@ -1,0 +1,157 @@
+{
+  "osobni_udaje": {
+    "vek": "14 let",
+    "hmotnost": "38.7 kg (+2 kg)",
+    "vyska": "148.5 cm",
+    "BMI": "17.5 kg/m2",
+    "BSA": "1.275 m2"
+  },
+  "hospitalizace": {
+    "zarizeni": "Fakultní nemocnice Plzeň",
+    "datum": "04.08.2014 – 05.08.2014",
+    "oddeleni": "Dětská klinika",
+    "aktualni_diagnozy": [
+      {
+        "diagnoza": "Jiná Crohnova nemoc",
+        "poznamky": "dg 7/2013, antrum, bulbus, terminální ileum, sigma (A1b, L1 L4a, B1, G1) – akutní exacerbace",
+        "ASCA": "pozitivní",
+        "ANCA": "negativní",
+        "pankreas": "pozitivní",
+        "TPMT": "neg *1/*1",
+        "TNFa": "neg G/G"
+      }
+    ],
+    "dalsi_anamnesticke_diagnozy": [
+      "Jiný nedostatek předpokládaného normálního fyziologického vývoje – porucha růstu při Crohnově chorobě"
+    ]
+  },
+  "prubeh_onemocneni": {
+    "popis": "Pacient 14,5 let s akutní exacerbací Crohnovy choroby se sekundární poruchou růstu. Přijat pro akutní exacerbaci. Laboratorně elevace zánětlivých parametrů, mikrocytární anemie. Sonograficky zánětlivé změny 25 cm distálního ilea.",
+    "sonda": "nasogastrická, zavedena bez komplikací",
+    "vyziva": "enterální výživu toleruje",
+    "stav_pri_propusteni": "celkově stabilizovaný, propuštěn do ambulantní péče"
+  },
+  "doporučení_při_propusteni": {
+    "strava": {
+      "typ": "exkluzivní enterální výživa Modulen",
+      "davka": "2400 ml/24 h, min. 6 dávek",
+      "od": "04.08.2014 (týden 0)",
+      "priprava": {
+        "250_ml": "210 ml vody + 6 odměrek (50 g)",
+        "1000_ml": "850 ml vody + 24 odměrek (200 g)",
+        "možnost_zkoncentrovat": "max. o polovinu při netoleranci objemu"
+      }
+    },
+    "kontroly": [
+      {
+        "termin": "01.09.2014 10:15",
+        "tyden": 4,
+        "pozadavky": ["vzorek stolice", "FW", "KO+dif", "CRP", "alb", "prealb", "kalprotectin"]
+      },
+      {
+        "termin": "29.09.2014 10:15",
+        "tyden": 8,
+        "vysetreni": "USG GIT",
+        "pozadavky": ["vzorek stolice", "FW", "KO+dif", "CRP", "alb", "prealb", "kalprotectin", "Fe", "trf", "ferit", "antropometrie"]
+      }
+    ],
+    "leky": [
+      {
+        "nazev": "Imuran",
+        "davkovani": "1× 1.5 tbl á 50 mg",
+        "poznamka": "1.9 mg/kg, od 13.7.2013"
+      },
+      {
+        "nazev": "Aerius",
+        "davkovani": "1 tbl",
+        "poznamka": "jak zavedeno"
+      }
+    ],
+    "dalsi": "kontrola dětským praktickým lékařem do 2 dnů"
+  },
+  "subjektivni": {
+    "popis": "kontrola v týdnu 2 EEN",
+    "stav": [
+      "EEN výživu snáší dobře",
+      "stolice kašovitá, bez příměsi, 1× denně",
+      "bez bolestí břicha",
+      "afebrilní",
+      "klouby nebolí",
+      "cítí se lépe, menší únava, chuť k jídlu"
+    ]
+  },
+  "objektivni": {
+    "stav": "celkový stav dobrý, růžový",
+    "sonda": "zavedena do pravé nosní dírky",
+    "hmotnost": "+2 kg",
+    "bricho": "měkké",
+    "kozni_nalezy": "pigmentované névy na břiše",
+    "játra": "nezvětšena",
+    "slezina": "nezvětšena",
+    "sekundarni_pohlavni_znaky": "zatím bez",
+    "kuze": "čistá"
+  },
+  "laboratorni_vysledky": {
+    "datum": "19.08.2014 07:00–11:00",
+    "FW": "2/",
+    "krevni_obraz": {
+      "B-Le": "7.40",
+      "B-Ery": "5.22",
+      "B-Trombo": "441",
+      "B-Hb": "125",
+      "B-HTK": "0.386",
+      "B-Obj_ery": "74",
+      "B-Hb_ery": "24.0",
+      "B-Hb_konc": "325",
+      "B-Seg": "0.547",
+      "B-Ly": "0.246",
+      "B-Eo": "0.102",
+      "B-Ba": "0.002",
+      "B-Mo": "0.103",
+      "B-Seg_abs": "4.00",
+      "B-Ly_abs": "1.80",
+      "B-Eo_abs": "0.80",
+      "B-Ba_abs": "0.00",
+      "B-Mo_abs": "0.80",
+      "B-Erytr_krivka": "18.3"
+    },
+    "biochemie": {
+      "S-CRP": "7",
+      "S-Albumin": "39.6"
+    },
+    "stolice": {
+      "kalprotektin": ">1800"
+    }
+  },
+  "USG_GIT": {
+    "datum": "19.08.2014",
+    "nalezy": {
+      "ileum_distalni": "významná infiltrace v délce cca 25 cm",
+      "sirka_steny": "až 7 mm",
+      "vaskularizace": "zvýšená",
+      "okolí": "lehce prosáklé",
+      "uzliny": "zmnožené a aktivované do 12 mm",
+      "vypotek": "několik ml v pravé jámě",
+      "srovnani": "lehce ubylo výpotku, nález na střevě bez podstatných změn"
+    }
+  },
+  "RE": {
+    "shrnutí": "laboratorní parametry uspokojivé, klinické zlepšení",
+    "kalprotektin": "stále >1800 mg/kg",
+    "USG": "bez podstatné změny",
+    "hodnoceni": "odpověď na EEN zatím ne zcela dostatečná",
+    "doporučení": "pokračovat dle plánovaných kontrol"
+  },
+  "dlouhodoba_doporuceni": {
+    "monitoring": [
+      "KO+dif á 2 týdny do 10. týdne, poté min. 1× za 2 měsíce",
+      "jaterní testy, amylázy, kreatinin min. 3× ročně",
+      "antropometrie 3× ročně"
+    ],
+    "ockovani": "nesmí být provedeno očkování živými atenuovanými vakcínami během terapie a 3 měsíce po jejím ukončení",
+    "infekce": "chránit se před infekty",
+    "varicela_herpes_zoster": "při výskytu nutná hospitalizace, antivirotika + imunoglobuliny"
+  },
+  "kontrola_u_praktika": "do 3 dnů"
+}
+

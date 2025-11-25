@@ -1,0 +1,89 @@
+{
+  "zdroj": "# crohn_2.csv - https://mre.zcu.cz/id/56afd97a0e3547572eb3bed86f6ff26bf909fd5c",
+  "věk": "14r.",
+  "hmotnost": "38,7 kg (+2 kg)",
+  "výška": "148,5 cm",
+  "BMI": "17,5 kg/m2",
+  "BSA": "1,275 m2",
+  "hospitalizace": {
+    "období": "04.08.2014 - 5.8.2014",
+    "klinika": "Dětská klinika Fakultní nemocnice Plzeň",
+    "diagnóza": "Jiná Crohnova nemoc - dg 7/2013, antrum, bulbus, terminální ileum, sigma (A1b, L1 L4a, B1, G1) - akutní exacerbace",
+    "serologie": "ASCA pozit, ANCA neg, pankreas pozit",
+    "genetika": "TPMT neg *1/*1, TNFa neg G/G",
+    "další_dg": "Jiný nedostatek předpokládaného normálního fyziologického vývoje - porucha růstu při Crohnově chorobě"
+  },
+  "průběh_hospitalizace": "14,5 letý pacient s akutní exacerbací Crohnovy choroby se sekundární poruchou růstu přijat pro akutní exacerbaci. Laboratorně elevace zánětlivých parametrů, mikrocytární anemie. Sonograficky potvrzeny zánětlivé změny 25 cm distálního ilea. Nasogastrická sonda zavedena bez komplikací, enterální výživu toleruje. V celkově stabilizovaném stavu propouštíme do ambulantní péče.",
+  "subjektivně": {
+    "kontrola": "plánovaná kontrola v týdnu 2 EEN od 4.8. 2014 po hospitalizaci 8/2014",
+    "tolerace_EEN": "snáší dobře",
+    "stolice": "kašovité, bez příměsi, 1x denně",
+    "bolesti_břicha": "nemá",
+    "teplota": "afebrilní",
+    "klouby": "nebolí",
+    "celkově": "cítí se lépe, již není tak unavený, má chut k jídlu"
+  },
+  "objektivně": "zavedena sonda do pravé nostrily, celkový stav dobrý, růžový, přibyl + 2 kg, břichoměkké, pigmentované névy na břiše, játra, slezina nezv, zatím bez sek. pohlav. znaků. kůže čistá",
+  "laboratoř": {
+    "datum_čas": "19.8.2014 07:00 - 11:00",
+    "FW": "2/",
+    "krevní_obraz": {
+      "B-Le": "7,40",
+      "B-Ery": "5,22",
+      "B-Trombo": "441",
+      "B-Hb": "125",
+      "B-HTK": "0,386",
+      "B-Obj ery.": "74",
+      "B-Hb ery": "24,0",
+      "B-Hb konc": "325",
+      "B-Seg": "0,547",
+      "B-Ly": "0,246",
+      "B-Eo": "0,102",
+      "B-Ba": "0,002",
+      "B-Mo": "0,103",
+      "B-Seg - abs": "4,00",
+      "B-Ly - abs": "1,80",
+      "B-Eo - abs": "0,80",
+      "B-Ba - abs": "0,00",
+      "B-Mo - abs.": "0,80",
+      "B-Erytr.křivka": "18,3"
+    },
+    "biochemie": {
+      "S-CRP": "7",
+      "S-Albumin": "39,6"
+    },
+    "stolice": {
+      "K-Kalprotektin": ">1800"
+    }
+  },
+  "USG_GIT": {
+    "datum": "19.8.2014",
+    "nález": "významná infiltrace distálního ilea v délce cca 25cm, šíře stěny až 7mm se zvýšenou vaskularizací, lehce prosáklé bezprostřední okolí střevní stěny. Uzliny zmnožené a aktivované do 12mm. Několik ml výpotku v pravé jámě.",
+    "srovnání": "Ve srovnání s min. vyš. lehce ubylo výpotku, nález na střevě bez podstat. změn."
+  },
+  "léčba": {
+    "výživa": "exkluzivní enterální výživa Modulen 2400 ml/24 hod rozděleno do min 6 dávek (od 4.8.2014, týden 0)",
+    "léky": [
+      {
+        "název": "Imuran",
+        "dávkování": "1x 1,5 tbl á 50 mg",
+        "mg_per_kg": "1,9 mg/kg",
+        "od": "13.7.2013"
+      },
+      {
+        "název": "Aerius",
+        "dávkování": "1 tbl"
+      }
+    ]
+  },
+  "resumé": "Výsledky vyšetření vykazují uspokojivé laboratoní paramtery, klinicky stav je objektivně zlepšen, hladina kalprotektinu ve stolici je však stále nad 1800 mg/kg a ultrasonografie GIT je bez podstatné změny, aktuálně je stav možno hodnotit zatím jako ne zcela dostatečnou odpověd při zavedení EEN",
+  "doporučení": {
+    "kontrola_týden_4": "1.9.2014 v 10:15 s sebou vzorek stolice (FW, KO+dif, CRP, alb, prealb., kalprotectin)",
+    "kontrola_týden_8": "29.9.2014 v 10:15 + USG GIT s sebou vzorek stolice (FW, KO+dif, CRP, alb, prealb., kalprotectin, Fe, trf, ferit, antropometrie)",
+    "monitorování_azathioprin": "pravidelná kontrola KO+dif á 2 týdny do 10. týdne, dále min. 1x za 2 měsíce; jaterní testy, amylázy a kreatin min 3x ročně",
+    "antropometrie": "3x ročně",
+    "očkování": "během terapie a nejméně 3 měsíce po ukončení nesmí být očkování živými atenuovanými vakcínami",
+    "infekce": "chránit se před infekty; v případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů",
+    "praktický_lékař": "S touto zprávou kontrola u registrujícího dětského lékaře do 3 dnů"
+  }
+}

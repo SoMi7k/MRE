@@ -1,0 +1,70 @@
+# crohn_2.csv - https://mre.zcu.cz/id/56afd97a0e3547572eb3bed86f6ff26bf909fd5c
+14r.
+hmotnost 38,7 kg (+2 kg),  výška 148,5 cm,  BMI 17,5 kg/m2,  BSA 1,275 m2,  
+Hospitalizace ve Fakultní nemocnici Plzeň: 
+04.08.2014 -  5.8.2014 Dětská klinika
+Hospitalizační aktuální diagnózy: 
+Jiná Crohnova nemoc - dg 7/2013, antrum, bulbus, terminální ileum, sigma (A1b, L1 L4a, B1, G1) - akutní exacerbace
+            ASCA pozit, ANCA neg, pankreas pozit
+            TPMT neg *1/*1, TNFa neg G/G
+Další chronické a anamnestické diagnózy:  
+Jiný nedostatek předpokládaného normálního fyziologického vývoje - porucha růstu při Crohnově chorobě
+Nynější onemocnění a průběh hospitalizace: 
+14,5 letý pacient s akutní exacerbací Crohnovy choroby se sekundární poruchou růstu přijat pro akutní exacerbaci. Laboratorně 
+elevace zánětlivých parametů, mikrocytární anemie. Sonograficky potvrzeny zánětlivé změny 25 cm distálního ilea. Nasogastrická 
+sonda zavedena bez komplikací, enterální výživu toleruje. V celkově stabilizovaném stavu propouštíme do ambulantní péče. 
+Doporučení:
+- strava: exkluzivní enterální výživa Modulen 2400 ml/24 hod rozděleno do min 6 dávek (od 4.8.2014, týden 0) 
+  - příprava: Pro požadované množství 250 ml - 210 ml vody a 6 odměrek (= 50 g) prášku
+                 pro požadované množství 1000 ml - 850 ml vody a 24 odměrek (= 200 g) prášku
+                 při netoleranci objemu lze ev. zkoncentrovat (max. o polovinu)
+- kontrola v týdnu 4 - 1.9.2014 v 10:15 s sebou vzorek stolice (FW, KO+dif, CRP, alb, prealb., kalprotectin)
+- kontrola v týdnu 8 - 29.9.2014 v 10:15 + USG GIT s sebou vzorek stolice (FW, KO+dif, CRP, alb, prealb., kalprotectin, Fe, trf, ferit, antropometrie) 
+- léky:
+* Imuran 1x 1,5 tbl á 50 mg (1,9 mg/kg, od 13.7.2013)
+* Aerius 1 tbl - jak zavedeno
+- kontrola praktickým lékařem pro děti a dorost s kopií propouštěcí zprávy do 2 dnů od propuštění
+
+subj:
+- dnes plánovaná kontrola v týdnu 2 EEN od 4.8. 2014 po hospitalizaci 8/2014, při nedostatečné odpovědi ev. switch na terapii steroidem
+- EEN výživu snáší dobře, stolice kašovité, bez příměsi, 1x denně
+- bolesti břicha nemá, afebrilní, klouby nebolí,
+- subjektivně se cítí lépe, již není tak unavený, má chut k jídlu,
+
+obj: 
+zavedena sonda do pravé nostrily, celkový stav dobrý, růžový, přibyl + 2 kg, břichoměkké, pigmentované névy na břiše, játra, slezina nezv, zatím bez sek. pohlav. znaků. kůže čistá
+
+dop:
+- kontrola v týdnu 4 - 1.9.2014 v 10:15 s sebou vzorek stolice (FW, KO+dif, CRP, alb, prealb., kalprotectin)
+- kontrola v týdnu 8 - 29.9.2014 v 10:15 + USG GIT s sebou vzorek stolice (FW, KO+dif, CRP, alb, prealb., kalprotectin, Fe, trf, ferit, antropometrie) 
+- léky:
+* Imuran 1x 1,5 tbl á 50 mg (1,9 mg/kg, od 13.7.2013)
+* Aerius 1 tbl - jak zavedeno
+
+
+19.8.2014 07:00 - 11:00
+FW: 2/
+Krevní obraz:   B-Le:  7,40   B-Ery:  5,22   B-Trombo:  441   B-Hb:  125   B-HTK:  0,386   B-Obj ery.:  74   B-Hb ery:  24,0   B-Hb konc:  325   B-Seg:  0,547   B-Ly:  0,246   B-Eo:  0,102   B-Ba:  0,002   B-Mo:  0,103   B-Seg - abs:  4,00   B-Ly - abs:  1,80   B-Eo - abs:  0,80   B-Ba - abs:  0,00   B-Mo - abs.:  0,80   B-Erytr.křivka:  18,3
+Biochemie:   S-CRP:  7   S-Albumin:  39,6
+Stolice:   K-Kalprotektin:  >1800
+
+USG GIT 19.8. 2014SONO GIT
+významná infiltrace distálního ilea v délce cca 25cm, šíře stěny až 7mm se zvýšenou vaskularizací, lehce prosáklé bezprostřední okolí střevní stěny. Uzliny zmnožené a aktivované do 12mm. Několik ml výpotku v pravé jámě.
+Ve srovnání s min. vyš. lehce ubylo výpotku, nález na střevě bez podstat. změn.
+
+RE
+Výsledky vyšetření vykazují uspokojivé laboratoní paramtery, klinicky stav je objektivně zlepšen, hladina kalprotektinu ve stolici je však stále nad 1800 mg/kg a ultrasonografie GIT je bez podstatné změny, aktuálně je stav možno hodnotit zatím jako ne zcela dostatečnou (viz doporučení výše) odpověd při zavedení EEN, dále dle výsledků vyšetření v příslušných standarních termínech  kontrol EEN a klinického stavu. 
+- kontrola v týdnu 4 - 1.9.2014 v 10:15 s sebou vzorek stolice (FW, KO+dif, CRP, alb, prealb., kalprotectin)
+- kontrola v týdnu 8 - 29.9.2014 v 10:15 + USG GIT s sebou vzorek stolice (FW, KO+dif, CRP, alb, prealb., kalprotectin, Fe, trf, ferit, antropometrie) 
+- léky:
+* Imuran 1x 1,5 tbl á 50 mg (1,9 mg/kg, od 13.7.2013)
+* Aerius 1 tbl - jak zavedeno
+
+ vzhledem k imunosupresi azathioprimem nutná pravidelná kontrola KO+dif á 2 týdny do 10. týdne, dále min. 1x za 2 měsíce (k monitoraci ev. nežádoucích účinků - leukopenie, útlum kostní dřeně), jaterní testy, amylázy a kreatin min 3x do ročně. 
+- kontrola antropometrických parametrů 3x ročně.
+- během terapie a v období nejméně 3 měsíců po jejím ukončení nesmí být provedeno očkování živými atenuovanými vakcínami
+- chránit se před infekty
+- v případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů
+
+
+S touto zprávou kontrola u registrujícícho dětského lékaře do 3 dnů.

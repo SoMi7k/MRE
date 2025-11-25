@@ -1,0 +1,204 @@
+{
+  "zdrojovy_soubor": "crohn_2.csv",
+  "identifikator": "https://mre.zcu.cz/id/56afd97a0e3547572eb3bed86f6ff26bf909fd5c",
+  "vek_pacienta": "14r.",
+  "antropometrie": {
+    "hmotnost": {
+      "hodnota": 38.7,
+      "jednotka": "kg",
+      "zmena": "+2 kg"
+    },
+    "vyska": {
+      "hodnota": 148.5,
+      "jednotka": "cm"
+    },
+    "BMI": {
+      "hodnota": 17.5,
+      "jednotka": "kg/m2"
+    },
+    "BSA": {
+      "hodnota": 1.275,
+      "jednotka": "m2"
+    }
+  },
+  "hospitalizace": {
+    "nemocnice": "Fakultní nemocnici Plzeň",
+    "datum_prijeti": "04.08.2014",
+    "datum_propusteni": "5.8.2014",
+    "oddeleni": "Dětská klinika",
+    "hospitalizacni_aktualni_diagnozy": [
+      {
+        "nazev": "Jiná Crohnova nemoc",
+        "diagnostika": "dg 7/2013",
+        "lokalizace": "antrum, bulbus, terminální ileum, sigma",
+        "klasifikace": "A1b, L1 L4a, B1, G1",
+        "stav": "akutní exacerbace",
+        "markery": {
+          "ASCA": "pozit",
+          "ANCA": "neg",
+          "pankreas": "pozit",
+          "TPMT": "neg *1/*1",
+          "TNFa": "neg G/G"
+        }
+      }
+    ],
+    "dalsi_chronicke_a_anamnésticke_diagnozy": [
+      "Jiný nedostatek předpokládaného normálního fyziologického vývoje - porucha růstu při Crohnově chorobě"
+    ],
+    "nynějsi_onemocnění_a_prubeh": "14,5 letý pacient s akutní exacerbací Crohnovy choroby se sekundární poruchou růstu přijat pro akutní exacerbaci. Laboratorně elevace zánětlivých parametů, mikrocytární anemie. Sonograficky potvrzeny zánětlivé změny 25 cm distálního ilea. Nasogastrická sonda zavedena bez komplikací, enterální výživu toleruje. V celkově stabilizovaném stavu propouštíme do ambulantní péče.",
+    "doporuceni_pri_propusteni": {
+      "strava": {
+        "typ": "exkluzivní enterální výživa",
+        "preparat": "Modulen",
+        "objem": "2400 ml/24 hod",
+        "rozdeleni": "do min 6 dávek",
+        "zahajeni": "od 4.8.2014, týden 0",
+        "priprava": [
+          "Pro požadované množství 250 ml - 210 ml vody a 6 odměrek (= 50 g) prášku",
+          "pro požadované množství 1000 ml - 850 ml vody a 24 odměrek (= 200 g) prášku",
+          "při netoleranci objemu lze ev. zkoncentrovat (max. o polovinu)"
+        ]
+      },
+      "kontroly": [
+        {
+          "tyden": 4,
+          "datum": "1.9.2014",
+          "cas": "10:15",
+          "s_sebou": "vzorek stolice",
+          "vysetreni": ["FW", "KO+dif", "CRP", "alb", "prealb.", "kalprotectin"]
+        },
+        {
+          "tyden": 8,
+          "datum": "29.9.2014",
+          "cas": "10:15",
+          "dodatecne": "USG GIT",
+          "s_sebou": "vzorek stolice",
+          "vysetreni": ["FW", "KO+dif", "CRP", "alb", "prealb.", "kalprotectin", "Fe", "trf", "ferit", "antropometrie"]
+        }
+      ],
+      "leky": [
+        {
+          "nazev": "Imuran",
+          "davkovani": "1x 1,5 tbl á 50 mg",
+          "davka_na_kg": "1,9 mg/kg",
+          "od": "13.7.2013"
+        },
+        {
+          "nazev": "Aerius",
+          "davkovani": "1 tbl",
+          "poznamka": "jak zavedeno"
+        }
+      ],
+      "kontrola_praktickym_lekarem": "s kopií propouštěcí zprávy do 2 dnů od propuštění"
+    }
+  },
+  "ambulantni_kontrola": {
+    "datum_kontroly": "19.8.2014",
+    "subjektivni_nález": {
+      "typ_kontroly": "plánovaná kontrola v týdnu 2 EEN od 4.8. 2014 po hospitalizaci 8/2014",
+      "poznamka": "při nedostatečné odpovědi ev. switch na terapii steroidem",
+      "vyziva": "EEN výživu snáší dobře",
+      "stolice": {
+        "konzistence": "kašovité",
+        "primesi": "bez příměsi",
+        "frekvence": "1x denně"
+      },
+      "bolesti_bricha": "nemá",
+      "teplota": "afebrilní",
+      "klouby": "nebolí",
+      "celkovy_stav": "subjektivně se cítí lépe, již není tak unavený, má chut k jídlu"
+    },
+    "objektivni_nález": {
+      "sonda": "zavedena do pravé nostrily",
+      "celkovy_stav": "dobrý",
+      "barva": "růžový",
+      "hmotnost": "přibyl + 2 kg",
+      "bricho": "měkké",
+      "kuze": "pigmentované névy na břiše, čistá",
+      "jatra": "nezv",
+      "slezina": "nezv",
+      "sekundarni_pohlavni_znaky": "zatím bez"
+    }
+  },
+  "laboratorni_vysledky": {
+    "datum": "19.8.2014",
+    "cas": "07:00 - 11:00",
+    "sedimentace": {
+      "FW": "2/"
+    },
+    "krevni_obraz": {
+      "B-Le": 7.40,
+      "B-Ery": 5.22,
+      "B-Trombo": 441,
+      "B-Hb": 125,
+      "B-HTK": 0.386,
+      "B-Obj_ery": 74,
+      "B-Hb_ery": 24.0,
+      "B-Hb_konc": 325,
+      "B-Seg": 0.547,
+      "B-Ly": 0.246,
+      "B-Eo": 0.102,
+      "B-Ba": 0.002,
+      "B-Mo": 0.103,
+      "B-Seg_abs": 4.00,
+      "B-Ly_abs": 1.80,
+      "B-Eo_abs": 0.80,
+      "B-Ba_abs": 0.00,
+      "B-Mo_abs": 0.80,
+      "B-Erytr_krivka": 18.3
+    },
+    "biochemie": {
+      "S-CRP": 7,
+      "S-Albumin": 39.6
+    },
+    "stolice": {
+      "K-Kalprotektin": ">1800"
+    }
+  },
+  "zobrazovaci_vysetreni": {
+    "typ": "USG GIT",
+    "datum": "19.8.2014",
+    "nazev": "SONO GIT",
+    "nález": "významná infiltrace distálního ilea v délce cca 25cm, šíře stěny až 7mm se zvýšenou vaskularizací, lehce prosáklé bezprostřední okolí střevní stěny. Uzliny zmnožené a aktivované do 12mm. Několik ml výpotku v pravé jámě.",
+    "srovnani": "Ve srovnání s min. vyš. lehce ubylo výpotku, nález na střevě bez podstat. změn."
+  },
+  "zhodnoceni": "Výsledky vyšetření vykazují uspokojivé laboratoní paramtery, klinicky stav je objektivně zlepšen, hladina kalprotektinu ve stolici je však stále nad 1800 mg/kg a ultrasonografie GIT je bez podstatné změny, aktuálně je stav možno hodnotit zatím jako ne zcela dostatečnou (viz doporučení výše) odpověd při zavedení EEN, dále dle výsledků vyšetření v příslušných standarních termínech kontrol EEN a klinického stavu.",
+  "doporuceni": {
+    "kontroly": [
+      {
+        "tyden": 4,
+        "datum": "1.9.2014",
+        "cas": "10:15",
+        "s_sebou": "vzorek stolice",
+        "vysetreni": ["FW", "KO+dif", "CRP", "alb", "prealb.", "kalprotectin"]
+      },
+      {
+        "tyden": 8,
+        "datum": "29.9.2014",
+        "cas": "10:15",
+        "dodatecne": "USG GIT",
+        "s_sebou": "vzorek stolice",
+        "vysetreni": ["FW", "KO+dif", "CRP", "alb", "prealb.", "kalprotectin", "Fe", "trf", "ferit", "antropometrie"]
+      }
+    ],
+    "leky": [
+      {
+        "nazev": "Imuran",
+        "davkovani": "1x 1,5 tbl á 50 mg",
+        "davka_na_kg": "1,9 mg/kg",
+        "od": "13.7.2013"
+      },
+      {
+        "nazev": "Aerius",
+        "davkovani": "1 tbl",
+        "poznamka": "jak zavedeno"
+      }
+    ],
+    "monitoring_imunosuprese": "vzhledem k imunosupresi azathioprimem nutná pravidelná kontrola KO+dif á 2 týdny do 10. týdne, dále min. 1x za 2 měsíce (k monitoraci ev. nežádoucích účinků - leukopenie, útlum kostní dřeně), jaterní testy, amylázy a kreatin min 3x do ročně.",
+    "antropometrie": "kontrola antropometrických parametrů 3x ročně",
+    "ockovani": "během terapie a v období nejméně 3 měsíců po jejím ukončení nesmí být provedeno očkování živými atenuovanými vakcínami",
+    "prevence_infektu": "chránit se před infekty",
+    "neštovice_oparu": "v případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů",
+    "kontrola_detskym_lekarem": "S touto zprávou kontrola u registrujícícho dětského lékaře do 3 dnů."
+  }
+}

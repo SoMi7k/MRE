@@ -1,31 +1,64 @@
-### Konvence pojmenování výstupních souborů
+# Zaznamenané výsledky
 
-**Formát:** `<llm>_<datum>_<report>_<task>.md`
+**Prompt**
+- obecný / stručný
+- krátký / dlouhý
 
-**Komponenty:**
-- `<llm>` - název použitého LLM modelu (např. `claude`, `gpt4`, `gemini`)
-- `<datum>` - datum ve formátu `YYYY-MM-DD` nebo `DD-MM-YY`
-- `<report>` - identifikátor lékařské zprávy (např. `r01`)
-- `<task>` - identifikátor úlohy/instrukce (např. `t02`)
+**Lékařská zpráva**
+- Zaměření - Crohn / Mrtvice
+- Téma - Návštěva lékaře, s. kl., ...
+- dlouhý / krátký
 
-**Příklady:**
-- `Claude_2024-10-26_r01_t02.md`
-- `GPT_2024-10-26_r03_t01.md`
+## Popis testovacích scénářů
+1) Základní měření
+    Prompt - obecný, krátký, český, stejný
+    Texty - různě dlouhé (5), Crohn - Návštěva lékaře
 
-**Pravidla:**
-- Datum předchází identifikátorům pro lepší chronologické řazení
-- Používejte konzistentní formát data napříč všemi soubory
-- Čísla reportů a tasků s vedoucími nulami pro správné řazení
+### Claude
 
-### Poznámky k testování
-Při anglické verzi zadání jsou výsledky v angličtině pouze u 2 LLM - Claude, Mistral
+Klíčové slova anglicky. (1/1)
+Nepatrná změna (361/375 - 2)
 
+### Gemini
 
-### Table of LLM
-| Modely   | Počet slov | Přesnost | Smysluplnost entit |  |
-|--------- |---|---|---|---|
-| ChatGPT  |   |   |   |   |
-| Claude   |   |   |   |   |
-| Gemini   |   |   |   |   |
-| Mistral  |   |   |   |   |
-| Llama    |   |   |   |   | 
+Klíčové slova česky. (0/1)
+Změna nepatrná. (291/310 - 2)
+
+### GPT
+
+Klíčové slova česky. (0/1)
+Kratší prompt má daleko více tokenů. (328/269 - 2)
+
+### Grok
+
+Klíčové slova česky. (0/1)
+Patrná změna (175/207 - 2)
+
+### Mistral
+
+Klíčové slova anglicky. (1/1)
+Beze změny. (290/288 - 2)
+
+### Obecné poznámky
+
+Při delším promptu se více zachovávají celé věty. Při kratších se dělení vět více viditelné.
+Rozdíl (Např. Mistral r02.t03/t06):
+    "objektivni_nalez": {
+        "popis": [
+        "zavedena sonda do pravé nostrily",
+        "celkový stav dobrý, růžový, přibyl +2 kg",
+        "břicho měkké",
+        "pigmentované névy na břiše",
+        "játra, slezina nezvětšené",
+        "zatím bez sekundárních pohlavních znaků",
+        "kůže čistá"
+        ]
+    },
+
+    "objektivni_nalez": {
+        "datum": "19.08.2014",
+        "popis": [
+        "Zavedena sonda do pravé nostrily, celkový stav dobrý, růžový, přibyl +2 kg.",
+        "Břicho měkké, pigmentované névy na břiše, játra a slezina nezvětšené, zatím bez sekundárních pohlavních znaků, kůže čistá."
+        ]
+    },
