@@ -1,18 +1,30 @@
 import re
 
 DATA_ROOT = "data"
-CSV_DATA_ROOT = "data\\csv"
-JSON_DATA_ROOT = "data\\json"
+CSV_DATA_ROOT = "data/csv"
+JSON_DATA_ROOT = "data/json"
+TXT_DATA_ROOT = "data/txt"
 
-PROMPT_ROOT = "data\\prompts"
-REPORTS_ROOT = "data\\medical_reports"
-TASKS_ROOT = "data\\tasks"
+PROMPT_ROOT = "data/prompts"
+REPORTS_ROOT = "data/medical_reports"
+TASKS_ROOT = "data/tasks"
 
 RESULT_ROOT = "results"
-RESULT_JSON_ROOT = "results\\json"
-RESULT_MD_ROOT = "results\\md"
+RESULT_JSON_ROOT = "results/json"
+RESULT_MD_ROOT = "results/md"
+RESULT_TXT = "results/txt"
 
 REGEX = re.compile(r'\w|[ěščřžýáíéúůó]|[+-]')
+
+ANATOMY = "data/txt/Anatomicke_nazvy.txt"
+DIAGNOSIS = "data/txt/Diagnozy.txt"
+KEY_WORDS = "data/txt/Klicove_slova.txt"
+KPPS = "data/txt/KPPS.txt"
+LATIN = "data/txt/Latinske_nazvy.txt"
+MEDICAMENTS = "data/txt/Leky.txt"
+MICROBIOLOGY = "data/txt/Mikrobilogie.txt"
+PROCEDURES = "data/txt/Procedury_Terapie.txt"
+SECTION = "data/txt/Sekce.txt"
 
 TITLES_CROHN = [
     "Sono GIT",

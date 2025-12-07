@@ -1,0 +1,56 @@
+# 004 - crohn_2.csv -
+13 roků
+H: 35.8 kg ( - 2 kg) 155.5 cm
+GIT DK 18.7. 2012. 
+Lab.: FW, KO+dif, CRP, alb
+18.7.2012 10:38
+FW: 40/71
+Krevní obraz:   B-Le:  13,70   B-Ery:  4,75   B-Hb:  93   B-HTK:  0,297   B-Obj ery.:  63   B-Hb ery:  19,6   B-Hb konc:  314   B-Trombo:  707   B-Seg:  0,784   B-Ly:  0,112   B-Eo:  0,023   B-Ba:  0,010   B-Mo:  0,072   B-Seg - abs:  10,70   B-Ly - abs:  1,50   B-Eo - abs:  0,30   B-Ba - abs:  0,10   B-Mo - abs.:  1,00   B-Erytr.křivka:  19,9
+Biochemie:   S-CRP:  79   S-Albumin:  35,1
+Dg.: 
+K509	Crohnova choroba - (c. descendens, transverzum, cékoascendens) 
+            ASCA pozit., pankreas pozit., pohárk. bb. pozit., ANCAc+p neg.
+            TNF-a neg (G/G), TPMT neg (*1/*1), PAI-1 heterozygot (4G/5G)
+            varicella +
+K602	Kožní výrůstky perianálně a fisury při komisurách
+R932	Solitární ložisko 34x20x24 mm ve větvení v. portae v pravém jaterním laloku - dle MR z r. 2008 v.s. adenom 
+R509	Subfebrilie v anamnéze
+Z871	Poruchy polykání a příjmu potravy v anamnéze
+Re.: laboratorně trvá zhoršení zánětlivé aktivity, klinicky stacionární, trvá úbytek hmotnosti, PCDAI 22,5 b (střední aktivita)
+Dop.: - strava bezebytková, Resource 1-2x denně
+- léky: 
+* Salofalk 2x 2 tbl á 500 mg (45 mg/kg/den), Ac Folicum 1 tbl týdně
+* Salofalk klysma na noc - od 6.6.2012, tz týden 6 do 8 týdnů 
+* Imuran 1,5 tbl á 50 mg 1x denně (2 mg/kg/den) - od 6.6.2012, tz týden 6
+- kontrola v GE poradně 16.8.2012 v 10:00 (lab, kontrolní USG) 
+- vzhledem k imunosupresi azathioprimem nutná pravidelná kontrola KO+dif á 2 týdny do 10. týdne, dále min. 1x za 2 měsíce (k monitoraci ev. nežádoucích účinků - leukopenie, útlum kostní dřeně), jaterní testy, amylázy a kreatin min 3x do ročně. 
+- kontrola antropometrických parametrů 3x ročně.
+- během terapie a v období nejméně 3 měsíců po jejím ukončení nesmí být provedeno očkování živými atenuovanými vakcínami
+- chránit se před infekty
+Rozvaha: 
+- Modulen?
+- IFX 
+subj:
+- poslední kontrola v GIT DK 16.7. 2012, od 19.7. 2012 v Lázních KV Mánes, dosud přihlášený, zde náběr laboratoře 1.8. 2012: SE se nezdařila, CRP 85, L 9.24, Hgb 84, tromb 551 000. 
+- subjektivně se cítí dobře, unavený, chut k jídlu střídavě, v Lázních dieta, je vybíravý, pokud nemá chut k jídlu, tak nejí ani v Lázních, nemá žádnou doplnkovou nemá, občas Nutrdirinky, na soboty a neděle byl doma,
+- stolice 1-2x denně s příměsí hlenu, močí normálně, bolesti břicha nemá,
+- po prázndninách bude chodit do jiné školy, 7, třída, Salofalk klysma na noc skončeno, osoatné léky snáší dobře:
+Salofalk 2x 2 tbl á 500 mg (45 mg/kg/den), Ac Folicum 1 tbl týdně
+* Imuran 1,5 tbl á 50 mg 1x denně (2 mg/kg/den) - od 6.6.2012, tz týden 9. týden.
+- prodělal procedury v Lázních, 
+- doma málo jí, schovovává stravu různě, domů nosí svačinu, zahazuje, Nutridrinky také odmítá,
+- matka se sanží zajstit nutrici, špatně dítě spolupracuje,
+
+obj
+ubyla - 2 kg, bledší, oběhově a ventilačně stabilní, sliznice klidní, dutina ustní čistá, afty nemá, klouby klidné, břicho měkké prohmatné bez resistence, játra slezina nezv, okolí anu klidné, kožní výrustky na 12 na zádech, píštěle nejsou, sekrece O.
+
+dop:
+Aktuálně je nutriční příjem a zajištění nutričního stavu zcela nedostatečne,  dále chronicky aktivní forma MC, z hlediska teraputického dále pokračovat v dosavdní léčbě a ev dle dalšího klinického vývoje již uvažovat o biologické léčbě Remicade.
+Z hlediska nutričního domluveno s matkou týdenní jídelníček, zapisovat, přinést k další kontrole - 16.8. 2012 a revize jídelníčku +  
+-  doplnková enterální nutrice, sipping, Nutridinky, Resource, je nezbytné zajistit nutrici optimální po stránce kvalitativní i kvantiaitivní.
+Dle dalšího vývoje eventuálně exkluzivní enterální Nutrice Modulen dlem obecných standardů.
+Kontrola v GIT DK 16.8. 2012 + USG GIT v 9. 45 hodin + kontrolní KO + základní laboratoř. Hospitalizace dle dalšího vývoje
+Doporučujeme ukončit lázenský pobyt, dětská léčebná Mánes KV.
+Vhodná psychologická konsultace.
+
+S touto zprávou kontrola u PLDD do 3 dnů.

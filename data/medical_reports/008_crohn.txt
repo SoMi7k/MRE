@@ -1,0 +1,65 @@
+# 008 - crohn_2.csv - 
+Kontrola, poslední 16.10.2013, t.č. 14 a 3/4 roku.
+Subjektivně se cítí dobře. 
+Bolesti břicha denně, v levém podžebří a v pravém jámě kyčelní. Musí si lehnout, pobolívá celý den - musí usnout. Tyto větší potíže 2-3x do týdne. Současně bolesti hlavy časté frontálně a parietálně. Při atace světloplachá. 
+Bolesti bederní oblasti trvá, kolena bolí občas, spíše při změně počasí. 
+Stolice 2-3x denně, formovaná, bez patologické příměsi, v noci 0, tenesmy 0. 
+Omezení aktivit pro bolest břicha. 
+Chodí normálně do školy
+Kůže bez exantému, akne. 
+Menses pravidelně, bez potíží. 
+Strava - chuť k jídlu střídavá. Občas nauzea a nechutenství, vše jí smrdí. 
+- Léky: 
+* Imuran 2-0-0 tbl á 50 mg (2,1 mg/kg, od 20.3.2013)
+* Salofalk 2-2-2 tbl á 500 mg p.o. (66 mg/kg)
+* Vigantol 2 gtt p.o. denně
+* Prednison vysazen 7/2013
+
+Obj.: hmotnost 46 (-1) kg,  výška 160 (+1) cm,  BMI 18 kg/m2,  BSA 1,449 m2,  
+astenická, břicho v úrovni, měkké, palpační bolestivot v pravém podžebří, v obou podbřišcích více vpravo, palpační bolestivost beder (oblast psoatů). Bolestivost břicha při rotaci pánve více při rotaci doleva - předpokládám srůsty. Játra a slezina nezvětšeny, rezistenci spolehlivě nehmatám, kolena bez otoků. Akne v obličeji 
+
+Lab.: FW, KO+dif, CRP, LPS, alb, 25-vit D, ALT, AST, myoglobin, CK, LD, kalprotektin, HLA-B 27, RF, ANA, IMG, ASLO
+15.1.2014 09:15 - 10:36
+FW: 12/hod
+Krevní obraz:   B-Le:  5,10   B-Ery:  4,48   B-Trombo:  163   B-Hb:  118   B-HTK:  0,372   B-Obj ery.:  83   B-Hb ery:  26,5   B-Hb konc:  318   B-Seg:  0,710   B-Ly:  0,215   B-Eo:  0,005   B-Ba:  0,003   B-Mo:  0,067   B-Seg - abs:  3,60   B-Ly - abs:  1,10   B-Eo - abs:  0,00   B-Ba - abs:  0,00   B-Mo - abs.:  0,30   B-Erytr.křivka:  17,1
+Biochemie:   S-CRP:  1   S-ALT:  0,23   S-AST:  0,29   S-LPS:  0,69   S-LD:  1,90   S-CK:  0,69   S-Myoglobin:  32   S-Albumin:  50,1
+Imunologie:   S-IgG:  10,10   S-IgA:  1,76   S-IgM:  1,73   S-IgE:  21,9   S-ASLO:  59   S-ANA:  sl.pozit (1:100)   S-RF latex:  <9,9
+Hormony:   S-25 OH Vit D:  29,8
+HLA-B 27 - negativní
+
+kalprotektin - nedodán
+
+Dg.: 
+K508	Jiná Crohnova nemoc - ileokoloická forma, duodenum, dg 2/2013, přechodně stenóza IC obl. A1b L3L4a B2 G0
+            ASCA pozit, ANCA neg, ASMA neg.
+            genetika TMPT *1/*1, TNF-a neg (G/G)
+            EBV, CMV, VZV, HSV - anamn. titry
+            Migréna v.s., s abdominální symptomatologií. 
+
+Re.: bolesti břicha nyní v souvislosti s migrenózními bolestmi hlavy. Občas ataky čichového dyskomfortu (vše v okolí smrdí). 
+       bolestí kloubů, beder, v souvislosti s počasím 
+       bolesti v podbřišcích a v levém hypochondriu. Laboratorní vyšetření vykazuje nízké zánětlivé parametry, deficit vit D
+
+Dop.: 
+- nyní prosím o neurologické vyšetření k vyloučení nitrolebního procesu. Anamnesticky migrenózní bolesti hlavy, současně bolesti břicha. Ataky "čichového dyskomfortu" (vše v okolí smrdí. Děkuji 
+- strava bezezbytková 
+- Léky: 
+* Imuran 2-0-0 tbl á 50 mg (2,1 mg/kg, od 20.3.2013)
+* Salofalk 2-2-2 tbl á 500 mg p.o. (66 mg/kg)
+* Vigantol 2 gtt p.o. denně
+- kontrola v gastroenterologické poradně 7.4.2014 v 10:30 hod + USG 7.4.2014 v 10 hod (břicha včetně GIT a psoatů), s sebou vzorek stolice k vyšetření kalprotectinu. 
+- Při trvání potíží ev. MR enterografie, otázkou je stále chirurgické řešení,ev. rozrušení předpokládaných srůstů
+- při zhoršení stavu kontrola dříve 
+
+Kopii této zprávy odevzdejte svému dětskému lékaři.
+
+V době návštěvy je indikovaná preskripce léku s preskripčním omezením.
+
+- vzhledem k imunosupresi azathioprimem nutná pravidelná kontrola KO+dif min. 1x za 2 měsíce (k monitoraci ev. nežádoucích účinků - leukopenie, útlum kostní dřeně), jaterní testy, amylázy a kreatin min 3x do ročně. 
+- během terapie a v období nejméně 3 měsíců po jejím ukončení nesmí být provedeno očkování živými atenuovanými vakcínami
+- chránit se před infekty
+- v případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů
+- vyvarovat se otěhotnění 
+
+Informace o zdravotním stavu byla podána.
+Údaje uvedené ve formuláři Souhlas s poskytováním informací o zdravotním stavu zůstávají beze změny.

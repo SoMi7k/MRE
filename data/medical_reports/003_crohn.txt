@@ -1,4 +1,4 @@
-# crohn_2.csv - https://mre.zcu.cz/id/850edab96ef65ad24f751db931917024c832fa73
+# 003 - crohn_2.csv - https://mre.zcu.cz/id/850edab96ef65ad24f751db931917024c832fa73
 Výsledky laboratorních vyšetření vykazují nízké zánětlivé parametry.
 Dopor.:  Prednison 5 mg ráno, ostataní terapie beze změny - Pentasa 3x2, Ac. fol, Kreon, Ca, Ac folicum, KCL, Pyridioxin, Actiferin.Lactobacil.
 

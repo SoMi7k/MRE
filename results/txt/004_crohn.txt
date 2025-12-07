@@ -1,0 +1,42 @@
+
+    Výsledná analýza původního textu
+
+    --- Metriky sekcí ---
+    Sekce: []
+    Počet sekcí: 0
+    Průměrný počet znaků na sekci: 0.00
+    Průměrný počet vět na sekci: 0.00
+
+    --- Slovní metriky ---
+    Anatomické názvy: ['c', 'a', 'a', 'v', 'v', 'z', 'v', 'v', 'a', 'v', 'na', 'v', 'v', 'k', 'k', 'a', 'a', 'v', 'v', 'v', 'k', 'v', 'k', 'v', 'na', 'a', 'na', 'v', 'a', 'na', 'na', 'o', 'a', 'z', 'v', 'a', 'o', 'z', 'k', 'a', 'i', 'v', 'v']
+    Počet anatomických slov: 43
+
+    Diagnózy: ['a', 'g', 'g', 'a', 'z', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'z', 'a', 'o', 'z', 'a', 'i']
+    Počet diagnóz: 18
+
+    Klíčová slova: ['s', 's', 'c', 'a', 'a', 've', 'v', 'v', 'v', 's', 'v', 'a', 'v', 'v', 'v', 'a', 'a', 'v', 'v', 'v', 'l', 'v', 'v', 'a', 's', 'v', 'a', 'o', 'a', 'v', 'a', 'o', 's', 'a', 'i', 'v', 'v', 's']
+    Počet klíčových slov: 38
+
+    Klinické příznaky a popisy stavů: ['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+    Počet slov KPPS: 10
+
+    Latinské názvy: ['s', 's', 'a', 'a', 'v', 'v', 'z', 'v', 's', 'v', 'a', 'v', 'na', 'v', 'v', 'k', 'k', 'a', 'a', 'v', 'v', 'v', 'k', 'v', 'k', 'v', 'na', 'a', 's', 'na', 'v', 'a', 'na', 'na', 'a', 'z', 'v', 'a', 'z', 's', 'k', 'a', 'i', 'v', 'v', 's']
+    Počet latinských názvů: 46
+
+    Léky: ['a', 'a', 'a', 'k', 'k', 'a', 'a', 'k', 'k', 'a', 'a', 'a', 'a', 'k', 'a']
+    Počet léků: 15
+
+    Mikrobiologie: ['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'a', 'g', 'g', 'a', 'r', 'a', 'b', 'k', 'k', 'a', 'a', 'l', 'k', 'k', 'a', 'a', 'o', 'a', 'a', 'o', 'k', 'a', 'i']
+    Počet názvů z mikrobiologie: 42
+
+    Procedury a terapie: ['c', 'p', 'a', 'a', 'r', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'o', 'a', 'i', 'u']
+    Počet procedur a terapií: 17
+
+
+    --- Větné metriky ---
+    Počet vět: 52
+    Průměrná délka věty: 74.60
+    Počet znaků: 3983
+    Počet vět mimo sekce: 52
+    Počet znaků mimo sekce: 3983
+    

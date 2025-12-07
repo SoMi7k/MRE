@@ -1,0 +1,59 @@
+# 013 - crohn_2.csv - 
+Pacient s aktivní formou Crohnovy choroby, fistulující forma. Indikován k biologické léčbě - kontraidikována pro alergickou reakci. 
+Nyní přichází k nastavení enterální nutrice. 
+
+Subjektivně se cítí dobře. 
+Stolice 1x denně, v noci 0. Píštěl s mírnou sekrecí, dreny drží. 
+Břicho nebolí. 
+Bolesti kloubů již nejsou.   
+Strava bezezbytková, chuť k jídlu výborná. 
+Kontakt s infkčním onemocněním nebyl. 
+
+Léky: 
+* Remicade od 3.6.2015 do 17.6.2015 - alergická reakce 
+* Imuran 1x2 tbl. á 50 mg (2 mg/kg/den, od 28.5.2012)
+* Claritine 1x1 tbl
+* Letrox 1x 1/2 tbl á 50 ug (ráno nalačno 20-30 minut před snídaní)
+
+Objektivní nález: hmotnost 50 (+0) kg,  výška 174,5 (+0,5) cm,  tlak 119 / 75 mmHg, teplota 36,8 st.C,  tep 95 / min
+Afebrilní, astenický. Vědomí bez kvalitativní či kvantitativní poruchy. Celkový stav není alterován, prokrvení i hydratace sliznic správné. Ventilačně i oběhově stabilní, normotenzní, bez dušnosti. Hlava: mesocefalická, nebolestivá. Oči - spojivky růžové, bez sekrece, skléry bílé. Uši - zvukovody bez sekrece, tlak na tragy nebolestivý. Nos bez sekrece. Dutina ústní čistá, jazyk vlhký bez povlaku, tonzily klidné bez obsahu. Hrdlo klidné. Krk: štítná žláza nehmatná, lymfatické uzliny krční nezvětšeny. Hrudník: bez deformit. Akce srdeční pravidelná, 2 ozvy ohraničené, bez signifikantního šelestu. Dýchání symetrické, sklípkové, bez vedlejších fenoménů. Břicho v niveau, měkké, volně prohmatné, bez známek peritoneálního dráždění, peristaltické zvuky slyšitelné, normální distribuce. Játra k oblouku, slezina nehmatná, Israelli a tapottement negativní. Genitál: zevně bpn. Perianální oblast s drenovanou píštělí a mírnou hnisavou sekrecí. Končetiny bez deformit a otoků, klouby bez omezení hybnosti, periferie prokrvená. Kůže bez patologických eflorescencí, bez známek hemorhagické diatézy. Hydratace v normě. Tonus svalový přiměřený. Meningeální jevy negativní. Neurologický nález bez lateralizace.
+
+Laboratorní vyšetření: 15.6.2015 08:16 - 17.6.2015 10:48
+Sedimentace:   B-FW1:  36   B-FW2:  61
+Krevní obraz:   B-Le:  5,41   B-Ery:  4,08   B-Trombo:  250   B-Hb:  129   B-HTK:  0,378   B-Obj ery.:  93   B-Hb ery:  31,6   B-Hb konc:  341   B-Seg:  0,683   B-Ly:  0,148   B-Eo:  0,017   B-Ba:  0,006   B-Mo:  0,146   B-Seg - abs:  3,70   B-Ly - abs:  0,80   B-Eo - abs:  0,09   B-Ba - abs:  0,03   B-Mo - abs.:  0,79   B-Erytr.křivka:  15,9
+Biochemie:   S-CRP:  7   S-Sodik:  141   S-Draslik:  3,9   S-Chloridy:  106   qS-Cl korig.:  105   S-Močovina:  2,9   S-Kreatinin:  66   S-ALT:  0,23   S-AST:  0,42   S-LPS:  0,34   S-Albumin:  44,5
+
+ab/Infliximab - 2,5
+
+Terapie: 0 
+
+Re: vzhledem k aktivitě onemocnění a nemožnosti biologické léčby je indikována enterální nutrice 
+
+Diagnoza: 
+K508	Jiná Crohnova nemoc - ilekolická lokalizace (cekoascendens, tranversum)
+            ASCA pozit, pnkreas pozit, t. střevo pozit
+            TNFa heterozygot G/A, PAI-1 heterozygot 4G/5G, TPMT *1/*1
+            nežádoucí účinky Humiry (bolest kloubů a sval při vyloučení jiné etiologie), Remicade - celková alergická reakce 
+K604	Konečníková píštěl
+E063	Autoimunitní tyroiditida
+K612	Anorektální absces 5/2015, 7/2012
+
+Doporučení: 
+- léky: enterální výživa 6-7x denně (2000-2500 kcal/den)
+* Imuran 1x2 tbl. á 50 mg (2 mg/kg/den, od 28.5.2012)
+* Claritine 1x1 tbl
+* Letrox 1x 1/2 tbl á 50 ug (ráno nalačno 20-30 minut před snídaní)
+- 15.7.2015 kolem 9:30-10:00 vyšetření v GIT poradně (náběr, kanyla), následeně v 10:30 MR pánve
+- kontrola v proktologické poradně 29.7.2015 v 9:00 hod, při potížích dřív 
+- rodiče poučeni
+
+Vystavené recepty: rep 2x 
+ENSURE PLUS PŘÍCHUŤ VANILKA por sol 27x220ml, počet balení: 2
+ENSURE PLUS PŘÍCHUŤ LESNÍ OVOCE por sol 27x220ml, počet balení: 1
+ENSURE PLUS PŘÍCHUŤ JAHODA por sol 27x220ml, počet balení: 1
+ENSURE PLUS PŘÍCHUŤ ČOKOLÁDA por sol 27x220ml, počet balení: 1
+ENSURE PLUS PŘÍCHUŤ BANÁNOVÁ por sol 27x220ml, počet balení: 1
+ENSURE PLUS FIBER PŘÍCHUŤ MALINA por sol 27x220ml, počet balení: 1
+
+Informace o zdravotním stavu byla podána.
+Údaje uvedené ve formuláři Souhlas s poskytováním informací o zdravotním stavu zůstávají beze změny.

@@ -1,0 +1,66 @@
+# 006 - crohn_2.csv - 
+14r. 47.5 kg(+0,7kg),V-158,5cm
+Hospitalizace: 3 - 2013: Diagnózy: 
+K508	Jiná Crohnova nemoc - ileokoloická forma, duodenum, dg 2/2013, přechodně stenóza IC obl.
+            ASCA pozit, ANCA neg, ASMA neg.
+            genetika nabrána
+            EBV, CMV, VZV, HSV - anamn. titry
+Doporučení: 
+- strava bezezbytková - viz doporučení nutriční terapeutky - edukováni
+- Léky: 
+* Prednison tbl p.o. 30-15-0 mg (1 mg/kg - steroidy od 13.3.2013, t.č. 2 týdny), od 1.4.2013 snižovat dávku o 5 mg/týden (tzn. 30-10-0, 30-5-0, 30-0-0, 25-0-0,...). Po dobu imunosuprese prednisonem podávat adjuvantní terapii (Calcii carbonici 0-0-1 tbl á 500 mg, Vigantol 2 gtt p.o., Ranital 2x1 tb. á 150 mg p.o.). Chránit před infekty, neočkovat živými vakcinami.
+* Imuran 2-0-0 tbl á 50 mg (2,1 mg/kg, od 20.3.2013, týden 1)
+* Salofalk 2-2-2 tbl á 500 mg p.o. (66 mg/kg)
+* Vigantol 2 gtt p.o. denně
+- kontrola v GE poradně 15.4.2013 + USG GIT v 10:45 hod
+- v případě zhoršení stavu kontrola dříve!!! 
+- kontrola praktickým lékařem pro děti a dorost s kopií propouštěcí zprávy do 2 dnů od propuštění
+USG GIT: 15.4.2013. Játra, slezina, žlučník, žlučovody, pankreas a  ledviny  - bez patolog. změn. Moč. měchýř je prázdný, nehodnotitelný.Malé  množství  volné tekutiny v pánvi v Dougl. prostoru - nepravidelná  pruhovitá  kolekce šíře do 15 mm.Při  dnešní kontrole  je šíře  stěny dist.  kličky ilea  je dnes šíře kolem 4,4-5,2 mm, postižení  je v délce cca 20-30 cm. Při prázdném m.  měchýři je oblast pánve špatně  přehledná.
+Bauh.  chopeň není  významně prosáklá, stěna céka je dnes šíře kolem 3,2-3,6 mm. Před postiženým úsekem  bez známek prestenotické dilatace Ileocékálně v mezenteriu jsou zvětšené uzliny vel. do 12 mm,
+subj:
+- dnes kontrola po hospitalizaci, dimise 26.3. 2013,
+- Prednison od dnes (15.4. 2013) 30 mg ráno, 1x denně (snižováno) (Calcii carbonici 0-0-1 tbl á 500 mg, Vigantol 2 gtt p.o., Ranital 2x1 tb. á 150 mg p.o.). Chránit před infekty, neočkovat živými vakcinami.
+* Imuran 2-0-0 tbl á 50 mg (2,1 mg/kg, od 20.3.2013, týden 1) * Salofalk 2-2-2 tbl á 500 mg p.o. (66 mg/kg) * Vigantol 2 gtt p.o. denně,
+- u PLDD 12.4. moč, protein O-1, KO v normě, L 9.5 x 10/9/ml,
+- je doma, nechodí do školy, cítí se dobře, stolice 2-3x denně, formované, bez krve, stolice ve dne,
+- močí normálně, boelsti břicha nemá, chut k jídlu dobrá, enterální výživu nemá,
+- klouby nebolí, asi tak 2x bolesti v zádech, bolesti hlavy nemá,
+
+obj
+celkový stav dobrý, klouby klidné, břicho je zcela měkké prohmatné bez resistence, játra slezina nezv,
+okolí anu klidné
+
+dop:
+
+SE, KO, CRP, albumin,
+15.4.2013 13:12
+
+FW:22/42
+Krevní obraz:   B-Le:  10,80   B-Ery:  5,16   B-Trombo:  279   B-Hb:  131   B-HTK:  0,407   B-Obj ery.:  79   B-Hb ery:  25,4   B-Hb konc:  322   B-Seg:  0,870   B-Ly:  0,111   B-Eo:  0,001   B-Ba:  0,000   B-Mo:  0,018   B-Seg - abs:  9,40   B-Ly - abs:  1,20   B-Eo - abs:  0,00   B-Ba - abs:  0,00   B-Mo - abs.:  0,20   B-Erytr.křivka:  19,5
+Biochemie:   S-CRP:  4   S-Albumin:  46,7
+
+RE
+PCDAI 10
+
+- výsledky vyšetření vykazují velmi uspokojivé parametry, klinický index aktivity nemoci je nízký.
+- dále terapie stejná, 
+- Prednison od dnes (15.4. 2013) 30 mg ráno, snížovat po týdnu na 20 mg p.o. denně a na této dávce setrvat a již dále nesnižovat, ev rozvaha dále postupně snižovat a postupně  přestat užívat v návaznosti na očekávaný začátek učinku Imuranu po několika měsícíh od zahájení ( 3- 2013).
+- kontrola v GIT DK při dávce 20 mg Prednisonu p.o. (0.5 mg/kg/ den), 22.5. v 10 hodin.
+
+---------------
+
+Číselník VZP 
+Význam symbolů - "L"
+Léčivé přípravky takto označené je oprávněn k úhradě pojišťovnou předepisovat lékař se specializací v přísl. oboru nebo lékař specializovaného pracviště nebo na základě písemného doporučení odborného lékaře ošetřující lékař pojištěnce.
+
+----------------
+
+- vzhledem k imunosupresi azathioprimem nutná pravidelná kontrola KO+dif á 2 týdny do 10. týdne, dále min. 1x za 2 měsíce (k monitoraci ev. nežádoucích účinků - leukopenie, útlum kostní dřeně), jaterní testy, amylázy a kreatin min 3x do ročně. 
+- kontrola antropometrických parametrů 3x ročně.
+- během terapie a v období nejméně 3 měsíců po jejím ukončení nesmí být provedeno očkování živými atenuovanými vakcínami
+- chránit se před infekty
+- v případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů
+- vyvarovat se otěhotnění 
+
+
+S  touto zprávou kontrola u PLDD do 3 dnů.

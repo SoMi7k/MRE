@@ -1,0 +1,58 @@
+B-FW1
+B-FW2
+B-Le
+B-Ery
+B-Trombo
+B-Hb
+B-HTK
+B-Obj ery.
+B-Hb ery
+B-Hb konc
+B-Seg
+B-Ly
+B-Eo
+B-Ba
+B-Mo
+B-Seg - abs
+B-Ly - abs
+B-Eo - abs
+B-Ba - abs
+B-Mo - abs.
+B-Erytr.křivka
+S-CRP
+S-Sodik
+S-Draslik
+S-Chloridy
+qS-Cl korig.
+S-Močovina:
+S-Kreatinin
+S-ALT
+S-AST
+S-LPS
+S-Albumin
+ab/Infliximab
+Kreon
+Ca
+Ac folicum
+KCL
+Pyridioxin
+Actiferin
+Lactobacil
+amylázy
+kreatin
+imunoglobulinů
+Salmonelová enteritida
+axile folikulitida
+stafylokok
+Salmonella Enteritidis
+Campylobacter
+FW
+KO+dif
+CRP
+alb
+prealb.
+kalprotectin
+Fe
+trf
+ferit
+antropometrie

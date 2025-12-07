@@ -1,0 +1,60 @@
+# 009 - crohn_2.csv -
+Kontrola po propuštění 17.3.2014, t.č. 17 a 3/4 roku.
+Subjektivně bez potíží. 
+Pocit natékání nohou - už po probuzení, palpačně bolestivé. 
+Hmotnostně přibrala (po Prednisonu). 
+Břicho nebolí. 
+Stolice 1x denně, kašovitá, bez patologické příměsi, v noci 0. 
+Chuť k jídlu dobrá. 
+Nemocná nebyla
+* Prednison tbl p.o. 5 mg ob den (0,65 mg/kg - steroidy t.č.16. týden) - od 7.1.2014;
+* Imuran 1x 2,5 tbl á 50 mg (2 mg/kg, týden 16) - od 8.1.2014
+  adjuvantní terapie Kombi-Kalz 1000/880 1 sáček večer
+
+Obj.: hmotnost 65 kg (+3) ,  výška 162 cm (+0),  BMI 24,8 kg/m2,  BSA 1,693 m2,  tlak 100 / 60 mmHg, 
+afebrilní, čilá, mírně cushingoidní, břicho v úrovni, měkké, nebolestivé, J+S nezvětšeny, rezistence 0, perianální oblast nevyšetřena, nyní nově otoky bérců měkké, věší nad zaškrcením ponožkou, lehce lividní nad ponožkou 
+
+Lab.: FW, KO+dif, CRP, ALT, AST, urea, kreat, cystatin C, ionty, chol, alb, vitD, moč, kalprotektin, fT4, TSH 
+30.4.2014 09:15 - 09:54
+FW: 5/12
+Krevní obraz:   B-Le:  6,40   B-Ery:  4,37   B-Trombo:  276   B-Hb:  120   B-HTK:  0,365   B-Obj ery.:  84   B-Hb ery:  27,5   B-Hb konc:  329   B-Seg:  0,500   B-Ly:  0,386   B-Eo:  0,030   B-Ba:  0,010   B-Mo:  0,074   B-Seg - abs:  3,20   B-Ly - abs:  2,50   B-Eo - abs:  0,20   B-Ba - abs:  0,10   B-Mo - abs.:  0,50   B-Erytr.křivka:  16,2
+Biochemie:   S-CRP:  1   S-Sodik:  142   S-Draslik:  4,0   S-Chloridy:  103   qS-Cl korig.:  102   S-Močovina:  3,8   S-Kreatinin:  89   S-ALT:  0,24   S-AST:  0,37   S-Albumin:  49,8   S-Cystatin C:  0,89   qS-GF-cystatin:  1,63
+Stolice:   K-Kalprotektin:  <100
+Lipidogram:   S-Cholesterol:  4,99
+Moč:   U-pH:  5,5   U-Bilkovina:  0   U-Glukoza:  0   U-Ketolátky:  0   U-Krev:  0   U-Urobilinogen:  0   U-Bilirubin:  0   U-Nitrity:  0   U-Erytrocyty:  7   U-Leuko chem.:  3   U-Leukocyty:  62   U-Epit.ploché:  cetne   U-Bakterie:  cetne   U-Hlen:  +   U-Spec.hmotnost:  1,008
+Hormony:   S-TSH statim:  2,06   S-FT4 statim:  13,12   S-25 OH Vit D:  103,3
+
+Dg.: 
+K501	Crohnova nemoc tlustého střeva - ak. exacerbace
+N141	Nefropatie způsobená léky (mesalazin) v.s.
+Z888	Nesnášenlivost Salofalku v.s.
+R634	Abnormální ztráta hmotnosti
+K601	Chronická řitní trhlina
+Z870	Astma bronchiale
+Z910	Alergie pyl, prach, roztoči
+E730	Vrozený nedostatek laktázy anamnesticky
+
+Re.: klinicky remise, nyní nově otoky bérců
+       laboratorně nízké zánětlivé parametry, v moči leukocyturie, hormony štítné žlázy v normě, PCDAI 0 b
+
+Dop.: 
+- strava racionální, bezezbytková
+- léky: 
+* Prednison vysadit 
+* Imuran 1x 2,5 tbl á 50 mg (1,9 mg/kg, týden 16) - od 8.1.2014
+- kontrola v gastroenterologické poradně 4.8.2014 v 9 hod.
+- při trvání otoků nohou další dovyšetření (kardio?, lymfangiografie?)
+
+- vzhledem k imunosupresi azathioprimem nutná pravidelná kontrola KO+dif min. 1x za 2 měsíce (k monitoraci ev. nežádoucích účinků - leukopenie, útlum kostní dřeně), jaterní testy, amylázy a kreatin min 3x do ročně. 
+- kontrola antropometrických parametrů 3x ročně.
+- během terapie a v období nejméně 3 měsíců po jejím ukončení nesmí být provedeno očkování živými atenuovanými vakcínami
+- chránit se před infekty
+- v případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů
+- vyvarovat se otěhotnění 
+
+V době návštěvy je indikovaná preskripce léku s preskripčním omezením.
+Vystavené recepty: 
+IMURAN 50 MG por tbl flm 100x50mg, počet balení: 1
+
+Informace o zdravotním stavu a provedených vyšetřeních byly zákonnému zástupci a nezletilému pacientovi poskytnuty a bylo umožněno klást dotazy. Nezletilému pacientovi byly tyto informace podány způsobem zohledňujícím jeho rozumovou vyspělost a schopnost informacím porozumět.
+Údaje uvedené ve formuláři Souhlas s poskytováním informací o zdravotním stavu zůstávají beze změny.

@@ -1,0 +1,42 @@
+
+    Výsledná analýza původního textu
+
+    --- Metriky sekcí ---
+    Sekce: []
+    Počet sekcí: 0
+    Průměrný počet znaků na sekci: 0.00
+    Průměrný počet vět na sekci: 0.00
+
+    --- Slovní metriky ---
+    Anatomické názvy: ['t', 'a', 'v', 'v', 'k', 'a', 'v', 'v', 'v', 'na', 'o', 'o', 'a', 'a', 'o']
+    Počet anatomických slov: 15
+
+    Diagnózy: ['t', 'a', 'a', 'g', 'g', 'o', 'o', 'a', 'a', 'o']
+    Počet diagnóz: 10
+
+    Klíčová slova: ['t', 'a', 'v', 'v', 's', 's', 's', 'a', 'v', 'v', 'v', 's', 'o', 'o', 'a', 'a', 've', 'o']
+    Počet klíčových slov: 18
+
+    Klinické příznaky a popisy stavů: ['t', 'a', 'a', 'a', 'a']
+    Počet slov KPPS: 5
+
+    Latinské názvy: ['t', 'a', 'v', 'v', 's', 's', 's', 'k', 'a', 'v', 'v', 'v', 's', 'na', 'a', 'a']
+    Počet latinských názvů: 16
+
+    Léky: ['t', 'a', 'k', 'a', 'a', 'a']
+    Počet léků: 6
+
+    Mikrobiologie: ['t', 'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'k', 'a', 'g', 'g', 'o', 'o', 'a', 'a', 'o']
+    Počet názvů z mikrobiologie: 31
+
+    Procedury a terapie: ['t', 'a', 'a', 'o', 'o', 'a', 'a', 'o']
+    Počet procedur a terapií: 8
+
+
+    --- Větné metriky ---
+    Počet vět: 37
+    Průměrná délka věty: 58.46
+    Počet znaků: 2243
+    Počet vět mimo sekce: 37
+    Počet znaků mimo sekce: 2243
+    

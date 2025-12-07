@@ -1,0 +1,64 @@
+# 010 - crohn_2.csv - 
+Kontrola po propuštění 18.4.2014, t.č. téměř 16 let. 
+18.-20.6. hospitalizovaná na DO Klatovy - Salmonelová enteritida (CRP 288). HpSA neg. 
+Subjektivně dominují bolesti v oblasti žaludku. 
+Stolice 2-4x denně, již hnědé, kašovité, bez patologické příměsi. 
+Menses pravidelně. 
+Bolest kolen již nemá, občas booesti kyčlí. 
+Exantém v axile. 
+Strava šetřící. 
+- léky: 
+* Entocort 3-0-0 tbl á 3 mg p.o. (od 18.4.2014)
+* Helicid 1x 20 mg cps p.o.
+* Methotrexát 20 mg p.o. 1x týdně (v So) - od 11/2013, v Ne Ac. folicum á 10 mg
+* Lactobacillus 1x 1 cps p.o.
+
+Obj.: hmotnost 50 (-4) kg,  výška 159 (+1) cm,  BMI 19,8 kg/m2,  BSA 1,494 m2,  
+Afebrilní, eutrofická, břicho v úrovni, měkké, palpačně bolestivost v pravé jámě kyčelní, rezistence spolehlivě nehodnotitelná, J+S nezvětšeny, nad pupkem jizva po odstranění znaménka, hypertrichóza stacionární, v axile folikulitida v.s. stafylokok 
+
+Lab.: FW, KO+dif, CRP, alb, výtěr S 
+25.6.2014 11:53
+FW: 105/118
+Krevní obraz:   B-Le:  12,50   B-Ery:  4,27   B-Trombo:  591   B-Hb:  109   B-HTK:  0,333   B-Obj ery.:  78   B-Hb ery:  25,5   B-Hb konc:  326   B-Seg:  0,832   B-Ly:  0,071   B-Eo:  0,004   B-Ba:  0,003   B-Mo:  0,090   B-Seg - abs:  10,40   B-Ly - abs:  0,90   B-Eo - abs:  0,00   B-Ba - abs:  0,00   B-Mo - abs.:  1,10   B-Erytr.křivka:  16,8
+Biochemie:   S-CRP:  81   S-Albumin:  43,8
+
+Mikrobiologické vyšetření - stolice: Salmonella Enteritidis, Campylobacter negativní
+
+Dg: 
+K509	Crohnova choroba (ileocekální forma, dg 10/07)
+            TNF-a neg (G/G), PAI-1 homozygot 4G, TPMT *1/*1
+K630	Ileální absces st.p.
+D638	Anémie chronických chorob
+K601	Chronická anální fisura (operace 7/07)
+F432	Porucha přizpůsobení v rámci m. Chrohn
+F54	Psychologické a behaviorální faktory, spojené s chorobami nebo poruchami
+            Pronichium palců DK - st.p. parc. ablaci 
+
+Re: klinicky t.č. dominuje problematika Salmonelové enteritidy, nově palpační boelstivost v pravéjámě kyčelní, laboratorně elevace zánětlivých parametrů, anemie stacionární, PCDAI 5b
+
+Doporučení: 
+- dispenzarizace dermatologem ohledně névů 
+- pokračovat v medikaci jak zavedeno tzn.:
+* Entocort 3-0-0 tbl á 3 mg p.o. (od 18.4.2014)
+* Helicid 1x 20 mg cps p.o.
+* Methotrexát 20 mg p.o. 1x týdně (v So) - od 11/2013, v Ne Ac. folicum á 10 mg
+* Lactobacillus 1x 1 cps p.o.
+- doplnit USG břicha při kontrole na DO Klatovy, kteráje plánována na příští týden 
+- při trvání bolestí břicha i po odeznění Salmonelové enteritidy kontrola na naší ambulanci + USG ev. MR
+- kontrola v GE poradně 3.9.2014 v 13:45  hod
+- zprávu předejte praktickému pediatrovi
+
+V době návštěvy je indikovaná preskripce léku s preskripčním omezením.
+Vystavené recepty: 
+METHOTREXATE HOSPIRA 2,5 MG TABLETY por tbl nob 100x2.5mg, počet balení: 1
+ENTOCORT 3 MG por cps rdr 100x3mg, počet balení: 3
+APO-OME 20 por cps etd 100x20mg, počet balení: 1
+
+vzhledem k imunosupresi methotrexátem nutná pravidelná kontrola KO+dif min. 1x za 2-3 měsíce (k monitoraci ev. nežádoucích účinků - leukopenie, útlum kostní dřeně), jaterní testy min 4x do ročně. 
+- kontrola antropometrickýchparametrů 3x ročně.
+- během terapie a v období nejméně 3 měsíců po jejím ukončení nesmí být provedeno očkování živými atenuovanými vakcínami
+- chránit se před infekty
+- v případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů
+- vyvarovat se otěhotnění 
+ 
+Informace o zdravotním stavu a provedených vyšetřeních byly zákonnému zástupci a nezletilému pacientovi poskytnuty a bylo umožněno klást dotazy. Nezletilému pacientovi byly tyto informace podány způsobem zohledňujícím jeho rozumovou vyspělost a schopnost informacím porozumět. Údaje uvedené ve formuláři Souhlas s poskytováním informací o zdravotním stavu zůstávají beze změny.

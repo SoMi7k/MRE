@@ -1,4 +1,4 @@
-# crohn_2.csv - https://mre.zcu.cz/id/56afd97a0e3547572eb3bed86f6ff26bf909fd5c
+# 002 - crohn_2.csv - https://mre.zcu.cz/id/56afd97a0e3547572eb3bed86f6ff26bf909fd5c
 14r.
 hmotnost 38,7 kg (+2 kg),  výška 148,5 cm,  BMI 17,5 kg/m2,  BSA 1,275 m2,  
 Hospitalizace ve Fakultní nemocnici Plzeň: 

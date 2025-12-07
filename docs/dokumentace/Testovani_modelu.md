@@ -1,18 +1,25 @@
 # Zaznamenané výsledky
 
 **Prompt**
+
 - obecný / stručný
 - krátký / dlouhý
 
 **Lékařská zpráva**
+
 - Zaměření - Crohn / Mrtvice
 - Téma - Návštěva lékaře, s. kl., ...
 - dlouhý / krátký
 
 ## Popis testovacích scénářů
+
 1) Základní měření
-    Prompt - obecný, krátký, český, stejný
-    Texty - různě dlouhé (5), Crohn - Návštěva lékaře
+   Prompt - obecný, krátký, český, stejný
+   Texty - různě dlouhé (5), Crohn - Návštěva lékaře
+
+
+## Popis výsledného JSON
+
 
 ### Claude
 

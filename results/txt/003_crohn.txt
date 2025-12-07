@@ -1,0 +1,42 @@
+
+    Výsledná analýza původního textu
+
+    --- Metriky sekcí ---
+    Sekce: []
+    Počet sekcí: 0
+    Průměrný počet znaků na sekci: 0.00
+    Průměrný počet vět na sekci: 0.00
+
+    --- Slovní metriky ---
+    Anatomické názvy: ['v']
+    Počet anatomických slov: 1
+
+    Diagnózy: []
+    Počet diagnóz: 0
+
+    Klíčová slova: ['v']
+    Počet klíčových slov: 1
+
+    Klinické příznaky a popisy stavů: []
+    Počet slov KPPS: 0
+
+    Latinské názvy: ['v']
+    Počet latinských názvů: 1
+
+    Léky: []
+    Počet léků: 0
+
+    Mikrobiologie: []
+    Počet názvů z mikrobiologie: 0
+
+    Procedury a terapie: []
+    Počet procedur a terapií: 0
+
+
+    --- Větné metriky ---
+    Počet vět: 4
+    Průměrná délka věty: 79.25
+    Počet znaků: 322
+    Počet vět mimo sekce: 4
+    Počet znaků mimo sekce: 322
+    

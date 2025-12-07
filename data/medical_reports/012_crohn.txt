@@ -1,0 +1,55 @@
+# 012 - crohn_2.csv -
+Kontrola, poslední 18.2.2015 , t.č. 17,5 roku. 
+Byla v Anglii - špatné stravování, po návratu zvracela. Obtíže neměla. 
+Únava stále trvá, přes den chodit spát nechodí. 
+Nemocná nebyla. 
+Břicho nebolí. 
+Stolice ob den, již bez patologické příměsi, v noci 0. Perianální oblast klidná. 
+Klouby nebolí. 
+Exantém t.č. 0 
+Chuť k jídlu dobrá. Pije méně 
+Menses pravidelně, gynekologické potíže - Streptokok, nyní zhoršeno, t.č. léčba Dalacinem. 
+- léky: 
+* Imuran 2 tbl á 50 mg (2 mg/kg), od 7.6.2013
+* Prednison vysazen v polovině 8/2013 
+
+Obj.: hmotnost 51,8 (-0,2) kg,  výška 169,5 cm
+čilál, břicho v úrovni, měkké, palpačně plný pohmat v pravé jámě kyčelní, citlivější, J+S nezvětšena, jizvy klidné, perianální oblast dnes nevyšetřena  
+
+Lab.: FW, KO+dif, CRP, alb, urea, kreat, ALT, AST, GMT, kalprotektin, IMG, ANCA, ASCA, ANA, autoim. hepatitidy, dsDNA, fT4, TSH, aTPO, aTG
+1.4.2015 11:30 - 13:16
+Sedimentace:   B-FW1:  5
+Krevní obraz:   B-Le:  6,60   B-Ery:  4,31   B-Trombo:  243   B-Hb:  131   B-HTK:  0,405   B-Obj ery.:  94   B-Hb ery:  30,3   B-Hb konc:  322   B-Seg:  0,571   B-Ly:  0,314   B-Eo:  0,017   B-Ba:  0,011   B-Mo:  0,087   B-Seg - abs:  3,80   B-Ly - abs:  2,10   B-Eo - abs:  0,10   B-Ba - abs:  0,10   B-Mo - abs.:  0,60   B-Erytr.křivka:  14,6
+Biochemie:   S-CRP:  1   S-Bil.celk:  8   S-ALT:  0,20   S-AST:  0,23   S-GGT(GMT):  0,16   S-Albumin:  50,1
+Stolice:   K-Kalprotektin:  385
+Imunologie:   S-IgG:  13,80   S-IgA:  3,60   S-IgM:  1,72   S-IgE:  29,1   S-ASMA:  negat.   S-ASCA IgA:  pozit.   S-c-ANCA IF:  negat.   S-p-ANCA  IF:  negat.   S-atyp-ANCA IF:  pozit. Dle IF susp. atypická formalin senzitivní a-ANCA fluorescence, doplněná ELIA MPO a PR3 negativní, což však tento fluorescenční nález nevylučuje. S-ANCA-MPO Elia:  <0,2   S-ANCA-PR3 Elia:  <0,2   S-Anti-SLA/LP:  0   S-Anti-LKM1:  0   S-Anti-LC1:  0   S-AMA-M2:  0   S-anti-F-aktin:  0   S-ANA:  negat.   S-Anti-dsDNA:  34,90
+Hormony:   S-TSH statim:  1,28   S-FT4 statim:  14,10   S-aTG:  10   S-aTPO:  16
+
+Dg.: 
+K508	Crohnova nemoc - ileocekální oblast, fisura ani (dg 5/2013, A1b L3 B2 G0)
+            ASCA pozit, pankreas sl. pozit, ANCA neg
+            TMPT neg (*1/*1)
+K630	st.p. Ileocekální absces v.s.
+
+Re.: klinicky stacionární stav, trvá únava
+       laboratorně nízké zánětlivé paametry, pokles kalprotektinu (mírná pozitivita), normalizace IgG 
+
+Dop.: 
+- strava bezezbytková, pozvolna možné uvolňovat
+- léky: 
+* Imuran 2 tbl á 50 mg (2 mg/kg), od 7.6.2013
+- kontrola v gastroenterologické poradně 7.9.2015 v 10 hod + vzorek stolice na kalprotektin, USG  GIT 7.9.2015 v 9:30 hod
+- při zhoršení stavu (bolesti břicha, zvracení, průjmy, teploty,...) kontrola na naší ambulanci ihned
+- při trvání zánětlivé aktivity kontrolní MR enterografie ev. kolonoskopie (v CA?), dle vývoje zvažována ileocekální resekce 
+
+Kopii této zprávy odevzdejte svému dětskému lékaři.
+V době návštěvy je indikovaná preskripce léku s preskripčním omezením.
+
+- vzhledem k imunosupresi azathioprimem nutná pravidelná kontrola KO+dif min. 1x za 2 měsíce (k monitoraci ev. nežádoucích účinků - leukopenie, útlum kostní dřeně), jaterní testy, amylázy a kreatin min 3x do ročně. 
+- kontrola antropometrických parametrů 3x ročně.
+- během terapie a v období nejméně 3 měsíců po jejím ukončení nesmí být provedeno očkování živými atenuovanými vakcínami
+- chránit se před infekty
+- v případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů
+- vyvarovat se otěhotnění 
+
+Informace o zdravotním stavu a provedených vyšetřeních byly zákonnému zástupci a nezletilému pacientovi poskytnuty a bylo umožněno klást dotazy. Nezletilému pacientovi byly tyto informace podány způsobem zohledňujícím jeho rozumovou vyspělost a schopnost informacím porozumět. Údaje uvedené ve formuláři Souhlas s poskytováním informací o zdravotním stavu zůstávají beze změny.

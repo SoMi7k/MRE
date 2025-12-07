@@ -1,4 +1,3 @@
 .mypy_cache/
-bachelor_venv/
+mre_venv/
 src/__pycache__/
-features/__pycache__/
