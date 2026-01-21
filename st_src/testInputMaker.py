@@ -6,7 +6,7 @@ import scripts.config as config
 prompt_dir = config.PROMPT_ROOT
 
 def show():
-    st.title("📝 Test Input Maker")
+    st.title("📝 Prompt Maker")
 
     st.markdown("Instrukce")
     t_number = st.text_input("Číslo tasku:")

@@ -1,0 +1,42 @@
+
+    Výsledná analýza původního textu
+
+    --- Metriky sekcí ---
+    Sekce: ['Subjektivně se cítí dobře.', 'Léky', 'Objektivní nález', 'Laboratorní vyšetření', 'Re', 'Diagnoza', 'Doporučení', 'Vystavené recepty']
+    Počet sekcí: 8
+    Průměrný počet znaků na sekci: 465.88
+    Průměrný počet vět na sekci: 7.50
+
+    --- Slovní metriky ---
+    Anatomické názvy: ['Humiry', 'tragy', 'skléry', 'tonzily']
+    Počet anatomických slov: 4
+
+    Diagnózy: []
+    Počet diagnóz: 0
+
+    Klíčová slova: ['sekrece', 'Stolice', 'Břicho', 'Strava']
+    Počet klíčových slov: 4
+
+    Klinické příznaky a popisy stavů: ['lateralizace', 'Afebrilní', 'mesocefalická', 'normotenzní', 'nebolestivá', 'šelestu', 'astenický', 'fistulující']
+    Počet slov KPPS: 8
+
+    Latinské názvy: ['eflorescencí', 'sekrecí', 'cekoascendens', 'tapottement', 'tranversum', 'Israelli', 'Meningeální']
+    Počet latinských názvů: 7
+
+    Léky: ['Remicade']
+    Počet léků: 1
+
+    Mikrobiologie: ['CRP']
+    Počet názvů z mikrobiologie: 1
+
+    Procedury a terapie: []
+    Počet procedur a terapií: 0
+
+
+    --- Větné metriky ---
+    Počet vět: 60
+    Průměrná délka věty: 66.30
+    Počet znaků: 4116
+    Počet vět mimo sekce: 60
+    Počet znaků mimo sekce: 4116
+    

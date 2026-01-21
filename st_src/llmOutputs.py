@@ -5,7 +5,7 @@ import json
 from scripts import config
 
 def show():
-    st.title("📊 LLM outputs")
+    st.title("📊 Results Viewer")
 
     result_path = config.RESULT_JSON_ROOT
     res_dirs = os.listdir(result_path)

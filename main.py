@@ -18,9 +18,9 @@ with st.sidebar:
     sections = {
         "Home": "home",
         "Data Viewer": "data_viewer",
-        "Test Input Maker": "input_maker",
+        "Prompt Maker": "prompt_maker",
         "Result Maker": "result_maker",
-        "LLM Outputs": "llm_outputs",
+        "Results Viewer": "results_viewer",
         "Analyzator": "analyzer"
     }
     
@@ -80,11 +80,11 @@ match current:
         show()
     case "Data Viewer":
         dv.show()
-    case "Test Input Maker":
+    case "Prompt Maker":
         tIM.show()
     case "Result Maker":
         rM.show()
-    case "LLM Outputs":
+    case "Results Viewer":
         lO.show()
     case "Analyzator":
         aST.show()

@@ -1,3 +1,8 @@
 .mypy_cache/
 mre_venv/
 src/__pycache__/
+st_src/__pycache__/
+srcipts/__pycache__/
+docs/Notes/*
+docs/pdfs/*
+docs/Text/*

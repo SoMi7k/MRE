@@ -1,0 +1,42 @@
+
+    Výsledná analýza původního textu
+
+    --- Metriky sekcí ---
+    Sekce: ['Subjektivně bez potíží.', 'léky', 'VJ', 'Obj.', 'Lab.', 'Dg.', 'Re.', 'Dop.', 'Vystavené recepty']
+    Počet sekcí: 9
+    Průměrný počet znaků na sekci: 441.89
+    Průměrný počet vět na sekci: 6.78
+
+    --- Slovní metriky ---
+    Anatomické názvy: []
+    Počet anatomických slov: 0
+
+    Diagnózy: ['anemie', 'infekty', 'neštovic', 'Diabetes']
+    Počet diagnóz: 4
+
+    Klíčová slova: ['kalprotectin', 'Stolice', 'Břicho']
+    Počet klíčových slov: 3
+
+    Klinické příznaky a popisy stavů: ['Exantém', 'makrocytóza', 'remise']
+    Počet slov KPPS: 3
+
+    Latinské názvy: ['preskripce', 'atenuovanými', 'neutropenie', 'lipidogram', 'leukopenie']
+    Počet latinských názvů: 5
+
+    Léky: ['azathioprimem']
+    Počet léků: 1
+
+    Mikrobiologie: ['kreatin', 'amylázy', 'kalprotectin', 'imunoglobulinů', 'FW']
+    Počet názvů z mikrobiologie: 5
+
+    Procedury a terapie: ['inzulinoterpii']
+    Počet procedur a terapií: 1
+
+
+    --- Větné metriky ---
+    Počet vět: 61
+    Průměrná délka věty: 66.61
+    Počet znaků: 4191
+    Počet vět mimo sekce: 61
+    Počet znaků mimo sekce: 4191
+    

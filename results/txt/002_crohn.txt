@@ -2,35 +2,35 @@
     Výsledná analýza původního textu
 
     --- Metriky sekcí ---
-    Sekce: []
-    Počet sekcí: 0
-    Průměrný počet znaků na sekci: 0.00
-    Průměrný počet vět na sekci: 0.00
+    Sekce: ['Doporučení', 'subj', 'obj', 'dop', 'FW', 'USG GIT 19.8. 2014SONO GIT', 'RE']
+    Počet sekcí: 7
+    Průměrný počet znaků na sekci: 539.00
+    Průměrný počet vět na sekci: 9.43
 
     --- Slovní metriky ---
-    Anatomické názvy: ['a', 'a', 'a', 'a', 'o', 'v', 'v', 'v', 'v', 'a', 'v', 'na', 'k', 'na', 'v', 'v', 'v', 'v', 'v', 'a', 'v', 'na', 'a', 'v', 'a', 'v', 'v', 'v', 'v', 'k', 'k', 'a', 'a', 'v', 'v', 'a']
-    Počet anatomických slov: 36
+    Anatomické názvy: ['antrum', 'bulbus']
+    Počet anatomických slov: 2
 
-    Diagnózy: ['a', 'a', 'a', 'g', 'a', 'g', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
-    Počet diagnóz: 14
+    Diagnózy: ['anemie', 'infekty', 'antropometrie', 'neštovic']
+    Počet diagnóz: 4
 
-    Klíčová slova: ['ve', 'a', 'a', 's', 'a', 'a', 'o', 'v', 'v', 's', 'v', 'v', 's', 'a', 's', 'v', 'v', 'v', 's', 'v', 'v', 's', 'K', 'v', 'a', 'v', 's', 've', 'a', 'v', 'a', 'v', 'v', 's', 'v', 'v', 's', 'a', 'a', 'v', 'v', 'a']
-    Počet klíčových slov: 42
+    Klíčová slova: ['kalprotectin', 'EEN', 'Stolice']
+    Počet klíčových slov: 3
 
-    Klinické příznaky a popisy stavů: ['a', 'a', 'a', 'a', 'a', 'S', 'S', 'K', 'a', 'a', 'a', 'a', 'a', 'a', 'S']
-    Počet slov KPPS: 15
+    Klinické příznaky a popisy stavů: ['afebrilní']
+    Počet slov KPPS: 1
 
-    Latinské názvy: ['a', 'a', 's', 'a', 'a', 'v', 'v', 's', 'v', 'v', 's', 'a', 's', 'v', 'na', 'k', 'na', 'v', 'v', 's', 'v', 'v', 's', 'v', 'a', 'v', 's', 'na', 'a', 'v', 'a', 'v', 'v', 's', 'v', 'v', 's', 'k', 'k', 'a', 'a', 'v', 'v', 'a']
-    Počet latinských názvů: 44
+    Latinské názvy: ['atenuovanými', 'infiltrace', 'leukopenie']
+    Počet latinských názvů: 3
 
-    Léky: ['a', 'a', 'a', 'a', 'a', 'k', 'Le', 'a', 'a', 'a', 'k', 'k', 'a', 'a', 'a']
-    Počet léků: 15
+    Léky: ['azathioprimem', 'Modulen']
+    Počet léků: 2
 
-    Mikrobiologie: ['a', 'a', 'a', 'g', 'a', 'g', 'o', 'a', 'k', 'a', 'a', 'a', 'k', 'k', 'a', 'a', 'a']
-    Počet názvů z mikrobiologie: 17
+    Mikrobiologie: ['antropometrie', 'kreatin', 'alb', 'CRP', 'ferit', 'trf', 'amylázy', 'Fe', 'kalprotectin', 'imunoglobulinů', 'FW']
+    Počet názvů z mikrobiologie: 11
 
-    Procedury a terapie: ['a', 'a', 'Pro', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'u']
-    Počet procedur a terapií: 14
+    Procedury a terapie: []
+    Počet procedur a terapií: 0
 
 
     --- Větné metriky ---

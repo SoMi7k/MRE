@@ -22,7 +22,7 @@ KEY_WORDS = "data/txt/Klicove_slova.txt"
 KPPS = "data/txt/KPPS.txt"
 LATIN = "data/txt/Latinske_nazvy.txt"
 MEDICAMENTS = "data/txt/Leky.txt"
-MICROBIOLOGY = "data/txt/Mikrobilogie.txt"
+MICROBIOLOGY = "data/txt/Mikrobiologie.txt"
 PROCEDURES = "data/txt/Procedury_Terapie.txt"
 SECTION = "data/txt/Sekce.txt"
 

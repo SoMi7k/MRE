@@ -1,0 +1,42 @@
+
+    Výsledná analýza původního textu
+
+    --- Metriky sekcí ---
+    Sekce: ['Subjektivně dominují bolesti v oblasti žaludku.', 'Obj.', 'Lab.', 'Dg', 'Re', 'Doporučení', 'Vystavené recepty']
+    Počet sekcí: 7
+    Průměrný počet znaků na sekci: 494.00
+    Průměrný počet vět na sekci: 8.43
+
+    --- Slovní metriky ---
+    Anatomické názvy: []
+    Počet anatomických slov: 0
+
+    Diagnózy: ['anemie', 'infekty', 'neštovic']
+    Počet diagnóz: 3
+
+    Klíčová slova: ['homozygot', 'žaludku', 'Stolice', 'Strava']
+    Počet klíčových slov: 4
+
+    Klinické příznaky a popisy stavů: ['eutrofická', 'Afebrilní', 'Exantém', 'hypertrichóza']
+    Počet slov KPPS: 4
+
+    Latinské názvy: ['preskripce', 'Menses', 'atenuovanými', 'leukopenie']
+    Počet latinských názvů: 4
+
+    Léky: []
+    Počet léků: 0
+
+    Mikrobiologie: ['alb', 'CRP', 'Campylobacter', 'stafylokok', 'imunoglobulinů', 'FW']
+    Počet názvů z mikrobiologie: 6
+
+    Procedury a terapie: []
+    Počet procedur a terapií: 0
+
+
+    --- Větné metriky ---
+    Počet vět: 59
+    Průměrná délka věty: 62.00
+    Počet znaků: 3776
+    Počet vět mimo sekce: 59
+    Počet znaků mimo sekce: 3776
+    

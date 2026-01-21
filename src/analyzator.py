@@ -1,4 +1,5 @@
 import re
+import unicodedata
 from scripts import config as cf
 
 """
@@ -66,59 +67,81 @@ def split_into_sentences(text):
     return sentences
 
 
-def count_words(text: str, arr: list[str]):
+def count_words(text: str, theme_root: str):
+    with open(theme_root, 'r', encoding='utf-8') as fr:
+        theme_words = {line.strip() for line in fr}
+
     words = re.findall(r'\w+', text)
-    found = [w for w in words if w in arr]
-    return found, len(found)
+    
+    found = {w for w in words if w in theme_words}
+    
+    return list(found), len(found)
+
+
+def normalize_section_name(name: str) -> str:
+    """Očistí název sekce – lowercase, bez diakritiky, bez dvojtečky."""
+    name = name.strip().rstrip(":")
+    name = "".join(
+        c for c in unicodedata.normalize("NFD", name)
+        if unicodedata.category(c) != "Mn"
+    )
+    return name.lower()
 
 
 def detect_sections(text):
-    """
-    Detekuje sekce na základě seznamu klíčových názvů sekcí (section_keywords).
-
-    - section_keywords = cf.SECTION (list řetězců)
-    - Sekce začíná, pokud řádek (bez mezer) obsahuje některý z názvů.
-    - Sekce pokračuje, dokud nenarazíme na další klíč sekce.
-    """
-
-    lines = text.split("\n")
+    sect_tuple = []
     sections = []
+    lines = text.split("\n")
+
+    with open(cf.SECTION, 'r', encoding='utf-8') as fr:
+        for line in fr.readlines():
+            sections.append(line)
 
     current_name = None
     current_content = []
+    # Připravíme normalizované klíče
+    normalized_keys = [normalize_section_name(k) for k in sections]
 
     def save_current():
         if current_name is not None:
-            # Očistit obsah od prázdných řádků na okrajích
             content = "\n".join(current_content).strip()
-            sections.append((current_name, content))
-
-    normalized_keys = [k for k in cf.SECTION]
-
+            sect_tuple.append((current_name, content))
+    
     for line in lines:
-        stripped = line.strip(" ")
-
-        # Je toto nový začátek sekce?
-        if stripped in normalized_keys:
+        stripped = line.strip()
+    
+        # Normalizace řádku pro porovnání
+        norm_line = normalize_section_name(stripped)
+    
+        # Zjištění, zda řádek začíná klíčem
+        is_section = False
+        for key in normalized_keys:
+            if norm_line.startswith(key):
+                is_section = key
+                break
+    
+        if is_section:
             # Uložit předchozí sekci
             save_current()
-
-            # Začít novou sekci
-            current_name = stripped  # původní text názvu sekce
+    
+            # Uložit jméno sekce ve formě jak je v textu
+            current_name = stripped.split(":")[0]  # vezmeme jen název sekce
             current_content = []
+    
+            # Pokud řádek obsahuje i obsah (např. "FW: 2/")
+            after_colon = stripped.split(":", 1)
+            if len(after_colon) > 1 and after_colon[1].strip():
+                current_content.append(after_colon[1].strip())
+    
         else:
             # Obsah sekce
             if current_name is not None:
                 current_content.append(stripped)
-
-    # poslední sekce
+    
+    # Uložit poslední sekci
     save_current()
-
-    return sections
-
-
-def count_chars(text):
-    return len(text)
+    
+    return sect_tuple
 
 
 # --- Hlavní funkce ---
@@ -128,7 +151,7 @@ def analyze_text(input_text, output_file):
     sentences = split_into_sentences(input_text)
     num_sentences = len(sentences)
     avg_sentence_len = sum(len(s) for s in sentences) / num_sentences if num_sentences else 0
-    char_count = count_chars(input_text)
+    char_count = len(input_text)
 
     # Sekce
     sections = detect_sections(input_text)

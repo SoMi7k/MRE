@@ -3,6 +3,7 @@ import pandas as pd
 from scripts import config
 import os
 import re
+from src import analyzator as an
 
 base_root = config.CSV_DATA_ROOT
 files = os.listdir(base_root)
@@ -13,6 +14,16 @@ stroke = os.path.join(base_root, files[2])
 ids = [53, 65, 73, 78, 123, 152, 164, 175, 220, 229]
 
 if __name__ == "__main__":
+    with open("data/medical_reports/002_crohn.txt", 'r', encoding='utf-8') as fr:
+        input_text = fr.read()
+
+    #an.analyze_text(input_text, "zk.txt") 
+    #words = text.split(" ")
+
+    res = an.detect_sections(input_text)
+    print(res)
+        
+    """
     df = pd.read_csv(crohn_2)
 
     texts: list[str] = []
@@ -28,12 +39,15 @@ if __name__ == "__main__":
         # if (len(array) < 800 and len(array) > 200):
         # if (len(array) > 3000):
         #    print(f"Soubor {i} - match chars: {len(array)}")
-    
+    """
+"""    
 for i in range(len(out_texts)):
     start = 4
     path = f"{config.REPORTS_ROOT}\\0{start + i}_crohn.txt"
     with open(path, 'w', encoding='utf-8') as fr:
-        fr.write(out_texts[i])        
+        fr.write(out_texts[i])     
+"""  
+   
 
 
 # Lowest crohn   - 5, 8, 9     
