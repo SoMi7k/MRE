@@ -1,18 +1,19 @@
 import re
+import os
 
 DATA_ROOT = "data"
-CSV_DATA_ROOT = "data/csv"
-JSON_DATA_ROOT = "data/json"
-TXT_DATA_ROOT = "data/txt"
+CSV_DATA_ROOT = os.path.join(DATA_ROOT, "csv")
+JSON_DATA_ROOT = os.path.join(DATA_ROOT, "json")
+TXT_DATA_ROOT = os.path.join(DATA_ROOT, "txt")
 
-PROMPT_ROOT = "data/prompts"
-REPORTS_ROOT = "data/medical_reports"
-TASKS_ROOT = "data/tasks"
+PROMPT_ROOT = os.path.join(DATA_ROOT, "prompts")
+REPORTS_ROOT = os.path.join(DATA_ROOT, "medical_reports")
+TASKS_ROOT = os.path.join(DATA_ROOT, "tasks")
 
 RESULT_ROOT = "results"
-RESULT_JSON_ROOT = "results/json"
-RESULT_MD_ROOT = "results/md"
-RESULT_TXT = "results/txt"
+RESULT_JSON_ROOT = os.path.join(RESULT_ROOT, "json")
+RESULT_MD_ROOT = os.path.join(RESULT_ROOT, "md")
+RESULT_TXT = os.path.join(RESULT_ROOT, "txt")
 
 REGEX = re.compile(r'\w|[ěščřžýáíéúůó]|[+-]')
 

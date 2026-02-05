@@ -4,25 +4,45 @@ from scripts import config as cf
 
 """
     Výsledná analýza původního textu
-    
+
     --- Metriky sekcí ---
-    Sekce: []
-    Počet sekcí: ?
-    Průměrný počet znaků na sekci: ?
-    Průměrný počet vět na sekci: ?
+    Sekce: ['Doporučení', 'subj', 'obj', 'dop', 'FW', 'USG GIT 19.8. 2014SONO GIT', 'RE']
+    Počet sekcí: 7
+    Průměrný počet znaků na sekci: 539.00
+    Průměrný počet vět na sekci: 9.43
 
     --- Slovní metriky ---
-    Latinské slova: []
-    Počet latinských slov: ?
-    # Klíčová slova: []
-    # Počet klíčových slov: ?
+    Anatomické názvy: ['antrum', 'bulbus']
+    Počet anatomických slov: 2
+
+    Diagnózy: ['anemie', 'infekty', 'antropometrie', 'neštovic']
+    Počet diagnóz: 4
+
+    Klíčová slova: ['kalprotectin', 'EEN', 'Stolice']
+    Počet klíčových slov: 3
+
+    Klinické příznaky a popisy stavů: ['afebrilní']
+    Počet slov KPPS: 1
+
+    Latinské názvy: ['atenuovanými', 'infiltrace', 'leukopenie']
+    Počet latinských názvů: 3
+
+    Léky: ['azathioprimem', 'Modulen']
+    Počet léků: 2
+
+    Mikrobiologie: ['antropometrie', 'kreatin', 'alb', 'CRP', 'ferit', 'trf', 'amylázy', 'Fe', 'kalprotectin', 'imunoglobulinů', 'FW']
+    Počet názvů z mikrobiologie: 11
+
+    Procedury a terapie: []
+    Počet procedur a terapií: 0
+
 
     --- Větné metriky ---
-    Počet vět: ?
-    Průměrná délka věty: ?
-    Počet znaků: ?
-    Počet vět mimo sekce: ?
-    Počet znaků mimo sekce: ?
+    Počet vět: 66
+    Průměrná délka věty: 72.52
+    Počet znaků: 4945
+    Počet vět mimo sekce: 66
+    Počet znaků mimo sekce: 4945
 """
 
 
@@ -146,78 +166,82 @@ def detect_sections(text):
 
 # --- Hlavní funkce ---
 
-def analyze_text(input_text, output_file):
-    # Věty
-    sentences = split_into_sentences(input_text)
-    num_sentences = len(sentences)
-    avg_sentence_len = sum(len(s) for s in sentences) / num_sentences if num_sentences else 0
-    char_count = len(input_text)
+def analyze_text(input_text: str, output_file: str) -> int:
+    try: 
+        # --- Věty ---
+        sentences = split_into_sentences(input_text)
+        num_sentences = len(sentences)
+        avg_sentence_len = sum(len(s) for s in sentences) / num_sentences if num_sentences else 0
+        char_count = len(input_text)
 
-    # Sekce
-    sections = detect_sections(input_text)
-    num_sections = len(sections)
-    avg_chars_per_section = sum(len(s[1]) for s in sections) / num_sections if num_sections else 0
-    avg_sent_per_section = num_sentences / num_sections if num_sections else 0
+        # --- Sekce ---
+        sections = detect_sections(input_text)
+        num_sections = len(sections)
+        avg_chars_per_section = sum(len(s[1]) for s in sections) / num_sections if num_sections else 0
+        avg_sent_per_section = num_sentences / num_sections if num_sections else 0
 
-    # --- Anotace slov ---
-    anatomy_found, anatomy_count = count_words(input_text, cf.ANATOMY)
-    diagnosis_found, diagnosis_count = count_words(input_text, cf.DIAGNOSIS)
-    keywords_found, keywords_count = count_words(input_text, cf.KEY_WORDS)
-    kpps_found, kpps_count = count_words(input_text, cf.KPPS)
-    latin_found, latin_count = count_words(input_text, cf.LATIN)
-    medicaments_found, medicaments_count = count_words(input_text, cf.MEDICAMENTS)
-    microbiology_found, microbiology_count = count_words(input_text, cf.MICROBIOLOGY)
-    procedures_found, procedures_count = count_words(input_text, cf.PROCEDURES)
+        # --- Anotace slov ---
+        anatomy_found, anatomy_count = count_words(input_text, cf.ANATOMY)
+        diagnosis_found, diagnosis_count = count_words(input_text, cf.DIAGNOSIS)
+        keywords_found, keywords_count = count_words(input_text, cf.KEY_WORDS)
+        kpps_found, kpps_count = count_words(input_text, cf.KPPS)
+        latin_found, latin_count = count_words(input_text, cf.LATIN)
+        medicaments_found, medicaments_count = count_words(input_text, cf.MEDICAMENTS)
+        microbiology_found, microbiology_count = count_words(input_text, cf.MICROBIOLOGY)
+        procedures_found, procedures_count = count_words(input_text, cf.PROCEDURES)
 
-    # --- Věty a znaky mimo sekce ---
-    text_in_sections = "\n\n".join(s[1] for s in sections)
-    text_outside_sections = input_text.replace(text_in_sections, "")
-    out_sentences = split_into_sentences(text_outside_sections)
-    out_chars = len(text_outside_sections)
+        # --- Věty a znaky mimo sekce ---
+        text_in_sections = "\n\n".join(s[1] for s in sections)
+        text_outside_sections = input_text.replace(text_in_sections, "")
+        out_sentences = split_into_sentences(text_outside_sections)
+        out_chars = len(text_outside_sections)
 
-    # --- Zápis do TXT ---
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write(f"""
-    Výsledná analýza původního textu
+        # --- Zápis do TXT ---
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(f"""
+        Výsledná analýza původního textu
 
-    --- Metriky sekcí ---
-    Sekce: {[name for name, _ in sections]}
-    Počet sekcí: {num_sections}
-    Průměrný počet znaků na sekci: {avg_chars_per_section:.2f}
-    Průměrný počet vět na sekci: {avg_sent_per_section:.2f}
+        --- Metriky sekcí ---
+        Sekce: {[name for name, _ in sections]}
+        Počet sekcí: {num_sections}
+        Průměrný počet znaků na sekci: {avg_chars_per_section:.2f}
+        Průměrný počet vět na sekci: {avg_sent_per_section:.2f}
 
-    --- Slovní metriky ---
-    Anatomické názvy: {anatomy_found}
-    Počet anatomických slov: {anatomy_count}
+        --- Slovní metriky ---
+        Anatomické názvy: {anatomy_found}
+        Počet anatomických slov: {anatomy_count}
 
-    Diagnózy: {diagnosis_found}
-    Počet diagnóz: {diagnosis_count}
+        Diagnózy: {diagnosis_found}
+        Počet diagnóz: {diagnosis_count}
 
-    Klíčová slova: {keywords_found}
-    Počet klíčových slov: {keywords_count}
+        Klíčová slova: {keywords_found}
+        Počet klíčových slov: {keywords_count}
 
-    Klinické příznaky a popisy stavů: {kpps_found}
-    Počet slov KPPS: {kpps_count}
+        Klinické příznaky a popisy stavů: {kpps_found}
+        Počet slov KPPS: {kpps_count}
 
-    Latinské názvy: {latin_found}
-    Počet latinských názvů: {latin_count}
+        Latinské názvy: {latin_found}
+        Počet latinských názvů: {latin_count}
 
-    Léky: {medicaments_found}
-    Počet léků: {medicaments_count}
+        Léky: {medicaments_found}
+        Počet léků: {medicaments_count}
 
-    Mikrobiologie: {microbiology_found}
-    Počet názvů z mikrobiologie: {microbiology_count}
+        Mikrobiologie: {microbiology_found}
+        Počet názvů z mikrobiologie: {microbiology_count}
 
-    Procedury a terapie: {procedures_found}
-    Počet procedur a terapií: {procedures_count}
+        Procedury a terapie: {procedures_found}
+        Počet procedur a terapií: {procedures_count}
 
 
-    --- Větné metriky ---
-    Počet vět: {num_sentences}
-    Průměrná délka věty: {avg_sentence_len:.2f}
-    Počet znaků: {char_count}
-    Počet vět mimo sekce: {len(out_sentences)}
-    Počet znaků mimo sekce: {out_chars}
-    """)
+        --- Větné metriky ---
+        Počet vět: {num_sentences}
+        Průměrná délka věty: {avg_sentence_len:.2f}
+        Počet znaků: {char_count}
+        Počet vět mimo sekce: {len(out_sentences)}
+        Počet znaků mimo sekce: {out_chars}
+        """)
+    except Exception as e:
+        print(f"Error while analyzing {output_file}: {e}.")
+        return 0
 
-    return output_file
+    return 1

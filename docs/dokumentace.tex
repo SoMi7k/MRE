@@ -9,6 +9,7 @@
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{csquotes}
+\usepackage{tcolorbox}
 
 % Nastavení okrajů
 \usepackage[left=3cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
@@ -36,7 +37,7 @@
 \chapter*{Motivace}
 \addcontentsline{toc}{chapter}{Motivace}
 
-Růst umělé inteligence v posledních letech nabírá značného tempa a její využití se postupně rozšiřuje do většiny oborů lidské činnosti. Jednou z klíčových oblastí umělé inteligence je zpracování přirozeného jazyka (NLP -- \textit{Natural Language Processing}), jehož cílem je analýza, porozumění a generování textu či mluveného slova. Významným milníkem v této oblasti se staly velké jazykové modely (LLM -- \textit{Large Language Models}), které vykazují schopnost pracovat s komplexními a nestrukturovanými daty.
+Růst umělé inteligence v posledních letech nabírá značného tempa a její využití se postupně rozšiřuje do většiny oborů lidské činnosti. Jednou z klíčových oblastí umělé inteligence je zpracování přirozeného jazyka (NLP - \textit{Natural Language Processing}), jehož cílem je analýza, porozumění a generování textu či mluveného slova. Významným milníkem v této oblasti se staly velké jazykové modely (LLM - \textit{Large Language Models}), které vykazují schopnost pracovat s komplexními a nestrukturovanými daty.
 
 Zdravotnictví představuje oblast s enormním množstvím textových dat, zejména ve formě lékařských zpráv, nálezů a klinických záznamů. Tyto dokumenty obsahují cenné informace o zdravotním stavu pacientů, průběhu onemocnění, provedených vyšetřeních a zvolené léčbě. Většina těchto dat je však uložena v nestrukturované podobě, což výrazně komplikuje jejich další zpracování, analýzu a využití pro výzkumné či klinické účely.
 
@@ -58,11 +59,11 @@ Motivací této práce je proto přispět k lepšímu porozumění možnostem vy
 
 Data představují základní stavební kámen pro vývoj, zlepšování a udržování aktuálnosti velkých jazykových modelů. Lékařské zprávy však v porovnání s jinými typy dat narážejí na specifické překážky, a to zejména v oblasti zajištění anonymity a v souladu s evropským nařízením GDPR. V této práci jsou proto všechna použitá data plně anonymizována a jejich obsah je využíván pouze v nezbytném rozsahu.
 
-Hlavním cílem práce je prověřit možnosti současných generativních AI nástrojů pro zpracování volného textu lékařských zpráv a ověřit jejich schopnost extrahovat významné informace do strukturované podoby. Zároveň je snahou posoudit, do jaké míry lze tyto nástroje využít v českém zdravotnickém prostředí, kde jazyková i doménová specifika představují významnou překážku.
+Hlavním cílem práce je prověřit možnosti současných generativních AI nástrojů pro zpracování strukturovaného textu lékařských zpráv a ověřit jejich schopnost extrahovat významné informace do předem specifikovaného formátu. Zároveň je snahou posoudit, do jaké míry lze tyto nástroje využít v českém zdravotnickém prostředí, kde jazyková i doménová specifika představují významnou překážku.
 
 Data využitá v této práci tvoří popisné zprávy k CT snímkům pacientů s diagnózou mrtvice a Crohnovy choroby. Zprávy pocházejí z Fakultní nemocnice Plzeň a jsou psány výhradně v českém jazyce. Texty přirozeně obsahují překlepy, odborný žargon, zkratky a další prvky, které mohou komplikovat jejich automatické zpracování.
 
-Většina dosavadních výzkumů v oblasti zpracování lékařských zpráv se soustředí především na anglický jazyk. Čeština se však vyznačuje výraznou morfologickou složitostí a četným výskytem výjimek, zkratek a česko-anglických kombinací. Tato práce se proto zaměřuje na zjištění, zda jsou vybrané modely schopné tyto překážky překonat a nabídnout relevantní a prakticky využitelné výsledky.
+Většina dosavadních výzkumů v oblasti zpracování lékařských zpráv se soustředí především na anglicky psané dokumenty z důvodu velkého výběru modelů natrénovaných na anglických datech. Čeština se však vyznačuje výraznou morfologickou složitostí a četným výskytem výjimek, zkratek a česko-anglických kombinací. Tato práce se proto zaměřuje na zjištění, zda jsou vybrané modely schopné tyto překážky překonat a nabídnout relevantní a prakticky využitelné výsledky.
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -73,7 +74,7 @@ Většina dosavadních výzkumů v oblasti zpracování lékařských zpráv se 
 \section{Zpracování přirozeného jazyka}
 Přirozený jazyk (dále jen PJ) představuje základní prostředek lidské komunikace a přenosu znalostí. Umožňuje předávání informací napříč generacemi a propojuje historický vývoj lidstva se současností. Jazyk slouží nejen ke komunikaci, ale také k uchovávání a strukturování lidského poznání.
 
-Zpracování přirozeného jazyka (\textit{Natural Language Processing}, NLP) je oblast umělé inteligence, která se zabývá vývojem metod a algoritmů umožňujících počítačům porozumět, analyzovat a generovat lidský jazyk. Cílem NLP je vytvořit systémy schopné pracovat s jazykem podobným způsobem, jakým jej používá člověk.
+Zpracování přirozeného jazyka (\textit{Natural Language Processing}, NLP) je oblast umělé inteligence, která se zabývá vývojem metod a algoritmů umožňujících počítačům porozumět, analyzovat a generovat lidský jazyk. Cílem NLP je vytvořit systémy schopné pracovat s jazykem podobným způsobem, jakým jej používá člověk. \cite{pala2000}
 
 Aby byl stroj schopen efektivně zpracovávat přirozený jazyk, musí řešit řadu základních otázek, mezi které patří zejména:
 
@@ -84,9 +85,9 @@ Aby byl stroj schopen efektivně zpracovávat přirozený jazyk, musí řešit �
     \item jak se význam celé věty skládá z významů jednotlivých slov a slovních spojení.
 \end{itemize}
 
-Kromě toho musí být systém zpracovávající přirozený jazyk schopen orientovat se v různých jazykových rovinách, jako jsou rovina fonetická, morfologická, syntaktická a sémantická, případně i pragmatická. Schopnost porozumět přirozenému jazyku tak zahrnuje práci s jeho komplexní strukturou a kontextem, který význam jednotlivých jazykových prvků ovlivňuje.
+Kromě toho musí být systém zpracovávající přirozený jazyk schopen orientovat se v různých jazykových rovinách, jako jsou rovina fonetická, morfologická, syntaktická a sémantická, případně i pragmatická. Schopnost porozumět přirozenému jazyku tak zahrnuje práci s jeho komplexní strukturou a kontextem, který význam jednotlivých jazykových prvků ovlivňuje. \cite{pala2000}
 
-Vývoj metod pro zpracování přirozeného jazyka představoval dlouhodobý a náročný proces. První přístupy byly založeny na ručně definovaných pravidlech a lingvistických znalostech, zatímco moderní NLP systémy využívají především metody strojového učení a hlubokého učení. Tyto přístupy umožňují automatické získávání jazykových vzorů z velkého množství textových dat a vedly k výraznému zlepšení výsledků v řadě praktických úloh, jako je strojový překlad, analýza textu nebo extrakce informací \cite{pala2000}.
+Vývoj metod pro zpracování přirozeného jazyka představoval dlouhodobý a náročný proces. První přístupy byly založeny na ručně definovaných pravidlech a lingvistických znalostech, zatímco moderní NLP systémy využívají především metody strojového učení a hlubokého učení. Tyto přístupy umožňují automatické získávání jazykových vzorů z velkého množství textových dat a vedly k výraznému zlepšení výsledků v řadě praktických úloh, jako je strojový překlad, analýza textu nebo extrakce informací. \cite{pala2000}
 
 \subsection{Funkce NLP}
 
@@ -99,11 +100,11 @@ Aby byly stroje schopny porozumět lidské konverzaci a pracovat s přirozeným 
     \item syntaktická analýza.
 \end{itemize}
 
-Předzpracování textu zahrnuje základní operace, jako je tokenizace a \textit{lowercasing}. Tokenizace rozděluje vstupní text na jednotlivé tokeny, nejčastěji slova, zatímco \textit{lowercasing} převádí všechna písmena na malá, čímž se snižuje variabilita textu. Dále se používají techniky jako lemmatizace, která převádí slova na jejich základní tvar (lemma), nebo stemming, jehož cílem je nalezení kmene slova. Tyto kroky napomáhají sjednocení různých tvarů slov a zjednodušují další zpracování.
+Předzpracování textu zahrnuje základní operace, jako je tokenizace a \textit{lowercasing}. Tokenizace rozděluje vstupní text na jednotlivé tokeny, nejčastěji slova, zatímco \textit{lowercasing} převádí všechna písmena na malá, čímž se snižuje variabilita textu. Dále se používají techniky jako lemmatizace, která převádí slova na jejich základní tvar (lemma), nebo stemming, jehož cílem je nalezení kmene slova. Tyto kroky napomáhají sjednocení různých tvarů slov a zjednodušují další zpracování. \cite{lemm_stem}
 
-Ve fázi reprezentace textu dochází k převodu textových dat do numerické podoby, se kterou je možné dále pracovat. Jedním ze základních přístupů je výpočet četnosti výskytu jednotlivých slov v dokumentu. Pomocí vzorce \textit{TF-IDF} (\textit{Term Frequency--Inverse Document Frequency}) je každému slovu přiřazena váha, která zohledňuje jeho důležitost v rámci dokumentu i celého korpusu. Například v anglickém jazyce mají velmi častá slova, jako jsou \textbf{and} nebo \textbf{the}, nižší váhu než méně frekventovaná slova, která nesou vyšší informační hodnotu.
+Ve fázi reprezentace textu dochází k převodu textových dat do numerické podoby, se kterou je možné dále pracovat. Jedním ze základních přístupů je výpočet četnosti výskytu jednotlivých slov v dokumentu. Pomocí vzorce \textit{TF-IDF} (\textit{Term Frequency-Inverse Document Frequency}) je každému slovu přiřazena váha, která zohledňuje jeho důležitost v rámci dokumentu i celého korpusu. Například v anglickém jazyce mají velmi častá slova, jako jsou \textbf{and} nebo \textbf{the}, nižší váhu než méně frekventovaná slova, která nesou vyšší informační hodnotu. \cite{sap_nlp}
 
-Analýza textu se zaměřuje na práci s významem a kontextem. V přirozeném jazyce se často vyskytují mnohoznačná slova nebo homonyma, jejichž význam závisí na konkrétním kontextu. U věty \enquote{Vlak jel po kolejích.} je zřejmé, že slovo \textit{kolejích} označuje dopravní infrastrukturu, nikoli vysokoškolské koleje. Pro zachycení tohoto kontextu se využívají metody, jako je rozpoznávání pojmenovaných entit (\textit{Named Entity Recognition}, NER), které přiřazují slovům nebo jejich skupinám významové kategorie. Výstupem může být například označení \textit{\{kolejích: doprava\}}. Součástí analýzy textu může být také určování sentimentu, tedy rozpoznání, zda je význam věty kladný, neutrální nebo záporný, což se odvozuje od použitých slov a jejich kontextu.
+Analýza textu se zaměřuje na práci s významem a kontextem. V přirozeném jazyce se často vyskytují mnohoznačná slova nebo homonyma, jejichž význam závisí na konkrétním kontextu. U věty \enquote{Vlak jel po kolejích.} je zřejmé, že slovo \textit{kolejích} označuje dopravní infrastrukturu, nikoli vysokoškolské koleje. Pro zachycení tohoto kontextu se využívají metody, jako je rozpoznávání pojmenovaných entit (\textit{Named Entity Recognition}, NER), které přiřazují slovům nebo jejich skupinám významové kategorie. Výstupem může být například označení \textit{\{kolejích: doprava\}}. Součástí analýzy textu může být také určování sentimentu, tedy rozpoznání, zda je význam věty kladný, neutrální nebo záporný, což se odvozuje od použitých slov a jejich kontextu. \cite{sap_nlp}
 
 Syntaktická analýza se zaměřuje na vztahy mezi jednotlivými slovy ve větě a jejich gramatickou funkci. Jejím cílem je rozdělení slov podle slovních druhů a určení jejich role ve větě, například zda se jedná o podmět, přísudek nebo předmět. Syntaktická analýza umožňuje lépe pochopit strukturu věty a vztahy mezi jejími částmi, což je důležité zejména při složitějších jazykových konstrukcích. Tyto informace se dále využívají například při strojovém překladu, extrakci informací nebo porozumění významu celých vět. \cite{sap_nlp}
 \newpage
@@ -114,9 +115,9 @@ Syntaktická analýza se zaměřuje na vztahy mezi jednotlivými slovy ve větě
 
 \chapter{Velké datové modely}
 
-Významný pokrok v oblasti zpracování přirozeného jazyka zaznamenal podobor označovaný jako velké jazykové modely (\textit{Large Language Models}, LLM). Tyto modely jsou založeny na rozsáhlých neuronových sítích s velkým počtem parametrů, které jsou trénovány na rozsáhlých textových datech. Jejich cílem je naučit se statistické a sémantické vztahy mezi slovy a větami a na jejich základě generovat smysluplný textový výstup.
+Významný pokrok v oblasti zpracování přirozeného jazyka zaznamenal podobor označovaný jako velké jazykové modely (\textit{Large Language Models}, LLM). Tyto modely jsou založeny na rozsáhlých neuronových sítích s velkým počtem parametrů, které jsou trénovány na rozsáhlých textových datech. Jejich cílem je naučit se statistické a sémantické vztahy mezi slovy a větami a na jejich základě generovat smysluplný textový výstup. \cite{hendl2023}
 
-Architektura velkých jazykových modelů je založena především na dopředných neuronových sítích (\textit{Feed-Forward Networks}) a mechanismech pozornosti (\textit{attention}), které umožňují modelu pracovat s kontextem celého vstupu. Na rozdíl od starších přístupů nejsou moderní velké jazykové modely založeny na rekurentních neuronových sítích, ale využívají paralelní zpracování vstupních sekvencí, což výrazně zvyšuje jejich efektivitu a škálovatelnost.
+Architektura velkých jazykových modelů je založena především na dopředných neuronových sítích (\textit{Feed-Forward Networks}) a mechanismech pozornosti (\textit{attention}), které umožňují modelu pracovat s kontextem celého vstupu. Na rozdíl od starších přístupů nejsou moderní velké jazykové modely založeny na rekurentních neuronových sítích, ale využívají paralelní zpracování vstupních sekvencí, což výrazně zvyšuje jejich efektivitu a škálovatelnost. \cite{hendl2023}
 
 \subsection*{Generativní AI}
 
@@ -152,13 +153,22 @@ Velké jazykové modely jsou trénovány na široké spektrum úloh a disponují
 
 AI prompt je název pro instrukci, otázku, či tvrzení, které člověk poskytne velkým datovým modelům. V promptu se nachází informace, které LLM zpracuje a jejich základě poskytuje výsledek. Čím detailnější prompt, tím by měl být výsledek přesnější. Promptování dokáže zlepšit přesnost a kvalitu výsledku modelu, bez žádného dalšího dotrénování na konkrétní data. \cite{geeksforgeeks_prompt}
 
-\textbf{Příklad vlivu promptu:}
+\paragraph{Příklad vlivu promptu}
 
-\textbf{Vstupní text:} \enquote{Pacient byl přijat s bolestí na hrudi, EKG bez patologického nálezu, troponin negativní.}
+\begin{quote}
+\textbf{Vstupní text:}  
+„Pacient byl přijat s bolestí na hrudi, EKG bez patologického nálezu, troponin negativní.“
 
-\textbf{Neupřesněný prompt:} \enquote{Shrň text.} $\rightarrow$ Výstup: obecné shrnutí bez struktury
+\medskip
+\textbf{Neupřesněný prompt:}  
+„Shrň text.“  
+$\rightarrow$ \emph{Výstup: obecné shrnutí bez struktury}
 
-\textbf{Strukturovaný prompt:} \enquote{Z následující lékařské zprávy extrahuj strukturované informace ve formátu JSON se sekcemi: příznaky, vyšetření, laboratorní nálezy.} $\rightarrow$ Výstup: strukturovaná data vhodná pro další zpracování
+\medskip
+\textbf{Strukturovaný prompt:}  
+„Z následující lékařské zprávy extrahuj strukturované informace ve formátu JSON se sekcemi: příznaky, vyšetření, laboratorní nálezy.“  
+$\rightarrow$ \emph{Výstup: strukturovaná data vhodná pro další zpracování}
+\end{quote}
 
 \subsection{Strategie využívání LLM v rámci promptingu}
 
@@ -219,9 +229,9 @@ Technika zakládající se na promptech má ještě 2 metody pro výstup, pokud 
 
 \subsection{NER}
 
-Tradiční přístupy k rozpoznávání pojmenovaných entit (NER) jsou založeny na sekvenčním označování tokenů a vyžadují rozsáhlá anotovaná trénovací data. V posledních letech se objevuje alternativní přístup využívající velké jazykové modely, který je často označován jako \textit{LLM-based information extraction} nebo \textit{prompt-based NER}.
+Tradiční přístupy k rozpoznávání pojmenovaných entit (NER) jsou založeny na sekvenčním označování tokenů a vyžadují rozsáhlá anotovaná trénovací data. V posledních letech se objevuje alternativní přístup využívající velké jazykové modely, který je často označován jako \textit{LLM-based information extraction} nebo \textit{prompt-based NER}. \cite{evaluation_llm}
 
-V tomto přístupu není extrakce realizována explicitním štítkováním tokenů, ale generativně, na základě instrukcí zadaných v podobě promptu. Model je schopen přímo generovat strukturovaný výstup obsahující extrahované entity a jejich vztahy. Tento přístup nabízí vysokou flexibilitu a umožňuje provádět extrakci informací i v prostředí s omezenou dostupností anotovaných dat, což je typické například pro oblast lékařských zpráv.
+V tomto přístupu není extrakce realizována explicitním štítkováním tokenů, ale generativně, na základě instrukcí zadaných v podobě promptu. Model je schopen přímo generovat strukturovaný výstup obsahující extrahované entity a jejich vztahy. Tento přístup nabízí vysokou flexibilitu a umožňuje provádět extrakci informací i v prostředí s omezenou dostupností anotovaných dat, což je typické například pro oblast lékařských zpráv. \cite{emergent_abilities}
 
 \subsection{Validace výstupů a post-processing}
 
@@ -258,11 +268,11 @@ S masivní digitalizací zdravotnictví a zavedením elektronických zdravotníc
 
 Zpracování přirozeného jazyka (NLP) představuje v kontextu extrakce lékařských zpráv nezbytnou část. Lékařský text je specifický svou vysokou hustotou informací, používáním nestandardních zkratek, latinské terminologie a často i gramaticky neúplných vět. Dalším ztížením je český jazyk, který je morfologicky bohatý jazyk, což extrakci ztěžuje oproti angličtině \cite{zikmundova2021}.
 
-Tradiční metody NLP se zaměřovaly především na úlohu Named Entity Recognition (NER) -- tedy identifikaci entit, jako jsou diagnózy, medikace nebo laboratorní hodnoty. Starší generace modelů (např. založené na architektuře BERT) sice dosahovaly vysoké přesnosti, ale vyžadovaly rozsáhlé, ručně anotované datasety pro každou specifickou úlohu. Právě tato závislost na drahých expertních anotacích byla hlavní bariérou pro širší nasazení v praxi, což vyřešil až nástup LLM.
+Tradiční metody NLP se zaměřovaly především na úlohu Named Entity Recognition (NER) - tedy identifikaci entit, jako jsou diagnózy, medikace nebo laboratorní hodnoty. Starší generace modelů (např. založené na architektuře BERT) sice dosahovaly vysoké přesnosti, ale vyžadovaly rozsáhlé, ručně anotované datasety pro každou specifickou úlohu. Právě tato závislost na drahých expertních anotacích byla hlavní bariérou pro širší nasazení v praxi, což vyřešil až nástup LLM. \cite{History_nlp, BERT_NER}
 
 \section{Průlom generativní AI a LLM v klinické praxi}
 
-Současná paradigma reprezentovaná modely jako GPT-4, Llama 3 či specializovaný Med-PaLM, přináší do extrakce dat revoluční změnu prostřednictvím tzv. \textbf{všeobecné schopnosti porozumění}. Na rozdíl od předchozích modelů vykazují LLM schopnost:
+Současná paradigma reprezentovaná modely jako GPT-5, Gemini 3 či specializovaný Med-PaLM, přináší do extrakce dat revoluční změnu prostřednictvím tzv. \textbf{všeobecné schopnosti porozumění}. Na rozdíl od předchozích modelů vykazují LLM schopnost:
 
 \begin{itemize}
     \item \textbf{Zero-shot extrakce:} Model dokáže extrahovat informace z lékařské zprávy (např. vypsat všechny alergie pacienta), aniž by k tomu potřeboval předchozí trénink na konkrétním typu zpráv.
@@ -274,11 +284,11 @@ Současná paradigma reprezentovaná modely jako GPT-4, Llama 3 či specializova
 
 \section{Etické aspekty a limity nasazení}
 
-Navzdory vysoké efektivitě naráží nasazení LLM v medicíně na specifické bariéry. Prvním kritickým bodem je \textbf{vznik halucinací}, kdy model může s vysokou mírou přesvědčivosti vygenerovat medicínsky chybný údaj. V procesu extrakce to znamená riziko záměny negace (např. \enquote{pacient neguje bolest} interpretováno jako \enquote{pacient má bolesti}).
+Navzdory vysoké efektivitě naráží nasazení LLM v medicíně na specifické bariéry. Prvním kritickým bodem je \textbf{vznik halucinací}, kdy model může s vysokou mírou přesvědčivosti vygenerovat medicínsky chybný údaj. V procesu extrakce to znamená riziko záměny negace (např. \enquote{pacient neguje bolest} interpretováno jako \enquote{pacient má bolesti}). \cite{halucinace}
 
-Druhým pilířem je \textbf{ochrana citlivých údajů (GDPR)}. Většina pokročilých LLM je provozována jako cloudová služba, což u lékařských dat vyžaduje striktní procesy de-identifikace nebo nasazení lokálních (on-premise) modelů.
+Druhým pilířem je \textbf{ochrana citlivých údajů (GDPR)}. Většina pokročilých LLM je provozována jako cloudová služba, což u lékařských dat vyžaduje striktní procesy de-identifikace nebo nasazení lokálních (on-premise) modelů. Vzhledem k rozmachu tohoto tématu vzniklo několik nástrojů na anonymizaci dat.
 
-Budoucnost využití LLM v extrakci tak spočívá především v kombinaci lidského dohledu (\textit{human-in-the-loop}) a specializovaných modelů trénovaných na doménově specifických datech. Ačkoliv AI přináší ve zdravotnictví plno pokroků, přichází i nové výzvy a překážky. Anonymizace a GDPR, neboli evropské nařízení o ochraně dat je ve zdravotnictví velké téma a vzniklo již několik nástrojů na anonymizaci dat. Pacienti musí být chráněni a nesmí být jejich osobní data předávané velkým jazykovým modelům. Dalším problémem jsou etické problémy při odpovědnosti za rozhodování. Vzhledem k již dosáhlému pokroku je otázkou publikace vědeckých článků vytvořených AI.
+Budoucnost využití LLM v extrakci tak spočívá především v kombinaci lidského dohledu (\textit{human-in-the-loop}) a specializovaných modelů trénovaných na doménově specifických datech. Pacienti musí být chráněni a jejich osobní data nesmějí být poskytována velkým jazykovým modelům, které by mohla data rozšířit do veřejného prostoru.
 
 \newpage
 
@@ -296,7 +306,7 @@ Nedílnou součástí bakalářské práce bylo zpracování vstupních dat. Dat
 
 Z jazykového hlediska jsou lékařské zprávy charakteristické vysokou mírou odborné terminologie, častým výskytem zkratek, latinských názvů, nejednoznačných formulací a stylistických i pravopisných nekonzistencí. Texty rovněž obsahují neúplné věty, telegrafický styl zápisu a kombinaci strukturovaných i nestrukturovaných částí, což výrazně zvyšuje náročnost automatické extrakce informací.
 
-Zprávy byly vedoucím poskytnuty ve formátu CSV. Jednotlivá data byla zpracována tak, aby každý CSV soubor měl tyto entity: \textit{url} -- odkaz na webový server projektu MRE s danou zprávou, \textit{datetime} -- čas vyšetření, \textit{title} -- název vyšetření a \textit{text} -- text lékařské zprávy. U lékařských zpráv zabývajících se mrtvicí nebyly poskytnuty URL adresy.
+Zprávy byly vedoucím poskytnuty ve formátu CSV. Jednotlivá data byla zpracována tak, aby každý CSV soubor měl tyto entity: \textit{url} - odkaz na webový server projektu MRE s danou zprávou, \textit{datetime} - čas vyšetření, \textit{title} - název vyšetření a \textit{text} - text lékařské zprávy. U lékařských zpráv zabývajících se mrtvicí nebyly poskytnuty URL adresy.
 
 Lékařské zprávy byly předem zpracovány a anonymizovány v rámci projektu MRE Fakulty aplikovaných věd. Z osobních údajů byl u zpráv s Crohnovou nemocí uveden pouze věk pacienta. 
 
@@ -333,7 +343,7 @@ Naopak u zpráv týkajících se cévní mozkové příhody nebylo žádné konk
 
 Vytvoření vhodných metrik pro hodnocení kvality extrakce informací představovalo jeden z nejnáročnějších aspektů této práce. Standardně používané metriky, jako je přesnost (\textit{precision}), úplnost (\textit{recall}), F1 skóre nebo regresní metody, nejsou v kontextu této práce snadno aplikovatelné. Důvodem je absence referenčních anotovaných dat (tzv. \textit{ground truth}), stejně jako vysoká variabilita a nestrukturovanost vstupních lékařských textů.
 
-Z těchto důvodů byly navrženy vlastní, převážně kvalitativní a kvantitativně--deskriptivní metriky, jejichž cílem není absolutní hodnocení správnosti, ale \textbf{relativní porovnání chování jednotlivých velkých jazykových modelů (LLM)} napříč různými aspekty extrakce. Navržené metriky rozdělují hodnocení do několika vzájemně se doplňujících dimenzí, které umožňují identifikovat silné a slabé stránky jednotlivých modelů.
+Z těchto důvodů byly navrženy vlastní, převážně kvalitativní a kvantitativně-deskriptivní metriky, jejichž cílem není absolutní hodnocení správnosti, ale \textbf{relativní porovnání chování jednotlivých velkých jazykových modelů (LLM)} napříč různými aspekty extrakce. Navržené metriky rozdělují hodnocení do několika vzájemně se doplňujících dimenzí, které umožňují identifikovat silné a slabé stránky jednotlivých modelů.
 
 \textit{Výsledky prezentované v této kapitole se v současné fázi vztahují výhradně k datům pacientů s Crohnovou nemocí. Rozšíření metrik a jejich aplikace na další diagnózy, zejména cévní mozkovou příhodu, je plánováno jako součást další práce.}
 
@@ -377,9 +387,12 @@ Při podrobnějším průzkumu dostupných modelů však bylo zjištěno, že v�
 
 Podobná situace nastala také u modelů zaměřených výhradně na český jazyk. Počet dostupných a veřejně přístupných modelů trénovaných specificky na českých datech je velmi omezený a žádný z nich nenabízel dostatečnou podporu pro úlohy extrakce strukturovaných informací z textu. Z tohoto důvodu nebylo možné tyto modely efektivně zahrnout do experimentální části práce.
 
+\subsection{Použité techniky z pohledu teorie}
+Zero-shot, open-source, chatboti
+
 Na základě uvedených omezení byly proto do dalšího zkoumání vybrány pouze \textbf{obecné velké jazykové modely}, které v současnosti patří mezi nejrozšířenější a nejvýkonnější dostupná řešení. Výběr konkrétních modelů byl proveden na základě průzkumu odborných a technologických zdrojů, dostupnosti modelů a jejich schopností práce s delšími texty a strukturovanými výstupy.
 
-Vybrány proto byly jen obecné a to nejrozšířenější modely současnosti. Po průzkumu několika webových stránek byly vybrány následující modely:
+Vybrány byly pouze obecné a nejrozšířenější modely současnosti. Po průzkumu několika webových stránek byly vybrány následující modely: \cite{llm_stats, em360tech}
 
 \begin{table}[h]
 \centering
@@ -408,9 +421,9 @@ Meta & Llama & Llama-3.2-3B \\ \bottomrule
 
 Tato kapitola popisuje softwarové vybavení, vývojové prostředí a využité programové knihovny, které tvořily technologický základ pro realizaci praktické části práce.
 
-\subsection{Vývojové prostředí}
+\subsection{Programovací jazyk}
 
-"""Pro implementaci veškerých algoritmů a uživatelského rozhraní bylo využito integrované vývojové prostředí (IDE) \textbf{Microsoft Visual Studio Code (VS Code)}""". Volba tohoto prostředí byla podložena jeho vysokou modularitou a širokou podporou pro jazyk \textbf{Python}, který byl zvolen jako primární programovací jazyk. Python v současnosti představuje standard v oblastech strojového učení, analýzy dat a integrace modelů umělé inteligence, a to především díky rozsáhlému ekosystému knihoven a podpoře rozhraní API.
+Jazyk \textbf{Python}, byl zvolen jako primární programovací jazyk. Python v současnosti představuje standard v oblastech strojového učení, analýzy dat a integrace modelů umělé inteligence, a to především díky rozsáhlému ekosystému knihoven a podpoře rozhraní API. Využita byla např. API \textbf{Streamlit}, pomocí něhož byla vytvořena webová stránka umožňující automatické zpracování některých částí projektu. 
 
 \subsection{Softwarové nástroje a platformy}
 
@@ -440,11 +453,11 @@ Pro vývoj webového rozhraní byl zvolen jazyk Python, který nabízí řadu fr
 Aplikace je členěna do pěti samostatných modulů (stránek), které pokrývají jednotlivé fáze zpracování dat:
 
 \begin{itemize}
-    \item \textbf{Data Viewer} -- Modul pro vizualizaci a prohlížení zdrojových dat uložených v adresáři \texttt{data}. Pro tabulkové zobrazení datových sad je využita knihovna \textbf{Pandas}.
-    \item \textbf{Prompt Maker} -- Nástroj pro systematickou tvorbu a správu promptů, které jsou následně manuálně vkládány do testovaných LLM modelů.
-    \item \textbf{Result Maker} -- Slouží ke strukturovanému ukládání výstupů získaných z modelů do souborového systému.
-    \item \textbf{Results Viewer} -- Rozhraní pro prohlížení a kontrolu uložených výsledků experimentů.
-    \item \textbf{Analyzator} -- Modul provádějící analýzu lékařských zpráv, jehož výstupem jsou vypočtené evaluační metriky.
+    \item \textbf{Data Viewer} - Modul pro vizualizaci a prohlížení zdrojových dat uložených v adresáři \texttt{data}. Pro tabulkové zobrazení datových sad je využita knihovna \textbf{Pandas}.
+    \item \textbf{Prompt Maker} - Nástroj pro systematickou tvorbu a správu promptů, které jsou následně manuálně vkládány do testovaných LLM modelů.
+    \item \textbf{Result Maker} - Slouží ke strukturovanému ukládání výstupů získaných z modelů do souborového systému.
+    \item \textbf{Results Viewer} - Rozhraní pro prohlížení a kontrolu uložených výsledků experimentů.
+    \item \textbf{Analyzator} - Modul provádějící analýzu lékařských zpráv, jehož výstupem jsou vypočtené evaluační metriky.
 \end{itemize}
 
 \subsubsection{Architektura aplikace}
@@ -491,44 +504,23 @@ Z tohoto důvodu byl zvolen proces manuálního zpracování dat:
 
 \begin{thebibliography}{99}
 
-\bibitem{mccarthy2007}
-McCarthy, J. (2007). What is artificial intelligence?
-
-\bibitem{russell2010}
-Russell, S., \& Norvig, P. (2010). \textit{Artificial Intelligence: A Modern Approach}. Prentice Hall.
-
-\bibitem{formanek_farana}
-Formánek, I., \& Farana, R. Artificial Intelligence--Artificial Neural Networks. \textit{VŠPP Entrepreneurship Studies}, 24.
-
-\bibitem{sap_deep_learning}
-SAP. What is Deep Learning? \textit{AI in Business}. Dostupné z: \url{https://www.sap.com/resources/what-is-deep-learning}
-
-\bibitem{mcculloch1943}
-McCulloch, W. S., \& Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. \textit{The Bulletin of Mathematical Biophysics}, 5(4), 115--133.
-
-\bibitem{horky2009}
-Horký, L., \& Břinda, K. (2009). Neuronové sítě.
-
 \bibitem{pala2000}
 Pala, K. (2000). Počítačové zpracování přirozeného jazyka. \textit{NLP FI MU}.
+
+\bibitem{lemm_stem}
+GeeksforGeeks. Stemming vs Lemmatization in NLP [online]. Poslední aktualizace 2024 [cit. 2025-01-24]. Dostupné z: https://www.geeksforgeeks.org/nlp/lemmatization-vs-stemming/
 
 \bibitem{sap_nlp}
 SAP. What is Natural Language Processing? Dostupné z: \url{https://www.sap.com/uk/resources/what-is-natural-language-processing}
 
 \bibitem{hendl2023}
-Hendl, J. (2023). Jazykové modely a umělá inteligence. In \textit{Sborník konference Medsoft 2023} (pp. 1--9).
-
-\bibitem{ibm_transformer}
-IBM. What is Transformer Model? Dostupné z: \url{https://www.ibm.com/think/topics/transformer-model}
-
-\bibitem{huggingface_llm}
-Hugging Face. LLM Course. Dostupné z: \url{https://huggingface.co/learn/llm-course/chapter1}
-
-\bibitem{sap_llm}
-SAP. What is Large Language Model? Dostupné z: \url{https://www.sap.com/uk/resources/what-is-large-language-model}
+Hendl, J. (2023). Jazykové modely a umělá inteligence. In \textit{Sborník konference Medsoft 2023} (pp. 1-9).
 
 \bibitem{vaswani2017}
 Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., \& Polosukhin, I. (2017). Attention Is All You Need. In \textit{Advances in Neural Information Processing Systems} (Vol. 30).
+
+\bibitem{huggingface_llm}
+Hugging Face. LLM Course. Dostupné z: \url{https://huggingface.co/learn/llm-course/chapter1}
 
 \bibitem{sapien_finetuning}
 Sapien.io. Fine-Tuning vs Pre-Training: Key Differences for Language Models. Dostupné z: \url{https://www.sapien.io/blog/fine-tuning-vs-pre-training-key-differences-for-language-models}
@@ -548,11 +540,14 @@ YouTube. Mixture of Experts (MoE) Explained. Dostupné z: \url{https://www.youtu
 \bibitem{flowhunt_agentic}
 FlowHunt. Agentic AI Systems. Dostupné z: \url{https://www.flowhunt.io/cs/blog/agentic/}
 
-\bibitem{learnprompting_fewshot}
-Learn Prompting. Few Shot Prompting. Dostupné z: \url{https://learnprompting.org/docs/basics/few_shot}
+\bibitem{sap_llm}
+SAP. What is Large Language Model? Dostupné z: \url{https://www.sap.com/uk/resources/what-is-large-language-model}
 
 \bibitem{geeksforgeeks_prompt}
 GeeksforGeeks. What is an AI Prompt? Dostupné z: \url{https://www.geeksforgeeks.org/artificial-intelligence/what-is-an-ai-prompt/}
+
+\bibitem{learnprompting_fewshot}
+Learn Prompting. Few Shot Prompting. Dostupné z: \url{https://learnprompting.org/docs/basics/few_shot}
 
 \bibitem{geeksforgeeks_cot}
 GeeksforGeeks. What is Chain of Thought Prompting? Dostupné z: \url{https://www.geeksforgeeks.org/artificial-intelligence/what-is-chain-of-thought-prompting/}
@@ -565,6 +560,12 @@ NVIDIA Developer Blog. Traditional RAG vs Agentic RAG: Why AI Agents Need Dynami
 
 \bibitem{astera_llm}
 Astera. LLM Data Extraction. Dostupné z: \url{https://www.astera.com/type/blog/llm-data-extraction/}
+
+\bibitem{evaluation_llm}
+LI, Jinghui, et al. Evaluating Large Language Models for Health Data Analytics: A Standardized Framework and Benchmarking. npj Digital Medicine. 2023, roč. 6, č. 1.
+
+\bibitem{emergent_abilities}
+WEI, Jason, et al. Emergent Abilities of Large Language Models. Transactions on Machine Learning Research. 2022.
 
 \bibitem{flowhunt_nondeterminism}
 FlowHunt. Defeating Non-Determinism in LLMs. Dostupné z: \url{https://www.flowhunt.io/cs/blog/defeating-non-determinism-in-llms/}
@@ -581,7 +582,7 @@ European Commission. Artificial Intelligence in Healthcare. Dostupné z: \url{ht
 Hirani, R., Noruzi, K., Khuram, H., Hussaini, A. S., Aifuwa, E. I., Ely, K. E., Lewis, J. M., Gabr, A. E., Smiley, A., Tiwari, R. K., \& Etienne, M. (2024). Artificial Intelligence and Healthcare: A Journey through History, Present Innovations, and Future Possibilities. \textit{Life}, 14(5), 557. \url{https://doi.org/10.3390/life14050557}
 
 \bibitem{kong2019}
-Kong, H.-J. (2019). Managing Unstructured Big Data in Healthcare System. \textit{Healthcare Informatics Research}, 25(1), 1--2. \url{https://doi.org/10.4258/hir.2019.25.1.1}
+Kong, H.-J. (2019). Managing Unstructured Big Data in Healthcare System. \textit{Healthcare Informatics Research}, 25(1), 1-2. \url{https://doi.org/10.4258/hir.2019.25.1.1}
 
 \bibitem{copeland2018}
 Copeland, B. (2018, November 21). MYCIN. \textit{Encyclopedia Britannica}. Dostupné z: \url{https://www.britannica.com/technology/MYCIN}
@@ -589,7 +590,22 @@ Copeland, B. (2018, November 21). MYCIN. \textit{Encyclopedia Britannica}. Dostu
 \bibitem{zikmundova2021}
 Zikmundová, L. (2021). \textit{Problematika morfologie ve vybraných popularizačních příručkách o českém jazyku} (diplomová práce). Západočeská univerzita v Plzni. Dostupné z: \url{http://hdl.handle.net/11025/45299}
 
+\bibitem{History_nlp}
+BENDER, Emily M., et al. On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?. 2021.
 
+\bibitem{BERT_NER}
+DEVLIN, Jacob, et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 2018.
+
+\bibitem{halucinace}
+HLAVENKA, Jiří. Halucinace AI: Když si umělá inteligence vymýšlí [online]. Marigold.cz, 2023 [cit. 2025-01-24]. Dostupné z: \url{https://www.marigold.cz/ai/halucinace-ai/}
+
+% Kapitola 6 - Výběr modelů
+
+\bibitem{llm_stats}
+LLM STATS. LLM Statistics and Benchmarks [online]. 2024 [cit. 2025-01-24]. Dostupné z: https://llm-stats.com/
+
+\bibitem{em360tech}
+EM360TECH. What is a Large Language Model (LLM)? Definition, Examples, and Use Cases [online]. 2024 [cit. 2025-01-24]. Dostupné z: https://em360tech.com/tech-articles/what-large-language-model-llm-definition-examples-use-cases
 
 \end{thebibliography}
 
@@ -603,12 +619,12 @@ Zikmundová, L. (2021). \textit{Problematika morfologie ve vybraných populariza
 \subsection{Struktura projektu MRE}
 
 \begin{itemize}
-    \item \textbf{data} -- v adresáři jsou uloženy vybrané texty z CSV souborů, popisy pro modely, poskytnuté CSV soubory, anotované slova a texty určené k promptování (prompty)
-    \item \textbf{docs} -- zde se uchovává dokumentace a všechny doplňující informace k provozu projektu
-    \item \textbf{results} -- adresář s výsledkami modelů
-    \item \textbf{scripts} -- využívá konfigurační soubory a soubor pro uchování adres a konstant
-    \item \textbf{src} -- obsahuje většinu použitých kódů a programů využitých při práci na projektu MRE
-    \item \textbf{st\_src} -- obsahuje kódy pro webovou aplikaci
+    \item \textbf{data} - v adresáři jsou uloženy vybrané texty z CSV souborů, popisy pro modely, poskytnuté CSV soubory, anotované slova a texty určené k promptování (prompty)
+    \item \textbf{docs} - zde se uchovává dokumentace a všechny doplňující informace k provozu projektu
+    \item \textbf{results} - adresář s výsledkami modelů
+    \item \textbf{scripts} - využívá konfigurační soubory a soubor pro uchování adres a konstant
+    \item \textbf{src} - obsahuje většinu použitých kódů a programů využitých při práci na projektu MRE
+    \item \textbf{st\_src} - obsahuje kódy pro webovou aplikaci
 \end{itemize}
 
 \subsection{Struktura složky \texttt{data}}
@@ -616,11 +632,11 @@ Zikmundová, L. (2021). \textit{Problematika morfologie ve vybraných populariza
 Adresář \texttt{data} uchovává všechna potřebná data k vypracování projektu MRE. Adresář obsahuje 5 podadresářů:
 
 \begin{itemize}
-    \item \textbf{csv} -- obsahuje strukturované lékařské zprávy poskytnuté vedoucím ve formátu CSV
-    \item \textbf{doccano} -- extrahovaná slova z Doccana rozřezaná do textových souborů
-    \item \textbf{prompts} -- soubory ve formátu JSON určené na komunikaci s modely (prompting)
-    \item \textbf{tasks} -- texty s instrukcemi pro LLM
-    \item \textbf{medical\_reports} -- vybrané lékařské zprávy ze souborů CSV
+    \item \textbf{csv} - obsahuje strukturované lékařské zprávy poskytnuté vedoucím ve formátu CSV
+    \item \textbf{doccano} - extrahovaná slova z Doccana rozřezaná do textových souborů
+    \item \textbf{prompts} - soubory ve formátu JSON určené na komunikaci s modely (prompting)
+    \item \textbf{tasks} - texty s instrukcemi pro LLM
+    \item \textbf{medical\_reports} - vybrané lékařské zprávy ze souborů CSV
 \end{itemize}
 
 \end{document}

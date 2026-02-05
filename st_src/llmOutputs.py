@@ -30,7 +30,7 @@ def show():
         files = []
 
     if not files:
-        st.warning(f"Ve složce `{selected_dir}` nebyly nalezeny žádné soubory {f'(obsahující "{filter_text}") if filter_text else ""'}.")
+        st.warning(f"Ve složce `{selected_dir}` nebyly nalezeny žádné soubory (obsahující \"{filter_text}\")")
     else:
         # Vyber konkrétní soubor
         selected_file = st.selectbox("Vyber soubor k prohlédnutí:", files)
