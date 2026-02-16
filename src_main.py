@@ -3,7 +3,7 @@ import pandas as pd
 from scripts import config
 import os
 import re
-from src import analyzator as an
+import matplotlib.pyplot as plt
 
 base_root = config.CSV_DATA_ROOT
 files = os.listdir(base_root)
@@ -14,41 +14,41 @@ stroke = os.path.join(base_root, files[2])
 ids = [53, 65, 73, 78, 123, 152, 164, 175, 220, 229]
 
 if __name__ == "__main__":
-    with open("data/medical_reports/002_crohn.txt", 'r', encoding='utf-8') as fr:
-        input_text = fr.read()
-
-    #an.analyze_text(input_text, "zk.txt") 
-    #words = text.split(" ")
-
-    res = an.detect_sections(input_text)
-    print(res)
-        
-    """
     df = pd.read_csv(crohn_2)
-
     texts: list[str] = []
-    out_texts = []
+    out_texts: list[tuple] = []
     for _, row in df.iterrows():
         if config.TITLES_CROHN[2] in str(row['title']):  # přístup ke sloupci 'title'
             texts.append(str(row['text']))  # přístup ke sloupci 'text'
-            
+    
     for i, text in enumerate(texts):
-        if i in ids:
-            out_texts.append(text)
-        #array = re.findall(r'\S', text)
-        # if (len(array) < 800 and len(array) > 200):
-        # if (len(array) > 3000):
-        #    print(f"Soubor {i} - match chars: {len(array)}")
-    """
-"""    
-for i in range(len(out_texts)):
-    start = 4
-    path = f"{config.REPORTS_ROOT}\\0{start + i}_crohn.txt"
+        array = re.findall(r'\s', text)
+        if (len(array) < 500 and len(array) > 0):
+        #if (len(array) > 3000):
+            out_texts.append((text, i))
+            print(f"Soubor {i} - match chars: {len(array)}")
+        
+    start = 1
+    path = f"{os.path.join(config.REPORTS_ROOT, "try")}\\0{start + i}_crohn.txt"
     with open(path, 'w', encoding='utf-8') as fr:
-        fr.write(out_texts[i])     
-"""  
-   
+        for text, id in out_texts:
+            fr.write(f"ID: {id}\n")
+            fr.write(text)
+            fr.write("\n\n" + "="*80 + "\n\n") 
+    """
+    word_counts = []
 
+    for text in texts:
+        words = re.findall(r'\s', text)
+        word_counts.append(len(words))
+    
+    plt.figure()
+    plt.hist(word_counts, bins=30)
+    plt.xlabel("Počet slov")
+    plt.ylabel("Počet dokumentů")
+    plt.title("Rozvrstvení dokumentů podle počtu slov")
+    plt.show()
+    """
 
 # Lowest crohn   - 5, 8, 9     
 # Highest crohn  - 175, 73, 229

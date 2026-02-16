@@ -1,6 +1,8 @@
 import re
 import os
 
+API_KEY = "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/5"
+
 DATA_ROOT = "data"
 CSV_DATA_ROOT = os.path.join(DATA_ROOT, "csv")
 JSON_DATA_ROOT = os.path.join(DATA_ROOT, "json")

@@ -168,51 +168,51 @@ def analyzeJson(input: dict, outpath: str):
 
         # --- Zápis do TXT ---
         with open(outpath, "w", encoding="utf-8") as f:
-            f.write(f"""
-                    Výsledná analýza původního textu
+            f.write(f"""\
+Výsledná analýza původního textu
 
-                    --- Metriky klíčů ---
-                    Počet klíčů: {key_stats["total_keys"]}
-                    Počet hlavních klíčů: {main_keys}
-                    Počet podklíčů: {nested_keys}
-                    
-                    Průměrný počet vět na hlavní klíč: {avg_sent_main:.2f}
-                    Průměrný počet vět na zanořený klíč: {avg_sent_nested:.2f}
+--- Metriky klíčů ---
+Počet klíčů: {key_stats["total_keys"]}
+Počet hlavních klíčů: {main_keys}
+Počet podklíčů: {nested_keys}
 
-                    Průměrný počet slov na hlavní klíč: {avg_words_main:.2f}
-                    Průměrný počet slov na zanořený klíč: {avg_words_nested:.2f}
+Průměrný počet vět na hlavní klíč: {avg_sent_main:.2f}
+Průměrný počet vět na zanořený klíč: {avg_sent_nested:.2f}
 
-                    Průměrný počet znaků na hlavní klíč: {avg_chars_main:.2f}
-                    Průměrný počet znaků na zanořený klíč: {avg_chars_nested:.2f}
+Průměrný počet slov na hlavní klíč: {avg_words_main:.2f}
+Průměrný počet slov na zanořený klíč: {avg_words_nested:.2f}
 
-                    --- Slovní metriky ---
-                    Sekce: {section_found}
-                    Počet sekcí: {section_count}
-                    
-                    Anatomické názvy: {anatomy_found}
-                    Počet anatomických slov: {anatomy_count}
+Průměrný počet znaků na hlavní klíč: {avg_chars_main:.2f}
+Průměrný počet znaků na zanořený klíč: {avg_chars_nested:.2f}
 
-                    Diagnózy: {diagnosis_found}
-                    Počet diagnóz: {diagnosis_count}
+--- Slovní metriky ---
+Sekce: {section_found}
+Počet sekcí: {section_count}
 
-                    Klíčová slova: {keywords_found}
-                    Počet klíčových slov: {keywords_count}
+Anatomické názvy: {anatomy_found}
+Počet anatomických slov: {anatomy_count}
 
-                    Klinické příznaky a popisy stavů: {kpps_found}
-                    Počet slov KPPS: {kpps_count}
+Diagnózy: {diagnosis_found}
+Počet diagnóz: {diagnosis_count}
 
-                    Latinské názvy: {latin_found}
-                    Počet latinských názvů: {latin_count}
+Klíčová slova: {keywords_found}
+Počet klíčových slov: {keywords_count}
 
-                    Léky: {medicaments_found}
-                    Počet léků: {medicaments_count}
+Klinické příznaky a popisy stavů: {kpps_found}
+Počet slov KPPS: {kpps_count}
 
-                    Mikrobiologie: {microbiology_found}
-                    Počet názvů z mikrobiologie: {microbiology_count}
+Latinské názvy: {latin_found}
+Počet latinských názvů: {latin_count}
 
-                    Procedury a terapie: {procedures_found}
-                    Počet procedur a terapií: {procedures_count}
-                """)
+Léky: {medicaments_found}
+Počet léků: {medicaments_count}
+
+Mikrobiologie: {microbiology_found}
+Počet názvů z mikrobiologie: {microbiology_count}
+
+Procedury a terapie: {procedures_found}
+Počet procedur a terapií: {procedures_count}
+            """)
             
     except Exception as e:
         print(f"Error while analyzing {outpath}: {e}.")

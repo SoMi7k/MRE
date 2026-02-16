@@ -1,0 +1,32 @@
+Výsledná analýza extrahovaného textu
+
+--- Metriky klíčů ---
+Počet klíčů: ?
+Počet podklíčů: ?
+Průměrný počet znaků na klíč: ?
+Průměrný počet vět na klíč: ?
+
+--- Slovní metriky ---
+Anatomické názvy: []
+Počet anatomických slov:
+
+Diagnózy: []
+Počet diagnóz:
+
+Klíčová slova: []
+Počet klíčových slov:
+
+Klinické příznaky a popisy stavů: []
+Počet slov KPPS:
+
+Latinské názvy: []
+Počet latinských názvů:
+
+Léky: []
+Počet léků:
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie:
+
+Procedury a terapie: []
+Počet procedur a terapií:

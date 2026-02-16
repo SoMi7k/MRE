@@ -1,7 +1,18 @@
+# Mapy
 .mypy_cache/
+
+# Venv
 mre_venv/
-src/__pycache__/
-st_src/__pycache__/
-srcipts/__pycache__/
+
+# Docs
 docs/Notes/*
 docs/Text/*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/

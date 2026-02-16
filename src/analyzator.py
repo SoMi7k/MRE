@@ -198,47 +198,47 @@ def analyze_text(input_text: str, output_file: str) -> int:
 
         # --- Zápis do TXT ---
         with open(output_file, "w", encoding="utf-8") as f:
-            f.write(f"""
-        Výsledná analýza původního textu
+            f.write(f"""\
+Výsledná analýza původního textu
 
-        --- Metriky sekcí ---
-        Sekce: {[name for name, _ in sections]}
-        Počet sekcí: {num_sections}
-        Průměrný počet znaků na sekci: {avg_chars_per_section:.2f}
-        Průměrný počet vět na sekci: {avg_sent_per_section:.2f}
+--- Metriky sekcí ---
+Sekce: {[name for name, _ in sections]}
+Počet sekcí: {num_sections}
+Průměrný počet znaků na sekci: {avg_chars_per_section:.2f}
+Průměrný počet vět na sekci: {avg_sent_per_section:.2f}
 
-        --- Slovní metriky ---
-        Anatomické názvy: {anatomy_found}
-        Počet anatomických slov: {anatomy_count}
+--- Slovní metriky ---
+Anatomické názvy: {anatomy_found}
+Počet anatomických slov: {anatomy_count}
 
-        Diagnózy: {diagnosis_found}
-        Počet diagnóz: {diagnosis_count}
+Diagnózy: {diagnosis_found}
+Počet diagnóz: {diagnosis_count}
 
-        Klíčová slova: {keywords_found}
-        Počet klíčových slov: {keywords_count}
+Klíčová slova: {keywords_found}
+Počet klíčových slov: {keywords_count}
 
-        Klinické příznaky a popisy stavů: {kpps_found}
-        Počet slov KPPS: {kpps_count}
+Klinické příznaky a popisy stavů: {kpps_found}
+Počet slov KPPS: {kpps_count}
 
-        Latinské názvy: {latin_found}
-        Počet latinských názvů: {latin_count}
+Latinské názvy: {latin_found}
+Počet latinských názvů: {latin_count}
 
-        Léky: {medicaments_found}
-        Počet léků: {medicaments_count}
+Léky: {medicaments_found}
+Počet léků: {medicaments_count}
 
-        Mikrobiologie: {microbiology_found}
-        Počet názvů z mikrobiologie: {microbiology_count}
+Mikrobiologie: {microbiology_found}
+Počet názvů z mikrobiologie: {microbiology_count}
 
-        Procedury a terapie: {procedures_found}
-        Počet procedur a terapií: {procedures_count}
+Procedury a terapie: {procedures_found}
+Počet procedur a terapií: {procedures_count}
 
 
-        --- Větné metriky ---
-        Počet vět: {num_sentences}
-        Průměrná délka věty: {avg_sentence_len:.2f}
-        Počet znaků: {char_count}
-        Počet vět mimo sekce: {len(out_sentences)}
-        Počet znaků mimo sekce: {out_chars}
+--- Větné metriky ---
+Počet vět: {num_sentences}
+Průměrná délka věty: {avg_sentence_len:.2f}
+Počet znaků: {char_count}
+Počet vět mimo sekce: {len(out_sentences)}
+Počet znaků mimo sekce: {out_chars}
         """)
     except Exception as e:
         print(f"Error while analyzing {output_file}: {e}.")

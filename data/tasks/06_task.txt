@@ -1,4 +1,4 @@
-Tvým úkolem je zpracovat anonymizovanou lékařskou zprávu uvedenou níže a převést ji do strukturovaného JSON formátu.
+Tvým úkolem je zpracovat anonymizovanou lékařskou zprávu uvedenou níže a extrahovat ji do strukturovaného JSON formátu.
 
 Pokyny:
 1. Přenes veškeré dostupné informace z textu, které mají lékařský význam (anamnéza, laboratorní hodnoty, diagnózy, léčba, doporučení apod.).

@@ -5,6 +5,7 @@ from st_src import (
     testInputMaker as tIM,
     resultMaker as rM,
     llmOutputs as lO,
+    OutputMaker as OM,
     analyzatorST as aST
 )
 
@@ -21,6 +22,7 @@ with st.sidebar:
         "Prompt Maker": "prompt_maker",
         "Result Maker": "result_maker",
         "Results Viewer": "results_viewer",
+        "Output Maker": "output_maker",
         "Analyzator": "analyzer"
     }
     
@@ -86,6 +88,8 @@ match current:
         rM.show()
     case "Results Viewer":
         lO.show()
+    case "Output Maker":
+        OM.show()
     case "Analyzator":
         aST.show()
 
