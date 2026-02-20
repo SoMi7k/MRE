@@ -2,29 +2,6 @@ import re
 from typing import Any, Dict, Tuple
 import scripts.config as cf
 
-"""
-    Výsledná analýza extrahovaného textu
-    
-    --- Metriky klíčů ---
-    Počet klíčů: ?
-    Počet podklíčů: ?
-    Průměrný počet znaků na klíč: ?
-    Průměrný počet vět na klíč: ?
-
-    --- Slovní metriky ---
-    Latinské slova: []
-    Počet latinských slov: ?
-    # Klíčová slova: []
-    # Počet klíčových slov: ?
-
-    --- Větné metriky ---
-    Počet vět: ?
-    Průměrná délka věty: ?
-    Počet znaků: ?
-    Počet vět mimo sekce: ?
-    Počet znaků mimo sekce: ?
-"""
-
 def split_sentences(text: str) -> list[str]:
     if not text:
         return []
@@ -102,12 +79,20 @@ def traverse_json(
 
 def count_words(text: str, theme_root: str):
     with open(theme_root, 'r', encoding='utf-8') as fr:
-        theme_words = {line.strip() for line in fr}
+        # Očistíme každý řádek od mezer, čárek a dalších nežádoucích znaků
+        theme_phrases = {
+            line.strip().strip(',').lower()
+            for line in fr
+            if line.strip()
+        }
 
-    words = re.findall(r'\w+', text)
-    
-    found = {w for w in words if w in theme_words}
-    
+    print(theme_phrases)
+
+    text_lower = text.lower()
+
+    # Hledáme každou frázi přímo jako podřetězec v textu
+    found = {phrase for phrase in theme_phrases if phrase in text_lower}
+
     return list(found), len(found)
 
 
@@ -169,7 +154,7 @@ def analyzeJson(input: dict, outpath: str):
         # --- Zápis do TXT ---
         with open(outpath, "w", encoding="utf-8") as f:
             f.write(f"""\
-Výsledná analýza původního textu
+Výsledná analýza extrahovaného textu:
 
 --- Metriky klíčů ---
 Počet klíčů: {key_stats["total_keys"]}
@@ -215,9 +200,4 @@ Počet procedur a terapií: {procedures_count}
             """)
             
     except Exception as e:
-        print(f"Error while analyzing {outpath}: {e}.")
-        return 0
-
-    return 1
-
-    
+        raise e

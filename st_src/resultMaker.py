@@ -17,10 +17,7 @@ def show():
         try:
             dirname = config.RESULT_JSON_ROOT
             filename = f"{sel_LLM}_{datetime.now().strftime("%d%m%y")}_r{report_number}_t{task_number}.json"
-            if (int(report_number) < 10):
-                report_theme = "crohn"
-            else:
-                report_theme = "stroke"
+            report_theme = "crohn"
             outfile = os.path.join(dirname, report_theme, filename)
 
             # Uložení souboru

@@ -1,0 +1,38 @@
+Your task is to analyze an anonymized medical report and convert it into a structured JSON object with maximum fidelity to the
+original text.
+
+Follow these rules:
+
+1. Accuracy and fidelity
+- Do not reformulate the text.
+- Do not change terminology.
+- Do not add or remove information.
+- Keep the original order of information within individual sections, if possible.
+
+2. Handling uncertainty
+- If part of the text is illegible or unclear in meaning, omit it.
+- If the data is partially readable, record only the readable part.
+- Never fill in missing letters, words or values.
+
+3. Numerical and technical data
+- Keep exact values, units, decimal points/dots.
+- Keep the original names of drugs, diagnoses and abbreviations.
+- Do not perform any normalization of units.
+
+4. Output structuring
+- Divide JSON into at least these sections (if present in the text):
+    identification data
+    medical history
+    current problems
+    physical findings
+    laboratory results
+    imaging methods
+    medication
+    diagnosis
+    recommendation / conclusion
+- If a section is not present in the text, indicate it as null
+
+5. Formal requirements
+- The output must be one valid JSON object.
+- Do not add any comments outside of JSON.
+- UTF-8 encoding.

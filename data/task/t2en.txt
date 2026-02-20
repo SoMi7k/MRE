@@ -1,0 +1,1 @@
+Extract information from the following anonymized medical report and return it as JSON. Keep the original data and don't make things up.

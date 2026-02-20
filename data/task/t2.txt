@@ -1,0 +1,1 @@
+Z následující anonymizované lékařské zprávy extrahuj informace a vrať je ve formátu JSON. Zachovej původní údaje a nic si nedomýšlej.

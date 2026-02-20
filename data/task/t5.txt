@@ -1,0 +1,38 @@
+Tvým úkolem je analyzovat anonymizovanou lékařskou zprávu a převést ji do strukturovaného JSON objektu s maximální věrností 
+originálnímu textu.
+
+Dodrž následující pravidla:
+
+1. Přesnost a věrnost
+- Nepřeformulovávej text.
+- Neměň terminologii.
+- Nepřidávej ani neodstraňuj informace.
+- Zachovej původní pořadí informací v rámci jednotlivých sekcí, pokud je to možné.
+
+2. Zpracování nejistoty
+- Pokud je část textu nečitelná nebo významově nejasná, vynech ji.
+- Pokud je údaj částečně čitelný, zaznamenej pouze čitelnou část.
+- Nikdy nedoplňuj chybějící písmena, slova ani hodnoty.
+
+3. Číselné a odborné údaje
+- Zachovej přesné hodnoty, jednotky, desetinné čárky/tečky.
+- Zachovej originální názvy léčiv, diagnóz a zkratek.
+- Neprováděj žádnou normalizaci jednotek.
+
+4. Strukturace výstupu
+- JSON rozděl minimálně do těchto sekcí (pokud jsou přítomny v textu):
+    identifikační údaje
+    anamnéza
+    aktuální obtíže
+    fyzikální nález
+    laboratorní výsledky
+    zobrazovací metody
+    medikace
+    diagnóza
+    doporučení / závěr
+- Pokud některá sekce není v textu přítomna, uveď ji jako null.
+
+5. Formální požadavky
+- Výstup musí být jeden validní JSON objekt.
+- Nepřidávej žádný komentář mimo JSON.
+- Kódování UTF-8.

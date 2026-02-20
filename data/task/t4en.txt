@@ -1,0 +1,8 @@
+Your task is to proccess an anonymized medical report mentioned below this text and extract it in json format. 
+
+1. Extract all available information from the text that is of medical significance.
+2. Do not change the meaning of words, make assumptions, or fill in missing information.
+3. If you are unsure about the content of a section of text, omit it or mark it as `null`.
+4. Maintain as much fidelity as possible to the original data (numerical values, units, drug names, abbreviations).
+5. Divide the text into logical sections according to content.
+6. The output must be a valid JSON object in UTF-8 format.

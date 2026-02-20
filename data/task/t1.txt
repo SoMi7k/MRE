@@ -1,0 +1,1 @@
+Extrahuj následující lékařskou zprávu a vrať ji jako JSON.

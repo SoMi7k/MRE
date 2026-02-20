@@ -1,0 +1,122 @@
+Extract the following medical report and return it as JSON.
+
+(Extrahuj následující lékařskou zprávu a vrať ji jako JSON.)
+---------------------------
+
+Extract information from the following anonymized medical report and return it as JSON.
+Keep the original data and don't make things up.
+
+(Z následující anonymizované lékařské zprávy extrahuj informace a vrať je ve formátu JSON. 
+Zachovej původní údaje a nic si nedomýšlej.)
+---------------------------
+
+Below this text is an anonymized medical report. Your task is to extract the text and return it in json format. 
+Try to keep as much information from the text as possible. Do not create new words, add letters or words. If you are not 
+certain what the word means let it.
+Try to retain as much information from the text as possible. Don't try to guess, add letters, or words. If you're not sure 
+what a word means, leave it out.
+
+(Pod tímto textem se nachází anonymizovaná lékařská zpráva. Tvůj úkol je extrahovat daný text a navrátit ho zpět ve 
+formátu json.
+Snaž se zachovat co nejvíce informací z daného textu. Nesnaž si domýšlet, přidávat písmena, nebo slova. Pokud si nejsi jist 
+co dané slovo znamená vynech ho.)
+---------------------------
+
+Your task is to proccess an anonymized medical report mentioned below this text and extract it in json format. 
+
+1. Extract all available information from the text that is of medical significance.
+2. Do not change the meaning of words, make assumptions, or fill in missing information.
+3. If you are unsure about the content of a section of text, omit it or mark it as `null`.
+4. Maintain as much fidelity as possible to the original data (numerical values, units, drug names, abbreviations).
+5. Divide the text into logical sections according to content.
+6. The output must be a valid JSON object in UTF-8 format.
+
+(Tvým úkolem je zpracovat anonymizovanou lékařskou zprávu uvedenou níže a extrahovat ji do strukturovaného JSON formátu.
+
+Pokyny:
+1. Přenes veškeré dostupné informace z textu, které mají lékařský význam.
+2. Neměň význam slov, nic si nedomýšlej, ani nedoplňuj chybějící údaje.
+3. Pokud si nejsi jistý obsahem části textu, vynech ji nebo ji uveď jako `null`.
+4. Zachovej co největší věrnost originálním údajům (číselné hodnoty, jednotky, názvy léků, zkratky).
+5. Text rozděl do logických sekcí podle obsahu.
+6. Výstup musí být platný JSON objekt ve formátu UTF-8.)
+
+---------------------------
+
+Your task is to analyze an anonymized medical report and convert it into a structured JSON object with maximum fidelity to the
+original text.
+
+Follow these rules:
+
+1. Accuracy and fidelity
+- Do not reformulate the text.
+- Do not change terminology.
+- Do not add or remove information.
+- Keep the original order of information within individual sections, if possible.
+
+2. Handling uncertainty
+- If part of the text is illegible or unclear in meaning, omit it.
+- If the data is partially readable, record only the readable part.
+- Never fill in missing letters, words or values.
+
+3. Numerical and technical data
+- Keep exact values, units, decimal points/dots.
+- Keep the original names of drugs, diagnoses and abbreviations.
+- Do not perform any normalization of units.
+
+4. Output structuring
+- Divide JSON into at least these sections (if present in the text):
+    identification data
+    medical history
+    current problems
+    physical findings
+    laboratory results
+    imaging methods
+    medication
+    diagnosis
+    recommendation / conclusion
+- If a section is not present in the text, indicate it as null
+
+5. Formal requirements
+- The output must be one valid JSON object.
+- Do not add any comments outside of JSON.
+- UTF-8 encoding.
+
+(Tvým úkolem je analyzovat anonymizovanou lékařskou zprávu a převést ji do strukturovaného JSON objektu s maximální věrností 
+originálnímu textu.
+
+Dodrž následující pravidla:
+
+1. Přesnost a věrnost
+- Nepřeformulovávej text.
+- Neměň terminologii.
+- Nepřidávej ani neodstraňuj informace.
+- Zachovej původní pořadí informací v rámci jednotlivých sekcí, pokud je to možné.
+
+2. Zpracování nejistoty
+- Pokud je část textu nečitelná nebo významově nejasná, vynech ji.
+- Pokud je údaj částečně čitelný, zaznamenej pouze čitelnou část.
+- Nikdy nedoplňuj chybějící písmena, slova ani hodnoty.
+
+3. Číselné a odborné údaje
+- Zachovej přesné hodnoty, jednotky, desetinné čárky/tečky.
+- Zachovej originální názvy léčiv, diagnóz a zkratek.
+- Neprováděj žádnou normalizaci jednotek.
+
+4. Strukturace výstupu
+- JSON rozděl minimálně do těchto sekcí (pokud jsou přítomny v textu):
+    identifikační údaje
+    anamnéza
+    aktuální obtíže
+    fyzikální nález
+    laboratorní výsledky
+    zobrazovací metody
+    medikace
+    diagnóza
+    doporučení / závěr
+- Pokud některá sekce není v textu přítomna, uveď ji jako null.
+
+5. Formální požadavky
+- Výstup musí být jeden validní JSON objekt.
+- Nepřidávej žádný komentář mimo JSON.
+- Kódování UTF-8.)

@@ -1,0 +1,41 @@
+Výsledná analýza původního textu
+
+--- Metriky sekcí ---
+Sekce: ['Subjektivně dominují bolesti v oblasti žaludku.', 'Obj.', 'Lab.', 'Dg', 'Re', 'Doporučení', 'Vystavené recepty']
+Počet sekcí: 7
+Průměrný počet znaků na sekci: 494.00
+Průměrný počet vět na sekci: 8.29
+
+--- Slovní metriky ---
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['anemie', 'ileální absces st.p.', 'psychologické a behaviorální faktory', 'pásového oparu', 'infekty', 'chronická anální fisura', 'neštovic', 'porucha přizpůsobení v rámci m. chrohn', 'anémie chronických chorob']
+Počet diagnóz: 9
+
+Klíčová slova: ['žaludku', 'patologické příměsi', 'strava', 'crohnova choroba', 'břicho', 'homozygot', 'stolice']
+Počet klíčových slov: 7
+
+Klinické příznaky a popisy stavů: ['exantém', 'útlum kostní dřeně', 'salmonelové enteritidy', 'hypertrichóza', 'imunosupresi methotrexátem', 'afebrilní', 'eutrofická']
+Počet slov KPPS: 7
+
+Latinské názvy: ['atenuovanými', 'menses', 'leukopenie', 'preskripce']
+Počet latinských názvů: 4
+
+Léky: ['entocort 3 mg por cps rdr 100x3mg', 'lactobacillus 1x 1 cps p.o.', 'entocort 3-0-0 tbl á 3 mg p.o.', 'helicid 1x 20 mg cps p.o.', 'methotrexát 20 mg p.o.', 'apo-ome 20 por cps etd 100x20mg', 'methotrexate hospira 2,5 mg tablety por tbl nob 100x2.5mg']
+Počet léků: 7
+
+Mikrobiologie: ['axile folikulitida', 'ko+dif', 's-crp', 'b-obj ery.', 'b-hb ery', 's-albumin', 'b-seg - abs', 'stafylokok', 'b-trombo', 'b-ba', 'crp', 'salmonelová enteritida', 'b-mo - abs.', 'b-ery', 'salmonella enteritidis', 'alb', 'ca', 'b-eo', 'b-hb', 'imunoglobulinů', 'b-htk', 'b-mo', 'fe', 'lactobacil', 'fw', 'b-hb konc', 'b-le', 'b-seg', 'b-ly - abs', 'b-eo - abs', 'b-ly', 'b-ba - abs', 'campylobacter', 'b-erytr.křivka']
+Počet názvů z mikrobiologie: 34
+
+Procedury a terapie: ['antivirotická terapie', 'podání imunoglobulinů', 'očkování živými atenuovanými vakcínami']
+Počet procedur a terapií: 3
+
+
+--- Větné metriky ---
+Počet vět: 58
+Průměrná délka věty: 62.71
+Počet znaků: 3753
+Počet vět mimo sekce: 58
+Počet znaků mimo sekce: 3753
+        

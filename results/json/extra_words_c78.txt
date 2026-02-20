@@ -1,0 +1,19 @@
+========== EXTRA KEY WORDS ==========
+
+administrativ
+datum
+diagnóz
+gastroenterologie
+laboratoř
+léčb
+monitorace
+objektivn
+omezen
+potíže
+revize
+věk
+
+
+========== EXTRA VALUE WORDS ==========
+
+inzulinoterapi

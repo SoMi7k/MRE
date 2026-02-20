@@ -1,0 +1,1 @@
+Extract the following medical report and return it as JSON.

@@ -2,64 +2,6 @@ import re
 import unicodedata
 from scripts import config as cf
 
-"""
-    Výsledná analýza původního textu
-
-    --- Metriky sekcí ---
-    Sekce: ['Doporučení', 'subj', 'obj', 'dop', 'FW', 'USG GIT 19.8. 2014SONO GIT', 'RE']
-    Počet sekcí: 7
-    Průměrný počet znaků na sekci: 539.00
-    Průměrný počet vět na sekci: 9.43
-
-    --- Slovní metriky ---
-    Anatomické názvy: ['antrum', 'bulbus']
-    Počet anatomických slov: 2
-
-    Diagnózy: ['anemie', 'infekty', 'antropometrie', 'neštovic']
-    Počet diagnóz: 4
-
-    Klíčová slova: ['kalprotectin', 'EEN', 'Stolice']
-    Počet klíčových slov: 3
-
-    Klinické příznaky a popisy stavů: ['afebrilní']
-    Počet slov KPPS: 1
-
-    Latinské názvy: ['atenuovanými', 'infiltrace', 'leukopenie']
-    Počet latinských názvů: 3
-
-    Léky: ['azathioprimem', 'Modulen']
-    Počet léků: 2
-
-    Mikrobiologie: ['antropometrie', 'kreatin', 'alb', 'CRP', 'ferit', 'trf', 'amylázy', 'Fe', 'kalprotectin', 'imunoglobulinů', 'FW']
-    Počet názvů z mikrobiologie: 11
-
-    Procedury a terapie: []
-    Počet procedur a terapií: 0
-
-
-    --- Větné metriky ---
-    Počet vět: 66
-    Průměrná délka věty: 72.52
-    Počet znaků: 4945
-    Počet vět mimo sekce: 66
-    Počet znaků mimo sekce: 4945
-"""
-
-
-"""
-    Porovnávací soubor
-
-    --- Sémantické metriky ---
-    Sémantická úplnost (semantic recall): ?
-    Sémantická přesnost (semantic precision): ?
-    Počet sémantických halucinací: ?
-    Podíl sémantických halucinací (%): ?
-
-    --- Struktura významu ---
-    Sémantická věrnost struktury: správná / částečně / špatná
-    Sémantická modifikace (semantic shift): ?
-"""
-
 # --- Pomocné funkce ---
 def split_into_sentences(text):
     """
@@ -89,12 +31,20 @@ def split_into_sentences(text):
 
 def count_words(text: str, theme_root: str):
     with open(theme_root, 'r', encoding='utf-8') as fr:
-        theme_words = {line.strip() for line in fr}
+        # Očistíme každý řádek od mezer, čárek a dalších nežádoucích znaků
+        theme_phrases = {
+            line.strip().strip(',').lower()
+            for line in fr
+            if line.strip()
+        }
 
-    words = re.findall(r'\w+', text)
-    
-    found = {w for w in words if w in theme_words}
-    
+    print(theme_phrases)
+
+    text_lower = text.lower()
+
+    # Hledáme každou frázi přímo jako podřetězec v textu
+    found = {phrase for phrase in theme_phrases if phrase in text_lower}
+
     return list(found), len(found)
 
 
@@ -165,7 +115,6 @@ def detect_sections(text):
 
 
 # --- Hlavní funkce ---
-
 def analyze_text(input_text: str, output_file: str) -> int:
     try: 
         # --- Věty ---
@@ -199,13 +148,20 @@ def analyze_text(input_text: str, output_file: str) -> int:
         # --- Zápis do TXT ---
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(f"""\
-Výsledná analýza původního textu
+Výsledná analýza původního textu:
 
 --- Metriky sekcí ---
 Sekce: {[name for name, _ in sections]}
 Počet sekcí: {num_sections}
 Průměrný počet znaků na sekci: {avg_chars_per_section:.2f}
 Průměrný počet vět na sekci: {avg_sent_per_section:.2f}
+
+--- Větné metriky ---
+Počet vět: {num_sentences}
+Průměrná délka věty: {avg_sentence_len:.2f}
+Počet znaků: {char_count}
+Počet vět mimo sekce: {len(out_sentences)}
+Počet znaků mimo sekce: {out_chars}
 
 --- Slovní metriky ---
 Anatomické názvy: {anatomy_found}
@@ -232,13 +188,6 @@ Počet názvů z mikrobiologie: {microbiology_count}
 Procedury a terapie: {procedures_found}
 Počet procedur a terapií: {procedures_count}
 
-
---- Větné metriky ---
-Počet vět: {num_sentences}
-Průměrná délka věty: {avg_sentence_len:.2f}
-Počet znaků: {char_count}
-Počet vět mimo sekce: {len(out_sentences)}
-Počet znaků mimo sekce: {out_chars}
         """)
     except Exception as e:
         print(f"Error while analyzing {output_file}: {e}.")

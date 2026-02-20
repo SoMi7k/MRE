@@ -69,17 +69,17 @@ def show():
                 if selected_file.endswith(".json"):
                     with open(path, "r", encoding="utf-8") as f:
                         data = json.load(f)
-                        #data = json.dumps(loaded, ensure_ascii=False)
-                        st.write(data)
                 # Jiný formát
                 else:
                     st.warning(f"Soubor `{selected_file}` má nepodporovaný formát.")
             except Exception as e:
                 st.error(f"Chyba při čtení souboru: {e}")
                 
+        print(data)        
         if data:
             outpath = os.path.join(result_dir, selected_file).replace(".json", ".txt")
-            if analyzatorJson.analyzeJson(data, outpath):
+            try: 
+                analyzatorJson.analyzeJson(data, outpath)
                 st.success(f"\nHotovo! Výsledek uložen jako: {outpath}")
-            else:
-                st.error(f"Error while analyzing {outpath}")
+            except Exception as e:
+                st.error(f"Error while analyzing {selected_file}: {e}")
