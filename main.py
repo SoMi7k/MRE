@@ -20,7 +20,7 @@ with st.sidebar:
         "Home": "home",
         "Data Viewer": "data_viewer",
         "Prompt Maker": "prompt_maker",
-        "Result Maker": "result_maker",
+        #"Result Maker": "result_maker",
         "Results Viewer": "results_viewer",
         "Output Maker": "output_maker",
         "Analyzator": "analyzer"

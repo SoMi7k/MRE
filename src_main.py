@@ -22,14 +22,14 @@ if __name__ == "__main__":
             texts.append(str(row['text']))  # přístup ke sloupci 'text'
     
     for i, text in enumerate(texts):
-        array = re.findall(r'\s', text)
+        array = re.findall(r'\S', text)
         if (len(array) < 500 and len(array) > 0):
         #if (len(array) > 3000):
             out_texts.append((text, i))
             print(f"Soubor {i} - match chars: {len(array)}")
         
     start = 1
-    path = f"{os.path.join(config.REPORTS_ROOT, "try")}\\0{start + i}_crohn.txt"
+    path = f"{os.path.join(config.REPORTS_ROOT, f"0{start + i}_crohn.txt")}"
     with open(path, 'w', encoding='utf-8') as fr:
         for text, id in out_texts:
             fr.write(f"ID: {id}\n")

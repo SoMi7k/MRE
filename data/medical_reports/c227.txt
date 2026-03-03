@@ -1,4 +1,3 @@
-# 013 - crohn_2.csv - 
 Pacient s aktivní formou Crohnovy choroby, fistulující forma. Indikován k biologické léčbě - kontraidikována pro alergickou reakci. 
 Nyní přichází k nastavení enterální nutrice. 
 

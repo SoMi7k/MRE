@@ -1,0 +1,11 @@
+c11.txt - 267
+c7.txt - 382
+c200.txt - 467
+c4.txt - 750
+c14.txt - 801
+c157.txt - 1947
+c162.txt - 3072
+c78.txt - 3323
+c227.txt - 3345
+c173.txt - 3940
+try_crohn.txt - 6940

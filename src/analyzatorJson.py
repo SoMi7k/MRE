@@ -1,30 +1,40 @@
-import re
 from typing import Any, Dict, Tuple
 import scripts.config as cf
-
-def split_sentences(text: str) -> list[str]:
-    if not text:
-        return []
-    return re.split(r'(?<=[.!?])\s+', text.strip())
+import src.halucation_finder as halFinder
 
 def extract_words(text: str) -> int:
     words = text.split()
     return len(words)
 
-def extract_text_stats(value: Any) -> Tuple[int, int, int]:
+def extract_text_stats(value: Any) -> Tuple[int, int]:
+    """Vrací (počet_slov, počet_znaků) z libovolné hodnoty."""
+    if isinstance(value, str):
+        return extract_words(value), len(value)
+    return 0, 0
+
+def collect_text_stats(value: Any) -> Tuple[int, int]:
     """
-    Vrací (počet_vět, počet_znaků) z libovolné hodnoty
+    Rekurzivně projde hodnotu a agreguje slova + znaky ze všech
+    string listů a zanořených dict hodnot.
+    Používá se pro výpočet stats hlavního klíče.
     """
     if isinstance(value, str):
-        sentences = split_sentences(value)
-        words = extract_words(value)
-        return len(sentences), words, len(value)
-
-    if isinstance(value, (int, float, bool)):
-        text = str(value)
-        return len(split_sentences(text)), extract_words(text), len(text)
-
-    return 0, 0, 0
+        return extract_words(value), len(value)
+    
+    total_words, total_chars = 0, 0
+    
+    if isinstance(value, dict):
+        for v in value.values():
+            w, c = collect_text_stats(v)
+            total_words += w
+            total_chars += c
+    elif isinstance(value, list):
+        for item in value:
+            w, c = collect_text_stats(item)
+            total_words += w
+            total_chars += c
+    
+    return total_words, total_chars
 
 def traverse_json(
     data: Any,
@@ -33,7 +43,7 @@ def traverse_json(
 ) -> Dict[str, Any]:
     """
     Rekurzivní průchod JSONem.
-    depth == 0 → hlavní klíče
+    depth == 0 → hlavní klíče (kontrola, subjektivně, ...)
     depth > 0 → zanořené klíče
     """
     if stats is None:
@@ -42,32 +52,28 @@ def traverse_json(
             "main_keys": 0,
             "nested_keys": 0,
 
-            "main_sentences": 0,
-            "main_chars": 0,
-
-            "main_words": 0,
-            "nested_words": 0,
-
-            "nested_sentences": 0,
-            "nested_chars": 0,
+            "key_chars": 0,       # délka všech klíčů
+            "value_chars": 0,     # délka všech hodnot (jen stringy)
+            "value_words": 0,     # počet slov ve všech hodnotách (jen stringy)
         }
 
     if isinstance(data, dict):
-        for _, value in data.items():
+        for key, value in data.items():
             stats["total_keys"] += 1
-
-            sent, words, chars = extract_text_stats(value)
+            stats["key_chars"] += len(key)
 
             if depth == 0:
                 stats["main_keys"] += 1
-                stats["main_sentences"] += sent
-                stats["main_chars"] += chars
-                stats["main_words"] += words
+                # Agregujeme veškerý text z celé větve
+                words, chars = collect_text_stats(value)
+                stats["value_chars"] += chars
+                stats["value_words"] += words
             else:
                 stats["nested_keys"] += 1
-                stats["nested_sentences"] += sent
-                stats["nested_chars"] += chars
-                stats["nested_words"] += words
+                # Jen přímá string hodnota
+                words, chars = extract_text_stats(value)
+                stats["value_chars"] += chars
+                stats["value_words"] += words
 
             traverse_json(value, depth + 1, stats)
 
@@ -86,8 +92,6 @@ def count_words(text: str, theme_root: str):
             if line.strip()
         }
 
-    print(theme_phrases)
-
     text_lower = text.lower()
 
     # Hledáme každou frázi přímo jako podřetězec v textu
@@ -96,7 +100,7 @@ def count_words(text: str, theme_root: str):
     return list(found), len(found)
 
 
-def analyzeJson(input: dict, outpath: str):
+def analyzeJson(input: dict, outpath: str, report_path: str):
     try:
         # Spojení klíčů do jednoho řetězce odděleného mezerou
         str_keys = " ".join(map(str, input.keys()))
@@ -109,36 +113,6 @@ def analyzeJson(input: dict, outpath: str):
 
         main_keys = key_stats["main_keys"]
         nested_keys = key_stats["nested_keys"]
-
-        avg_sent_main = (
-            key_stats["main_sentences"] / main_keys
-            if main_keys else 0
-        )
-
-        avg_sent_nested = (
-            key_stats["nested_sentences"] / nested_keys
-            if nested_keys else 0
-        )
-        
-        avg_words_main = (
-            key_stats["main_words"] / main_keys
-            if main_keys else 0
-        )
-        
-        avg_words_nested = (
-            key_stats["nested_words"] / nested_keys
-            if nested_keys else 0
-        )
-                
-        avg_chars_main = (
-            key_stats["main_chars"] / main_keys
-            if main_keys else 0
-        )
-
-        avg_chars_nested = (
-            key_stats["nested_chars"] / nested_keys
-            if nested_keys else 0
-        )
         
         # --- Anotace slov ---
         section_found, section_count = count_words(str_keys, cf.SECTION)
@@ -150,6 +124,9 @@ def analyzeJson(input: dict, outpath: str):
         medicaments_found, medicaments_count = count_words(str_values, cf.MEDICAMENTS)
         microbiology_found, microbiology_count = count_words(str_values, cf.MICROBIOLOGY)
         procedures_found, procedures_count = count_words(str_values, cf.PROCEDURES)
+        
+        # --- Halucinace ----
+        extra_key_words, extra_value_words = halFinder.compare(input, report_path)
 
         # --- Zápis do TXT ---
         with open(outpath, "w", encoding="utf-8") as f:
@@ -159,16 +136,11 @@ Výsledná analýza extrahovaného textu:
 --- Metriky klíčů ---
 Počet klíčů: {key_stats["total_keys"]}
 Počet hlavních klíčů: {main_keys}
-Počet podklíčů: {nested_keys}
+Počet zanořených klíčů: {nested_keys}
 
-Průměrný počet vět na hlavní klíč: {avg_sent_main:.2f}
-Průměrný počet vět na zanořený klíč: {avg_sent_nested:.2f}
-
-Průměrný počet slov na hlavní klíč: {avg_words_main:.2f}
-Průměrný počet slov na zanořený klíč: {avg_words_nested:.2f}
-
-Průměrný počet znaků na hlavní klíč: {avg_chars_main:.2f}
-Průměrný počet znaků na zanořený klíč: {avg_chars_nested:.2f}
+Počet znaků všech klíčů: {key_stats["key_chars"]}
+Počet znaků všech slov v hodnotách: {key_stats["value_chars"]}
+Počet všech slov v hodnotách: {key_stats["value_words"]}
 
 --- Slovní metriky ---
 Sekce: {section_found}
@@ -197,6 +169,12 @@ Počet názvů z mikrobiologie: {microbiology_count}
 
 Procedury a terapie: {procedures_found}
 Počet procedur a terapií: {procedures_count}
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: {len(extra_key_words)}
+Vymyšlená klíčová slova: {extra_key_words}
+Počet vymyšlených slov ve values: {len(extra_value_words)}
+Vymylšená slova ve values: {extra_value_words}
             """)
             
     except Exception as e:

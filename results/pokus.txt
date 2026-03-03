@@ -1,0 +1,47 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 110
+Počet hlavních klíčů: 10
+Počet podklíčů: 100
+
+Průměrný počet slov na hlavní klíč: 0.00
+Průměrný počet slov na zanořený klíč: 1.67
+
+Průměrný počet znaků na hlavní klíč: 0.00
+Průměrný počet znaků na zanořený klíč: 8.77
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['ulcerózní kolitida', 'hemangiom pravého předloktí', 'diabetes mellitus i. typu', 'pásového oparu', 'infekty', 'anémie při chronickém onemocněcí', 'anemie', 'neštovic', 'diabetes']
+Počet diagnóz: 9
+
+Klíčová slova: ['patologické příměsi', 'stolice', 'břicho']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['makrocytóza', 'exantém', 'remise']
+Počet slov KPPS: 3
+
+Latinské názvy: ['neutropenie', 'leukopenie', 'lipidogram', 'atenuovanými', 'preskripce']
+Počet latinských názvů: 5
+
+Léky: ['imuran 50 mg por tbl flm 100x50mg', 'salofalk tbl. á 500mg 2-0-2 tbl.', 'acidum folicum 1x1 tbl', 'azathioprimem', 'imuran 1 tbl á 50 mg', 'imuran 1 tbl á 50 mg (2 mg/kg)', 'inzulin humulin', 'salofalk 500 por tbl ent 100x500mg']
+Počet léků: 8
+
+Mikrobiologie: ['s-kreatinin', 'b-trombo', 'fe', 'b-ba', 'imunoglobulinů', 'kreatin', 's-lps', 'b-ery', 'b-hb konc', 'ko+dif', 's-alt', 'b-ly', 'b-seg', 'b-htk', 'b-hb', 'b-le', 'b-hb ery', 'b-eo', 'b-erytr.křivka', 'amylázy', 's-ast', 'b-mo', 'b-obj ery.', 'ca', 'fw']
+Počet názvů z mikrobiologie: 25
+
+Procedury a terapie: ['antivirotická terapie', 'očkování živými atenuovanými vakcínami', 'podání imunoglobulinů']
+Počet procedur a terapií: 3
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 12
+Vymyšlená klíčová slova: ['administrativ', 'datum', 'diagnóz', 'gastroenterologie', 'laboratoř', 'léčb', 'monitorace', 'objektivn', 'omezen', 'potíže', 'revize', 'věk']
+Počet vymyšlených slov ve values: 1
+Vymylšená slova ve values: ['inzulinoterapi']
+            

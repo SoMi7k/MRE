@@ -7,16 +7,6 @@ import scripts.config as config
 import requests
 from typing import Any
 
-MODELS = [
-    "meta-llama/llama-3.2-3b-instruct",
-    "anthropic/claude-sonnet-4.5",
-    "deepseek/deepseek-v3.2",
-    "openai/gpt-5-chat",
-    "google/gemini-3-pro-preview",
-    "x-ai/grok-4",
-    "mistralai/mixtral-8x7b-instruct"
-]
-
 prompt_dir = config.PROMPT_ROOT
 prompts = os.listdir(prompt_dir)
 
@@ -27,10 +17,10 @@ def POST(model: str, prompt: dict) -> Any:
     }
     
     full_prompt = f"""
-        {prompt["prompt"]}
+        {prompt["task"]}
         
         TEXT:
-        {prompt["text"]}
+        {prompt["report"]}
     """
 
     data = {
@@ -48,7 +38,8 @@ def POST(model: str, prompt: dict) -> Any:
     )
 
     if response.status_code != 200:
-        return {"error": response.text}
+        print(response.json())
+        return {"error": response.json()}
 
     result = response.json()
 
@@ -57,7 +48,7 @@ def POST(model: str, prompt: dict) -> Any:
 def show():
     st.title("📝 Output Maker")
     
-    selected_model = st.selectbox("Vyber model:", MODELS)
+    selected_model = st.selectbox("Vyber model:", config.MODELS)
     selected_prompt = st.selectbox("Vyber prompt:", prompts)
 
     # inicializace session state
@@ -89,19 +80,18 @@ def show():
     if st.button("POST", type="primary"):
         try:
             preview = st.session_state.preview
-
             output = POST(selected_model, preview)
-
-            content = output["choices"][0]["message"]["content"]
-
+            if output["error"]:
+                st.error(f"Error generating ouput from LLM: {output["error"]}")
+            else:
+                content = output["choices"][0]["message"]["content"]
             st.subheader("Výstup modelu")
-            st.write(content)
 
             try:
                 parsed = json.loads(content)
                 st.dataframe(pd.DataFrame([parsed]))
-            except:
-                pass
+            except Exception as e:
+                st.error(f"Chyba při načítání JSON výstupu: {e}")
 
             st.success("✅ Hotovo")
 
@@ -112,22 +102,12 @@ def show():
     
     st.title("📋 Result Maker")
     st.markdown("LLM")
-
-    LLMs = {
-        "Claude": "anthropic/claude-sonnet-4.5", 
-        "GPT": "openai/gpt-5-chat", 
-        "Mistral": "mistralai/mixtral-8x7b-instruct", 
-        "Gemini": "google/gemini-3-pro-preview", 
-        "Llama": "meta-llama/llama-3.2-3b-instruct", 
-        "Grok": "x-ai/grok-4", 
-        "DeepSeek": "deepseek/deepseek-v3.2"
-    }
     
     result_text = st.text_area("Zadej výseldek LLM:", placeholder="Sem vlož výsledný json", height=250)
 
     if st.button("Create result", type="primary"):
         try:
-            filename = f"{LLMs[selected_model]}_{datetime.now().strftime("%d%m%y")}"
+            filename = f"{config.LLMS[selected_model]}_{datetime.now().strftime("%d%m%y")}_{selected_prompt}"
             outpath = os.path.join(config.RESULT_JSON_ROOT, "crohn", filename)
             """
             if (int(report_number) < 10):
@@ -142,6 +122,7 @@ def show():
                 fr.write("\n")
 
             st.success("✅ Soubory úspěšně vytvořeny!")
+            
 
         except Exception as e:
             st.error(f"Chyba při ukládání: {e}")

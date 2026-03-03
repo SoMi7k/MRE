@@ -4,11 +4,31 @@ import streamlit as st
 from scripts import config
 import src.analyzator as analyzator
 import src.analyzatorJson as analyzatorJson
+import re
 
 report_dir = config.REPORTS_ROOT
 result_dir = config.RESULT_TXT
 result_json_path = config.RESULT_JSON_ROOT
 data = ""
+
+def find_report_path(json_path: str):
+    match = re.search(r"rc(\d+)", json_path)
+    pattern = ""
+
+    if match:
+        pattern = "c" + match.group(1)            
+        print(f"Nalezeno: {pattern}")
+        report_path = ""
+        
+        for dir in os.listdir(config.REPORTS_ROOT):
+            if re.findall(pattern, dir):
+                report_path = os.path.join(config.REPORTS_ROOT, dir)
+                break
+    else:
+        raise Exception(f"Original medical report was not found from path: {json_path}") 
+    
+    print(report_path)
+    return report_path
 
 def show():
     st.title("🔍 Anylazator")
@@ -79,7 +99,7 @@ def show():
         if data:
             outpath = os.path.join(result_dir, selected_file).replace(".json", ".txt")
             try: 
-                analyzatorJson.analyzeJson(data, outpath)
+                analyzatorJson.analyzeJson(data, outpath, find_report_path(path))
                 st.success(f"\nHotovo! Výsledek uložen jako: {outpath}")
             except Exception as e:
                 st.error(f"Error while analyzing {selected_file}: {e}")
