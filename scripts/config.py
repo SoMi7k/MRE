@@ -1,11 +1,11 @@
 import re
 import os
-#from features import env
+from features import env
 
 """Project configuration constants for data paths, labels, and model lists."""
 
 # API KEY
-# API_KEY = env.API_keys("OPENROUTER_API_KEY").get_api_key()
+API_KEY = env.API_keys("OPENROUTER_API_KEY").get_api_key()
 
 # Data roots
 DATA_ROOT = "data"
@@ -17,7 +17,7 @@ REPORTS_ROOT = os.path.join(DATA_ROOT, "medical_reports")
 TASKS_ROOT = os.path.join(DATA_ROOT, "task")
 
 # Result roots
-RESULT_ROOT = "results"
+RESULT_ROOT = "output"
 RESULT_JSON_ROOT = os.path.join(RESULT_ROOT, "json")
 RESULT_MD_ROOT = os.path.join(RESULT_ROOT, "md")
 RESULT_TXT = os.path.join(RESULT_ROOT, "txt")

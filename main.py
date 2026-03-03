@@ -1,6 +1,6 @@
 import streamlit as st
 
-from st_src import (
+from template import (
     dataViewer as dv,
     testInputMaker as tIM,
     resultMaker as rM,

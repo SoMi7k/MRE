@@ -1,0 +1,46 @@
+{
+   "anamnese":null,
+   "laboratorni_hodnoty":{
+      "PCDA index":{
+         "hodnota":"pod 10",
+         "norma":true
+      },
+      "zanetliva_aktivita":{
+         "nalezena":false
+      }
+   },
+   "diagnosa":null,
+   "terapie":[
+      {
+         "lek":"Pentasa"
+      },
+      {
+         "lek":"Ac folicum"
+      },
+      {
+         "lek":"Aktiferin"
+      },
+      {
+         "lek":"Pyridoxin"
+      }
+   ],
+   "zakazana_terapie":[
+      {
+         "lek":"Prednison"
+      },
+      {
+         "lek":"Ca"
+      },
+      {
+         "lek":"Kreon"
+      }
+   ],
+   "doporucene_kontroly":[
+      {
+         "termin":"31.10.",
+         "cas":"8 hodin",
+         "misto":"GIT DK"
+      }
+   ],
+   "doporucene_postup":"Postupně tělesná výchova, bez zátěžových cviků, dlouhých běhů"
+}

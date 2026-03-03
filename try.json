@@ -1,0 +1,28 @@
+{
+  "informace_zprávy": "Zpráva vydána",
+  "anskrypening": [
+    "Prednison",
+    "Ca",
+    "Kreon",
+    "Prednison",
+    "Ac folicum",
+    "Pyridoxin",
+    "Fytokat"
+  ],
+  "logická_sdělienie": {
+    "předložka": "Snížení obznych efektov",
+    "hodnoty": {
+      "Pentasa": "dále",
+      "Ac folicum": "dále",
+      "Labetaný hodnota (prednison)": "8 hodinne",
+      "Kreon": "Děslný odbilý",
+      "Prednison": "30 mg objャdy",
+      "Ac folicum": "500 μg/d",
+      "Pyridoxin": "5 mg"
+    },
+    "vysadliná_pokraz": "Prní názory a hodnoty nazvů",
+    "klíčové_diagose": "Vysadlení surgeryjících (prýdný posledí)",
+    "dok/vzordlíce": "ComputAufkresní hodnota",
+    "vyslad_zadroj": "Dobří systém Plateault"
+  }
+}

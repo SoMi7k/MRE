@@ -6,7 +6,9 @@ import json
 import scripts.config as config
 import requests
 from typing import Any
+from src.CostLogger import CostLogger
 
+costLogger = CostLogger()
 prompt_dir = config.PROMPT_ROOT
 prompts = os.listdir(prompt_dir)
 
@@ -39,8 +41,8 @@ def POST(model: str, prompt: dict) -> Any:
 
     if response.status_code != 200:
         print(response.json())
-        return {"error": response.json()}
-
+        return None
+    
     result = response.json()
 
     return result
@@ -81,12 +83,20 @@ def show():
         try:
             preview = st.session_state.preview
             output = POST(selected_model, preview)
-            if output["error"]:
-                st.error(f"Error generating ouput from LLM: {output["error"]}")
+            if not output:
+                st.error("Error while generating output from LLM!")
             else:
                 content = output["choices"][0]["message"]["content"]
             st.subheader("Výstup modelu")
-
+            st.write(content)
+            
+            usage = output["usage"]
+            costLogger.write_cost(
+                model=selected_model,
+                input_tokens=usage["prompt_tokens"],
+                output_tokens=usage["completion_tokens"]
+            )
+            
             try:
                 parsed = json.loads(content)
                 st.dataframe(pd.DataFrame([parsed]))
