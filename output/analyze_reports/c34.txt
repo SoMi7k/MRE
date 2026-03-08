@@ -1,0 +1,39 @@
+Výsledná analýza původního textu:
+
+--- Metriky sekcí ---
+Sekce: ['Obj.:', 'Lab:', 'Krevní obraz:', 'Biochemie:', 'RE', 'Dop.:']
+Počet sekcí: 6
+Průměrný počet znaků na sekci: 247.17
+Průměrný počet vět na sekci: 6.00
+
+--- Větné metriky ---
+Počet vět: 36
+Průměrná délka věty: 61.39
+Počet znaků: 2263
+
+--- Slovní metriky ---
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['n47\tfimóza, hydrokéla vlevo', 'akutní exacerbace', 'bolest pdk', 'isz - m. crohn v.s., akutní exacerbace po campylobacterové infekci']
+Počet diagnóz: 4
+
+Klíčová slova: ['břicho', 'pcdai', 'stolice', 'strava']
+Počet klíčových slov: 4
+
+Klinické příznaky a popisy stavů: ['trvá hydrokéla', 'nebolestivé', 'klouby bez otoku', 'remise', 'bez potíží', 'měkké', 'břicho nebolí', 'respirační infekt', 'nohy nebolí']
+Počet slov KPPS: 9
+
+Latinské názvy: ['preskripce']
+Počet latinských názvů: 1
+
+Léky: ['vigantol', 'ranisan', 'imuran', 'balanitis', 'prednison', 'spiropent', 'enterol', 'vitacalcin']
+Počet léků: 8
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['ko+dif', 'adjuvantní léčbu', 'ko', 'fw', 'crp', 'se']
+Počet procedur a terapií: 6
+
+        

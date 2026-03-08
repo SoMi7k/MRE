@@ -174,7 +174,7 @@ Počet procedur a terapií: {procedures_count}
 Počet vymyšlených klíčových slov: {len(extra_key_words)}
 Vymyšlená klíčová slova: {extra_key_words}
 Počet vymyšlených slov ve values: {len(extra_value_words)}
-Vymylšená slova ve values: {extra_value_words}
+Vymyšlená slova ve values: {extra_value_words}
             """)
             
     except Exception as e:

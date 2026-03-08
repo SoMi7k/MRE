@@ -1,0 +1,39 @@
+Výsledná analýza původního textu:
+
+--- Metriky sekcí ---
+Sekce: ['Krevní obraz:', 'Biochemie:']
+Počet sekcí: 2
+Průměrný počet znaků na sekci: 313.00
+Průměrný počet vět na sekci: 7.00
+
+--- Větné metriky ---
+Počet vět: 14
+Průměrná délka věty: 72.00
+Počet znaků: 1026
+
+--- Slovní metriky ---
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['břicho', 'pcdai', 'stolice']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['nejsou žádné známky zánětlivé aktivity', 'klinický index aktivity pcdai je pod 10', 'měkké', 'prohmatné bez resistence', 'stav dobrý', 'výsledky lab. parametrů jsou  v normě']
+Počet slov KPPS: 6
+
+Latinské názvy: ['pentasa']
+Počet latinských názvů: 1
+
+Léky: ['ac folicum', 'aktiferin', 'pyridoxin', 'laktobacil', 'pentasa']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['se', 'ko', 'crp']
+Počet procedur a terapií: 3
+
+        

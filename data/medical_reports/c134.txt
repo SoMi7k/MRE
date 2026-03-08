@@ -1,0 +1,28 @@
+GIT: 17.2.2014 10:40 - 11:32
+hmotnost 66,5 kg,  
+FW:9
+Krevní obraz:   B-Le:  12,00   B-Ery:  4,69   B-Trombo:  300   B-Hb:  114   B-HTK:  0,360   B-Obj ery.:  77   B-Hb ery:  24,4   B-Hb konc:  317   B-Tyc:  0,05   B-Seg:  0,78   B-Ly:  0,14   B-Mo:  0,03   B-Anizocytoza ery:  +   B-Mikrocyty:  +   B-Erytr.křivka:  25,0
+Biochemie:   S-CRP:  10   S-Albumin:  45,4
+Stolice:   K-Kalprotektin:  <100
+RE
+Výsledky vyšetření jsou zcela uspokojivé, PCDAI je v pásmu remise, kalprotektin je pod 100,
+- snižovat Prednison na 20 mg, p.o. na této dávce zůstat až do kontroly GIT 10.3. v 8 hodin - kalprotektin + náběry, pak postupně snižovat dále Prednison a až vysadit,
++ dále Imuran, který v průběhu března  2014, již by měl začít učinkovat, vzhledem k nasazení v 1-2014 
+- kontrolní USG ledvin
+subj:
+- dnes plánovaná kontrola, poslední kontrola - 17. 2. 2014,
+- Prednison 20 mg denně p.o., od 17. 2. 2014, + Imuran, Kombi-Kalz, Helicid,
+- je zcela bez obtíží, 
+obj: int. nález v normě
+dop:
+- náběry a kalprotektin,
+
+10.3.2014 08:30 - 09:45
+FW:4
+Krevní obraz:   B-Le:  13,00   B-Ery:  4,80   B-Trombo:  348   B-Hb:  121   B-HTK:  0,375   B-Obj ery.:  78   B-Hb ery:  25,2   B-Hb konc:  322   B-Plasmat. buňka:  0,01   B-Seg:  0,66   B-Ly:  0,27   B-Eo:  0,01   B-Mo:  0,04   B-Ba:  0,01   B-Ba:  0,01   B-Anizocytoza ery:  +   B-Anizocytosa tro:  +   B-Makrotrombocyty:  +   B-Hypochromie:  +   B-Erytr.křivka:  27,4
+Biochemie:   S-CRP:  1   S-Albumin:  48,1
+Stolice:   K-Kalprotektin:  <100
+- kontrola 17.3. v 12 hodin + domluva o dalším postupu - postupně vysadit Prednison
+- Imuran od 8.1. 2014
+
+Rp: Kombi-Kalz 1 balení

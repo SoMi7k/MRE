@@ -1,0 +1,39 @@
+Výsledná analýza původního textu:
+
+--- Metriky sekcí ---
+Sekce: ['léky:', 'Obj.:', 'Lab.:', 'Krevní obraz:', 'Biochemie:', 'RE', 'Dop.:']
+Počet sekcí: 7
+Průměrný počet znaků na sekci: 168.14
+Průměrný počet vět na sekci: 2.57
+
+--- Větné metriky ---
+Počet vět: 18
+Průměrná délka věty: 75.67
+Počet znaků: 1386
+
+--- Slovní metriky ---
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['morbus crohn - ilekolická lokalizace', 'anemie']
+Počet diagnóz: 2
+
+Klíčová slova: ['břicho', 'pcdai', 'stolice']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['úraz hlezna', 'nebolestivé', 'j+s nezvětšeny', 'remise', 'bez potíží', 'měkké', 'nižší hladina sérového železa', 'astenický', 'břicho nebolí', 'laboratorně mírná elevace zánětlivých parametrů']
+Počet slov KPPS: 10
+
+Latinské názvy: ['cekoascendens', 'tranversum', 'pentasa']
+Počet latinských názvů: 3
+
+Léky: ['pentasa 2-0-1 tbl po 500mg', 'fortimel', 'aktiferin', 'laktobacily 1 cps', 'pyridixoin 1x 1 tbl', 'aktiferin 2x 1 tbl.', 'laktobacil', 'actiferin', 'ac. folcium 3x 1 tbl.', 'pentasa']
+Počet léků: 10
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['se', 'ko', 'fw', 'crp']
+Počet procedur a terapií: 4
+
+        

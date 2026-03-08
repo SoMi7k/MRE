@@ -1,0 +1,39 @@
+Výsledná analýza původního textu:
+
+--- Metriky sekcí ---
+Sekce: ['Obj:', 'Biochemie:', 'Dop:']
+Počet sekcí: 3
+Průměrný počet znaků na sekci: 183.33
+Průměrný počet vět na sekci: 5.00
+
+--- Větné metriky ---
+Počet vět: 15
+Průměrná délka věty: 58.20
+Počet znaků: 895
+
+--- Slovní metriky ---
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['stolice']
+Počet klíčových slov: 1
+
+Klinické příznaky a popisy stavů: ['cushingodiní', 'du čistá', 'sliznice růžové']
+Počet slov KPPS: 3
+
+Latinské názvy: ['relaimentace', 'pentasa']
+Počet latinských názvů: 2
+
+Léky: ['ranisan', 'pentasa', 'entocort']
+Počet léků: 3
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['ko', 'kontrtoilván', 'crp']
+Počet procedur a terapií: 3
+
+        

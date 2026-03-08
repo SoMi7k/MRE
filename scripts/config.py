@@ -20,7 +20,8 @@ TASKS_ROOT = os.path.join(DATA_ROOT, "task")
 RESULT_ROOT = "output"
 RESULT_JSON_ROOT = os.path.join(RESULT_ROOT, "json")
 RESULT_MD_ROOT = os.path.join(RESULT_ROOT, "md")
-RESULT_TXT = os.path.join(RESULT_ROOT, "txt")
+RESULT_REPORT = os.path.join(RESULT_ROOT, "analyze_reports")
+RESULT_LMM = os.path.join(RESULT_ROOT, "analyze_llm")
 
 # Basic regex
 REGEX = re.compile(r'\w|[ěščřžýáíéúůó]|[+-]')
@@ -28,7 +29,7 @@ REGEX = re.compile(r'\w|[ěščřžýáíéúůó]|[+-]')
 # Anotated words roots
 ANATOMY = os.path.join(DOCCANO_DATA_ROOT, "Anatomicke_nazvy.txt")
 DIAGNOSIS = os.path.join(DOCCANO_DATA_ROOT, "Diagnozy.txt")
-KEY_WORDS = os.path.join(DOCCANO_DATA_ROOT, "Klicove_slova.txt")
+KEY_WORDS = os.path.join(DOCCANO_DATA_ROOT, "Casto_vyskytujici_se_slova.txt")
 KPPS = os.path.join(DOCCANO_DATA_ROOT, "KPPS.txt")
 LATIN = os.path.join(DOCCANO_DATA_ROOT, "Latinske_nazvy.txt")
 MEDICAMENTS = os.path.join(DOCCANO_DATA_ROOT, "Leky.txt")
@@ -67,31 +68,21 @@ MODELS = [
     "openrouter/free",
     "anthropic/claude-sonnet-4.5",
     "deepseek/deepseek-v3.2",
-    "openai/gpt-5-chat",
-    "google/gemini-3-pro-preview",
+    "openai/gpt-5.2",
+    "google/gemini-3.1-pro-preview",
     "x-ai/grok-4",
-    "mistralai/mixtral-8x7b-instruct",
-    "openrouter/free"
+    "mistralai/mixtral-8x22b-instruct",
+    "meta-llama/llama-4-maverick"
 ]
 
 # Table for output folders names
-LLMS_REVERSED = {
-    "OpenRouter": "openrouter/free",
-    "Claude": "anthropic/claude-sonnet-4.5", 
-    "GPT": "openai/gpt-5-chat", 
-    "Mistral": "mistralai/mixtral-8x7b-instruct", 
-    "Gemini": "google/gemini-3-pro-preview", 
-    "Llama": "meta-llama/llama-3.2-3b-instruct", 
-    "Grok": "x-ai/grok-4", 
-    "DeepSeek": "deepseek/deepseek-v3.2"
-}
-
-LLMS = {'openrouter/free': 'OpenRouter', 
-        'anthropic/claude-sonnet-4.5': 'Claude', 
-        'openai/gpt-5-chat': 'GPT', 
-        'mistralai/mixtral-8x7b-instruct': 'Mistral', 
-        'google/gemini-3-pro-preview': 'Gemini', 
-        'meta-llama/llama-3.2-3b-instruct': 'Llama', 
-        'x-ai/grok-4': 'Grok', 
-        'deepseek/deepseek-v3.2': 'DeepSeek'
+LLMS = {
+    'openrouter/free': 'OpenRouter', 
+    'anthropic/claude-sonnet-4.5': 'Claude', 
+    'openai/gpt-5.2': 'GPT', 
+    'mistralai/mixtral-8x22b-instruct': 'Mistral', 
+    'google/gemini-3.1-pro-preview': 'Gemini', 
+    'meta-llama/llama-4-maverick': 'Llama', 
+    'x-ai/grok-4': 'Grok', 
+    'deepseek/deepseek-v3.2': 'DeepSeek'
 }

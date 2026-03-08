@@ -1,0 +1,39 @@
+Výsledná analýza původního textu:
+
+--- Metriky sekcí ---
+Sekce: ['léky:', 'VJ:', 'Obj.:', 'Lab.:', 'Krevní obraz:', 'Biochemie:', 'Dg.:', 'RE', 'Dop.:', 'Vystavené recepty:']
+Počet sekcí: 10
+Průměrný počet znaků na sekci: 378.40
+Průměrný počet vět na sekci: 6.00
+
+--- Větné metriky ---
+Počet vět: 60
+Průměrná délka věty: 67.37
+Počet znaků: 4168
+
+--- Slovní metriky ---
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['anemie', 'imunosupresi azathioprimem', 'hemangiom pravého předloktí', 'diabetes mellitus i. typu', 'neštovic', 'ulcerózní kolitida', 'diabetes', 'pásového oparu', 'infekty', 'anémie při chronickém onemocněcí']
+Počet diagnóz: 10
+
+Klíčová slova: ['kalprotectin', 'patologické příměsi', 'stolice', 'břicho']
+Počet klíčových slov: 4
+
+Klinické příznaky a popisy stavů: ['makrocytóza', 'nebolestivé', 'imunosupresi azathioprimem', 'mírná elevace sedimentace', 'remise', 'útlum kostní dřeně', 'bez potíží', 'měkké', 'břicho nebolí', 'exantém']
+Počet slov KPPS: 10
+
+Latinské názvy: ['neutropenie', 'preskripce', 'leukopenie', 'lipidogram', 'atenuovanými']
+Počet latinských názvů: 5
+
+Léky: ['imuran 1 tbl á 50 mg (2 mg/kg)', 'azathioprimem', 'imuran 50 mg por tbl flm 100x50mg', 'imuran', 'acidum folicum 1x1 tbl', 'imuran 1 tbl á 50 mg', 'laktobacily 1x1 tbl.', 'salofalk 500 por tbl ent 100x500mg', 'laktobacil', 'inzulin humulin', 'salofalk tbl. á 500mg 2-0-2 tbl.']
+Počet léků: 11
+
+Mikrobiologie: ['amylázy', 'kreatin', 'tg']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['inzulinoterpii', 'ko+dif', 'se', 'očkování živými atenuovanými vakcínami', 'podání imunoglobulinů', 'ko', 'fw', 'kontrola antropometrických parametrů 3x ročně', 'antivirotická terapie', 'jaterní testy']
+Počet procedur a terapií: 10
+
+        

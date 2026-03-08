@@ -1,0 +1,39 @@
+Výsledná analýza původního textu:
+
+--- Metriky sekcí ---
+Sekce: ['Obj.:', 'Lab.:', 'Krevní obraz:', 'Biochemie:', 'Dg:', 'Re:', 'Doporučení:', 'Vystavené recepty:']
+Počet sekcí: 8
+Průměrný počet znaků na sekci: 383.50
+Průměrný počet vět na sekci: 7.25
+
+--- Větné metriky ---
+Počet vět: 58
+Průměrná délka věty: 62.71
+Počet znaků: 3753
+
+--- Slovní metriky ---
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['chronická anální fisura', 'anemie', 'neštovic', 'ileální absces st.p.', 'pásového oparu', 'infekty', 'anémie chronických chorob', 'psychologické a behaviorální faktory', 'porucha přizpůsobení v rámci m. chrohn']
+Počet diagnóz: 9
+
+Klíčová slova: ['patologické příměsi', 'stolice', 'homozygot', 'břicho', 'crohnova choroba', 'pcdai', 'žaludku', 'strava']
+Počet klíčových slov: 8
+
+Klinické příznaky a popisy stavů: ['j+s nezvětšeny', 'hypertrichóza', 'útlum kostní dřeně', 'měkké', 'eutrofická', 'afebrilní', 'salmonelové enteritidy', 'exantém', 'imunosupresi methotrexátem']
+Počet slov KPPS: 9
+
+Latinské názvy: ['preskripce', 'leukopenie', 'atenuovanými', 'fisura', 'menses']
+Počet latinských názvů: 5
+
+Léky: ['entocort 3 mg por cps rdr 100x3mg', 'methotrexát 20 mg p.o.', 'methotrexate hospira 2,5 mg tablety por tbl nob 100x2.5mg', 'apo-ome 20 por cps etd 100x20mg', 'helicid', 'entocort 3-0-0 tbl á 3 mg p.o.', 'helicid 1x 20 mg cps p.o.', 'lactobacillus 1x 1 cps p.o.', 'entocort']
+Počet léků: 9
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['se', 'ko+dif', 'očkování živými atenuovanými vakcínami', 'podání imunoglobulinů', 'ko', 'fw', 'crp', 'antivirotická terapie', 'jaterní testy']
+Počet procedur a terapií: 9
+
+        

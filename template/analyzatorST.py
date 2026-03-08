@@ -7,7 +7,8 @@ import src.analyzatorJson as analyzatorJson
 import re
 
 report_dir = config.REPORTS_ROOT
-result_dir = config.RESULT_TXT
+result_path_llm = config.RESULT_LMM
+result_path_report = config.RESULT_REPORT
 result_json_path = config.RESULT_JSON_ROOT
 data = ""
 
@@ -47,13 +48,17 @@ def show():
 
     if st.button("Validate1", type="primary") and input_path:
         report_path = os.path.join(report_dir, input_path)
-        outpath = os.path.join(result_dir, input_path)
+        outpath = os.path.join(result_path_report, input_path)
 
-        with open(report_path, "r", encoding="utf-8") as f:
-            text = f.read()
+        try:
+            with open(report_path, "r", encoding="utf-8") as f:
+                text = f.read()
 
-        if analyzator.analyze_text(text, outpath):
-            st.success(f"\nHotovo! Výsledek uložen do: {outpath}")
+            if analyzator.analyze_text(text, outpath):
+                st.success(f"\nHotovo! Výsledek uložen do: {outpath}")
+        except Exception as e:
+            st.error(f"ERROR while analyzing file {report_path}: {e}")
+        
         
     st.markdown("---")
     
@@ -97,7 +102,7 @@ def show():
                 
         print(data)        
         if data:
-            outpath = os.path.join(result_dir, selected_file).replace(".json", ".txt")
+            outpath = os.path.join(result_path_llm, selected_file).replace(".json", ".txt")
             try: 
                 analyzatorJson.analyzeJson(data, outpath, find_report_path(path))
                 st.success(f"\nHotovo! Výsledek uložen jako: {outpath}")

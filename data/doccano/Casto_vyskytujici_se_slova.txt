@@ -12,3 +12,4 @@ kalprotectin
 Crohnova choroba
 homozygot
 EEN
+PCDAI

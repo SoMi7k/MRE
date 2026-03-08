@@ -1,3 +1,6 @@
 timestamp,model,input_tokens,output_tokens,total_cost_usd
 2026-03-03 15:03:17,anthropic/claude-sonnet-4.5,1084,725,0.014127
 2026-03-03 15:11:17,mistralai/mixtral-8x7b-instruct,1084,454,0.000369
+2026-03-03 15:36:16,mistralai/mixtral-8x7b-instruct,509,349,0.000206
+2026-03-08 14:15:29,openrouter/free,368,0,0.0
+2026-03-08 14:16:24,openrouter/free,399,1256,0.0

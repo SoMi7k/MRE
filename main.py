@@ -1,38 +1,13 @@
 import streamlit as st
 
 from template import (
-    dataViewer as dv,
-    testInputMaker as tIM,
-    resultMaker as rM,
-    llmOutputs as lO,
-    OutputMaker as OM,
-    analyzatorST as aST
+    pipeline,
+    dataViewer,
+    testInputMaker,
+    resultMaker,
+    llmOutputs,
+    analyzatorST
 )
-
-# Inicializace session state
-if 'current_section' not in st.session_state:
-    st.session_state.current_section = "Home"
-
-# Sidebar navigace
-with st.sidebar:
-    st.title("📑 Navigace")
-    sections = {
-        "Home": "home",
-        "Data Viewer": "data_viewer",
-        "Prompt Maker": "prompt_maker",
-        #"Result Maker": "result_maker",
-        "Results Viewer": "results_viewer",
-        "Output Maker": "output_maker",
-        "Analyzator": "analyzer"
-    }
-    
-    for section_name in sections.keys():
-        if st.button(section_name, use_container_width=True):
-            st.session_state.current_section = section_name
-            st.rerun()
-
-# Zobrazení vybrané sekce
-current = st.session_state.current_section
 
 def show():
     # Mainpage
@@ -77,24 +52,54 @@ def show():
     No license
     """)
 
+    
+######################
+#  CONFIGURATE PART  #
+######################
+
+st.set_page_config("MRE - Streamlit")
+
+# Inicializace session state
+if 'current_section' not in st.session_state:
+    st.session_state.current_section = "Home"
+
+# Sidebar navigace
+with st.sidebar:
+    st.title("📑 Navigace")
+
+    sections = {
+        "Home": "home",
+        "Data Viewer": "data_viewer",
+        "LLM Pipeline": "output_maker",
+        "Prompt Maker": "prompt_maker",
+        "Result Maker": "result_maker",
+        "Results Viewer": "results_viewer",
+        "Analyzator": "analyzer"
+    }
+    
+    for section_name in sections.keys():
+        if st.button(section_name, use_container_width=True):
+            st.session_state.current_section = section_name
+            st.rerun()
+            
+# Zobrazení vybrané sekce
+current = st.session_state.current_section   
+            
 match current:
     case "Home":
         show()
     case "Data Viewer":
-        dv.show()
+        dataViewer.show()
     case "Prompt Maker":
-        tIM.show()
+        testInputMaker.show()
     case "Result Maker":
-        rM.show()
+        resultMaker.show()
     case "Results Viewer":
-        lO.show()
-    case "Output Maker":
-        OM.show()
+        llmOutputs.show()
+    case "LLM Pipeline":
+        pipeline.show()
     case "Analyzator":
-        aST.show()
+        analyzatorST.show()
 
 st.markdown("---")
-    
-    
-                
 

@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 110
+Počet hlavních klíčů: 10
+Počet zanořených klíčů: 100
+
+Počet znaků všech klíčů: 968
+Počet znaků všech slov v hodnotách: 2815
+Počet všech slov v hodnotách: 514
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['ulcerózní kolitida', 'hemangiom pravého předloktí', 'anemie', 'anémie při chronickém onemocněcí', 'diabetes', 'diabetes mellitus i. typu', 'pásového oparu', 'infekty', 'neštovic']
+Počet diagnóz: 9
+
+Klíčová slova: ['břicho', 'stolice', 'patologické příměsi']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['bez potíží', 'remise', 'makrocytóza', 'měkké', 'exantém', 'nebolestivé']
+Počet slov KPPS: 6
+
+Latinské názvy: ['neutropenie', 'leukopenie', 'atenuovanými', 'lipidogram', 'preskripce']
+Počet latinských názvů: 5
+
+Léky: ['inzulin humulin', 'imuran 50 mg por tbl flm 100x50mg', 'salofalk 500 por tbl ent 100x500mg', 'azathioprimem', 'acidum folicum 1x1 tbl', 'imuran 1 tbl á 50 mg (2 mg/kg)', 'laktobacil', 'imuran', 'salofalk tbl. á 500mg 2-0-2 tbl.', 'imuran 1 tbl á 50 mg', 'enterol']
+Počet léků: 11
+
+Mikrobiologie: ['tg', 'amylázy', 'kreatin']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['ko+dif', 'fw', 'se', 'kontrola antropometrických parametrů 3x ročně', 'ko', 'podání imunoglobulinů', 'očkování živými atenuovanými vakcínami', 'jaterní testy', 'antivirotická terapie']
+Počet procedur a terapií: 9
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 12
+Vymyšlená klíčová slova: ['administrativ', 'datum', 'diagnóz', 'gastroenterologie', 'laboratoř', 'léčb', 'monitorace', 'objektivn', 'omezen', 'potíže', 'revize', 'věk']
+Počet vymyšlených slov ve values: 1
+Vymylšená slova ve values: ['inzulinoterapi']
+            

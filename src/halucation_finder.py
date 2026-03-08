@@ -59,7 +59,7 @@ def load_report_words(filepath: str) -> set[str]:
 
     valid_words = extract_words_from_text(content)
 
-    print(f"✅ Načteno {len(valid_words)} unikátních slov z TXT reportu")
+    #print(f"✅ Načteno {len(valid_words)} unikátních slov z TXT reportu")
     return valid_words
 
 def load_extracted_words(loaded_json: dict) -> tuple[set[str], set[str]]:
@@ -71,8 +71,8 @@ def load_extracted_words(loaded_json: dict) -> tuple[set[str], set[str]]:
 
         extract_words_from_json(loaded_json, key_words, value_words)
 
-        print(f"✅ Načteno {len(key_words)} unikátních slov z JSON KEYS")
-        print(f"✅ Načteno {len(value_words)} unikátních slov z JSON VALUES")
+        #print(f"✅ Načteno {len(key_words)} unikátních slov z JSON KEYS")
+        #print(f"✅ Načteno {len(value_words)} unikátních slov z JSON VALUES")
 
         return key_words, value_words
 

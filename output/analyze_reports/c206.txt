@@ -1,0 +1,39 @@
+Výsledná analýza původního textu:
+
+--- Metriky sekcí ---
+Sekce: ['léky:', 'Obj.:', 'Lab.:', 'Krevní obraz:', 'Biochemie:', 'Dg.:', 'RE', 'Dop.:']
+Počet sekcí: 8
+Průměrný počet znaků na sekci: 333.62
+Průměrný počet vět na sekci: 6.38
+
+--- Větné metriky ---
+Počet vět: 51
+Průměrná délka věty: 60.63
+Počet znaků: 3238
+
+--- Slovní metriky ---
+Anatomické názvy: ['terminální ileum']
+Počet anatomických slov: 1
+
+Diagnózy: ['imunosupresi azathioprimem', 'crohnova choroba (terminální ileum, descendens, sigma, anus)', 'atopický ekzém', 'neštovic', 'pásového oparu', 'infekty', 'chronická superficiální gastritida s intestinální metaplazií']
+Počet diagnóz: 7
+
+Klíčová slova: ['stolice', 'břicho', 'crohnova choroba', 'pcdai', 'strava']
+Počet klíčových slov: 5
+
+Klinické příznaky a popisy stavů: ['nebolestivé', 'j+s nezvětšeny', 'imunosupresi azathioprimem', 'obézní', 'útlum kostní dřeně', 'lehký virový infekt', 'měkké', 'afebrilní', 'výsevy atopického ekzému']
+Počet slov KPPS: 9
+
+Latinské názvy: ['preskripce', 'leukopenie', 'atenuovanými', 'tenesmy', 'fisura']
+Počet latinských názvů: 5
+
+Léky: ['azathioprimem', 'imuran', 'imuran 1x 1a3/4 tbl á 50 mg', 'enterol', 'zodac 1x 10 mg']
+Počet léků: 5
+
+Mikrobiologie: ['amylázy', 'kreatin', 'tv']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['se', 'ko+dif', 'kontrola v gastroenterologické poradně', 'chodí na rehabilitace', 'očkování živými atenuovanými vakcínami', 'podání imunoglobulinů', 'ko', 'fw', 'crp', 'kontrola antropometrických parametrů 3x ročně', 'antivirotická terapie', 'jaterní testy']
+Počet procedur a terapií: 12
+
+        

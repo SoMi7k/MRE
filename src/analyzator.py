@@ -60,57 +60,54 @@ def normalize_section_name(name: str) -> str:
 
 def detect_sections(text):
     sect_tuple = []
-    sections = []
-    lines = text.split("\n")
+    lines = text.splitlines()
 
-    with open(cf.SECTION, 'r', encoding='utf-8') as fr:
-        for line in fr.readlines():
-            sections.append(line)
+    # načtení sekcí
+    with open(cf.SECTION, "r", encoding="utf-8") as f:
+        sections = [s.strip() for s in f if s.strip()]
 
     current_name = None
     current_content = []
-    # Připravíme normalizované klíče
-    normalized_keys = [normalize_section_name(k) for k in sections]
 
     def save_current():
+        nonlocal current_name, current_content
         if current_name is not None:
-            content = "\n".join(current_content).strip()
-            sect_tuple.append((current_name, content))
-    
+            sect_tuple.append(
+                (current_name, "\n".join(current_content).strip())
+            )
+
     for line in lines:
         stripped = line.strip()
-    
-        # Normalizace řádku pro porovnání
-        norm_line = normalize_section_name(stripped)
-    
-        # Zjištění, zda řádek začíná klíčem
-        is_section = False
-        for key in normalized_keys:
-            if norm_line.startswith(key):
-                is_section = key
+        if not stripped:
+            continue
+
+        found_section = None
+
+        for section in sections:
+            # hledáme sekci jen na začátku řádku
+            pattern = r'^' + re.escape(section)
+            if re.match(pattern, stripped, re.IGNORECASE):
+                found_section = section
                 break
-    
-        if is_section:
-            # Uložit předchozí sekci
+            
+        if found_section:
+            # uložíme předchozí sekci
             save_current()
-    
-            # Uložit jméno sekce ve formě jak je v textu
-            current_name = stripped.split(":")[0]  # vezmeme jen název sekce
+
+            current_name = found_section
             current_content = []
-    
-            # Pokud řádek obsahuje i obsah (např. "FW: 2/")
-            after_colon = stripped.split(":", 1)
-            if len(after_colon) > 1 and after_colon[1].strip():
-                current_content.append(after_colon[1].strip())
-    
+
+            # odebereme název sekce z řádku
+            rest = re.sub(r'^' + re.escape(found_section) + r'[:\s]*', '', stripped, flags=re.IGNORECASE)
+            if rest:
+                current_content.append(rest)
+
         else:
-            # Obsah sekce
             if current_name is not None:
                 current_content.append(stripped)
-    
-    # Uložit poslední sekci
+
     save_current()
-    
+
     return sect_tuple
 
 
@@ -139,12 +136,6 @@ def analyze_text(input_text: str, output_file: str) -> int:
         microbiology_found, microbiology_count = count_words(input_text, cf.MICROBIOLOGY)
         procedures_found, procedures_count = count_words(input_text, cf.PROCEDURES)
 
-        # --- Věty a znaky mimo sekce ---
-        text_in_sections = "\n\n".join(s[1] for s in sections)
-        text_outside_sections = input_text.replace(text_in_sections, "")
-        out_sentences = split_into_sentences(text_outside_sections)
-        out_chars = len(text_outside_sections)
-
         # --- Zápis do TXT ---
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(f"""\
@@ -160,8 +151,6 @@ Průměrný počet vět na sekci: {avg_sent_per_section:.2f}
 Počet vět: {num_sentences}
 Průměrná délka věty: {avg_sentence_len:.2f}
 Počet znaků: {char_count}
-Počet vět mimo sekce: {len(out_sentences)}
-Počet znaků mimo sekce: {out_chars}
 
 --- Slovní metriky ---
 Anatomické názvy: {anatomy_found}
@@ -170,8 +159,8 @@ Počet anatomických slov: {anatomy_count}
 Diagnózy: {diagnosis_found}
 Počet diagnóz: {diagnosis_count}
 
-Klíčová slova: {keywords_found}
-Počet klíčových slov: {keywords_count}
+Často vyskytující se slova: {keywords_found}
+Počet často vyskytujích se slov: {keywords_count}
 
 Klinické příznaky a popisy stavů: {kpps_found}
 Počet slov KPPS: {kpps_count}

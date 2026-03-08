@@ -1,0 +1,39 @@
+Výsledná analýza původního textu:
+
+--- Metriky sekcí ---
+Sekce: ['léky:', 'Objektivní nález:', 'Laboratorní vyšetření:', 'Sedimentace:', 'Krevní obraz:', 'Biochemie:', 'Re:', 'Diagnoza:', 'Doporučení:', 'Vystavené recepty:']
+Počet sekcí: 10
+Průměrný počet znaků na sekci: 349.00
+Průměrný počet vět na sekci: 5.90
+
+--- Větné metriky ---
+Počet vět: 59
+Průměrná délka věty: 67.07
+Počet znaků: 4093
+
+--- Slovní metriky ---
+Anatomické názvy: ['tonus svalový', 'skléry', 'drenovanou píštělí', 'tragy', 'tonzily', 'humiry']
+Počet anatomických slov: 6
+
+Diagnózy: ['jiná crohnova nemoc', 'anorektální absces', 'konečníková píštěl', 'autoimunitní tyroiditida']
+Počet diagnóz: 4
+
+Klíčová slova: ['stolice', 'břicho', 'sekrece', 'enterální nutrice', 'crohnovy choroby', 'biologické léčby', 'strava', 'biologické léčbě']
+Počet klíčových slov: 8
+
+Klinické příznaky a popisy stavů: ['normotenzní', 'břicho v niveau', 'lateralizace', 'peristaltické zvuky slyšitelné', 'hemorhagické diatézy', 'fistulující', 'peritoneálního dráždění', 'měkké', 'afebrilní', 'nebolestivá', 'astenický', 'bolesti kloubů', 'mesocefalická', 'břicho nebolí', 'dýchání symetrické', 'šelestu']
+Počet slov KPPS: 16
+
+Latinské názvy: ['tapottement', 'tranversum', 'israelli', 'eflorescencí', 'meningeální', 'cekoascendens', 'sekrecí']
+Počet latinských názvů: 7
+
+Léky: ['claritine 1x1 tbl', 'imuran', 'imuran 1x2 tbl. á 50 mg', 'remicade', 'letrox 1x 1/2 tbl á 50 ug']
+Počet léků: 5
+
+Mikrobiologie: ['kreatin']
+Počet názvů z mikrobiologie: 1
+
+Procedury a terapie: ['ko', 'fw', 'crp', 'se', 'enterální výživa']
+Počet procedur a terapií: 5
+
+        

@@ -1,0 +1,39 @@
+Výsledná analýza původního textu:
+
+--- Metriky sekcí ---
+Sekce: ['Obj.:', 'Lab.:', 'Krevní obraz:', 'Biochemie:', 'Dg.:', 'RE', 'Dop.:', 'Vystavené recepty:']
+Počet sekcí: 8
+Průměrný počet znaků na sekci: 223.25
+Průměrný počet vět na sekci: 4.88
+
+--- Větné metriky ---
+Počet vět: 39
+Průměrná délka věty: 60.08
+Počet znaků: 2421
+
+--- Slovní metriky ---
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['ložisko herpetické infekce na zádech', 'alergická rýma způsobená pylem', 'crohnova nemoc ileocekální oblasti']
+Počet diagnóz: 3
+
+Klíčová slova: ['patologické příměsi', 'stolice', 'břicho', 'pcdai', 'strava']
+Počet klíčových slov: 5
+
+Klinické příznaky a popisy stavů: ['nebolestivé', 'bez potíží', 'měkké', 'eutrofická']
+Počet slov KPPS: 4
+
+Latinské názvy: ['fisura', 'tenesmy', 'preskripce', 'herpes simplex dorsi']
+Počet latinských názvů: 4
+
+Léky: ['aerius 1x1 tbl á 5 mg', 'herpesin 200 por tbl nob 25x200mg', 'imuran 2,5 tbl á 50 mg', 'imuran', 'hemagel']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['ko+dif', 'ko', 'fw', 'crp', 'se', 'tekutý pudr']
+Počet procedur a terapií: 6
+
+        
