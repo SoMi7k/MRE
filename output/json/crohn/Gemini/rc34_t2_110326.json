@@ -1,0 +1,109 @@
+{
+    "datum_posledni_kontroly": "3.11.2010",
+    "anamneza_a_aktualni_stav": {
+        "obtize": "Bez potíží",
+        "stolice": "formované 2x denně, bez příměsi",
+        "bolest": "Břicho nebolí, nohy nebolí",
+        "klouby": "bez otoku",
+        "ostatni_nalezy": [
+            "hydrokéla",
+            "hemoroidální uzlík intermitentně",
+            "koktavost mírně zlepšena",
+            "chuť k jídlu dobrá",
+            "přibyl na váze"
+        ],
+        "strava": "Neocate, Sinlac, banán, jablko, mrkev, králičí, krůtí, vepřové maso, zkusili hovězí, brambory, vývary, těstoviny bezvaječné, noky",
+        "prodělana_onemocneni": "Od poslední kontroly 1x balanitis, t.č. respirační infekt (užívá Spiropent)"
+    },
+    "objektivni_nalez": {
+        "hmotnost": "22 kg (-0,2 kg)",
+        "vyska": "107 cm (+0 cm)",
+        "celkovy_vzhled": "Cushingoidní",
+        "hlava_krk": "rýma seromukózní",
+        "hrudnik": "odkašlává, dýchání čisté, sklípkové, přenesené fenomény, výrazná žilní kresba",
+        "bricho": "nad niveau, měkké, nebolestivé, J+S nezvětšeny, rezistence 0, výrazná žilní kresba",
+        "urologie_genital": "mírná hydrokéla vlevo, perianální oblast"
+    },
+    "laboratorni_vysledky": {
+        "sedimentace_FW": "28/52",
+        "krevni_obraz": {
+            "B-Le": "6,40",
+            "B-Ery": "5,04",
+            "B-Hb": "129",
+            "B-HTK": "0,407",
+            "B-Obj_ery": "81",
+            "B-Hb_ery": "25,6",
+            "B-Hb_konc": "317",
+            "B-Trombo": "210",
+            "B-Seg": "0,287",
+            "B-Ly": "0,569",
+            "B-Eo": "0,031",
+            "B-Ba": "0,005",
+            "B-Mo": "0,108",
+            "B-Seg_abs": "1,84",
+            "B-Ly_abs": "3,64",
+            "B-Eo_abs": "0,20",
+            "B-Ba_abs": "0,03",
+            "B-Mo_abs": "0,69",
+            "B-Erytr_krivka": "15,3"
+        },
+        "biochemie": {
+            "S-CRP": "1",
+            "S-Albumin": "50,1"
+        }
+    },
+    "diagnozy": [
+        {
+            "kod": "K509",
+            "popis": "ISZ - m. Crohn v.s., akutní exacerbace po Campylobacterové infekci"
+        },
+        {
+            "kod": "N47",
+            "popis": "Fimóza, hydrokéla vlevo"
+        },
+        {
+            "kod": "M673",
+            "popis": "Bolest PDK"
+        }
+    ],
+    "zaver_a_remise": {
+        "stav": "klinicky i laboratorně remise",
+        "PCDAI": "2,5 b",
+        "poznamka": "t.č. respirační infekt, mírná progrese sedimentace"
+    },
+    "doporuceni_a_lecba": {
+        "strava": "bezezbytková, postupně zavádět další potraviny",
+        "medikace": [
+            {
+                "lek": "Prednison",
+                "davkovani": "2,5-0-0 mg (0,1 mg/kg/den)",
+                "poznamka": "snížit o 2,5 mg, při dobrém stavu po 3 týdnech vysadit"
+            },
+            {
+                "lek": "Imuran tbl. á 25 mg",
+                "davkovani": "1-0-1 tbl. (2,6 mg/kg/den)"
+            },
+            {
+                "lek": "Enterol cps. á 250 mg",
+                "davkovani": "1-0-0 tbl."
+            },
+            {
+                "lek": "Ranisan tbl. á 75mg",
+                "davkovani": "1/2-0-0 tbl."
+            },
+            {
+                "lek": "KCl tbl",
+                "davkovani": "0-0-1/2"
+            },
+            {
+                "lek": "Vigantol",
+                "davkovani": "2 kp"
+            },
+            {
+                "lek": "Vitacalcin",
+                "davkovani": "1x1 tbl"
+            }
+        ],
+        "planovana_kontrola": "12.1.2011 v 10:00 hod (GIT poradna)"
+    }
+}

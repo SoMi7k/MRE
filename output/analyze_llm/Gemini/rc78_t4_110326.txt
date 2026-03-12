@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 120
+Počet hlavních klíčů: 8
+Počet zanořených klíčů: 112
+
+Počet znaků všech klíčů: 1083
+Počet znaků všech slov v hodnotách: 2699
+Počet všech slov v hodnotách: 499
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['diabetes', 'pásového oparu', 'hemangiom pravého předloktí', 'diabetes mellitus i. typu', 'neštovic', 'anemie', 'ulcerózní kolitida', 'antropometrie', 'infekty']
+Počet diagnóz: 9
+
+Klíčová slova: ['kalprotectin', 'stolice', 'patologické příměsi']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['měkké', 'bez potíží', 'nebolestivé', 'makrocytóza', 'mírná elevace sedimentace', 'remise']
+Počet slov KPPS: 6
+
+Latinské názvy: ['leukopenie', 'atenuovanými', 'lipidogram', 'neutropenie']
+Počet latinských názvů: 4
+
+Léky: ['laktobacil', 'azathioprimem', 'salofalk 500 por tbl ent 100x500mg', 'imuran', 'imuran 50 mg por tbl flm 100x50mg']
+Počet léků: 5
+
+Mikrobiologie: ['tg', 'kreatin', 'amylázy']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['očkování živými atenuovanými vakcínami', 'ko+dif', 'fw', 'ko', 'se', 'jaterní testy']
+Počet procedur a terapií: 6
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 49
+Vymyšlená klíčová slova: ['aktualn', 'bolest', 'brich', 'celkov', 'chut', 'datum', 'davkovan', 'diagnoz', 'doporucen', 'exantem', 'hematologie', 'identifikace', 'inzulinoterapie', 'jednotk', 'jidl', 'kod', 'krivk', 'laboratorn', 'lecb', 'lek', 'listov', 'medikace', 'mocovin', 'nalez', 'nazev', 'objektivn', 'odber', 'opatren', 'organ', 'ostatn', 'pacient', 'plan', 'potize', 'poznamk', 'pracoviste', 'resumé', 'rezimov', 'rust', 'specifikace', 'termin', 'ukon', 'vek', 'vymenn', 'vysetren', 'vysk', 'vysledk', 'vystavene', 'vzhled', 'zaver']
+Počet vymyšlených slov ve values: 9
+Vymyšlená slova ve values: ['3j', 'antivirotik', 'antropometrie', 'formovaná', 'imunoglobulin', 'ne', 'ní', 'onemocněn', 'zákaz']
+            

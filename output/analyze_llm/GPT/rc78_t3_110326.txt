@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 138
+Počet hlavních klíčů: 11
+Počet zanořených klíčů: 127
+
+Počet znaků všech klíčů: 1137
+Počet znaků všech slov v hodnotách: 4545
+Počet všech slov v hodnotách: 785
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['diabetes', 'anémie při chronickém onemocněcí', 'pásového oparu', 'hemangiom pravého předloktí', 'diabetes mellitus i. typu', 'neštovic', 'anemie', 'ulcerózní kolitida', 'imunosupresi azathioprimem', 'infekty']
+Počet diagnóz: 10
+
+Klíčová slova: ['břicho', 'kalprotectin', 'stolice', 'patologické příměsi']
+Počet klíčových slov: 4
+
+Klinické příznaky a popisy stavů: ['měkké', 'nebolestivé', 'makrocytóza', 'útlum kostní dřeně', 'břicho nebolí', 'imunosupresi azathioprimem', 'mírná elevace sedimentace', 'remise']
+Počet slov KPPS: 8
+
+Latinské názvy: ['atenuovanými', 'lipidogram', 'neutropenie', 'leukopenie', 'preskripce']
+Počet latinských názvů: 5
+
+Léky: ['acidum folicum 1x1 tbl', 'laktobacil', 'azathioprimem', 'imuran 1 tbl á 50 mg', 'salofalk 500 por tbl ent 100x500mg', 'salofalk tbl. á 500mg 2-0-2 tbl.', 'laktobacily 1x1 tbl.', 'imuran', 'imuran 1 tbl á 50 mg (2 mg/kg)', 'imuran 50 mg por tbl flm 100x50mg', 'inzulin humulin']
+Počet léků: 11
+
+Mikrobiologie: ['tg', 'kreatin', 'amylázy']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['podání imunoglobulinů', 'inzulinoterpii', 'očkování živými atenuovanými vakcínami', 'ko+dif', 'fw', 'ko', 'se', 'antivirotická terapie', 'kontrola antropometrických parametrů 3x ročně', 'jaterní testy']
+Počet procedur a terapií: 10
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 36
+Vymyšlená klíčová slova: ['bolest', 'brich', 'charakter', 'chut', 'davkovan', 'diagnoz', 'dokument', 'doporucen', 'exantem', 'form', 'frekvence', 'instrukce', 'jatr', 'jidl', 'kod', 'laborator', 'lek', 'nadvah', 'nalez', 'nazev', 'nocn', 'objektivn', 'odber', 'ostatn', 'patologick', 'pocet', 'potiz', 'pozadovan', 'poznamk', 'prime', 'sil', 'subjektivne', 'text', 'upozornen', 'vysk', 'vystavene']
+Počet vymyšlených slov ve values: 2
+Vymyšlená slova ve values: ['lékařská', 'true']
+            

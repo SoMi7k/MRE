@@ -1,0 +1,85 @@
+{
+    "antropometricke_udaje": {
+        "vek": "9 let 10 měsíců",
+        "vyska": {
+            "hodnota": 133,
+            "jednotka": "cm"
+        },
+        "hmotnost": {
+            "hodnota": 25,
+            "jednotka": "kg"
+        }
+    },
+    "anamneza": {
+        "od_posledni_kontroly": "žádné problémy",
+        "aktualni_medikace": [
+            "Pentasa",
+            "Ac folicum",
+            "Pyridoxin",
+            "Laktobacil",
+            "Aktiferin",
+            "Pyridoxin"
+        ]
+    },
+    "subjektivni_potize": {
+        "unavnost": "není unavený",
+        "fyzicka_aktivita": "cvičí",
+        "stolice": "normální, 1x denně",
+        "mikce": "normálně",
+        "snaseni_leku": "dobře"
+    },
+    "objektivni_naled": {
+        "celkovy_stav": "dobrý",
+        "vyziva": "přiměřené",
+        "klouby": "volné",
+        "bricho": "měkké prohmatné bez resistence",
+        "jatra": "nezv",
+        "slezina": "nezv"
+    },
+    "laboratorni_vysledky": {
+        "datum": "19.2.2007",
+        "cas": "11:24 - 11:30",
+        "sedimentace": {
+            "SE": {
+                "hodnota": 27,
+                "jednotka": "/hod"
+            }
+        },
+        "krevni_obraz": {
+            "B-Le": 9.9,
+            "B-Ery": 4.67,
+            "B-Hb": 129,
+            "B-HTK": 0.375,
+            "B-Obj_ery": 80,
+            "B-Hb_ery": 27.7,
+            "B-Hb_konc": 345,
+            "B-Trombo": 405,
+            "B-Seg": 0.615,
+            "B-Ly": 0.267,
+            "B-Eo": 0.023,
+            "B-Ba": 0.005,
+            "B-Mo": 0.09,
+            "B-Seg_abs": 6.1,
+            "B-Ly_abs": 2.6,
+            "B-Eo_abs": 0.2,
+            "B-Ba_abs": 0.0,
+            "B-Mo_abs": 0.9
+        },
+        "biochemie": {
+            "S-CRP": 4
+        }
+    },
+    "zhodnoceni": {
+        "laboratorni_parametry": "v normě",
+        "zanetliva_aktivita": "nejsou žádné známky",
+        "klinicky_index": "PCDAI pod 10"
+    },
+    "doporuceni": [
+        "dále pokračovat v dosavadní léčbě",
+        "kontrola u nutričního terapeuta",
+        "kontrola v červnu 2007 v GIT DK 12.6.2007 v 9:30 hodin (úprava terapie)"
+    ],
+    "administrativa": {
+        "predani_zpravy": "praktickému lékaři do 3 dnů"
+    }
+}

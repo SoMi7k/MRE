@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 177
+Počet hlavních klíčů: 14
+Počet zanořených klíčů: 163
+
+Počet znaků všech klíčů: 1630
+Počet znaků všech slov v hodnotách: 3086
+Počet všech slov v hodnotách: 523
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['diabetes', 'pásového oparu', 'hemangiom pravého předloktí', 'diabetes mellitus i. typu', 'neštovic', 'anemie', 'ulcerózní kolitida', 'antropometrie', 'infekty']
+Počet diagnóz: 9
+
+Klíčová slova: ['kalprotectin', 'stolice']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['měkké', 'bez potíží', 'nebolestivé', 'makrocytóza', 'útlum kostní dřeně', 'mírná elevace sedimentace', 'remise']
+Počet slov KPPS: 7
+
+Latinské názvy: ['atenuovanými', 'lipidogram', 'neutropenie', 'leukopenie', 'preskripce']
+Počet latinských názvů: 5
+
+Léky: ['laktobacil', 'azathioprimem', 'salofalk 500 por tbl ent 100x500mg', 'enterol', 'imuran', 'imuran 50 mg por tbl flm 100x50mg']
+Počet léků: 6
+
+Mikrobiologie: ['tg', 'tv', 'kreatin', 'amylázy']
+Počet názvů z mikrobiologie: 4
+
+Procedury a terapie: ['podání imunoglobulinů', 'očkování živými atenuovanými vakcínami', 'ko+dif', 'fw', 'ko', 'se', 'antivirotická terapie', 'jaterní testy']
+Počet procedur a terapií: 8
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 76
+Vymyšlená klíčová slova: ['administrativ', 'aktualn', 'antropometrie', 'azathioprin', 'bezpecnostn', 'bod', 'bolest', 'bolestivost', 'brich', 'cas', 'celkove', 'cest', 'charakter', 'chut', 'datum', 'davk', 'davkovan', 'den', 'diagnoz', 'dobe', 'dokument', 'doplnek', 'doporucen', 'duvod', 'exantem', 'form', 'frekvence', 'gastroenterologick', 'hba1c', 'hepatosplenomegalie', 'hodnocen', 'imunosuprese', 'interpretace', 'jazyk', 'jednotk', 'jidl', 'kod', 'krivk', 'laborator', 'lecb', 'listov', 'medikace', 'mocovin', 'monitoring', 'nalez', 'nazev', 'nocn', 'objektivn', 'oblast', 'odber', 'pacient', 'palpace', 'panel', 'patologick', 'plan', 'pocet', 'pokyn', 'pozadavk', 'poznamk', 'prepocet', 'prime', 'shrnut', 'sil', 'subjektivne', 'text', 'tvar', 'uk', 'upozornen', 'vek', 'vitd', 'vyj', 'vymenne', 'vysetren', 'vysk', 'vystavene', 'zmen']
+Počet vymyšlených slov ve values: 27
+Vymyšlená slova ve values: ['02', '03', '05', 'antropometrie', 'cs', 'dávek', 'false', 'jednotlivá', 'kontroln', 'lékařská', 'monitorace', 'načasován', 'nejso', 'neprovádět', 'neuveden', 'odevzdat', 'onemocněn', 'popsán', 'pravděpodobn', 'průběžn', 'přesn', 'přesné', 'původn', 'schém', 'text', 'uveden', 'zápis']
+            

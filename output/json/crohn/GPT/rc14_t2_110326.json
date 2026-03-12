@@ -1,0 +1,76 @@
+{
+    "demografie": {
+        "vek": "9r.10 m",
+        "vyska_cm": 133,
+        "hmotnost_kg": 25
+    },
+    "subjektivni_stav": {
+        "od_posledni_kontroly": "žádné problémy nemá",
+        "unava": "unavený není",
+        "aktivita": "cvičí",
+        "stolice": "normální, 1 x denně",
+        "moceni": "močí normálně",
+        "snasenlivost_leku": "léky snáší dobře"
+    },
+    "lecba_a_pripravky": [
+        "Pentasa",
+        "Ac folicum",
+        "Pyridoxin",
+        "Laktobacil",
+        "Aktiferin",
+        "Pyridoxin"
+    ],
+    "fyzikalni_nalez": {
+        "klouby": "volné",
+        "celkovy_stav": "dobrý",
+        "vyziva": "přiměřené výživy",
+        "bricho": "měkké prohmatné bez resistence",
+        "jatra_slezina": "nezv"
+    },
+    "laboratorni_vysetreni": {
+        "datum_a_cas": "19.2.2007 11:24 - 11:30",
+        "parametry": {
+            "SE": "27/hod.",
+            "krevni_obraz": {
+                "B-Le": 9.9,
+                "B-Ery": 4.67,
+                "B-Hb": 129,
+                "B-HTK": 0.375,
+                "B-Obj_ery": 80,
+                "B-Hb_ery": 27.7,
+                "B-Hb_konc": 345,
+                "B-Trombo": 405,
+                "B-Seg": 0.615,
+                "B-Ly": 0.267,
+                "B-Eo": 0.023,
+                "B-Ba": 0.005,
+                "B-Mo": 0.09,
+                "B-Seg_abs": 6.1,
+                "B-Ly_abs": 2.6,
+                "B-Eo_abs": 0.2,
+                "B-Ba_abs": 0.0,
+                "B-Mo_abs": 0.9
+            },
+            "biochemie": {
+                "S-CRP": 4
+            }
+        }
+    },
+    "zaver_hodnoceni": {
+        "laboratorni_parametry": "Výsledky lab. parametrů jsou v normě",
+        "znamky_zanetlive_aktivity": "nejsou žádné známky zánětlivé aktivity",
+        "PCDAI": "pod 10"
+    },
+    "doporuceni_a_plan": {
+        "pokračovat_v_lecbe": "dále pokračovat v dosavadní léčbě",
+        "kontrola_nutricni_terapeut": "kontrola u nutričního terapeuta",
+        "kontrola": {
+            "mesic": "červen 2007",
+            "pracoviste": "GIT DK",
+            "datum": "12.6.2007",
+            "cas": "9.30",
+            "poznamka": "uprava terapie"
+        },
+        "administrativa": "Předta zprávu praktickému lékaři do 3 dnů."
+    }
+}

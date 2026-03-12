@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 143
+Počet hlavních klíčů: 10
+Počet zanořených klíčů: 133
+
+Počet znaků všech klíčů: 1273
+Počet znaků všech slov v hodnotách: 2502
+Počet všech slov v hodnotách: 403
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['bolest pdk', 'akutní exacerbace']
+Počet diagnóz: 2
+
+Klíčová slova: ['břicho', 'pcdai', 'stolice']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['měkké', 'respirační infekt', 'bez potíží', 'nohy nebolí', 'nebolestivé', 'trvá hydrokéla', 'klouby bez otoku', 'břicho nebolí', 'remise']
+Počet slov KPPS: 9
+
+Latinské názvy: ['preskripce']
+Počet latinských názvů: 1
+
+Léky: ['spiropent', 'vigantol', 'ranisan', 'enterol', 'imuran', 'prednison', 'balanitis', 'vitacalcin']
+Počet léků: 8
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['ko+dif', 'fw', 'ko', 'se', 'crp', 'adjuvantní léčbu']
+Počet procedur a terapií: 6
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 76
+Vymyšlená klíčová slova: ['absolute', 'administrative', 'anthropometrics', 'assessment', 'before', 'biochemistr', 'blood', 'calculated', 'change', 'changes', 'complaints', 'complete', 'continue', 'count', 'current', 'date', 'dates', 'department', 'diagnoses', 'diet', 'differential', 'document', 'dose', 'exam', 'findings', 'followup', 'foods', 'form', 'gastrointestinal', 'general', 'height', 'icd10', 'illnesses', 'includes', 'indication', 'instructions', 'intercurrent', 'krivk', 'laborator', 'language', 'last', 'medication', 'medications', 'musculoskeletal', 'name', 'new', 'note', 'notes', 'objective', 'ordered', 'other', 'physical', 'plan', 'planned', 'points', 'products', 'recommendations', 'relative', 'results', 'schedule', 'scores', 'since', 'status', 'strength', 'subjective', 'summar', 'tapering', 'text', 'time', 'to', 'type', 'unit', 'value', 'values', 'visit', 'weight']
+Počet vymyšlených slov ve values: 17
+Vymyšlená slova ve values: ['01', '4', '75', 'bod', 'cs', 'dalším', 'diet', 'h', 'jak', 'kapk', 'krůt', 'laboratoř', 'lékařská', 'mm', 'nebyl', 'specifikace', 'zapsán']
+            

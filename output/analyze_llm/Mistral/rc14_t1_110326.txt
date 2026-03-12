@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 46
+Počet hlavních klíčů: 6
+Počet zanořených klíčů: 40
+
+Počet znaků všech klíčů: 406
+Počet znaků všech slov v hodnotách: 920
+Počet všech slov v hodnotách: 154
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['břicho', 'pcdai', 'stolice']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['měkké', 'klinický index aktivity pcdai je pod 10', 'stav dobrý', 'prohmatné bez resistence', 'nejsou žádné známky zánětlivé aktivity']
+Počet slov KPPS: 5
+
+Latinské názvy: ['pentasa']
+Počet latinských názvů: 1
+
+Léky: ['pyridoxin', 'laktobacil', 'ac folicum', 'pentasa', 'aktiferin']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['crp', 'ko', 'se']
+Počet procedur a terapií: 3
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 33
+Vymyšlená klíčová slova: ['abdomen', 'additional', 'age', 'biochemistr', 'blood', 'bowel', 'clinical', 'condition', 'count', 'current', 'dat', 'date', 'diagnosis', 'exercise', 'fatigue', 'general', 'height', 'histor', 'joints', 'medical', 'medication', 'movements', 'notes', 'nutrition', 'organs', 'patient', 'plan', 'results', 'symptoms', 'tolerance', 'treatment', 'urination', 'weight']
+Počet vymyšlených slov ve values: 5
+Vymyšlená slova ve values: ['09', 'celkový', 'let', 'měsíců', 'předat']
+            

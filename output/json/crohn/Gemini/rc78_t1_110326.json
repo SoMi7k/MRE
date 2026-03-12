@@ -1,0 +1,122 @@
+{
+    "pacient": {
+        "vek": "6,5 roku",
+        "hmotnost": {
+            "hodnota": 24.5,
+            "jednotka": "kg",
+            "percentil": "95."
+        },
+        "vyska": {
+            "hodnota": 116,
+            "jednotka": "cm",
+            "sd": "-0,9 SD"
+        }
+    },
+    "datum_vysetreni": "29.5.2013",
+    "posledni_kontrola": "6.3.2013",
+    "diagnozy": [
+        {
+            "kod": "K510",
+            "nazev": "Ulcerózní kolitida - levostranný typ",
+            "poznamka": "pankreas pozit, ANCA pozit, ASCA neg, genetika TNF-a G/G neg, TPMT neg *1/*1"
+        },
+        {
+            "kod": "E109",
+            "nazev": "Diabetes mellitus I. typu"
+        },
+        {
+            "kod": "D638",
+            "nazev": "Anémie při chronickém onemocnění"
+        },
+        {
+            "kod": "D180",
+            "nazev": "Hemangiom pravého předloktí"
+        }
+    ],
+    "anamneza_a_subjektivni_priznaky": {
+        "obtize": "bez potíží",
+        "stolice": "1x denně, formovaná, bez patologie, noční 0",
+        "bolest_bricha": "ne",
+        "exantem": "ne",
+        "bolest_kloubu": "ne",
+        "chut_k_jidlu": "dobrá",
+        "diabetes": "kompenzovaný"
+    },
+    "medikace": {
+        "inzulinoterapie": [
+            {
+                "nazev": "Humulin R",
+                "davkovani": "4-5j - 2,5-3j"
+            },
+            {
+                "nazev": "Lantus",
+                "davkovani": "4j s.c. (20:00)"
+            }
+        ],
+        "ostatni_leky": [
+            {
+                "nazev": "Salofalk",
+                "sila": "500mg",
+                "davkovani": "2-0-2 tbl. (81 mg/kg)"
+            },
+            {
+                "nazev": "Imuran",
+                "sila": "50mg",
+                "davkovani": "1 tbl denně (2 mg/kg)",
+                "zahajeni_lecby": "2.7.2012"
+            },
+            {
+                "nazev": "Acidum folicum",
+                "davkovani": "1x1 tbl týdně"
+            },
+            {
+                "nazev": "Laktobacily",
+                "davkovani": "1x1 tbl denně"
+            }
+        ]
+    },
+    "laboratorni_vysledky": {
+        "zanet": {
+            "FW": "27/53",
+            "kalprotektin_stolice": "<100"
+        },
+        "krevni_obraz": {
+            "leukocyty": 3.6,
+            "erytrocyty": 3.85,
+            "hemoglobin": 126,
+            "hematokrit": 0.384,
+            "trombocyty": 254,
+            "MCV_obj_ery": 100,
+            "segmenty_abs": 1.6,
+            "lymfocyty_abs": 1.6
+        },
+        "biochemie_a_ostatni": {
+            "urea": 4.7,
+            "kreatinin": 51,
+            "ALT": 0.17,
+            "AST": 0.39,
+            "glyk_Hb_A1c": 47.0,
+            "vitamin_B12": 803,
+            "kys_listova": 17.5,
+            "TSH": 3.06,
+            "fT4": 11.8,
+            "IGF1": 171,
+            "25_OH_vit_D": 76.7
+        },
+        "imunologie": {
+            "c_ANCA_IF": "pozitivní",
+            "p_ANCA_IF": "negativní",
+            "anti_tTg_IgA": 1.76
+        }
+    },
+    "zaver_a_doporuceni": {
+        "stav": "Remise ulcerózní kolitidy (PUCAI 0 b), mírná leukopenie a hraniční neutropenie, makrocytóza (v.s. po Imuranu), výšková stagnace.",
+        "plan": [
+            "Kontrola v GE poradně 18.9.2013",
+            "Pravidelné kontroly KO+dif (min. 1x za 2 měsíce) kvůli imunosupresi",
+            "Sledování růstu u PLDD",
+            "Zákaz očkování živými vakcínami během léčby",
+            "Vystaveny recepty na Salofalk a Imuran"
+        ]
+    }
+}

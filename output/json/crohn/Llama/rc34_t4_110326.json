@@ -1,0 +1,183 @@
+{
+    "kontrola": {
+        "datumPosledniKontroly": "3.11.2010",
+        "subjektivniPotize": {
+            "stav": "Bez potíží",
+            "stolice": "formované 2x denně, bez příměsi",
+            "bolesti": {
+                "břicho": "nebolí",
+                "nohy": "nebolí",
+                "klouby": "bez otoku"
+            },
+            "jiné": {
+                "hydrokéla": "trvá",
+                "hemoroid": "uzlík intermitentně",
+                "koktavost": "mírně zlepšena",
+                "chuťKJídlu": "dobrá",
+                "hmotnost": "přibyl"
+            }
+        }
+    },
+    "strava": [
+        "Neocate",
+        "Sinlac",
+        "banán",
+        "jablko",
+        "mrkev",
+        "králičí",
+        "kůrtí",
+        "vepřové maso",
+        "hovězí",
+        "brambory",
+        "vývary",
+        "testoviny bezvaječné",
+        "noky"
+    ],
+    "lecba": {
+        "leky": [
+            {
+                "nazev": "Prednison",
+                "dávkování": "5-0-0 mg",
+                "dávka": "0,22 mg/kg/den"
+            },
+            {
+                "nazev": "Imuran tbl.",
+                "dávkování": "1 - 0 -1 tbl.",
+                "dávka": "2,6 mg/kg/dne"
+            },
+            {
+                "nazev": "Enterol cps.",
+                "dávkování": "1 - 0 - 0 tbl.",
+                "dávka": "250 mg"
+            },
+            {
+                "nazev": "Ranisan tbl.",
+                "dávkování": "1/2 - 0 - 0 tbl.",
+                "dávka": "75mg"
+            },
+            {
+                "nazev": "KCl tbl",
+                "dávkování": "0-0-1/2"
+            },
+            {
+                "nazev": "Vigantol",
+                "dávkování": "2 kp"
+            },
+            {
+                "nazev": "Vitacalcin",
+                "dávkování": "1x1 tbl"
+            }
+        ],
+        "jiné": {
+            "respiračníInfekt": "t.č. užívá Spiropent",
+            "posledníNemoct": "Od poslední kontroly nebyl nemocný, 1x balanitis"
+        }
+    },
+    "objektivniNalez": {
+        "hmotnost": "22 (-0,2 kg)",
+        "výška": "107 (+0) cm",
+        "popis": {
+            "cushingoidní": true,
+            "rýma": "seromukózní",
+            "odkašlává": true,
+            "dýchání": "čisté, sklípkové, přenesené fenomény",
+            "břicho": "nad niveau, měkké, nebolestivé",
+            "J+S": "nezv.",
+            "rezistence": "0",
+            "žilníKresba": "výrazná na břiše a hrudníku",
+            "hydrokéla": "mírná vlevo",
+            "perianálníOblast": null
+        }
+    },
+    "laboratorniVysledky": {
+        "FW": "28/52",
+        "krevniObraz": {
+            "B-Le": "6,40",
+            "B-Ery": "5,04",
+            "B-Hb": "129",
+            "B-HTK": "0,407",
+            "B-Obj ery.": "81",
+            "B-Hb ery": "25,6",
+            "B-Hb konc": "317",
+            "B-Trombo": "210",
+            "B-Seg": "0,287",
+            "B-Ly": "0,569",
+            "B-Eo": "0,031",
+            "B-Ba": "0,005",
+            "B-Mo": "0,108",
+            "B-Seg - abs": "1,84",
+            "B-Ly - abs": "3,64",
+            "B-Eo - abs": "0,20",
+            "B-Ba - abs": "0,03",
+            "B-Mo - abs.": "0,69",
+            "B-Erytr.křivka": "15,3"
+        },
+        "biochemie": {
+            "S-CRP": "1",
+            "S-Albumin": "50,1"
+        }
+    },
+    "diagnoza": [
+        {
+            "kod": "K509",
+            "nazev": "ISZ - m. Crohn v.s., akutní exacerbace po Campylobacterové infekci"
+        },
+        {
+            "kod": "N47",
+            "nazev": "Fimóza, hydrokéla vlevo"
+        },
+        {
+            "kod": "M673",
+            "nazev": "Bolest PDK"
+        }
+    ],
+    "resume": {
+        "klinickyILaboratorne": "remise",
+        "PCDAI": "2,5 b",
+        "respiračníInfekt": "t.č.",
+        "sedimentace": "mírná progrese"
+    },
+    "doporuceni": {
+        "strava": "bezezbytková, postupně zavádět další potraviny",
+        "leky": [
+            {
+                "nazev": "Prednison",
+                "dávkování": "2,5-0-0",
+                "dávka": "0,1 mg/kg/den"
+            },
+            {
+                "nazev": "Imuran tbl.",
+                "dávkování": "1 - 0 -1 tbl.",
+                "dávka": "2,6 mg/kg/dne"
+            },
+            {
+                "nazev": "Enterol cps.",
+                "dávkování": "1 - 0 - 0 tbl.",
+                "dávka": "250 mg"
+            },
+            {
+                "nazev": "Ranisan tbl.",
+                "dávkování": "1/2 - 0 - 0 tbl.",
+                "dávka": "75mg"
+            },
+            {
+                "nazev": "KCl tbl",
+                "dávkování": "0-0-1/2"
+            },
+            {
+                "nazev": "Vigantol",
+                "dávkování": "2 kp"
+            },
+            {
+                "nazev": "Vitacalcin",
+                "dávkování": "1x1 tbl"
+            }
+        ],
+        "kontrola": {
+            "datum": "12.1.2011",
+            "čas": "10:00 hod",
+            "misto": "GIT poradna"
+        },
+        "zhoršeníStavu": "v případě zhoršení stavu domluva o dalším postupu dříve"
+    }
+}

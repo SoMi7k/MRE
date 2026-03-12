@@ -1,0 +1,157 @@
+{
+    "kontrola": {
+        "datum_posledni_kontrola": "3.11.2010",
+        "stav": "Bez potíží",
+        "stolica": "formované 2x denně, bez příměsi",
+        "bolesti": {
+            "břicho": "nebolí",
+            "nohy": "nebolí",
+            "klouby": "bez otoku"
+        },
+        "jiné_problemy": {
+            "hydrokéla": "trvá",
+            "hemoroid": "uzlík intermitentně"
+        },
+        "koktavost": "mírně zlepšena",
+        "chuť_k_jídlu": "dobrá",
+        "hmotnostní_změna": "přibyl"
+    },
+    "strava": [
+        "Neocate",
+        "Sinlac",
+        "banán",
+        "jablko",
+        "mrkev",
+        "králičí",
+        "kůrtí",
+        "vepřové maso",
+        "hovězí",
+        "brambory",
+        "vývary",
+        "těstoviny bezvaječné",
+        "noky"
+    ],
+    "léky": {
+        "Prednison": {
+            "dávkování": "5-0-0 mg",
+            "dávka": "0,22 mg/kg/den"
+        },
+        "Imuran": {
+            "dávkování": "1 - 0 -1 tbl.",
+            "dávka": "2,6 mg/kg/dne"
+        },
+        "Enterol": {
+            "dávkování": "1 - 0 - 0 tbl."
+        },
+        "adjuvantní_léčba": {
+            "Ranisan": {
+                "dávkování": "1/2 - 0 - 0 tbl."
+            },
+            "KCl": {
+                "dávkování": "0-0-1/2"
+            },
+            "Vigantol": {
+                "dávkování": "2 kp"
+            },
+            "Vitacalcin": {
+                "dávkování": "1x1 tbl"
+            }
+        }
+    },
+    "zdravotní_stav": {
+        "nemocný": "ne",
+        "balanitis": "1x",
+        "respirační_infekt": "ano",
+        "Spiropent": "užívá"
+    },
+    "objektivní_nález": {
+        "hmotnost": "22 (-0,2 kg)",
+        "výška": "107 (+0) cm",
+        "popis": {
+            "Cushingoidní": "ano",
+            "rýma": "seromukózní",
+            "odkašlává": "ano",
+            "dýchání": "čisté, sklípkové, přenesené fenomény",
+            "břicho": "nad niveau, měkké, nebolestivé",
+            "J+S": "nezv.",
+            "rezistence": "0",
+            "žilní_kresba": "výrazná na břiše a hrudníku",
+            "hydrokéla": "mírná vlevo",
+            "perianální_oblast": ""
+        }
+    },
+    "laboratorní_výsledky": {
+        "FW": "28/52",
+        "Krevní_obraz": {
+            "B-Le": "6,40",
+            "B-Ery": "5,04",
+            "B-Hb": "129",
+            "B-HTK": "0,407",
+            "B-Obj ery.": "81",
+            "B-Hb ery": "25,6",
+            "B-Hb konc": "317",
+            "B-Trombo": "210",
+            "B-Seg": "0,287",
+            "B-Ly": "0,569",
+            "B-Eo": "0,031",
+            "B-Ba": "0,005",
+            "B-Mo": "0,108",
+            "B-Seg - abs": "1,84",
+            "B-Ly - abs": "3,64",
+            "B-Eo - abs": "0,20",
+            "B-Ba - abs": "0,03",
+            "B-Mo - abs.": "0,69",
+            "B-Erytr.křivka": "15,3"
+        },
+        "Biochemie": {
+            "S-CRP": "1",
+            "S-Albumin": "50,1"
+        }
+    },
+    "diagnózy": {
+        "K509": "ISZ - m. Crohn v.s., akutní exacerbace po Campylobacterové infekci",
+        "N47": "Fimóza, hydrokéla vlevo",
+        "M673": "Bolest PDK"
+    },
+    "rekapitulace": {
+        "stav": "klinicky i laboratorně remise",
+        "PCDAI": "2,5 b",
+        "respirační_infekt": "ano",
+        "sedimentace": "mírná progrese"
+    },
+    "doporučení": {
+        "strava": "bezezbytková, postupně zavádět další potraviny",
+        "léky": {
+            "Prednison": {
+                "dávkování": "2,5-0-0 (0,1 mg/kg/den)",
+                "poznámka": "opět snížit o 2,5 mg"
+            },
+            "Imuran": {
+                "dávkování": "1 - 0 -1 tbl. (2,6 mg/kg/dne)"
+            },
+            "Enterol": {
+                "dávkování": "1 - 0 - 0 tbl."
+            },
+            "adjuvantní_léčba": {
+                "Ranisan": {
+                    "dávkování": "1/2 - 0 - 0 tbl."
+                },
+                "KCl": {
+                    "dávkování": "0-0-1/2"
+                },
+                "Vigantol": {
+                    "dávkování": "2 kp"
+                },
+                "Vitacalcin": {
+                    "dávkování": "1x1 tbl"
+                }
+            }
+        },
+        "kontrola": {
+            "datum": "12.1.2011",
+            "čas": "10:00 hod",
+            "poznámka": "v GIT poradně včetně laboratoře"
+        },
+        "další_postup": "v případě zhoršení stavu domluva o dalším postupu dříve"
+    }
+}

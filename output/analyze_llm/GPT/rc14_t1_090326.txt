@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 71
+Počet hlavních klíčů: 8
+Počet zanořených klíčů: 63
+
+Počet znaků všech klíčů: 815
+Počet znaků všech slov v hodnotách: 1307
+Počet všech slov v hodnotách: 177
+
+--- Slovní metriky ---
+Sekce: []
+Počet sekcí: 0
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['pcdai', 'een']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: []
+Počet slov KPPS: 0
+
+Latinské názvy: ['pentasa']
+Počet latinských názvů: 1
+
+Léky: ['aktiferin', 'pyridoxin', 'ac folicum', 'laktobacil', 'pentasa']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['crp', 'se']
+Počet procedur a terapií: 2
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 91
+Vymyšlená klíčová slova: ['10e12', '10e9', 'abdomen', 'absolute', 'activit', 'adherence', 'administrative', 'age', 'assessment', 'basophils', 'biochemistr', 'cbc', 'character', 'check', 'clinic', 'collection', 'comment', 'condition', 'consultations', 'context', 'current', 'date', 'datetime', 'day', 'demographics', 'diagnosis', 'differential', 'disease', 'end', 'eosinophils', 'esr', 'exam', 'fatigue', 'fl', 'follow', 'fraction', 'frequenc', 'g', 'general', 'h', 'height', 'hematocrit', 'hemoglobin', 'instruction', 'interpretation', 'joints', 'l', 'laborator', 'last', 'liver', 'lymphocytes', 'mch', 'mchc', 'mcv', 'medications', 'mg', 'mm', 'monocytes', 'months', 'neutrophils', 'nutrition', 'objective', 'or', 'per', 'pg', 'plan', 'planned', 'platelets', 'purpose', 'range', 'rbc', 'referrals', 'reported', 'results', 'sex', 'since', 'spleen', 'start', 'status', 'stool', 'subjective', 'summar', 'time', 'tolerance', 'treatment', 'up', 'urination', 'visit', 'wbc', 'weight', 'years']
+Počet vymyšlených slov ve values: 69
+Vymyšlená slova ve values: ['02', '06', '09', '19t11', 'activit', 'adequate', 'adjustment', 'appropriate', 'are', 'below', 'bowel', 'clinicall', 'continue', 'control', 'current', 'days', 'denies', 'disease', 'enlarged', 'evidence', 'exercises', 'fatigue', 'follow', 'free', 'general', 'good', 'in', 'inflammator', 'laborator', 'labs', 'last', 'limitation', 'limits', 'male', 'medications', 'mentioned', 'monitoring', 'no', 'normal', 'not', 'nutritional', 'of', 'on', 'or', 'palpable', 'parameters', 'pediatric', 'practitioner', 'problems', 'referenced', 'report', 'reported', 'resistance', 'signs', 'since', 'soft', 'submit', 'the', 'therap', 'therapist', 'tired', 'to', 'tolerated', 'treatment', 'up', 'well', 'with', 'within', 'without']
+            

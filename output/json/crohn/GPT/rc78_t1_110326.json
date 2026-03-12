@@ -1,0 +1,289 @@
+{
+    "typ_dokumentu": "Kontrolní lékařská zpráva",
+    "jazyk": "cs",
+    "datum_posledni_kontroly": "2013-03-06",
+    "datum_laboratori": "2013-05-29",
+    "cas_odberu_laboratori": "10:00-10:46",
+    "vek_pacienta": {
+        "hodnota": 6.5,
+        "jednotka": "roku",
+        "v_dobe": "2013-03-06"
+    },
+    "subjektivne": {
+        "celkove": "Bez potíží.",
+        "stolice": {
+            "frekvence_za_den": 1,
+            "charakter": "formované",
+            "patologicka_prime": false,
+            "nocni_stolice": 0
+        },
+        "bricho_bolest": false,
+        "exantem": "0",
+        "klouby_bolest": false,
+        "chut_k_jidlu": "dobrá",
+        "diabetes": "t.č. kompenzovaný"
+    },
+    "aktualni_lecba": {
+        "diabetes_inzuliny": [
+            {
+                "nazev": "Humulin R",
+                "davkovani_text": "4-5 j - 2,5-3 j - 2 j",
+                "poznamka": "schéma dle textu; přesné načasování denních dávek neuvedeno"
+            },
+            {
+                "nazev": "Lantus",
+                "davka": "4 j",
+                "cesta": "s.c.",
+                "cas": "20:00",
+                "frekvence": "na noc"
+            }
+        ],
+        "vyj_vymenne_jednotky": {
+            "text": "snídaně 1,5VJ - 1VJ - 4VJ - 1VJ - 2VJ - 1,5VJ",
+            "poznamka": "jednotlivá jídla nejsou v textu přesně popsána; uveden původní zápis"
+        },
+        "gastroenterologicka_terapie": [
+            {
+                "nazev": "Salofalk",
+                "forma": "tbl",
+                "sila": "500 mg",
+                "davkovani": "2-0-2 tbl",
+                "prepocet_mg_na_kg": "81 mg/kg"
+            },
+            {
+                "nazev": "Imuran",
+                "forma": "tbl",
+                "sila": "50 mg",
+                "davkovani": "1 tbl denně",
+                "prepocet_mg_na_kg": "2 mg/kg",
+                "od": "2012-07-02"
+            },
+            {
+                "nazev": "Acidum folicum",
+                "davkovani": "1x1 tbl týdně"
+            },
+            {
+                "nazev": "Laktobacily",
+                "davkovani": "1x1 tbl"
+            }
+        ]
+    },
+    "objektivni_nalez": {
+        "antropometrie": {
+            "hmotnost_kg": 24.5,
+            "hmotnost_zmena_kg": 0.5,
+            "hmotnost_percentil": 95,
+            "vyska_cm": 116,
+            "vyska_zmena_cm": 1.5,
+            "vyska_sd": -0.9,
+            "hodnoceni": "nadváha"
+        },
+        "bricho": {
+            "tvar": "v úrovni",
+            "palpace": "měkké",
+            "bolestivost": "nebolestivé",
+            "hepatosplenomegalie": false,
+            "rezistence": "0"
+        }
+    },
+    "laborator": {
+        "sedimentace_FW": "27/53",
+        "krevni_obraz": {
+            "B-Le": 3.6,
+            "B-Ery": 3.85,
+            "B-Trombo": 254,
+            "B-Hb": 126,
+            "B-HTK": 0.384,
+            "B-Obj_ery": 100,
+            "B-Hb_ery": 32.8,
+            "B-Hb_konc": 330,
+            "B-Seg": 0.439,
+            "B-Ly": 0.452,
+            "B-Eo": 0.044,
+            "B-Ba": 0.003,
+            "B-Mo": 0.061,
+            "B-Seg_abs": 1.6,
+            "B-Ly_abs": 1.6,
+            "B-Eo_abs": 0.2,
+            "B-Ba_abs": 0.0,
+            "B-Mo_abs": 0.2,
+            "B-Erytr_krivka": 15.9
+        },
+        "biochemie": {
+            "S-Mocovina": 4.7,
+            "S-Kreatinin": 51,
+            "S-ALT": 0.17,
+            "S-AST": 0.39,
+            "S-LPS": 0.23,
+            "S-AMS": 1.09
+        },
+        "stolice": {
+            "K-Kalprotektin": "<100"
+        },
+        "vitaminy": {
+            "S-Vitamin_B12": 803,
+            "S-Kys_listova": 17.5
+        },
+        "lipidogram": {
+            "S-Cholesterol": 4.92,
+            "S-TG": 0.24,
+            "S-HDL": 1.67,
+            "qS-LDL": 3.16,
+            "qS-Aterogenni_index": 1.9,
+            "qS-Index_log_TG_HDL": -0.84
+        },
+        "diabetes_kompenzace": {
+            "B-Glyk_HbA1c": 47.0
+        },
+        "imunologie": {
+            "S-IgG": 14.3,
+            "S-IgA": 1.07,
+            "S-IgM": 0.96,
+            "S-IgE": "<17,1",
+            "S-c-ANCA_IF": "pozit",
+            "S-p-ANCA_IF": "negat",
+            "S-ANCA_BPI": 0.38,
+            "S-ANCA_Kathepsin": 0.53,
+            "S-ANCA_Elastaza": 0.22,
+            "S-ANCA_Lactoferin": 0.23,
+            "S-ANCA_MPO": 0.4,
+            "S-ANCA_PR3": 4.4,
+            "S-Anti-tTg_IgA": 1.76
+        },
+        "hormony": {
+            "S-TSH": 3.06,
+            "S-FT4": 11.8,
+            "S-aTG": 10,
+            "S-aTPO": 10,
+            "S-25OH_VitD": 76.7,
+            "S-IGF1": 171
+        },
+        "shrnuty_panel_pozadavku": [
+            "FW",
+            "KO+dif",
+            "ALT",
+            "AST",
+            "kreatinin",
+            "urea",
+            "AMS",
+            "LPS",
+            "glyk Hb",
+            "kalprotectin",
+            "B12",
+            "kyselina listová",
+            "IGF-1",
+            "fT4",
+            "TSH",
+            "aTPO",
+            "aTG",
+            "25OH vit D",
+            "IgM/IgG/IgA",
+            "ANCA",
+            "transgl",
+            "lipidogram",
+            "C-peptid"
+        ]
+    },
+    "diagnozy": [
+        {
+            "kod": "K510",
+            "nazev": "Ulcerózní kolitida - levostranný typ",
+            "doplnek": "pankreas pozit, ANCA pozit, ASCA neg; genetika TNF-a G/G neg, TPMT neg *1/*1"
+        },
+        {
+            "kod": "E109",
+            "nazev": "Diabetes mellitus I. typu"
+        },
+        {
+            "kod": "D638",
+            "nazev": "Anémie při chronickém onemocnění"
+        },
+        {
+            "kod": "D180",
+            "nazev": "Hemangiom pravého předloktí"
+        }
+    ],
+    "hodnoceni": {
+        "PUCAI_body": 0,
+        "stav_UK": "remise",
+        "interpretace": [
+            "mírná elevace sedimentace",
+            "kalprotektin negativní (svědčí pro plnou remisi)",
+            "anemie upravena",
+            "trvá makrocytóza (pravděpodobně v souvislosti s azathioprimem)",
+            "zvýšená hodnota kyseliny listové",
+            "mírná leukopenie",
+            "hraniční neutropenie",
+            "výšková stagnace, IGF v normě"
+        ]
+    },
+    "doporuceni_a_plan": {
+        "medikace": [
+            {
+                "oblast": "diabetes",
+                "pokyn": "Inzuliny dle diabetologa"
+            },
+            {
+                "nazev": "Salofalk 500 mg",
+                "pokyn": "2-0-2 tbl; preskripce delegována na PLDD"
+            },
+            {
+                "nazev": "Imuran 50 mg",
+                "pokyn": "1 tbl denně; od 2.7.2012"
+            },
+            {
+                "nazev": "Acidum folicum",
+                "pokyn": "1x1 tbl týdně"
+            },
+            {
+                "nazev": "Laktobacily",
+                "pokyn": "1x1 tbl"
+            }
+        ],
+        "kontroly": [
+            {
+                "typ": "Kontrola v GE poradně",
+                "datum": "2013-09-18",
+                "cas": "10:00"
+            },
+            {
+                "typ": "Sledování růstu u PLDD",
+                "frekvence": "průběžně"
+            }
+        ],
+        "monitoring_imunosuprese_azathioprin": [
+            {
+                "vysetreni": "KO+dif",
+                "frekvence": "min. 1x za 2 měsíce",
+                "duvod": "monitorace nežádoucích účinků (leukopenie, útlum kostní dřeně)"
+            },
+            {
+                "vysetreni": "jaterní testy, amylázy, kreatinin",
+                "frekvence": "min. 3x ročně"
+            },
+            {
+                "vysetreni": "antropometrie",
+                "frekvence": "3x ročně"
+            }
+        ],
+        "bezpecnostni_upozorneni": [
+            "Během terapie a nejméně 3 měsíce po jejím ukončení neprovádět očkování živými atenuovanými vakcínami.",
+            "Chránit se před infekty.",
+            "V případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů."
+        ],
+        "administrativa": [
+            "Kopii zprávy odevzdat dětskému lékaři.",
+            "Informace o zdravotním stavu byla podána; údaje k souhlasu s poskytováním informací beze změny."
+        ]
+    },
+    "vystavene_recepty": [
+        {
+            "nazev": "SALOFALK 500 por tbl ent 100x500mg",
+            "pocet_baleni": 2
+        },
+        {
+            "nazev": "IMURAN 50 MG por tbl flm 100x50mg",
+            "pocet_baleni": 1
+        }
+    ]
+}

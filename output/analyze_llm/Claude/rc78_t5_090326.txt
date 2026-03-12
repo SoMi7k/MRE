@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 106
+Počet hlavních klíčů: 9
+Počet zanořených klíčů: 97
+
+Počet znaků všech klíčů: 995
+Počet znaků všech slov v hodnotách: 3666
+Počet všech slov v hodnotách: 617
+
+--- Slovní metriky ---
+Sekce: []
+Počet sekcí: 0
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['infekty', 'anémie při chronickém onemocněcí', 'diabetes mellitus i. typu', 'pásového oparu', 'diabetes', 'imunosupresi azathioprimem', 'ulcerózní kolitida', 'hemangiom pravého předloktí', 'anemie', 'neštovic']
+Počet diagnóz: 10
+
+Klíčová slova: ['břicho', 'stolice', 'kalprotectin', 'patologické příměsi']
+Počet klíčových slov: 4
+
+Klinické příznaky a popisy stavů: ['exantém', 'mírná elevace sedimentace', 'imunosupresi azathioprimem', 'bez potíží', 'měkké', 'remise', 'makrocytóza', 'útlum kostní dřeně', 'nebolestivé']
+Počet slov KPPS: 9
+
+Latinské názvy: ['atenuovanými', 'neutropenie', 'lipidogram', 'leukopenie', 'preskripce']
+Počet latinských názvů: 5
+
+Léky: ['acidum folicum 1x1 tbl', 'imuran 50 mg por tbl flm 100x50mg', 'azathioprimem', 'imuran 1 tbl á 50 mg', 'laktobacily 1x1 tbl.', 'imuran', 'salofalk 500 por tbl ent 100x500mg', 'salofalk tbl. á 500mg 2-0-2 tbl.', 'imuran 1 tbl á 50 mg (2 mg/kg)', 'laktobacil', 'inzulin humulin']
+Počet léků: 11
+
+Mikrobiologie: ['kreatin', 'amylázy', 'tg']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['antivirotická terapie', 'inzulinoterpii', 'ko+dif', 'se', 'ko', 'podání imunoglobulinů', 'jaterní testy', 'fw', 'očkování živými atenuovanými vakcínami', 'kontrola antropometrických parametrů 3x ročně']
+Počet procedur a terapií: 10
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 22
+Vymyšlená klíčová slova: ['aktuáln', 'anamnéz', 'celkový', 'datum', 'diagnóz', 'fyzikáln', 'identifikačn', 'laboratorn', 'medikace', 'metod', 'nález', 'obtíže', 'odběr', 'ostatn', 'pacient', 'poznámk', 'upozorněn', 'výsledk', 'věk', 'zhodnocen', 'zobrazovac', 'závěr']
+Počet vymyšlených slov ve values: 1
+Vymyšlená slova ve values: ['none']
+            

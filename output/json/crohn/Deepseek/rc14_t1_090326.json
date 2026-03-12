@@ -1,0 +1,72 @@
+{
+    "pacient": {
+        "vek": "9r.10m",
+        "vyska": "133 cm",
+        "vaha": "25 kg"
+    },
+    "subjektivni_stav": {
+        "stav": "od poslední kontroly žádné problémy nemá",
+        "unava": "unavený není",
+        "aktivita": "cvičí",
+        "stolice": "normální, 1 x denně",
+        "moceni": "normálně",
+        "tolerance_leku": "léky snáší dobře",
+        "klouby": "volné"
+    },
+    "objektivni_stav": {
+        "celkovy_stav": "dobrý",
+        "vyziva": "přiměřené výživy",
+        "bricho": "měkké prohmatné bez resistence",
+        "jatra_slezina": "nezv"
+    },
+    "leky": [
+        "Pentasa",
+        "Ac folicum",
+        "Pyridoxin",
+        "Laktobacil",
+        "Aktiferin",
+        "Pyridoxin"
+    ],
+    "laboratorni_vysetreni": {
+        "datum_cas": "19.2.2007 11:24 - 11:30",
+        "sedimentace": "SE 27/hod",
+        "krevni_obraz": {
+            "Le": "9,90",
+            "Ery": "4,67",
+            "Hb": "129",
+            "HTK": "0,375",
+            "Obj ery": "80",
+            "Hb ery": "27,7",
+            "Hb konc": "345",
+            "Trombo": "405",
+            "Seg": "0,615",
+            "Ly": "0,267",
+            "Eo": "0,023",
+            "Ba": "0,005",
+            "Mo": "0,090",
+            "Seg - abs": "6,10",
+            "Ly - abs": "2,60",
+            "Eo - abs": "0,20",
+            "Ba - abs": "0,00",
+            "Mo - abs": "0,90"
+        },
+        "biochemie": {
+            "CRP": "4"
+        }
+    },
+    "interpretace_vysetreni": {
+        "laboratorni_parametry": "v normě",
+        "zapal": "nejsou žádné známky zánětlivé aktivity",
+        "PCDAI": "klinický index aktivity PCDAI je pod 10"
+    },
+    "dalsi_opatreni": {
+        "lecba": "dále pokračovat v dosavadní léčbě",
+        "kontroly": [
+            "kontrola u nutričního terapeuta",
+            "kontrola v červnu 2007 v GIT DK 12.6.2007 v 9. 30 hodin (uprava terapie)"
+        ]
+    },
+    "administrativa": {
+        "zaslani_zpravy": "Předta zprávu praktickému lékaři do 3 dnů"
+    }
+}

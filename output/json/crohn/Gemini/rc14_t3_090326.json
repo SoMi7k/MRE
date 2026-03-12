@@ -1,0 +1,74 @@
+{
+    "pacient": {
+        "vek": "9r.10 m",
+        "vyska_cm": 133,
+        "vaha_kg": 25
+    },
+    "anamneza_a_subjektivni_priznaky": {
+        "stav": "od poslední kontroly žádné problémy nemá",
+        "unava": "není",
+        "pohyb": "cvičí",
+        "stolice": "normální, 1 x denně",
+        "moceni": "normálně",
+        "snasenlivost_leku": "dobře"
+    },
+    "medikace": [
+        "Pentasa",
+        "Ac folicum",
+        "Pyridoxin",
+        "Laktobacil",
+        "Aktiferin",
+        "Pyridoxin"
+    ],
+    "objektivni_vysetreni": {
+        "celkovy_stav": "dobrý",
+        "vyziva": "přiměřená",
+        "klouby": "volné",
+        "bricho": "měkké prohmatné bez resistence",
+        "jatra_slezina": "nezv"
+    },
+    "laboratorni_vysledky": {
+        "datum_cas": "19.2.2007 11:24 - 11:30",
+        "sedimentace": {
+            "SE": "27/hod."
+        },
+        "krevni_obraz": {
+            "B-Le": 9.9,
+            "B-Ery": 4.67,
+            "B-Hb": 129,
+            "B-HTK": 0.375,
+            "B-Obj_ery": 80,
+            "B-Hb_ery": 27.7,
+            "B-Hb_konc": 345,
+            "B-Trombo": 405,
+            "B-Seg": 0.615,
+            "B-Ly": 0.267,
+            "B-Eo": 0.023,
+            "B-Ba": 0.005,
+            "B-Mo": 0.09,
+            "B-Seg-abs": 6.1,
+            "B-Ly-abs": 2.6,
+            "B-Eo-abs": 0.2,
+            "B-Ba-abs": 0.0,
+            "B-Mo-abs": 0.9
+        },
+        "biochemie": {
+            "S-CRP": 4
+        }
+    },
+    "hodnoceni_stavu": {
+        "zaver": "Výsledky lab. parametrů jsou v normě, nejsou žádné známky zánětlivé aktivity",
+        "index_aktivity": "PCDAI je pod 10"
+    },
+    "doporuceni_a_plan": {
+        "lecba": "dále pokračovat v dosavadní léčbě",
+        "nutricni_terapeut": "kontrola",
+        "dalsi_kontrola": {
+            "datum": "12.6.2007",
+            "cas": "9.30 hodin",
+            "misto": "GIT DK",
+            "poznamka": "uprava terapie"
+        },
+        "pokyny": "Předta zprávu praktickému lékaři do 3 dnů."
+    }
+}

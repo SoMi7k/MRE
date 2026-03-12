@@ -1,0 +1,181 @@
+{
+    "kontrola": {
+        "datum_posledni_kontroly": "6.3.2013",
+        "vek_pacienta": "6,5 roku"
+    },
+    "subjektivni_stav": {
+        "potize": "bez potíží",
+        "stolice": "1x denně, formované, bez patologické příměsi, noční stolice 0",
+        "bolest_bricha": "nebolí",
+        "exantem": "0",
+        "bolest_kloubu": "nebolí",
+        "chut_k_jidlu": "dobrá"
+    },
+    "diabetes": {
+        "typ": "I. typu",
+        "kompenzace": "kompenzovaný",
+        "inzulinoterapie": {
+            "Humulin R": "4-5j - 2,5-3 j - 2j",
+            "Lantus": "4j s.c. (20:00)"
+        },
+        "VJ": "snídaně 1,5VJ - 1VJ - 4VJ - 1VJ - 2VJ - 1,5VJ"
+    },
+    "leky": [
+        {
+            "nazev": "Salofalk",
+            "davek": "2-0-2 tbl.",
+            "davkovani": "500mg"
+        },
+        {
+            "nazev": "Imuran",
+            "davek": "1 tbl á 50 mg",
+            "davkovani": "(2 mg/kg)",
+            "od": "2.7.2012"
+        },
+        {
+            "nazev": "Acidum folicum",
+            "davek": "1x1 tbl týdně"
+        },
+        {
+            "nazev": "Laktobacily",
+            "davek": "1x1 tbl"
+        }
+    ],
+    "objektivni_stav": {
+        "hmotnost": "24,5 (+0,5) kg",
+        "vyška": "116 (+1,5) cm",
+        "percentil_hmotnosti": "95. percentil",
+        "SD_vyšky": "-0,9 SD",
+        "nadvaha": true,
+        "břicho": "v úrovni, měkké, nebolestivé",
+        "játra_a_slezina": "nezvětšeny",
+        "rezistence": "0"
+    },
+    "laboratorni_vysledky": {
+        "datum": "29.5.2013",
+        "cas": "10:00 - 10:46",
+        "vysledky": {
+            "FW": "27/53",
+            "Krevní obraz": {
+                "B-Le": "3,60",
+                "B-Ery": "3,85",
+                "B-Trombo": "254",
+                "B-Hb": "126",
+                "B-HTK": "0,384",
+                "B-Obj ery.": "100",
+                "B-Hb ery": "32,8",
+                "B-Hb konc": "330",
+                "B-Seg": "0,439",
+                "B-Ly": "0,452",
+                "B-Eo": "0,044",
+                "B-Ba": "0,003",
+                "B-Mo": "0,061"
+            },
+            "Biochemie": {
+                "S-Močovina": "4,7",
+                "S-Kreatinin": "51",
+                "S-ALT": "0,17",
+                "S-AST": "0,39",
+                "S-LPS": "0,23",
+                "S-AMS": "1,09"
+            },
+            "Stolice": {
+                "K-Kalprotektin": "<100"
+            },
+            "Vitaminy": {
+                "S-Vitamin B12": "803",
+                "S-Kys.listová": "17,5"
+            },
+            "Lipidogram": {
+                "S-Cholesterol": "4,92",
+                "S-TG": "0,24",
+                "S-HDL": "1,67",
+                "qS-LDL": "3,16",
+                "qS-Aterogenní inde": "1,9",
+                "qS-Index log (TG/HDL)": "-0,84"
+            },
+            "Kompenzace diabetu": {
+                "B-Glyk. Hb A1c": "47,0"
+            },
+            "Imunologie": {
+                "S-IgG": "14,30",
+                "S-IgA": "1,07",
+                "S-IgM": "0,96",
+                "S-IgE": "<17,1",
+                "S-c-ANCA IF": "pozit",
+                "S-p-ANCA IF": "negat"
+            },
+            "Hormony": {
+                "S-TSH statim": "3,06",
+                "S-FT4 statim": "11,80",
+                "S-aTG": "10",
+                "S-aTPO": "10",
+                "S-25 OH Vit D": "76,7",
+                "S-IGF1": "171"
+            }
+        }
+    },
+    "diagnózy": [
+        {
+            "kod": "K510",
+            "nazev": "Ulcerózní kolitida - levostranný typ"
+        },
+        {
+            "kod": "E109",
+            "nazev": "Diabetes mellitus I. typu"
+        },
+        {
+            "kod": "D638",
+            "nazev": "Anémie při chronickém onemocněcí"
+        },
+        {
+            "kod": "D180",
+            "nazev": "Hemangiom pravého předloktí"
+        }
+    ],
+    "rekomendace": {
+        "PUCAI": "0 b - t.č. remise",
+        "stav": "mírná elevace sedimentace, kalprotectin negativní",
+        "anemie": "upravena",
+        "makrocytóza": "trvá (v.s. v souvislosti s léčbou azathioprimem)",
+        "leukopenie": "mírná",
+        "neutropenie": "hraniční",
+        "výšková stagnace": true,
+        "IGF": "v normě"
+    },
+    "doporuceni": {
+        "leky": [
+            {
+                "nazev": "Inzuliny",
+                "doporuceni": "dle diabetologa"
+            },
+            {
+                "nazev": "Salofalk",
+                "davek": "2-0-2 tbl.",
+                "davkovani": "500mg"
+            },
+            {
+                "nazev": "Imuran",
+                "davek": "1 tbl á 50 mg",
+                "davkovani": "(2 mg/kg)"
+            },
+            {
+                "nazev": "Acidum folicum",
+                "davek": "1x1 tbl týdně"
+            },
+            {
+                "nazev": "Laktobacily",
+                "davek": "1x1 tbl"
+            }
+        ],
+        "kontrola_v_GE_poradně": "18.9.2013 v 10 hod.",
+        "sledování_růstu": "u PLDD"
+    },
+    "upozorneni": [
+        "pravidelná kontrola KO+dif min. 1x za 2 měsíce",
+        "jaterní testy, amylázy a kreatin min 3x do ročně",
+        "během terapie a v období nejméně 3 měsíců po jejím ukončení nesmí být provedeno očkování živými atenuovanými vakcínami",
+        "chránit se před infekty",
+        "v případě neštovic (varicela) nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů"
+    ]
+}

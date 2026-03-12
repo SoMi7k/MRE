@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 130
+Počet hlavních klíčů: 11
+Počet zanořených klíčů: 119
+
+Počet znaků všech klíčů: 1173
+Počet znaků všech slov v hodnotách: 3072
+Počet všech slov v hodnotách: 568
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['diabetes', 'pásového oparu', 'hemangiom pravého předloktí', 'diabetes mellitus i. typu', 'neštovic', 'anemie', 'ulcerózní kolitida', 'infekty']
+Počet diagnóz: 8
+
+Klíčová slova: ['břicho', 'stolice']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['měkké', 'bez potíží', 'nebolestivé', 'makrocytóza', 'exantém', 'mírná elevace sedimentace', 'remise']
+Počet slov KPPS: 7
+
+Latinské názvy: ['atenuovanými', 'lipidogram', 'neutropenie', 'leukopenie', 'preskripce']
+Počet latinských názvů: 5
+
+Léky: ['laktobacil', 'azathioprimem', 'salofalk 500 por tbl ent 100x500mg', 'imuran', 'imuran 50 mg por tbl flm 100x50mg']
+Počet léků: 5
+
+Mikrobiologie: ['tg', 'kreatin', 'amylázy']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['podání imunoglobulinů', 'očkování živými atenuovanými vakcínami', 'fw', 'ko', 'se', 'antivirotická terapie']
+Počet procedur a terapií: 6
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 24
+Vymyšlená klíčová slova: ['antropometrické', 'bolest', 'datum', 'diagnóz', 'formace', 'frekvence', 'infekce', 'inzulinoterapie', 'kloubů', 'krivk', 'laboratorn', 'léčiv', 'monitoring', 'neštovice', 'nález', 'objektivn', 'parametr', 'patologická', 'potíže', 'priměs', 'puc', 'q', 'rekomendace', 'trván']
+Počet vymyšlených slov ve values: 3
+Vymyšlená slova ve values: ['3j', 'onemocněn', 'true']
+            

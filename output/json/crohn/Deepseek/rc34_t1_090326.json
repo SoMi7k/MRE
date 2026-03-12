@@ -1,0 +1,134 @@
+{
+    "anamneza": {
+        "posledni_kontrola": "3.11.2010",
+        "stav": "Bez potíží",
+        "stolice": "formované 2x denně, bez příměsi",
+        "bolesti": {
+            "bricho": "nebolí",
+            "nohy": "nebolí",
+            "klouby": "bez otoku"
+        },
+        "pribuzne_stavy": [
+            "Trvá hydrokéla",
+            "hemoroid. uzlík intermitentně",
+            "Koktavost mírně zlepšena"
+        ],
+        "chut_k_jidlu": "dobrá",
+        "hmotnost": "přibyl",
+        "strava": [
+            "Neocate",
+            "Sinlac",
+            "banán",
+            "jablko",
+            "mrkev",
+            "králičí",
+            "kůrtí",
+            "vepřové maso",
+            "zkusili hovězí",
+            "brambory",
+            "vývary",
+            "těstoviny bezvaječné",
+            "noky"
+        ],
+        "nemoci_od_posledni_kontroly": [
+            "nebly nemocný",
+            "1x balanitis",
+            "T.č. respirační infekt - užívá Spiropent"
+        ]
+    },
+    "objektivni_nalezy": {
+        "hmotnost": "22 kg (-0,2 kg)",
+        "vyska": "107 cm (+0 cm)",
+        "vnejsi_vzhled": "Cushingoidní",
+        "respirace": {
+            "ryma": "seromukózní",
+            "odkaslavani": "odkašlává",
+            "dychani": "čisté, sklípkové, přenesené fenomény"
+        },
+        "bricho": "nad niveau, měkké, nebolestivé",
+        "jatra_slezina": "J+S nezv.",
+        "rezistence": "0",
+        "kresba": "výrazná žilní kresba na břiše a hrudníku",
+        "hydrokéla": "mírná hydrokéla vlevo",
+        "perianalni_oblast": "perianální oblast"
+    },
+    "laboratorni_vysledky": {
+        "fw": "28/52",
+        "krevni_obraz": {
+            "b_le": "6,40",
+            "b_ery": "5,04",
+            "b_hb": "129",
+            "b_htk": "0,407",
+            "b_obj_ery": "81",
+            "b_hb_ery": "25,6",
+            "b_hb_konc": "317",
+            "b_trombo": "210",
+            "b_seg": "0,287",
+            "b_ly": "0,569",
+            "b_eo": "0,031",
+            "b_ba": "0,005",
+            "b_mo": "0,108",
+            "b_seg_abs": "1,84",
+            "b_ly_abs": "3,64",
+            "b_eo_abs": "0,20",
+            "b_ba_abs": "0,03",
+            "b_mo_abs": "0,69",
+            "b_erytr_krivka": "15,3"
+        },
+        "biochemie": {
+            "s_crp": "1",
+            "s_albumin": "50,1"
+        }
+    },
+    "diagnozy": [
+        {
+            "kod": "K509",
+            "text": "ISZ - m. Crohn v.s., akutní exacerbace po Campylobacterové infekci"
+        },
+        {
+            "kod": "N47",
+            "text": "Fimóza, hydrokéla vlevo"
+        },
+        {
+            "kod": "M673",
+            "text": "Bolest PDK"
+        }
+    ],
+    "rekomendace": {
+        "stav": "klinicky i laboratorně remise, PCDAI 2,5 b",
+        "komentar": "t.č. respirační infekt, mírná progrese sedimentace"
+    },
+    "doporučení": {
+        "strava": "bezezbytková, postupně zavádět další potraviny",
+        "leky": [
+            {
+                "nazev": "Prednison",
+                "davkovani": "snížit o 2,5 mg tzn. 2,5-0-0 (0,1 mg/kg/den), v případě trvání dobrého stavu možno Prednison i adjuvantní léčbu po 3 týdnech vysadit"
+            },
+            {
+                "nazev": "Imuran tbl. á 25 mg",
+                "davkovani": "1 - 0 -1 tbl. (2,6 mg/kg/dne)"
+            },
+            {
+                "nazev": "Enterol cps. á 250 mg",
+                "davkovani": "1 - 0 - 0 tbl."
+            },
+            {
+                "nazev": "adjuvantní léčba",
+                "davkovani": "Ranisan tbl. á 75mg 1/2 - 0 - 0 tbl., KCl tbl 0-0-1/2, Vigantol 2 kp, Vitacalcin 1x1 tbl"
+            }
+        ],
+        "kontroly": [
+            {
+                "typ": "kontrola v GIT poradně včetně laboratoře",
+                "datum": "12.1.2011",
+                "cas": "10:00 hod"
+            },
+            {
+                "typ": "v případě zhoršení stavu domluva o dalším postupu dříve"
+            }
+        ],
+        "preskripce": "Další preskripce u PLDD !!!",
+        "kopie_zpravy": "Kopii této zprávy odevzdejte svému dětskému lékaři."
+    }
+}

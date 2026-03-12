@@ -1,0 +1,44 @@
+{
+    "identifikační údaje": "9r.10 m 133 cm 25 kg",
+    "anamnéza": null,
+    "aktuální obtíže": "od poslední kontroly žádné problémy nemá, unavený není, cvičí, stolice normální, 1 x denně, močí normálně, léky snáší dobře, klouby volné,",
+    "fyzikální nález": "celk stav dobrý, přiměřené výživy, břicho měkké prohmatné bez resistence, játra slezina. nezv",
+    "laboratorní výsledky": {
+        "SE,KO,CRP": {
+            "datum a čas": "19.2.2007 11:24 - 11:30",
+            "SE": "27/hod.",
+            "Krevní obraz": {
+                "B-Le": "9,90",
+                "B-Ery": "4,67",
+                "B-Hb": "129",
+                "B-HTK": "0,375",
+                "B-Obj ery.": "80",
+                "B-Hb ery": "27,7",
+                "B-Hb konc": "345",
+                "B-Trombo": "405",
+                "B-Seg": "0,615",
+                "B-Ly": "0,267",
+                "B-Eo": "0,023",
+                "B-Ba": "0,005",
+                "B-Mo": "0,090",
+                "B-Seg - abs": "6,10",
+                "B-Ly - abs": "2,60",
+                "B-Eo - abs": "0,20",
+                "B-Ba - abs": "0,00",
+                "B-Mo - abs.": "0,90"
+            },
+            "Biochemie": {
+                "S-CRP": "4"
+            }
+        }
+    },
+    "zobrazovací metody": null,
+    "medikace": "Pentasa, Ac folicum, Pyridoxin, Laktobacil, Aktiferin, Pyridoxin",
+    "diagnóza": "Výsledky lab. parametrů jsou  v normě, nejsou žádné známky zánětlivé aktivity, klinický index aktivity PCDAI je pod 10.",
+    "doporučení / závěr": [
+        "- dále pokračovat v dosavadní léčbě,",
+        "- kontrola u nutričního terapeuta",
+        "- kontrola v červnu 2007 v GIT DK  12.6.2007  v 9. 30 hodin (uprava terapie)",
+        "Předat zprávu praktickému lékaři do 3 dnů."
+    ]
+}

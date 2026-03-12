@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 164
+Počet hlavních klíčů: 9
+Počet zanořených klíčů: 155
+
+Počet znaků všech klíčů: 1561
+Počet znaků všech slov v hodnotách: 3020
+Počet všech slov v hodnotách: 540
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['infekty', 'anémie při chronickém onemocněcí', 'diabetes mellitus i. typu', 'antropometrie', 'pásového oparu', 'diabetes', 'ulcerózní kolitida', 'hemangiom pravého předloktí', 'anemie', 'neštovic']
+Počet diagnóz: 10
+
+Klíčová slova: ['stolice', 'kalprotectin']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['remise', 'bez potíží', 'měkké', 'nebolestivé', 'makrocytóza', 'útlum kostní dřeně']
+Počet slov KPPS: 6
+
+Latinské názvy: ['atenuovanými', 'neutropenie', 'lipidogram', 'leukopenie', 'preskripce']
+Počet latinských názvů: 5
+
+Léky: ['imuran 50 mg por tbl flm 100x50mg', 'azathioprimem', 'imuran', 'salofalk 500 por tbl ent 100x500mg', 'laktobacil']
+Počet léků: 5
+
+Mikrobiologie: ['kreatin', 'tg']
+Počet názvů z mikrobiologie: 2
+
+Procedury a terapie: ['antivirotická terapie', 'se', 'ko', 'podání imunoglobulinů', 'fw', 'očkování živými atenuovanými vakcínami']
+Počet procedur a terapií: 6
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 65
+Vymyšlená klíčová slova: ['aktualn', 'amylaz', 'antropometricke', 'antropometrie', 'bolest', 'brich', 'cas', 'celkov', 'chut', 'dals', 'datum', 'davk', 'davkovan', 'diagnoz', 'dokument', 'doporucen', 'exantem', 'frekvence', 'fyzikaln', 'hodnocen', 'infekce', 'inzulinoterapie', 'jatr', 'jednotk', 'jidl', 'kod', 'konzistence', 'krivk', 'laboratorn', 'lecb', 'listov', 'metad', 'mocovin', 'monitorace', 'nazev', 'neštovice', 'nocn', 'nález', 'objektivn', 'ockovan', 'odber', 'odchylk', 'opatren', 'pacient', 'parametr', 'pasov', 'patologick', 'pocet', 'potize', 'poznamk', 'primes', 'rust', 'sledovan', 'smerodatn', 'ulcerozn', 'vek', 'vymenne', 'vysetren', 'vysk', 'vysledk', 'vystavene', 'vzork', 'zahajen', 'zaver', 'zmen']
+Počet vymyšlených slov ve values: 4
+Vymyšlená slova ve values: ['3j', 'kontroln', 'lékařská', 'ne']
+            

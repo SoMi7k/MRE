@@ -1,0 +1,64 @@
+{
+    "pacient": {
+        "vek": "9 let 10 měsíců",
+        "vyska": "133 cm",
+        "hmotnost": "25 kg"
+    },
+    "anamneza": {
+        "od_posledni_kontroly": "žádné problémy",
+        "unavnost": "není unavený",
+        "fyzicka_aktivita": "cvičí",
+        "stolice": "normální, 1x denně",
+        "moceni": "normálně",
+        "snaseni_leku": "dobře"
+    },
+    "medikace": [
+        "Pentasa",
+        "Ac folicum",
+        "Pyridoxin",
+        "Laktobacil",
+        "Aktiferin"
+    ],
+    "klinicky_nález": {
+        "celkovy_stav": "dobrý",
+        "vyziva": "přiměřená",
+        "klouby": "volné",
+        "bricho": "měkké prohmatné bez resistence",
+        "jatra_slezina": "nezv"
+    },
+    "laboratorni_vysledky": {
+        "datum": "19.2.2007",
+        "cas": "11:24 - 11:30",
+        "sedimentace": "27/hod",
+        "krevni_obraz": {
+            "leukocyty": 9.9,
+            "erytrocyty": 4.67,
+            "hemoglobin": 129,
+            "hematokrit": 0.375,
+            "objem_erytrocytu": 80,
+            "hemoglobin_erytrocytu": 27.7,
+            "koncentrace_hemoglobinu": 345,
+            "trombocyty": 405,
+            "segmenty": 0.615,
+            "lymfocyty": 0.267,
+            "eozinofily": 0.023,
+            "bazofily": 0.005,
+            "monocyty": 0.09
+        },
+        "biochemie": {
+            "CRP": 4
+        },
+        "hodnoceni": "v normě, nejsou žádné známky zánětlivé aktivity"
+    },
+    "klinicky_index": {
+        "PCDAI": "pod 10"
+    },
+    "doporuceni": [
+        "dále pokračovat v dosavadní léčbě",
+        "kontrola u nutričního terapeuta",
+        "kontrola v červnu 2007 v GIT DK 12.6.2007 v 9:30 hodin (úprava terapie)"
+    ],
+    "administrativa": {
+        "predani_zpravy": "praktickému lékaři do 3 dnů"
+    }
+}

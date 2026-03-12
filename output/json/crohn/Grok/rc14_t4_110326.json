@@ -1,0 +1,69 @@
+{
+    "patient_info": {
+        "age": "9r.10 m",
+        "height": "133 cm",
+        "weight": "25 kg"
+    },
+    "history": {
+        "from_last_check": "od poslední kontroly žádné problémy nemá",
+        "medications": [
+            "Pentasa",
+            "Ac folicum",
+            "Pyridoxin",
+            "Laktobacil",
+            "Aktiferin",
+            "Pyridoxin"
+        ]
+    },
+    "subjective_complaints": {
+        "fatigue": "unavený není",
+        "activity": "cvičí",
+        "stool": "stolice normální, 1 x denně",
+        "urination": "močí normálně",
+        "medication_tolerance": "léky snáší dobře",
+        "joints": "klouby volné"
+    },
+    "objective_findings": {
+        "general_condition": "celk stav dobrý, přiměřené výživy",
+        "abdomen": "břicho měkké prohmatné bez resistence",
+        "liver_spleen": "játra slezina. nezv"
+    },
+    "lab_results": {
+        "tests_requested": "SE,KO,CRP",
+        "date_time": "19.2.2007 11:24 - 11:30",
+        "SE": "27/hod.",
+        "blood_count": {
+            "B-Le": "9,90",
+            "B-Ery": "4,67",
+            "B-Hb": "129",
+            "B-HTK": "0,375",
+            "B-Obj ery.": "80",
+            "B-Hb ery": "27,7",
+            "B-Hb konc": "345",
+            "B-Trombo": "405",
+            "B-Seg": "0,615",
+            "B-Ly": "0,267",
+            "B-Eo": "0,023",
+            "B-Ba": "0,005",
+            "B-Mo": "0,090",
+            "B-Seg - abs": "6,10",
+            "B-Ly - abs": "2,60",
+            "B-Eo - abs": "0,20",
+            "B-Ba - abs": "0,00",
+            "B-Mo - abs.": "0,90"
+        },
+        "biochemistry": {
+            "S-CRP": "4"
+        }
+    },
+    "conclusion": {
+        "lab_summary": "Výsledky lab. parametrů jsou v normě, nejsou žádné známky zánětlivé aktivity",
+        "clinical_index": "klinický index aktivity PCDAI je pod 10"
+    },
+    "recommendations": {
+        "treatment": "- dále pokračovat v dosavadní léčbě",
+        "nutrition": "- kontrola u nutričního terapeuta",
+        "follow_up": "- kontrola v červnu 2007 v GIT DK 12.6.2007 v 9. 30 hodin (uprava terapie)",
+        "report": "Předta zprávu praktickému lékaři do 3 dnů."
+    }
+}

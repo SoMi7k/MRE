@@ -1,0 +1,69 @@
+{
+    "pacient": {
+        "vek": "9 let 10 měsíců",
+        "pohlavi": "muž",
+        "vyska": "133 cm",
+        "vaha": "25 kg"
+    },
+    "subjektivni_stav": {
+        "problemy": "žádné",
+        "unava": "není",
+        "aktivita": "cvičí",
+        "stolice": "normální, 1x denně",
+        "moceni": "normálně",
+        "snasenlivost_leku": "dobře",
+        "klouby": "volné"
+    },
+    "objektivni_nalez": {
+        "celkovy_stav": "dobrý",
+        "vyziva": "přiměřené",
+        "bricho": "měkké, prohmatné bez rezistence",
+        "jatra_slezina": "nezvětšená"
+    },
+    "laboratorni_vysledky": {
+        "datum_cas_odberu": "19.2.2007 11:24 - 11:30",
+        "sedimentace": "27/hod",
+        "krevni_obraz": {
+            "Leukocyty": "9,90",
+            "Erytrocyty": "4,67",
+            "Hemoglobin": "129",
+            "Hematokrit": "0,375",
+            "Objem erytrocytu": "80",
+            "Hb v erytrocytu": "27,7",
+            "Koncentrace Hb": "345",
+            "Trombocyty": "405",
+            "Segmentované neutrofily (rel.)": "0,615",
+            "Lymfocyty (rel.)": "0,267",
+            "Eozinofily (rel.)": "0,023",
+            "Bazofily (rel.)": "0,005",
+            "Monocyty (rel.)": "0,090",
+            "Segmentované neutrofily (abs.)": "6,10",
+            "Lymfocyty (abs.)": "2,60",
+            "Eozinofily (abs.)": "0,20",
+            "Bazofily (abs.)": "0,00",
+            "Monocyty (abs.)": "0,90"
+        },
+        "biochemie": {
+            "CRP": "4"
+        },
+        "hodnoceni": "Výsledky lab. parametrů jsou v normě, nejsou žádné známky zánětlivé aktivity, klinický index aktivity PCDAI je pod 10."
+    },
+    "lecba": {
+        "aktualni_medikace": [
+            "Pentasa",
+            "Ac folicum",
+            "Pyridoxin",
+            "Laktobacil",
+            "Aktiferin",
+            "Pyridoxin"
+        ],
+        "dalsi_postup": "dále pokračovat v dosavadní léčbě"
+    },
+    "dalsi_doporuceni": {
+        "kontroly": [
+            "kontrola u nutričního terapeuta",
+            "kontrola v červnu 2007 v GIT DK 12.6.2007 v 9.30 hodin (úprava terapie)"
+        ],
+        "zaslani_zpravy": "Předat zprávu praktickému lékaři do 3 dnů."
+    }
+}

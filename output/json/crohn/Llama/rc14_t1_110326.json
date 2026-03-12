@@ -1,0 +1,69 @@
+{
+    "pacient": {
+        "věk": "9 let a 10 měsíců",
+        "výška": "133 cm",
+        "váha": "25 kg"
+    },
+    "anamnéza": {
+        "problémy": "žádné",
+        "léky": [
+            "Pentasa",
+            "Ac folicum",
+            "Pyridoxin",
+            "Laktobacil",
+            "Aktiferin"
+        ],
+        "stav": "dobrý",
+        "únava": "ne",
+        "cvičení": "ano",
+        "stolice": "normální, 1x denně",
+        "močení": "normální",
+        "klouby": "volné"
+    },
+    "fyzikální vyšetření": {
+        "břicho": "měkké, prohmatné, bez resistence",
+        "játra": "nezvětšena",
+        "slezina": "nezvětšena"
+    },
+    "laboratorní výsledky": {
+        "datum": "19.2.2007",
+        "čas": "11:24 - 11:30",
+        "SE": "27/hod.",
+        "krevní obraz": {
+            "B-Le": "9,90",
+            "B-Ery": "4,67",
+            "B-Hb": "129",
+            "B-HTK": "0,375",
+            "B-Obj ery.": "80",
+            "B-Hb ery": "27,7",
+            "B-Hb konc": "345",
+            "B-Trombo": "405",
+            "B-Seg": "0,615",
+            "B-Ly": "0,267",
+            "B-Eo": "0,023",
+            "B-Ba": "0,005",
+            "B-Mo": "0,090",
+            "B-Seg - abs": "6,10",
+            "B-Ly - abs": "2,60",
+            "B-Eo - abs": "0,20",
+            "B-Ba - abs": "0,00",
+            "B-Mo - abs.": "0,90"
+        },
+        "biochemie": {
+            "S-CRP": "4"
+        }
+    },
+    "závěr": {
+        "stav": "dobrý",
+        "zánětlivá aktivita": "žádná",
+        "PCDAI": "pod 10"
+    },
+    "doporučení": [
+        "pokračovat v dosavadní léčbě",
+        "kontrola u nutričního terapeuta",
+        "kontrola v červnu 2007 v GIT DK 12.6.2007 v 9:30 hodin"
+    ],
+    "informace pro praktického lékaře": {
+        "předání zprávy": "do 3 dnů"
+    }
+}

@@ -91,8 +91,8 @@ def extract_json_from_content(content: str) -> str:
 
 def save_output(model: str, filepath: str, model_output: str) -> None:
     try:
-        filename = f"{os.path.basename(filepath)}_{datetime.now().strftime('%d%m%y')}"
-        outpath = os.path.join(config.RESULT_JSON_ROOT, "crohn", config.LLMS[model],filename)
+        filename = f"{os.path.basename(filepath).replace(".json", "")}_{datetime.now().strftime('%d%m%y')}.json"
+        outpath = os.path.join(config.RESULT_JSON_ROOT, "crohn", config.LLMS[model], filename)
         
         # Uložení souboru
         with open(outpath, "w", encoding="utf-8") as fr:
@@ -152,7 +152,8 @@ def show():
         # Pipeline Start 
         if st.button("Start workflow", type="primary"):
             progress = st.progress(0)
-            with st.status("Running workflow...", expanded=True) as status:
+            text = f"Running workflow for {os.path.basename(selected_prompt)} ..."
+            with st.status(text, expanded=True) as status:
 
                 # 1️⃣ LLM CALL
                 try:
@@ -173,14 +174,17 @@ def show():
 
                     progress.progress(40)
 
+                    print(content)
                     status.write("✅ LLM response received")
 
                     usage = output["usage"]
                     logger.write_cost(
                         model=selected_model,
+                        scenario=os.path.basename(selected_scenario),
                         input_tok=usage["prompt_tokens"],
                         output_tok=usage["completion_tokens"],
-                        input_name=selected_prompt
+                        cost=usage["cost"],
+                        input_name=os.path.basename(selected_prompt)
                     )
 
                 except Exception as e:
@@ -219,12 +223,12 @@ def show():
                     status.write("🔎 Running JSON analysis...")
                     progress.progress(85)
                     
-                    filename = f"{os.path.basename(selected_prompt)}_{datetime.now().strftime('%d%m%y')}"
+                    filename = f"{os.path.basename(selected_prompt).replace(".json", "")}_{datetime.now().strftime('%d%m%y')}.txt"
                     outpath = os.path.join(
                         config.RESULT_LMM,
                         config.LLMS[selected_model],
                         filename
-                    ).replace(".json", ".txt")
+                    )
 
                     analyzeJson(parsed, outpath, find_report_path(selected_prompt))
 

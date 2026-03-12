@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 39
+Počet hlavních klíčů: 9
+Počet zanořených klíčů: 30
+
+Počet znaků všech klíčů: 357
+Počet znaků všech slov v hodnotách: 1004
+Počet všech slov v hodnotách: 178
+
+--- Slovní metriky ---
+Sekce: []
+Počet sekcí: 0
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['břicho', 'stolice', 'pcdai']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['klinický index aktivity pcdai je pod 10', 'prohmatné bez resistence', 'měkké', 'výsledky lab. parametrů jsou  v normě', 'nejsou žádné známky zánětlivé aktivity', 'stav dobrý']
+Počet slov KPPS: 6
+
+Latinské názvy: ['pentasa']
+Počet latinských názvů: 1
+
+Léky: ['pentasa', 'aktiferin', 'pyridoxin', 'ac folicum', 'laktobacil']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['ko', 'se', 'crp']
+Počet procedur a terapií: 3
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 24
+Vymyšlená klíčová slova: ['aktuáln', 'anamnéz', 'datum', 'diagnóz', 'doporučen', 'fyzikáln', 'identifikačn', 'interpretace', 'laboratorn', 'medikace', 'metod', 'nález', 'obtíže', 'odběr', 'pohlav', 'poznámk', 'sedimentace', 'váh', 'výšk', 'věk', 'zobrazovac', 'závěr', 'údaje', 'čas']
+Počet vymyšlených slov ve values: 1
+Vymyšlená slova ve values: ['none']
+            

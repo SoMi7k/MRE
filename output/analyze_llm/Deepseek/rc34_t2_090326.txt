@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 72
+Počet hlavních klíčů: 1
+Počet zanořených klíčů: 71
+
+Počet znaků všech klíčů: 633
+Počet znaků všech slov v hodnotách: 2725
+Počet všech slov v hodnotách: 472
+
+--- Slovní metriky ---
+Sekce: []
+Počet sekcí: 0
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['isz - m. crohn v.s., akutní exacerbace po campylobacterové infekci', 'bolest pdk', 'akutní exacerbace']
+Počet diagnóz: 3
+
+Klíčová slova: ['strava', 'břicho', 'stolice', 'pcdai']
+Počet klíčových slov: 4
+
+Klinické příznaky a popisy stavů: ['břicho nebolí', 'remise', 'měkké', 'nebolestivé', 'klouby bez otoku', 'respirační infekt', 'nohy nebolí']
+Počet slov KPPS: 7
+
+Latinské názvy: ['preskripce']
+Počet latinských názvů: 1
+
+Léky: ['spiropent', 'prednison', 'vitacalcin', 'enterol', 'balanitis', 'vigantol', 'imuran', 'ranisan']
+Počet léků: 8
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['crp', 'ko', 'se', 'fw', 'adjuvantní léčbu']
+Počet procedur a terapií: 5
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 26
+Vymyšlená klíčová slova: ['chut', 'datum', 'davkovan', 'diagnoz', 'dodatek', 'doporučen', 'informace', 'jidl', 'komunikace', 'lek', 'lekaře', 'nalez', 'nazev', 'objektivn', 'potize', 'praktickeh', 'pro', 'respirace', 'revize', 'subjektivn', 'trvale', 'vysk', 'vysledk', 'vzhled', 'zdravotn', 'zprav']
+Počet vymyšlených slov ve values: 2
+Vymyšlená slova ve values: ['nebyl', 'zaznamenán']
+            

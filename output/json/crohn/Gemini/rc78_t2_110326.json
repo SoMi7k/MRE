@@ -1,0 +1,125 @@
+{
+    "pacient": {
+        "vek": "6,5 roku",
+        "antropometricke_udaje": {
+            "hmotnost": "24,5 kg (+0,5 kg, 95. percentil)",
+            "vyska": "116 cm (+1,5 cm, -0,9 SD)",
+            "stav": "nadváha, výšková stagnace"
+        }
+    },
+    "datum_vysetreni": "29.5.2013",
+    "posledni_kontrola": "6.3.2013",
+    "diagnozy": [
+        {
+            "kod": "K510",
+            "nazev": "Ulcerózní kolitida - levostranný typ",
+            "specifikace": "pankreas pozit, ANCA pozit, ASCA neg, genetika TNF-a G/G neg, TPMT neg *1/*1"
+        },
+        {
+            "kod": "E109",
+            "nazev": "Diabetes mellitus I. typu"
+        },
+        {
+            "kod": "D638",
+            "nazev": "Anémie při chronickém onemocnění"
+        },
+        {
+            "kod": "D180",
+            "nazev": "Hemangiom pravého předloktí"
+        }
+    ],
+    "subjektivni_obtize": "Bez potíží, břicho nebolí, klouby nebolí, chuť k jídlu dobrá, exantém 0.",
+    "klinicky_stav": {
+        "stolice": "1x denně, formovaná, bez patologické příměsi, noční stolice 0",
+        "bricho": "v úrovni, měkké, nebolestivé, játra a slezina nezvětšeny, rezistence 0",
+        "diabetes": "t.č. kompenzovaný",
+        "pucai_skore": 0,
+        "remise": "ano (plná remise dle kalprotektinu)"
+    },
+    "medikace": {
+        "inzulinoterapie": {
+            "Humulin R": "4-5j - 2,5-3 j",
+            "Lantus": "4j s.c. na noc (20:00)",
+            "vymenny_jednotky_VJ": "snídaně 1,5VJ - 1VJ - 4VJ - 1VJ - 2VJ - 1,5VJ"
+        },
+        "ostatni_leky": [
+            {
+                "nazev": "Salofalk tbl.",
+                "davkovani": "500mg 2-0-2 tbl. (81 mg/kg)"
+            },
+            {
+                "nazev": "Imuran",
+                "davkovani": "1 tbl á 50 mg (2 mg/kg)",
+                "zahajeni_lecby": "2.7.2012"
+            },
+            {
+                "nazev": "Acidum folicum",
+                "davkovani": "1x1 tbl týdně"
+            },
+            {
+                "nazev": "Laktobacily",
+                "davkovani": "1x1 tbl."
+            }
+        ]
+    },
+    "laboratorni_vysledky": {
+        "zanetlive_markery": {
+            "FW": "27/53",
+            "kalprotektin_stolice": "<100"
+        },
+        "krevni_obraz": {
+            "leukocyty": 3.6,
+            "erytrocyty": 3.85,
+            "hemoglobin": 126,
+            "hematokrit": 0.384,
+            "trombocyty": 254,
+            "objem_ery_MCV": 100,
+            "poznamka": "mírná leukopenie, hraniční neutropenie, makrocytóza"
+        },
+        "biochemie": {
+            "urea": 4.7,
+            "kreatinin": 51,
+            "ALT": 0.17,
+            "AST": 0.39,
+            "LPS": 0.23,
+            "AMS": 1.09,
+            "glyk_Hb_A1c": 47.0
+        },
+        "vitaminy_a_ostatni": {
+            "B12": 803,
+            "kyselina_listova": 17.5,
+            "vit_D_25_OH": 76.7,
+            "IGF1": 171
+        },
+        "lipidogram": {
+            "cholesterol": 4.92,
+            "TG": 0.24,
+            "HDL": 1.67,
+            "LDL": 3.16
+        },
+        "imunologie": {
+            "IgG": 14.3,
+            "IgA": 1.07,
+            "IgM": 0.96,
+            "c-ANCA_IF": "pozit",
+            "p-ANCA_IF": "negat",
+            "Anti-tTg_IgA": 1.76
+        },
+        "stitna_zlaza": {
+            "TSH": 3.06,
+            "FT4": 11.8,
+            "aTG": 10,
+            "aTPO": 10
+        }
+    },
+    "doporuceni": [
+        "Kontrola v GE poradně 18.9.2013 v 10 hod.",
+        "Sledování růstu u PLDD",
+        "Pravidelná kontrola KO+dif min. 1x za 2 měsíce (kvůli imunosupresi)",
+        "Jaterní testy, amylázy a kreatinin min. 3x ročně",
+        "Kontrola antropometrických parametrů 3x ročně",
+        "Zákaz očkování živými vakcínami během terapie a 3 měsíce po ní",
+        "Chránit se před infekty",
+        "V případě neštovic/pásového oparu nutná hospitalizace a antivirotika"
+    ]
+}

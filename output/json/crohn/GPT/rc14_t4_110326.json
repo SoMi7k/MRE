@@ -1,0 +1,141 @@
+{
+    "jazyk": "cs",
+    "demografie": {
+        "vek": "9r.10 m",
+        "pohlavi": null,
+        "vyska_cm": 133,
+        "hmotnost_kg": 25
+    },
+    "subjektivne": {
+        "od_posledni_kontroly": "žádné problémy nemá",
+        "unava": "unavený není",
+        "aktivita": "cvičí",
+        "stolice": "normální, 1 x denně",
+        "moceni": "močí normálně",
+        "tolerance_lecby": "léky snáší dobře",
+        "klouby": "klouby volné"
+    },
+    "objektivne": {
+        "celkovy_stav": "dobrý",
+        "vyziva": "přiměřené výživy",
+        "bricho": "měkké prohmatné bez resistence",
+        "jatra_slezina": "nezv"
+    },
+    "lecba": {
+        "aktualni_medikace": [
+            "Pentasa",
+            "Ac folicum",
+            "Pyridoxin",
+            "Laktobacil",
+            "Aktiferin",
+            "Pyridoxin"
+        ],
+        "poznamka": "dále pokračovat v dosavadní léčbě"
+    },
+    "laboratorni_vysledky": {
+        "datum_cas_odberu": "19.2.2007 11:24 - 11:30",
+        "SE": {
+            "hodnota": 27,
+            "jednotka": "/hod."
+        },
+        "krevni_obraz": {
+            "B-Le": {
+                "hodnota": 9.9,
+                "jednotka": null
+            },
+            "B-Ery": {
+                "hodnota": 4.67,
+                "jednotka": null
+            },
+            "B-Hb": {
+                "hodnota": 129,
+                "jednotka": null
+            },
+            "B-HTK": {
+                "hodnota": 0.375,
+                "jednotka": null
+            },
+            "B-Obj ery.": {
+                "hodnota": 80,
+                "jednotka": null
+            },
+            "B-Hb ery": {
+                "hodnota": 27.7,
+                "jednotka": null
+            },
+            "B-Hb konc": {
+                "hodnota": 345,
+                "jednotka": null
+            },
+            "B-Trombo": {
+                "hodnota": 405,
+                "jednotka": null
+            },
+            "B-Seg": {
+                "hodnota": 0.615,
+                "jednotka": null
+            },
+            "B-Ly": {
+                "hodnota": 0.267,
+                "jednotka": null
+            },
+            "B-Eo": {
+                "hodnota": 0.023,
+                "jednotka": null
+            },
+            "B-Ba": {
+                "hodnota": 0.005,
+                "jednotka": null
+            },
+            "B-Mo": {
+                "hodnota": 0.09,
+                "jednotka": null
+            },
+            "B-Seg - abs": {
+                "hodnota": 6.1,
+                "jednotka": null
+            },
+            "B-Ly - abs": {
+                "hodnota": 2.6,
+                "jednotka": null
+            },
+            "B-Eo - abs": {
+                "hodnota": 0.2,
+                "jednotka": null
+            },
+            "B-Ba - abs": {
+                "hodnota": 0.0,
+                "jednotka": null
+            },
+            "B-Mo - abs.": {
+                "hodnota": 0.9,
+                "jednotka": null
+            }
+        },
+        "biochemie": {
+            "S-CRP": {
+                "hodnota": 4,
+                "jednotka": null
+            }
+        },
+        "interpretace": "Výsledky lab. parametrů jsou v normě, nejsou žádné známky zánětlivé aktivity"
+    },
+    "skore_indexy": {
+        "PCDAI": {
+            "hodnota": null,
+            "interpretace": "klinický index aktivity PCDAI je pod 10"
+        }
+    },
+    "diagnostika_a_zavery": {
+        "diagnozy": null,
+        "zaver": "nejsou žádné známky zánětlivé aktivity"
+    },
+    "doporuceni_a_plan": {
+        "pokračovat_v_lecbe": "dále pokračovat v dosavadní léčbě",
+        "kontroly": [
+            "kontrola u nutričního terapeuta",
+            "kontrola v červnu 2007 v GIT DK 12.6.2007 v 9.30 hodin (uprava terapie)"
+        ],
+        "administrativa": "Předta zprávu praktickému lékaři do 3 dnů."
+    }
+}

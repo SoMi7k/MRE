@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 49
+Počet hlavních klíčů: 6
+Počet zanořených klíčů: 43
+
+Počet znaků všech klíčů: 584
+Počet znaků všech slov v hodnotách: 1016
+Počet všech slov v hodnotách: 182
+
+--- Slovní metriky ---
+Sekce: []
+Počet sekcí: 0
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['stolice', 'pcdai']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['klinický index aktivity pcdai je pod 10', 'nejsou žádné známky zánětlivé aktivity', 'měkké']
+Počet slov KPPS: 3
+
+Latinské názvy: ['pentasa']
+Počet latinských názvů: 1
+
+Léky: ['pentasa', 'aktiferin', 'pyridoxin', 'ac folicum', 'laktobacil']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['ko', 'se', 'crp']
+Počet procedur a terapií: 3
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 46
+Vymyšlená klíčová slova: ['aktualn', 'bazofil', 'brich', 'cas', 'celkov', 'dals', 'datum', 'doporucen', 'eozinofil', 'erytrocyt', 'hematokrit', 'hemoglobin', 'hodnocen', 'jatr', 'koncentrace', 'laboratorn', 'lecb', 'lek', 'leukocyt', 'lymfocyt', 'medikace', 'mocen', 'monocyt', 'nalez', 'neutrofil', 'objektivn', 'objem', 'odber', 'pacient', 'pohlav', 'postup', 'problem', 'rel', 'sedimentace', 'segmentované', 'snasenlivost', 'subjektivn', 'trombocyt', 'unav', 'vah', 'vek', 'vysk', 'vysledk', 'vyziv', 'zaslan', 'zprav']
+Počet vymyšlených slov ve values: 8
+Vymyšlená slova ve values: ['1x', 'let', 'muž', 'měsíců', 'nezvětšená', 'předat', 'rezistence', 'úprav']
+            

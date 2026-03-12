@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 57
+Počet hlavních klíčů: 7
+Počet zanořených klíčů: 50
+
+Počet znaků všech klíčů: 549
+Počet znaků všech slov v hodnotách: 876
+Počet všech slov v hodnotách: 143
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['pcdai', 'stolice']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['nejsou žádné známky zánětlivé aktivity', 'měkké', 'prohmatné bez resistence']
+Počet slov KPPS: 3
+
+Latinské názvy: ['pentasa']
+Počet latinských názvů: 1
+
+Léky: ['pyridoxin', 'laktobacil', 'ac folicum', 'pentasa', 'aktiferin']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['crp', 'ko', 'se']
+Počet procedur a terapií: 3
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 35
+Vymyšlená klíčová slova: ['a', 'administrativ', 'brich', 'cas', 'celkov', 'datum', 'demografie', 'doporucen', 'fyzikaln', 'hmotnost', 'hodnocen', 'jatr', 'laboratorn', 'lecb', 'lecbe', 'lek', 'mesic', 'mocen', 'nalez', 'nutricn', 'parametr', 'plan', 'poznamk', 'pracoviste', 'pripravk', 'snasenlivost', 'subjektivn', 'unav', 'vek', 'vysetren', 'vysk', 'vyziv', 'zanetlive', 'zaver', 'znamk']
+Počet vymyšlených slov ve values: 2
+Vymyšlená slova ve values: ['09', 'červen']
+            

@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 80
+Počet hlavních klíčů: 8
+Počet zanořených klíčů: 72
+
+Počet znaků všech klíčů: 684
+Počet znaků všech slov v hodnotách: 1482
+Počet všech slov v hodnotách: 247
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['diabetes', 'hemangiom pravého předloktí', 'ulcerózní kolitida', 'diabetes mellitus i. typu']
+Počet diagnóz: 4
+
+Klíčová slova: ['stolice']
+Počet klíčových slov: 1
+
+Klinické příznaky a popisy stavů: ['bez potíží', 'remise', 'makrocytóza']
+Počet slov KPPS: 3
+
+Latinské názvy: ['leukopenie', 'neutropenie']
+Počet latinských názvů: 2
+
+Léky: ['imuran', 'laktobacil']
+Počet léků: 2
+
+Mikrobiologie: ['tg', 'kreatin']
+Počet názvů z mikrobiologie: 2
+
+Procedury a terapie: ['ko', 'ko+dif', 'se', 'fw']
+Počet procedur a terapií: 4
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 41
+Vymyšlená klíčová slova: ['anamnez', 'bolest', 'brich', 'chut', 'datum', 'davkovan', 'diagnoz', 'doporucen', 'erytrocyt', 'exantem', 'hematokrit', 'hemoglobin', 'inzulinoterapie', 'jednotk', 'jidl', 'kod', 'laboratorn', 'lecb', 'lek', 'leukocyt', 'listov', 'lymfocyt', 'mcv', 'medikace', 'nazev', 'obtize', 'ostatn', 'pacient', 'plan', 'poznamk', 'priznak', 'segment', 'sil', 'trombocyt', 'vek', 'vysetren', 'vysk', 'vysledk', 'zahajen', 'zanet', 'zaver']
+Počet vymyšlených slov ve values: 12
+Vymyšlená slova ve values: ['3j', '50mg', 'formovaná', 'kvůl', 'léčb', 'ne', 'onemocněn', 'patologie', 'pozitivn', 'pravidelné', 'vystaven', 'zákaz']
+            

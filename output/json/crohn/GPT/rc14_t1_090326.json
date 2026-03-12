@@ -1,0 +1,102 @@
+{
+    "demographics": {
+        "age": {
+            "years": 9,
+            "months": 10
+        },
+        "sex": "male",
+        "height_cm": 133,
+        "weight_kg": 25
+    },
+    "visit_summary": {
+        "since_last_check": "No problems reported since last control.",
+        "current_medications_reported": [
+            "Pentasa",
+            "Ac folicum",
+            "Pyridoxin",
+            "Laktobacil",
+            "Aktiferin"
+        ],
+        "tolerance_adherence": "Medications tolerated well."
+    },
+    "subjective": {
+        "fatigue": "Denies fatigue (not tired).",
+        "activity": "Exercises.",
+        "stool": {
+            "frequency_per_day": 1,
+            "character": "Normal"
+        },
+        "urination": "Normal"
+    },
+    "objective_exam": {
+        "general_condition": "Good",
+        "nutrition_status": "Adequate/appropriate",
+        "joints": "Free (no limitation mentioned)",
+        "abdomen": "Soft, palpable, without resistance",
+        "liver_spleen": "Not enlarged (\"játra slezina nezv\")"
+    },
+    "laboratory": {
+        "collection_datetime": "2007-02-19T11:24:00",
+        "collection_time_range": {
+            "start": "11:24",
+            "end": "11:30"
+        },
+        "results": {
+            "ESR_mm_per_h": 27,
+            "CBC": {
+                "WBC_10e9_per_L": 9.9,
+                "RBC_10e12_per_L": 4.67,
+                "hemoglobin_g_per_L": 129,
+                "hematocrit_L_per_L": 0.375,
+                "MCV_fL": 80,
+                "MCH_pg": 27.7,
+                "MCHC_g_per_L": 345,
+                "platelets_10e9_per_L": 405,
+                "differential_fraction": {
+                    "neutrophils_seg": 0.615,
+                    "lymphocytes": 0.267,
+                    "eosinophils": 0.023,
+                    "basophils": 0.005,
+                    "monocytes": 0.09
+                },
+                "differential_absolute_10e9_per_L": {
+                    "neutrophils_seg": 6.1,
+                    "lymphocytes": 2.6,
+                    "eosinophils": 0.2,
+                    "basophils": 0.0,
+                    "monocytes": 0.9
+                }
+            },
+            "biochemistry": {
+                "CRP_mg_per_L": 4
+            }
+        },
+        "interpretation": "Laboratory parameters are within normal limits; no signs of inflammatory activity."
+    },
+    "assessment": {
+        "disease_activity": {
+            "PCDAI": "below 10",
+            "comment": "No evidence of inflammatory activity clinically or in labs."
+        },
+        "diagnosis_or_context": "Pediatric inflammatory bowel disease monitoring (PCDAI referenced; on Pentasa)."
+    },
+    "plan": {
+        "treatment": [
+            "Continue current treatment."
+        ],
+        "referrals_or_consultations": [
+            "Follow-up with nutritional therapist."
+        ],
+        "follow_up": {
+            "planned_visit": {
+                "clinic": "GIT DK",
+                "date": "2007-06-12",
+                "time": "09:30",
+                "purpose": "Therapy adjustment"
+            }
+        }
+    },
+    "administrative": {
+        "instruction": "Submit the report to the general practitioner within 3 days."
+    }
+}

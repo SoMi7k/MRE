@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 173
+Počet hlavních klíčů: 11
+Počet zanořených klíčů: 162
+
+Počet znaků všech klíčů: 1477
+Počet znaků všech slov v hodnotách: 3111
+Počet všech slov v hodnotách: 599
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['infekty', 'anémie při chronickém onemocněcí', 'diabetes mellitus i. typu', 'diabetes', 'ulcerózní kolitida', 'hemangiom pravého předloktí', 'anemie']
+Počet diagnóz: 7
+
+Klíčová slova: ['stolice', 'kalprotectin', 'patologické příměsi']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['remise', 'bez potíží', 'měkké', 'nebolestivé']
+Počet slov KPPS: 4
+
+Latinské názvy: ['atenuovanými', 'neutropenie', 'lipidogram', 'leukopenie', 'preskripce']
+Počet latinských názvů: 5
+
+Léky: ['imuran 50 mg por tbl flm 100x50mg', 'azathioprimem', 'imuran', 'salofalk 500 por tbl ent 100x500mg', 'laktobacil', 'inzulin humulin']
+Počet léků: 6
+
+Mikrobiologie: ['kreatin', 'tg']
+Počet názvů z mikrobiologie: 2
+
+Procedury a terapie: ['antivirotická terapie', 'se', 'ko', 'podání imunoglobulinů', 'fw', 'očkování živými atenuovanými vakcínami']
+Počet procedur a terapií: 6
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 54
+Vymyšlená klíčová slova: ['aktualn', 'amylaz', 'antropometricke', 'bolest', 'brich', 'cas', 'chut', 'datum', 'davk', 'davkovan', 'diagnoz', 'doporucen', 'exantem', 'form', 'fyzikaln', 'indikace', 'jatr', 'jednotk', 'jidl', 'kod', 'krivk', 'laboratorn', 'lecb', 'listov', 'makrocytoz', 'medikace', 'mocovin', 'monitorace', 'nazev', 'neστovice', 'nocn', 'nález', 'objektivn', 'ochran', 'ockovan', 'pacient', 'parametr', 'pasov', 'pocet', 'podan', 'potize', 'poznamk', 'rust', 'sil', 'silа', 'sledovan', 'vek', 'vysetren', 'vysk', 'vystavene', 'vyzivove', 'zacatek', 'zaver', 'zmen']
+Počet vymyšlených slov ve values: 2
+Vymyšlená slova ve values: ['3j', 'ne']
+            

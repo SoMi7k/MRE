@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 83
+Počet hlavních klíčů: 9
+Počet zanořených klíčů: 74
+
+Počet znaků všech klíčů: 690
+Počet znaků všech slov v hodnotách: 1983
+Počet všech slov v hodnotách: 332
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['diabetes', 'pásového oparu', 'hemangiom pravého předloktí', 'diabetes mellitus i. typu', 'neštovic', 'ulcerózní kolitida', 'infekty']
+Počet diagnóz: 7
+
+Klíčová slova: ['břicho', 'stolice', 'patologické příměsi']
+Počet klíčových slov: 3
+
+Klinické příznaky a popisy stavů: ['měkké', 'bez potíží', 'nebolestivé', 'makrocytóza', 'exantém', 'břicho nebolí', 'remise']
+Počet slov KPPS: 7
+
+Latinské názvy: ['leukopenie', 'lipidogram', 'neutropenie']
+Počet latinských názvů: 3
+
+Léky: ['imuran', 'laktobacil']
+Počet léků: 2
+
+Mikrobiologie: ['tg', 'kreatin', 'amylázy']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['ko+dif', 'fw', 'ko', 'se', 'kontrola antropometrických parametrů 3x ročně', 'jaterní testy']
+Počet procedur a terapií: 6
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 40
+Vymyšlená klíčová slova: ['antropometricke', 'brich', 'datum', 'davkovan', 'diagnoz', 'doporucen', 'erytrocyt', 'hematokrit', 'hemoglobin', 'inzulinoterapie', 'jednotk', 'klinick', 'kod', 'laboratorn', 'lecb', 'lek', 'leukocyt', 'listov', 'marker', 'mcv', 'medikace', 'nazev', 'objem', 'obtize', 'ostatn', 'pacient', 'poznamk', 'skore', 'specifikace', 'stitn', 'trombocyt', 'udaje', 'vek', 'vymenn', 'vysetren', 'vysk', 'vysledk', 'zahajen', 'zanetlive', 'zlaz']
+Počet vymyšlených slov ve values: 8
+Vymyšlená slova ve values: ['ano', 'antivirotik', 'formovaná', 'kvůl', 'ní', 'onemocněn', 'plná', 'zákaz']
+            

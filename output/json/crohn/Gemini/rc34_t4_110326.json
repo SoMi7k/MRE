@@ -1,0 +1,174 @@
+{
+    "identifikace_vysetreni": {
+        "datum_kontroly": "3.11.2010",
+        "typ_vysetreni": "Kontrola"
+    },
+    "anamneza_a_subjektivni_potize": {
+        "aktualni_stav": "Bez potíží",
+        "vylucovani": {
+            "stolice": "formované 2x denně, bez příměsi"
+        },
+        "bolesti": "Břicho nebolí, nohy nebolí, klouby bez otoku",
+        "ostatni_nalezy": [
+            "Trvá hydrokéla",
+            "Hemoroidální uzlík intermitentně",
+            "Koktavost mírně zlepšena"
+        ],
+        "nutrice": {
+            "chut_k_jidlu": "dobrá",
+            "hmotnostni_trend": "přibyl",
+            "aktualni_strava": [
+                "Neocate",
+                "Sinlac",
+                "banán",
+                "jablko",
+                "mrkev",
+                "králičí maso",
+                "kůrtí maso",
+                "vepřové maso",
+                "zkusili hovězí",
+                "brambory",
+                "vývary",
+                "těstoviny bezvaječné",
+                "noky"
+            ]
+        },
+        "anamneza_od_posledni_kontroly": {
+            "nemocnost": "nebyl nemocný",
+            "komplikace": "1x balanitis",
+            "aktualni_infekt": "t.č. respirační infekt - užívá Spiropent"
+        }
+    },
+    "medikace_pri_kontrole": [
+        {
+            "lek": "Prednison",
+            "davkovani": "5-0-0 mg",
+            "poznamka": "0,22 mg/kg/den"
+        },
+        {
+            "lek": "Imuran tbl. á 25 mg",
+            "davkovani": "1-0-1 tbl.",
+            "poznamka": "2,6 mg/kg/dne"
+        },
+        {
+            "lek": "Enterol cps. á 250 mg",
+            "davkovani": "1-0-0 tbl."
+        },
+        {
+            "lek": "Ranisan tbl. á 75mg",
+            "davkovani": "1/2-0-0 tbl.",
+            "kategorie": "adjuvantní léčba"
+        },
+        {
+            "lek": "KCl tbl",
+            "davkovani": "0-0-1/2",
+            "kategorie": "adjuvantní léčba"
+        },
+        {
+            "lek": "Vigantol",
+            "davkovani": "2 kp",
+            "kategorie": "adjuvantní léčba"
+        },
+        {
+            "lek": "Vitacalcin",
+            "davkovani": "1x1 tbl",
+            "kategorie": "adjuvantní léčba"
+        }
+    ],
+    "objektivni_nalez": {
+        "antropometrie": {
+            "hmotnost": "22 kg (-0,2 kg)",
+            "vyska": "107 cm (+0 cm)"
+        },
+        "celkovy_vzhled": "Cushingoidní",
+        "hlava_krk": "rýma seromukózní",
+        "hrudnik_plice": "odkašlává, dýchání čisté, sklípkové, přenesené fenomény",
+        "brisni_oblast": "břicho nad niveau, měkké, nebolestivé, J+S nezvětšeny, rezistence 0, výrazná žilní kresba na břiše a hrudníku",
+        "urologie_genital": "mírná hydrokéla vlevo, perianální oblast",
+        "skore": "PCDAI 2,5 b"
+    },
+    "laboratorni_vysledky": {
+        "sedimentace": {
+            "FW": "28/52"
+        },
+        "krevni_obraz": {
+            "B-Le": "6,40",
+            "B-Ery": "5,04",
+            "B-Hb": "129",
+            "B-HTK": "0,407",
+            "B-Obj_ery": "81",
+            "B-Hb_ery": "25,6",
+            "B-Hb_konc": "317",
+            "B-Trombo": "210",
+            "B-Seg": "0,287",
+            "B-Ly": "0,569",
+            "B-Eo": "0,031",
+            "B-Ba": "0,005",
+            "B-Mo": "0,108",
+            "B-Seg_abs": "1,84",
+            "B-Ly_abs": "3,64",
+            "B-Eo_abs": "0,20",
+            "B-Ba_abs": "0,03",
+            "B-Mo_abs": "0,69",
+            "B-Erytr_krivka": "15,3"
+        },
+        "biochemie": {
+            "S-CRP": "1",
+            "S-Albumin": "50,1"
+        }
+    },
+    "diagnozy": [
+        {
+            "kod": "K509",
+            "popis": "ISZ - m. Crohn v.s., akutní exacerbace po Campylobacterové infekci"
+        },
+        {
+            "kod": "N47",
+            "popis": "Fimóza, hydrokéla vlevo"
+        },
+        {
+            "kod": "M673",
+            "popis": "Bolest PDK"
+        }
+    ],
+    "zaver_a_doporuceni": {
+        "resumé": "klinicky i laboratorně remise, t.č. respirační infekt, mírná progrese sedimentace",
+        "dietni_opatreni": "bezezbytková, postupně zavádět další potraviny",
+        "plan_medikace": [
+            {
+                "lek": "Prednison",
+                "davkovani": "2,5-0-0 mg",
+                "poznamka": "snížit o 2,5 mg (0,1 mg/kg/den); v případě trvání dobrého stavu možno po 3 týdnech vysadit včetně adjuvantní léčby"
+            },
+            {
+                "lek": "Imuran tbl. á 25 mg",
+                "davkovani": "1-0-1 tbl.",
+                "poznamka": "2,6 mg/kg/dne"
+            },
+            {
+                "lek": "Enterol cps. á 250 mg",
+                "davkovani": "1-0-0 tbl."
+            },
+            {
+                "lek": "Ranisan tbl. á 75mg",
+                "davkovani": "1/2-0-0 tbl."
+            },
+            {
+                "lek": "KCl tbl",
+                "davkovani": "0-0-1/2"
+            },
+            {
+                "lek": "Vigantol",
+                "davkovani": "2 kp"
+            },
+            {
+                "lek": "Vitacalcin",
+                "davkovani": "1x1 tbl"
+            }
+        ],
+        "nasledna_pece": {
+            "kontrola": "v GIT poradně včetně laboratoře 12.1.2011 v 10:00 hod",
+            "poznamka": "v případě zhoršení stavu domluva o dalším postupu dříve, další preskripce u PLDD"
+        }
+    }
+}

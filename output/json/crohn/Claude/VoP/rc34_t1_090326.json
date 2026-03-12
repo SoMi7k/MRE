@@ -1,0 +1,193 @@
+{
+    "datum_kontroly": "2010-11-03",
+    "anamneza": {
+        "subjektivni_potize": "Bez potíží",
+        "stolice": "formované 2x denně, bez příměsi",
+        "bolesti": {
+            "bricho": false,
+            "nohy": false,
+            "klouby": "bez otoku"
+        },
+        "chronicke_problemy": [
+            "hydrokéla",
+            "hemoroidální uzlík intermitentně",
+            "koktavost - mírně zlepšena"
+        ],
+        "chut_k_jidlu": "dobrá",
+        "vyvoj_hmotnosti": "přibyl",
+        "strava": [
+            "Neocate",
+            "Sinlac",
+            "banán",
+            "jablko",
+            "mrkev",
+            "králičí maso",
+            "kuřecí maso",
+            "vepřové maso",
+            "hovězí maso",
+            "brambory",
+            "vývary",
+            "těstoviny bezvaječné",
+            "noky"
+        ],
+        "nemoci_od_posledni_kontroly": [
+            "1x balanitis",
+            "respirační infekt - užívá Spiropent"
+        ]
+    },
+    "aktualni_medikace": [
+        {
+            "nazev": "Prednison",
+            "davkovani": "5-0-0 mg",
+            "davka_na_kg": "0,22 mg/kg/den"
+        },
+        {
+            "nazev": "Imuran",
+            "forma": "tbl. á 25 mg",
+            "davkovani": "1-0-1 tbl.",
+            "davka_na_kg": "2,6 mg/kg/den"
+        },
+        {
+            "nazev": "Enterol",
+            "forma": "cps. á 250 mg",
+            "davkovani": "1-0-0 tbl."
+        },
+        {
+            "nazev": "Ranisan",
+            "forma": "tbl. á 75 mg",
+            "davkovani": "1/2-0-0 tbl.",
+            "typ": "adjuvantní léčba"
+        },
+        {
+            "nazev": "KCl",
+            "forma": "tbl",
+            "davkovani": "0-0-1/2",
+            "typ": "adjuvantní léčba"
+        },
+        {
+            "nazev": "Vigantol",
+            "davkovani": "2 kp",
+            "typ": "adjuvantní léčba"
+        },
+        {
+            "nazev": "Vitacalcin",
+            "davkovani": "1x1 tbl",
+            "typ": "adjuvantní léčba"
+        }
+    ],
+    "objektivni_vysetreni": {
+        "antropometrie": {
+            "hmotnost": {
+                "hodnota": 22,
+                "jednotka": "kg",
+                "zmena": -0.2
+            },
+            "vyska": {
+                "hodnota": 107,
+                "jednotka": "cm",
+                "zmena": 0
+            }
+        },
+        "fyzikalni_nalezy": [
+            "Cushingoidní",
+            "rýma seromukózní",
+            "odkašlává",
+            "dýchání čisté, sklípkové, přenesené fenomény",
+            "břicho nad niveau, měkké, nebolestivé",
+            "játra a slezina nezvetšené",
+            "rezistence 0",
+            "výrazná žilní kresba na břiše a hrudníku",
+            "mírná hydrokéla vlevo",
+            "perianální oblast - bez popisu patologie"
+        ]
+    },
+    "laboratorni_vysledky": {
+        "FW": "28/52",
+        "krevni_obraz": {
+            "B-Le": 6.4,
+            "B-Ery": 5.04,
+            "B-Hb": 129,
+            "B-HTK": 0.407,
+            "B-Obj_ery": 81,
+            "B-Hb_ery": 25.6,
+            "B-Hb_konc": 317,
+            "B-Trombo": 210,
+            "B-Seg": 0.287,
+            "B-Ly": 0.569,
+            "B-Eo": 0.031,
+            "B-Ba": 0.005,
+            "B-Mo": 0.108,
+            "B-Seg_abs": 1.84,
+            "B-Ly_abs": 3.64,
+            "B-Eo_abs": 0.2,
+            "B-Ba_abs": 0.03,
+            "B-Mo_abs": 0.69,
+            "B-Erytr_krivka": 15.3
+        },
+        "biochemie": {
+            "S-CRP": 1,
+            "S-Albumin": 50.1
+        }
+    },
+    "diagnozy": [
+        {
+            "kod": "K509",
+            "nazev": "ISZ - m. Crohn v.s., akutní exacerbace po Campylobacterové infekci"
+        },
+        {
+            "kod": "N47",
+            "nazev": "Fimóza, hydrokéla vlevo"
+        },
+        {
+            "kod": "M673",
+            "nazev": "Bolest PDK"
+        }
+    ],
+    "zaver": {
+        "stav": "klinicky i laboratorně remise",
+        "PCDAI": "2,5 b",
+        "aktualni_problem": "respirační infekt",
+        "poznamka": "mírná progrese sedimentace"
+    },
+    "doporuceni": {
+        "dieta": "bezezbytková, postupně zavádět další potraviny",
+        "medikace": [
+            {
+                "nazev": "Prednison",
+                "zmena": "snížit o 2,5 mg",
+                "nove_davkovani": "2,5-0-0 mg (0,1 mg/kg/den)",
+                "poznamka": "v případě trvání dobrého stavu možno Prednison i adjuvantní léčbu po 3 týdnech vysadit"
+            },
+            {
+                "nazev": "Imuran",
+                "forma": "tbl. á 25 mg",
+                "davkovani": "1-0-1 tbl. (2,6 mg/kg/den)"
+            },
+            {
+                "nazev": "Enterol",
+                "forma": "cps. á 250 mg",
+                "davkovani": "1-0-0 tbl."
+            },
+            {
+                "nazev": "adjuvantní léčba",
+                "polozky": [
+                    "Ranisan tbl. á 75mg 1/2-0-0 tbl.",
+                    "KCl tbl 0-0-1/2",
+                    "Vigantol 2 kp",
+                    "Vitacalcin 1x1 tbl"
+                ]
+            }
+        ],
+        "kontrola": {
+            "datum": "2011-01-12",
+            "cas": "10:00",
+            "misto": "GIT poradna",
+            "vysetreni": "včetně laboratoře"
+        },
+        "dalsi_pokyny": [
+            "v případě zhoršení stavu domluva o dalším postupu dříve",
+            "Kopii této zprávy odevzdejte svému dětskému lékaři",
+            "Další preskripce u PLDD"
+        ]
+    }
+}

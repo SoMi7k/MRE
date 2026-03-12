@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 111
+Počet hlavních klíčů: 1
+Počet zanořených klíčů: 110
+
+Počet znaků všech klíčů: 1049
+Počet znaků všech slov v hodnotách: 3263
+Počet všech slov v hodnotách: 551
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['diabetes']
+Počet diagnóz: 1
+
+Klíčová slova: ['een']
+Počet klíčových slov: 1
+
+Klinické příznaky a popisy stavů: []
+Počet slov KPPS: 0
+
+Latinské názvy: []
+Počet latinských názvů: 0
+
+Léky: ['enterol', 'imuran']
+Počet léků: 2
+
+Mikrobiologie: ['tg']
+Počet názvů z mikrobiologie: 1
+
+Procedury a terapie: ['ko', 'se']
+Počet procedur a terapií: 2
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 85
+Vymyšlená klíčová slova: ['abdomen', 'acid', 'additional', 'administrative', 'age', 'amylase', 'appetite', 'appointment', 'atherogenic', 'basophils', 'biochemistr', 'blood', 'bowel', 'bread', 'calprotectin', 'cathepsin', 'checkup', 'code', 'compensation', 'count', 'creatinine', 'curve', 'date', 'description', 'diagnoses', 'elastase', 'eosinophils', 'erythrocyte', 'erythrocytes', 'findings', 'folic', 'follow', 'general', 'hba1c', 'height', 'hematocrit', 'hemoglobin', 'hormones', 'immunolog', 'inf', 'instructions', 'joints', 'laborator', 'lactoferrin', 'last', 'leukocytes', 'lipase', 'lipid', 'liver', 'lymphocytes', 'mch', 'mchc', 'mcv', 'medical', 'medication', 'medications', 'monitoring', 'monocytes', 'movements', 'neutrophils', 'next', 'notes', 'objective', 'other', 'patient', 'platelets', 'prescriptions', 'profile', 'quantit', 'rash', 'rate', 'recommendations', 'report', 'resistance', 'results', 'score', 'sedimentation', 'spleen', 'stool', 'subjective', 'triglycerides', 'units', 'up', 'vitamins', 'weight']
+Počet vymyšlených slov ve values: 150
+Vymyšlená slova ve values: ['02', '03', '05', '50mg', '95th', 'about', 'acid', 'administration', 'admixture', 'after', 'against', 'amylase', 'and', 'anemi', 'anthropometric', 'antiviral', 'as', 'at', 'attenuated', 'azathioprine', 'be', 'blood', 'borderline', 'breakfast', 'bu', 'calprotectin', 'chickenpox', 'chronic', 'clinic', 'coated', 'colitis', 'compensated', 'complaints', 'completion', 'consent', 'cop', 'corrected', 'count', 'creatinine', 'currentl', 'dail', 'dat', 'delegated', 'diabetologist', 'disease', 'due', 'during', 'elevation', 'enlarged', 'enteric', 'ever', 'film', 'folic', 'for', 'forearm', 'form', 'formed', 'full', 'gastroenterolog', 'genetics', 'given', 'good', 'growth', 'health', 'height', 'hospitalization', 'immunoglobulin', 'immunosuppression', 'in', 'increased', 'infections', 'information', 'insulin', 'lactobacill', 'least', 'left', 'leukopeni', 'level', 'likel', 'live', 'liver', 'macrocytosis', 'medications', 'mild', 'monitoring', 'months', 'negative', 'neutropeni', 'night', 'no', 'nocturnal', 'non', 'none', 'normal', 'not', 'of', 'once', 'or', 'overweight', 'package', 'packages', 'pain', 'pancreas', 'parameters', 'pathological', 'pediatrician', 'per', 'percentile', 'persistent', 'points', 'positive', 'prescription', 'protection', 'provided', 'range', 'rate', 'regular', 'related', 'remains', 'remission', 'report', 'required', 'right', 'sedimentation', 'shingles', 'sided', 'since', 'soft', 'stagnation', 'status', 'stools', 'suggests', 'tablet', 'tablets', 'tender', 'tests', 'therap', 'times', 'to', 'treatment', 'type', 'ulcerative', 'unchanged', 'units', 'vaccines', 'weekl', 'with', 'within', 'year', 'years']
+            

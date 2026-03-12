@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 51
+Počet hlavních klíčů: 8
+Počet zanořených klíčů: 43
+
+Počet znaků všech klíčů: 402
+Počet znaků všech slov v hodnotách: 1039
+Počet všech slov v hodnotách: 189
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['stolice', 'pcdai']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['klinický index aktivity pcdai je pod 10', 'nejsou žádné známky zánětlivé aktivity', 'měkké', 'prohmatné bez resistence']
+Počet slov KPPS: 4
+
+Latinské názvy: ['pentasa']
+Počet latinských názvů: 1
+
+Léky: ['pentasa', 'aktiferin', 'pyridoxin', 'ac folicum', 'laktobacil']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['ko', 'se', 'crp']
+Počet procedur a terapií: 3
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 28
+Vymyšlená klíčová slova: ['administrativ', 'brich', 'cas', 'celkov', 'dals', 'datum', 'interpretace', 'jatr', 'laboratorn', 'lecb', 'lek', 'mocen', 'objektivn', 'opatren', 'pacient', 'parametr', 'sedimentace', 'subjektivn', 'tolerance', 'unav', 'vah', 'vek', 'vysetren', 'vysk', 'vyziv', 'zapal', 'zaslan', 'zprav']
+Počet vymyšlených slov ve values: 1
+Vymyšlená slova ve values: ['10m']
+            

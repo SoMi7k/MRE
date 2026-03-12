@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 44
+Počet hlavních klíčů: 8
+Počet zanořených klíčů: 36
+
+Počet znaků všech klíčů: 446
+Počet znaků všech slov v hodnotách: 678
+Počet všech slov v hodnotách: 118
+
+--- Slovní metriky ---
+Sekce: []
+Počet sekcí: 0
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['stolice', 'pcdai']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['nejsou žádné známky zánětlivé aktivity', 'měkké', 'prohmatné bez resistence']
+Počet slov KPPS: 3
+
+Latinské názvy: ['pentasa']
+Počet latinských názvů: 1
+
+Léky: ['pentasa', 'aktiferin', 'pyridoxin', 'ac folicum', 'laktobacil']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['ko', 'se', 'crp']
+Počet procedur a terapií: 3
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 39
+Vymyšlená klíčová slova: ['administrativ', 'anamnez', 'bazofil', 'brich', 'cas', 'celkov', 'datum', 'doporucen', 'eozinofil', 'erytrocyt', 'fyzick', 'hematokrit', 'hemoglobin', 'hmotnost', 'hodnocen', 'jatr', 'klinick', 'koncentrace', 'laboratorn', 'lek', 'leukocyt', 'lymfocyt', 'medikace', 'mocen', 'monocyt', 'nález', 'objem', 'pacient', 'predan', 'sedimentace', 'segment', 'snasen', 'trombocyt', 'unavnost', 'vek', 'vysk', 'vysledk', 'vyziv', 'zprav']
+Počet vymyšlených slov ve values: 6
+Vymyšlená slova ve values: ['09', '1x', 'let', 'měsíců', 'přiměřená', 'úprav']
+            

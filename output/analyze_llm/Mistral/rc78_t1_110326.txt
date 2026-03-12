@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 139
+Počet hlavních klíčů: 1
+Počet zanořených klíčů: 138
+
+Počet znaků všech klíčů: 1231
+Počet znaků všech slov v hodnotách: 3807
+Počet všech slov v hodnotách: 681
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['diabetes', 'anémie při chronickém onemocněcí', 'hemangiom pravého předloktí', 'diabetes mellitus i. typu', 'ulcerózní kolitida', 'infekty']
+Počet diagnóz: 6
+
+Klíčová slova: ['kalprotectin', 'een']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['měkké', 'bez potíží', 'nebolestivé', 'makrocytóza', 'exantém', 'mírná elevace sedimentace', 'remise']
+Počet slov KPPS: 7
+
+Latinské názvy: ['leukopenie', 'preskripce', 'lipidogram', 'neutropenie']
+Počet latinských názvů: 4
+
+Léky: ['imuran', 'laktobacil', 'azathioprimem']
+Počet léků: 3
+
+Mikrobiologie: ['tg', 'kreatin', 'amylázy']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['podání imunoglobulinů', 'ko+dif', 'fw', 'ko', 'se', 'antivirotická terapie', 'jaterní testy']
+Počet procedur a terapií: 7
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 68
+Vymyšlená klíčová slova: ['abdomen', 'additives', 'age', 'anemi', 'anthropometric', 'appetite', 'assessment', 'biochemistr', 'blood', 'bowel', 'compensation', 'consent', 'consistenc', 'count', 'date', 'diagnosis', 'diet', 'dosage', 'exam', 'follow', 'frequenc', 'growth', 'height', 'herpes', 'hormones', 'immunolog', 'inf', 'infection', 'insulin', 'joints', 'lipid', 'liver', 'medication', 'monitoring', 'movements', 'name', 'nighttime', 'notes', 'ordered', 'other', 'packages', 'parameters', 'pathological', 'physical', 'precautions', 'prescriptions', 'prevention', 'profile', 'quantit', 'recommendations', 'report', 'resistance', 'results', 'skin', 'spleen', 'start', 'status', 'stool', 'strength', 'subjective', 'symptoms', 'tests', 'up', 'vaccination', 'varicell', 'vitamins', 'weight', 'zoster']
+Počet vymyšlených slov ve values: 3
+Vymyšlená slova ve values: ['50mg', 'atenuované', 'živé']
+            

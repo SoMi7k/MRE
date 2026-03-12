@@ -1,0 +1,65 @@
+{
+    "demografické_údaje": {
+        "věk": "9r.10 m",
+        "výška": "133 cm",
+        "váha": "25 kg"
+    },
+    "anamnéza": {
+        "od_poslední_kontroly": "žádné problémy nemá",
+        "léky": [
+            "Pentasa",
+            "Ac folicum",
+            "Pyridoxin",
+            "Laktobacil",
+            "Aktiferin",
+            "Pyridoxin"
+        ],
+        "subjektivní_potíže": {
+            "únava": "unavený není",
+            "cvičení": "cvičí",
+            "stolice": "normální, 1 x denně",
+            "močení": "normálně",
+            "snášenlivost_léků": "dobře",
+            "klouby": "volné",
+            "celkový_stav": "dobrý",
+            "výživa": "přiměřené",
+            "břicho": "měkké prohmatné bez resistence",
+            "játra_slezina": "nezv"
+        }
+    },
+    "laboratorní_výsledky": {
+        "datum_odběru": "19.2.2007 11:24 - 11:30",
+        "SE": "27/hod.",
+        "krevní_obraz": {
+            "B-Le": "9,90",
+            "B-Ery": "4,67",
+            "B-Hb": "129",
+            "B-HTK": "0,375",
+            "B-Obj ery.": "80",
+            "B-Hb ery": "27,7",
+            "B-Hb konc": "345",
+            "B-Trombo": "405",
+            "B-Seg": "0,615",
+            "B-Ly": "0,267",
+            "B-Eo": "0,023",
+            "B-Ba": "0,005",
+            "B-Mo": "0,090",
+            "B-Seg - abs": "6,10",
+            "B-Ly - abs": "2,60",
+            "B-Eo - abs": "0,20",
+            "B-Ba - abs": "0,00",
+            "B-Mo - abs.": "0,90"
+        },
+        "biochemie": {
+            "S-CRP": "4"
+        },
+        "interpretace": "Výsledky lab. parametrů jsou v normě, nejsou žádné známky zánětlivé aktivity, klinický index aktivity PCDAI je pod 10."
+    },
+    "diagnóza": null,
+    "doporučení": [
+        "dále pokračovat v dosavadní léčbě",
+        "kontrola u nutričního terapeuta",
+        "kontrola v červnu 2007 v GIT DK 12.6.2007 v 9.30 hodin (uprava terapie)"
+    ],
+    "další_kroky": "Předta zprávu praktickému lékaři do 3 dnů."
+}

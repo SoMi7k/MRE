@@ -1,0 +1,112 @@
+{
+    "kontrola": {
+        "datum": "3.11.2010",
+        "stolice": "formované 2x denně, bez příměsi",
+        "bolesti": {
+            "břicho": "nebolí",
+            "nohy": "nebolí",
+            "klouby": "bez otoku"
+        },
+        "stavy": {
+            "hydrokéla": "trvá",
+            "hemoroid": "uzlík intermitentně",
+            "koktavost": "mírně zlepšena",
+            "chuť_k_jídlu": "dobrá",
+            "přibyl": true
+        },
+        "strava": [
+            "Neocate",
+            "Sinlac",
+            "banán",
+            "jablko",
+            "mrkev",
+            "králičí maso",
+            "kůtí maso",
+            "vepřové maso",
+            "hovězí maso",
+            "brambory",
+            "vývary",
+            "těstoviny bezvaječné",
+            "noky"
+        ],
+        "léky": {
+            "prednison": "5-0-0 mg (0,22 mg/kg/den)",
+            "imuran": "1-0-1 tbl. (2,6 mg/kg/dne)",
+            "enterol": "1-0-0 tbl.",
+            "ranisan": "1/2-0-0 tbl.",
+            "kcl": "0-0-1/2 tbl.",
+            "vigantol": "2 kp",
+            "vitacalcin": "1x1 tbl."
+        },
+        "nemocnost": {
+            "od_poslední_kontroly": "není",
+            "balanitis": "1x",
+            "respirační_infekt": "užívá Spiropent"
+        },
+        "objektivní_nález": {
+            "hmotnost": "22 kg (-0,2 kg)",
+            "výška": "107 cm (+0 cm)",
+            "cushingoidní": true,
+            "rýma": "seromukózní",
+            "odkašlávání": true,
+            "dýchání": "čisté, sklípkové, přenesené fenomény",
+            "břicho": "nad niveau, měkké, nebolestivé, J+S nezv., rezistence 0, výrazná žilní kresba na břiše a hrudníku",
+            "hydrokéla": "mírná vlevo",
+            "perianální_oblast": true
+        },
+        "laboratorní_nález": {
+            "fw": "28/52",
+            "krevní_obraz": {
+                "b-le": 6.4,
+                "b-ery": 5.04,
+                "b-hb": 129,
+                "b-htk": 0.407,
+                "b-obj_ery": 81,
+                "b-hb_ery": 25.6,
+                "b-hb_konc": 317,
+                "b-trombo": 210,
+                "b-seg": 0.287,
+                "b-ly": 0.569,
+                "b-eo": 0.031,
+                "b-ba": 0.005,
+                "b-mo": 0.108,
+                "b-seg_abs": 1.84,
+                "b-ly_abs": 3.64,
+                "b-eo_abs": 0.2,
+                "b-ba_abs": 0.03,
+                "b-mo_abs": 0.69,
+                "b-eryt_křivka": 15.3
+            },
+            "biochemie": {
+                "s-crp": 1,
+                "s-albumin": 50.1
+            }
+        },
+        "diagnózy": {
+            "k509": "ISZ - m. Crohn v.s., akutní exacerbace po Campylobacterové infekci",
+            "n47": "Fimóza, hydrokéla vlevo",
+            "m673": "Bolest PDK"
+        },
+        "závěr": {
+            "klinický_stav": "remise",
+            "pcdai": 2.5,
+            "respirační_infekt": "t.č.",
+            "progrese_sedimentace": "mírná"
+        },
+        "doporučení": {
+            "strava": "bezezbytková, postupně zavádět další potraviny",
+            "léky": {
+                "prednison": "snížit o 2,5 mg (2,5-0-0 mg, 0,1 mg/kg/den), možno po 3 týdnech vysadit",
+                "imuran": "1-0-1 tbl. (2,6 mg/kg/dne)",
+                "enterol": "1-0-0 tbl.",
+                "ranisan": "1/2-0-0 tbl.",
+                "kcl": "0-0-1/2 tbl.",
+                "vigantol": "2 kp",
+                "vitacalcin": "1x1 tbl."
+            },
+            "kontrola": "12.1.2011 v 10:00 hod v GIT poradně včetně laboratoře",
+            "zhoršení_stavu": "domluvit dříve"
+        },
+        "další_informace": "Kopii této zprávy odevzdejte svému dětskému lékaři. Další preskripce u PLDD !!!"
+    }
+}

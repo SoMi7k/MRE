@@ -1,0 +1,194 @@
+{
+    "datum_kontroly": "2013-05-29",
+    "posledni_kontrola": "2013-03-06",
+    "vek_pacienta": "6.5 roku",
+    "anamneza": {
+        "subjektivni_potize": "bez potíží",
+        "stolice": {
+            "frekvence": "1x denně",
+            "konzistence": "formované",
+            "patologicka_primes": "ne",
+            "nocni_stolice": "ne"
+        },
+        "bolesti_bricha": "ne",
+        "exantem": "ne",
+        "bolesti_kloubu": "ne",
+        "chut_k_jidlu": "dobrá",
+        "diabetes": "kompenzovaný"
+    },
+    "medikace": [
+        {
+            "nazev": "Humulin R",
+            "indikace": "DM I.typu",
+            "davkovani": "4-5j - 2,5-3j - 2j na noc"
+        },
+        {
+            "nazev": "Lantus",
+            "davkovani": "4j s.c.",
+            "cas_podani": "20:00"
+        },
+        {
+            "nazev": "Salofalk",
+            "sila": "500mg",
+            "davkovani": "2-0-2 tbl",
+            "davka_kg": "81 mg/kg"
+        },
+        {
+            "nazev": "Imuran",
+            "sila": "50mg",
+            "davkovani": "1 tbl",
+            "davka_kg": "2 mg/kg",
+            "zacatek_lecby": "2012-07-02"
+        },
+        {
+            "nazev": "Acidum folicum",
+            "davkovani": "1x1 tbl týdně"
+        },
+        {
+            "nazev": "Laktobacily",
+            "davkovani": "1x1 tbl"
+        }
+    ],
+    "objektivni_nález": {
+        "hmotnost": {
+            "hodnota": 24.5,
+            "jednotka": "kg",
+            "zmena": "+0.5 kg",
+            "percentil": "95"
+        },
+        "vyska": {
+            "hodnota": 116,
+            "jednotka": "cm",
+            "zmena": "+1.5 cm",
+            "sd": "-0.9"
+        },
+        "fyzikalni_vysetreni": {
+            "vyziva": "nadváha",
+            "bricho": "v úrovni, měkké, nebolestivé",
+            "jatra": "nezvětšeny",
+            "slezina": "nezvětšeny",
+            "rezistence": "ne"
+        }
+    },
+    "laboratorni_vysledky": {
+        "datum": "2013-05-29",
+        "cas": "10:00-10:46",
+        "sedimentace": "27/53",
+        "krevni_obraz": {
+            "leukocyty": 3.6,
+            "erytrocyty": 3.85,
+            "trombocyty": 254,
+            "hemoglobin": 126,
+            "hematokrit": 0.384,
+            "segmenty": 0.439,
+            "lymfocyty": 0.452,
+            "eozinofily": 0.044,
+            "bazofily": 0.003,
+            "monocyty": 0.061
+        },
+        "biochemie": {
+            "mocovina": 4.7,
+            "kreatinin": 51,
+            "ALT": 0.17,
+            "AST": 0.39,
+            "LPS": 0.23,
+            "AMS": 1.09
+        },
+        "stolice": {
+            "kalprotektin": "<100"
+        },
+        "vitaminy": {
+            "vitamin_B12": 803,
+            "kyselina_listova": 17.5
+        },
+        "lipidogram": {
+            "cholesterol": 4.92,
+            "triglyceridy": 0.24,
+            "HDL": 1.67,
+            "LDL": 3.16,
+            "aterogenni_index": 1.9
+        },
+        "kompenzace_diabetu": {
+            "glykovaný_hemoglobin": 47.0
+        },
+        "imunologie": {
+            "IgG": 14.3,
+            "IgA": 1.07,
+            "IgM": 0.96,
+            "IgE": "<17.1",
+            "c-ANCA": "pozitivní",
+            "p-ANCA": "negativní",
+            "ANCA_PR3": 4.4,
+            "anti-tTg_IgA": 1.76
+        },
+        "hormony": {
+            "TSH": 3.06,
+            "FT4": 11.8,
+            "aTG": 10,
+            "aTPO": 10,
+            "vitamin_D_25OH": 76.7,
+            "IGF1": 171
+        }
+    },
+    "diagnozy": [
+        {
+            "kod": "K510",
+            "nazev": "Ulcerózní kolitida - levostranný typ",
+            "poznamky": "pankreas pozit, ANCA pozit, ASCA neg, genetika TNF-a G/G neg, TPMT neg *1/*1"
+        },
+        {
+            "kod": "E109",
+            "nazev": "Diabetes mellitus I. typu"
+        },
+        {
+            "kod": "D638",
+            "nazev": "Anémie při chronickém onemocnění"
+        },
+        {
+            "kod": "D180",
+            "nazev": "Hemangiom pravého předloktí"
+        }
+    ],
+    "zaver": {
+        "PUCAI": "0 bodů",
+        "stav": "remise",
+        "poznamky": [
+            "mírná elevace sedimentace",
+            "kalprotektin negativní (svědčí pro plnou remisi)",
+            "anemie upravena",
+            "trvá makrocytóza (v souvislosti s léčbou azathioprimem)",
+            "zvýšená hodnota kyseliny listové",
+            "mírná leukopenie",
+            "hraniční neutropenie",
+            "výšková stagnace",
+            "IGF v normě"
+        ]
+    },
+    "doporuceni": {
+        "medikace_beze_zmeny": true,
+        "kontrola_GE_poradna": "2013-09-18 10:00",
+        "sledovani_rustu": "u PLDD",
+        "laboratorni_kontroly": {
+            "krevni_obraz": "min. 1x za 2 měsíce",
+            "jaterni_testy": "min 3x ročně",
+            "amylazy": "min 3x ročně",
+            "kreatinin": "min 3x ročně",
+            "antropometricke_parametry": "3x ročně"
+        },
+        "ockovani": "během terapie a 3 měsíce po ukončení nesmí být provedeno očkování živými atenuovanými vakcínami",
+        "preventivni_opatreni": [
+            "chránit se před infekty",
+            "v případě neštovic nebo pásového oparu nutná hospitalizace a antivirotická terapie + podání imunoglobulinů"
+        ]
+    },
+    "predepsane_recepty": [
+        {
+            "nazev": "SALOFALK 500 por tbl ent 100x500mg",
+            "pocet_baleni": 2
+        },
+        {
+            "nazev": "IMURAN 50 MG por tbl flm 100x50mg",
+            "pocet_baleni": 1
+        }
+    ]
+}

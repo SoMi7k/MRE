@@ -69,7 +69,7 @@ MODELS = [
     "anthropic/claude-sonnet-4.5",
     "deepseek/deepseek-v3.2",
     "openai/gpt-5.2",
-    "google/gemini-3.1-pro-preview",
+    "google/gemini-3-flash-preview",
     "x-ai/grok-4",
     "mistralai/mixtral-8x22b-instruct",
     "meta-llama/llama-4-maverick"
@@ -77,12 +77,12 @@ MODELS = [
 
 # Table for output folders names
 LLMS = {
-    'openrouter/free': 'OpenRouter', 
-    'anthropic/claude-sonnet-4.5': 'Claude', 
-    'openai/gpt-5.2': 'GPT', 
-    'mistralai/mixtral-8x22b-instruct': 'Mistral', 
-    'google/gemini-3.1-pro-preview': 'Gemini', 
-    'meta-llama/llama-4-maverick': 'Llama', 
-    'x-ai/grok-4': 'Grok', 
-    'deepseek/deepseek-v3.2': 'DeepSeek'
+    MODELS[0]: 'OpenRouter', 
+    MODELS[1]: 'Claude', 
+    MODELS[3]: 'GPT', 
+    MODELS[6]: 'Mistral', 
+    MODELS[4]: 'Gemini', 
+    MODELS[7]: 'Llama', 
+    MODELS[5]: 'Grok', 
+    MODELS[2]: 'DeepSeek'
 }

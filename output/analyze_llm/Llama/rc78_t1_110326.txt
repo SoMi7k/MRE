@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 121
+Počet hlavních klíčů: 8
+Počet zanořených klíčů: 113
+
+Počet znaků všech klíčů: 956
+Počet znaků všech slov v hodnotách: 1400
+Počet všech slov v hodnotách: 258
+
+--- Slovní metriky ---
+Sekce: ['re']
+Počet sekcí: 1
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: ['diabetes', 'anémie při chronickém onemocněcí', 'pásového oparu', 'hemangiom pravého předloktí', 'diabetes mellitus i. typu', 'neštovic', 'ulcerózní kolitida', 'infekty']
+Počet diagnóz: 8
+
+Klíčová slova: ['břicho', 'stolice']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['remise']
+Počet slov KPPS: 1
+
+Latinské názvy: ['atenuovanými', 'lipidogram']
+Počet latinských názvů: 2
+
+Léky: ['imuran', 'laktobacil']
+Počet léků: 2
+
+Mikrobiologie: ['tg', 'kreatin', 'amylázy']
+Počet názvů z mikrobiologie: 3
+
+Procedury a terapie: ['podání imunoglobulinů', 'očkování živými atenuovanými vakcínami', 'ko+dif', 'fw', 'ko', 'se', 'antivirotická terapie', 'jaterní testy']
+Počet procedur a terapií: 8
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 33
+Vymyšlená klíčová slova: ['bolestbrih', 'bolestkloub', 'cas', 'chutkjidl', 'datum', 'datumposlednikontrol', 'davkovan', 'diagnoz', 'doporucen', 'exantem', 'formovane', 'frekvence', 'humulinr', 'inzulinoterapie', 'jatroaslezin', 'kod', 'kompenzacediabet', 'laboratornivysledk', 'lek', 'mekke', 'nazev', 'nebolestive', 'nezvetsen', 'nocnistolice', 'objektivnistav', 'patologickaprimess', 'potize', 'recomendace', 'snidane', 'subjektivnistav', 'urovne', 'vekpacient', 'vysk']
+Počet vymyšlených slov ve values: 2
+Vymyšlená slova ve values: ['false', 'true']
+            

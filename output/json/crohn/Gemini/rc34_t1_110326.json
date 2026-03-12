@@ -1,0 +1,99 @@
+{
+    "pacient": {
+        "posledni_kontrola": "03.11.2010",
+        "aktualni_stav": {
+            "subjektivne": "Bez potíží, stolice formované 2x denně, břicho a klouby nebolí, chuť k jídlu dobrá.",
+            "nalezy": "Trvá hydrokéla, intermitentní hemoroidální uzlík, mírné zlepšení koktavosti, cushingoidní vzhled, výrazná žilní kresba na břiše a hrudníku.",
+            "aktualni_onemocneni": "Respirační infekt (rýma, kašel), v anamnéze nedávná balanitis."
+        },
+        "antropometrie": {
+            "hmotnost_kg": 22,
+            "vyska_cm": 107
+        }
+    },
+    "strava": [
+        "Neocate",
+        "Sinlac",
+        "banán",
+        "jablko",
+        "mrkev",
+        "králík",
+        "krůta",
+        "vepřové",
+        "hovězí",
+        "brambory",
+        "vývary",
+        "těstoviny bezvaječné",
+        "noky"
+    ],
+    "medikace_aktualni": [
+        {
+            "lek": "Prednison",
+            "davkovani": "5-0-0 mg",
+            "poznamka": "0,22 mg/kg/den"
+        },
+        {
+            "lek": "Imuran 25 mg",
+            "davkovani": "1-0-1 tbl",
+            "poznamka": "2,6 mg/kg/den"
+        },
+        {
+            "lek": "Enterol 250 mg",
+            "davkovani": "1-0-0 cps"
+        },
+        {
+            "lek": "Ranisan 75 mg",
+            "davkovani": "1/2-0-0 tbl"
+        },
+        {
+            "lek": "KCl",
+            "davkovani": "0-0-1/2 tbl"
+        },
+        {
+            "lek": "Vigantol",
+            "davkovani": "2 kapky"
+        },
+        {
+            "lek": "Vitacalcin",
+            "davkovani": "1x1 tbl"
+        },
+        {
+            "lek": "Spiropent",
+            "poznamka": "na respirační infekt"
+        }
+    ],
+    "laboratorni_vysledky": {
+        "FW": "28/52",
+        "CRP": 1,
+        "Albumin": 50.1,
+        "KO": {
+            "Leukocyty": 6.4,
+            "Erytrocyty": 5.04,
+            "Hemoglobin": 129,
+            "Hematokrit": 0.407,
+            "Trombocyty": 210,
+            "Segmenty_abs": 1.84,
+            "Lymfocyty_abs": 3.64
+        }
+    },
+    "diagnozy": [
+        {
+            "kod": "K509",
+            "popis": "m. Crohn v.s., akutní exacerbace po Campylobacterové infekci"
+        },
+        {
+            "kod": "N47",
+            "popis": "Fimóza, hydrokéla vlevo"
+        },
+        {
+            "kod": "M673",
+            "popis": "Bolest PDK"
+        }
+    ],
+    "zaver_a_doporuceni": {
+        "stav": "Klinicky i laboratorně remise, PCDAI 2.5 b, mírná progrese sedimentace.",
+        "rezim": "Bezezbytková dieta, postupné zavádění potravin.",
+        "zmena_medikace": "Snížit Prednison na 2,5-0-0 mg. Při dobrém stavu po 3 týdnech Prednison a adjuvantní léčbu vysadit.",
+        "dalsi_kontrola": "12.01.2011 v 10:00 (GIT poradna)"
+    }
+}

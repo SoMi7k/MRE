@@ -4,3 +4,7 @@ timestamp,model,input_tokens,output_tokens,total_cost_usd
 2026-03-03 15:36:16,mistralai/mixtral-8x7b-instruct,509,349,0.000206
 2026-03-08 14:15:29,openrouter/free,368,0,0.0
 2026-03-08 14:16:24,openrouter/free,399,1256,0.0
+2026-03-09 14:46:30,openrouter/free,Length_of_input_text,377,220,0.0
+2026-03-09 14:48:14,openrouter/free,Length_of_input_text,439,2160,0.0
+2026-03-09 14:50:37,openrouter/free,Length_of_input_text,403,3038,0.0
+2026-03-09 15:30:49,openai/gpt-5.2,Variety_of_prompts,515,949,0.0142

@@ -1,0 +1,167 @@
+{
+    "medical_report": {
+        "patient_info": {
+            "age": "6.5 years",
+            "last_checkup": "2013-03-06"
+        },
+        "subjective_findings": {
+            "general": "no complaints",
+            "bowel_movements": "once daily, formed, no pathological admixture, no nocturnal stools",
+            "abdomen": "no pain",
+            "rash": "none",
+            "joints": "no pain",
+            "appetite": "good",
+            "diabetes": "currently compensated"
+        },
+        "medications": {
+            "diabetes": "Insulin Humulin R 4-5 units - 2.5-3 units - 2 units at night, Lantus 4 units s.c. (20:00)",
+            "other_medications": [
+                "Salofalk 500mg tablets 2-0-2 (81 mg/kg)",
+                "Imuran 50mg tablets 1 tablet (2 mg/kg) - since 2012-07-02",
+                "Acidum folicum 1 tablet once weekly",
+                "Lactobacilli 1 tablet once daily"
+            ],
+            "bread_units": "breakfast 1.5 BU - 1 BU - 4 BU - 1 BU - 2 BU - 1.5 BU"
+        },
+        "objective_findings": {
+            "weight": "24.5 kg (+0.5) (95th percentile)",
+            "height": "116 cm (+1.5) (-0.9 SD)",
+            "general": "overweight",
+            "abdomen": "at level, soft, non-tender",
+            "liver_spleen": "not enlarged",
+            "resistance": "none"
+        },
+        "laboratory_results": {
+            "date": "2013-05-29 10:00 - 10:46",
+            "sedimentation_rate": "27/53",
+            "blood_count": {
+                "leukocytes": "3.60",
+                "erythrocytes": "3.85",
+                "platelets": "254",
+                "hemoglobin": "126",
+                "hematocrit": "0.384",
+                "mcv": "100",
+                "mch": "32.8",
+                "mchc": "330",
+                "neutrophils": "0.439",
+                "lymphocytes": "0.452",
+                "eosinophils": "0.044",
+                "basophils": "0.003",
+                "monocytes": "0.061",
+                "abs_neutrophils": "1.60",
+                "abs_lymphocytes": "1.60",
+                "abs_eosinophils": "0.20",
+                "abs_basophils": "0.00",
+                "abs_monocytes": "0.20",
+                "erythrocyte_curve": "15.9"
+            },
+            "biochemistry": {
+                "urea": "4.7",
+                "creatinine": "51",
+                "alt": "0.17",
+                "ast": "0.39",
+                "lipase": "0.23",
+                "amylase": "1.09"
+            },
+            "stool": {
+                "calprotectin": "<100"
+            },
+            "vitamins": {
+                "b12": "803",
+                "folic_acid": "17.5"
+            },
+            "lipid_profile": {
+                "cholesterol": "4.92",
+                "triglycerides": "0.24",
+                "hdl": "1.67",
+                "ldl": "3.16",
+                "atherogenic_index": "1.9",
+                "log_tg_hdl_index": "-0.84"
+            },
+            "diabetes_compensation": {
+                "hba1c": "47.0"
+            },
+            "immunology": {
+                "igg": "14.30",
+                "iga": "1.07",
+                "igm": "0.96",
+                "ige": "<17.1",
+                "c_anca_if": "positive",
+                "p_anca_if": "negative",
+                "anca_bpi": "0.38",
+                "anca_cathepsin": "0.53",
+                "anca_elastase": "0.22",
+                "anca_lactoferrin": "0.23",
+                "anca_mpo": "0.40",
+                "anca_pr3": "4.40",
+                "anti_ttg_iga": "1.76"
+            },
+            "hormones": {
+                "tsh": "3.06",
+                "ft4": "11.80",
+                "atg": "10",
+                "atpo": "10",
+                "vitamin_d": "76.7",
+                "igf1": "171"
+            }
+        },
+        "diagnoses": [
+            {
+                "code": "K510",
+                "description": "Ulcerative colitis - left-sided type",
+                "notes": "pancreas positive, ANCA positive, ASCA negative, TNF-a G/G negative genetics, TPMT negative *1/*1"
+            },
+            {
+                "code": "E109",
+                "description": "Diabetes mellitus type I"
+            },
+            {
+                "code": "D638",
+                "description": "Anemia in chronic disease"
+            },
+            {
+                "code": "D180",
+                "description": "Hemangioma of right forearm"
+            }
+        ],
+        "recommendations": {
+            "pucai_score": "0 points - currently in remission",
+            "notes": [
+                "mild elevation of sedimentation rate",
+                "calprotectin negative (suggests full remission)",
+                "anemia corrected, persistent macrocytosis (likely related to azathioprine treatment)",
+                "increased folic acid level",
+                "mild leukopenia, borderline neutropenia",
+                "height stagnation, IGF within normal range"
+            ]
+        },
+        "prescriptions": [
+            {
+                "medication": "SALOFALK 500 enteric-coated tablets 100x500mg",
+                "quantity": "2 packages"
+            },
+            {
+                "medication": "IMURAN 50 MG film-coated tablets 100x50mg",
+                "quantity": "1 package"
+            }
+        ],
+        "follow_up": {
+            "next_appointment": "2013-09-18 at 10:00 at gastroenterology clinic",
+            "monitoring": "growth monitoring with pediatrician"
+        },
+        "additional_instructions": [
+            "Medications: Insulin as per diabetologist, Salofalk prescription delegated to pediatrician, Imuran, Acidum folicum, Lactobacilli",
+            "Regular blood count monitoring at least every 2 months due to immunosuppression",
+            "Liver tests, amylase and creatinine at least 3 times per year",
+            "Anthropometric parameters monitoring 3 times per year",
+            "No live attenuated vaccines during therapy and for at least 3 months after completion",
+            "Protection against infections",
+            "Hospitalization required for chickenpox or shingles with antiviral therapy and immunoglobulin administration"
+        ],
+        "administrative_notes": [
+            "Copy of report to be given to pediatrician",
+            "Information about health status provided",
+            "Consent form data remains unchanged"
+        ]
+    }
+}

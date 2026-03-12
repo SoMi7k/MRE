@@ -1,0 +1,45 @@
+Výsledná analýza extrahovaného textu:
+
+--- Metriky klíčů ---
+Počet klíčů: 48
+Počet hlavních klíčů: 5
+Počet zanořených klíčů: 43
+
+Počet znaků všech klíčů: 465
+Počet znaků všech slov v hodnotách: 790
+Počet všech slov v hodnotách: 148
+
+--- Slovní metriky ---
+Sekce: []
+Počet sekcí: 0
+
+Anatomické názvy: []
+Počet anatomických slov: 0
+
+Diagnózy: []
+Počet diagnóz: 0
+
+Klíčová slova: ['břicho', 'stolice']
+Počet klíčových slov: 2
+
+Klinické příznaky a popisy stavů: ['měkké']
+Počet slov KPPS: 1
+
+Latinské názvy: ['pentasa']
+Počet latinských názvů: 1
+
+Léky: ['pyridoxin', 'laktobacil', 'ac folicum', 'pentasa', 'aktiferin']
+Počet léků: 5
+
+Mikrobiologie: []
+Počet názvů z mikrobiologie: 0
+
+Procedury a terapie: ['crp', 'ko', 'se']
+Počet procedur a terapií: 3
+
+--- Halucinace ---
+Počet vymyšlených klíčových slov: 27
+Vymyšlená klíčová slova: ['a', 'anamnéz', 'celkový', 'cvičen', 'datum', 'doporučen', 'fyzikáln', 'hodnocen', 'kloubů', 'laboratorn', 'léků', 'močen', 'o', 'pacient', 'pcdal', 'pohlav', 'předán', 'snášenlivost', 'vyšetřen', 'váh', 'výsledků', 'výšk', 'věk', 'závěr', 'údaje', 'únav', 'čas']
+Počet vymyšlených slov ve values: 9
+Vymyšlená slova ve values: ['1x', 'ano', 'dobrá', 'let', 'ne', 'neurčen', 'nezvětšen', 'přiměřená', 'úprav']
+            
